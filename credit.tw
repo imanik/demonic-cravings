@@ -1,0 +1,63 @@
+<div class="settings-container">
+
+
+    <div class="character-card-s">
+        <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/mp.jpg'">
+        <p><span span class = "mp">Mandingo1234</span><br>
+            Story Author <br>
+            <a href="https://www.patreon.com/c/patreonc_mandingo1234/home" target="_blank">Visit Patreon Profile.</a> 
+        </p>
+    </div>
+
+    <div class="character-card-s">
+        <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/ep.jpg'">
+        <p><span span class = "mp"><<print $mp.pstar>></span><br>
+            <a href="http://join.sexmex.xxx/track/NTIxLjEuMS4yMy4wLjAuMC4wLjA>>" target="_blank">Visit Her Profile.</a> 
+        </p>
+    </div>
+
+    <div class="character-card-s">
+        <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/cp.jpg'">
+        <p><span span class = "ep"><<print $ep.pstar>></span><br>
+            <a href="http://join.sexmex.xxx/track/NTIxLjEuMS4yMy4wLjAuMC4wLjA" target="_blank">Visit Her Profile.</a> 
+        </p>
+    </div>
+
+    <div class="character-card-s">
+        <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/up.jpg'">
+        <p><span span class = "cp"><<print $cp.pstar>></span><br>
+            <a href="http://join.sexmex.xxx/track/NTIxLjEuMS4yMy4wLjAuMC4wLjA" target="_blank">Visit Her Profile.</a> 
+        </p>
+    </div>
+
+    <div class="character-card-s">
+        <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/ct.jpg'">
+        <p><span span class = "cp"><<print $up.pstar>></span><br>
+            <a href="http://join.sexmex.xxx/track/NTIxLjEuMS4yMy4wLjAuMC4wLjA" target="_blank">Visit Her Profile.</a> 
+        </p>
+    </div>
+
+    <div class="character-card-s">
+        <p><span span class = "cp"><<print $ct.pstar>></span><br>
+            <a href="http://join.sexmex.xxx/track/NTIxLjEuMS4yMy4wLjAuMC4wLjA" target="_blank">Visit Her Profile.</a> 
+        </p>
+    </div>
+
+
+
+
+
+
+    <div class="enter_button" data-passage="previous();"  data-setter = "$message = ''">
+    <p >Return</p>
+    </div>
+
+    <div class="enter_button" data-passage="Home"  data-setter = "$message = ''">
+        <p >Home</p>
+        </div>
+
+-->
+
+</div>
+
+
