@@ -1,0 +1,79 @@
+
+
+
+
+<div class="big_text">
+<<nobr>>
+
+<<set _cName = charObjReturn($eventChar[$eventCount])>>
+
+
+<div class="dialog_text mp_dialog_text left_border">
+<p><span span class = "mp">Quest</span><br>
+
+
+<b>Quest:</b> <<print $eventQuest[$eventCount]>><br>
+<b>Location:</b> <<print $eventQuestLocation[$eventCount]>><br>
+<b>Time:</b> <<print $dayTimes[$eventQuestTime[$eventCount]]>><br>
+<hr>
+<b>Required:</b> <br>
+<!-- Event Name :</b> <<print $eventQuestTitle[$eventCount]>><br> -->
+<b>Character Name:</b> <<print _cName.name>>               <br>
+<<if  $eventChar[$eventCount] eq "mc">>
+<b>Character:</b> <<print _cName.name >> Need:  (<b>Love:</b> <<print $eventLove[$eventCount]>> || <b>Lust:</b> <<print $eventLust[$eventCount]>>)    <br>
+<<else>>
+<b>Character:</b> <<print _cName.name >> Need: (<b>Love Desire:</b> <<print $eventMenFreq[$eventCount]>> || <b>Sex Desire:</b> <<print $eventSexFreq[$eventCount]>>)<br>
+<</if>>
+<b>Avatar Level:</b> v1.<<print $eventLevel[$eventCount]>>      ||
+</p>
+</div>
+
+<div class="dialog_text ap_dialog_text left_border">
+<p><span span class = "ap">Tips</span><br>
+
+<b>Increase Charm:</b> Chores, Sex, Sexual Activities <br>
+<b>Increase Knowledge:</b> Watch TV, Class, Sexual Activities <br>
+<b>Increase Stamina:</b> Dinner, Breakfast, Swim, Shower, Exercise, Sexual Activities<br>
+<b>Increase MC's Love:</b> Interact, Sexual Activities <br>
+<b>Increase MC's Lust:</b> Interact, Sexual Activities <br>
+<hr> 
+<b>Increase Love Desire :</b>Interact, Sexual Activities (Sed, Bj, Cun)  <br>
+<b>Increase Sex Desire With Character:</b> Sexual Activities <br> 
+<hr>
+<b>Mana Update:</b> Knowledge (10), Charm (10), Stamina (10)<br> 
+<b>Avatar Update:</b> Mana (100), Love (100), Lust (100)<br> 
+<hr>
+<b>Cheat Code:</b> Available in Myroom (Patreon Only)
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text left_border">
+
+
+<<set _full = 100>>
+<<set $event = 20>>
+
+<p><span span class = "mc">Character Event Location</span>
+
+<br><<print $ct.name>> : My Room (Night)
+<br><<print $cp.name>> : Living (Mid Day)
+
+<hr>
+<br><span span class = "mc">Progress</span><br>
+<b>Main Event Passed:</b> <<print $eventCount>> ||
+<b>Completed:</b> <<print Math.trunc(_full/$event) * $eventCount>> / 100%  
+</p>
+</div>
+
+<div class="enter_button" data-passage="previous();"  data-setter = "$message = ''">
+<p >Return</p>
+</div>
+
+   <div class="enter_button" data-passage="Home"  data-setter = "$message = ''">
+    <p >Home</p>
+    </div>
+
+<</nobr>>
+</div>
+
+
