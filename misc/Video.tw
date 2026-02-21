@@ -1,0 +1,183 @@
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+
+
+
+<!-- <div class="intro_button"  data-passage="Intro_0" >
+<p >Start</p>
+</div>
+
+-->
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/cg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 1: Position: Cowgirl</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/cg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 2: Position: Cowgirl</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/cg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 3: Position: Cowgirl</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/dg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 4: Position: Doggy</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/dg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 5: Position: Doggy</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/dg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 6: Position: Doggy</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/dg-4.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 7: Position: Doggy</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/mis-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 8: Position: Missionary</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/mis-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 9: Position: Missionary</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/mis-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 10: Position: Missionary</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/rcg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 11: Position: Reverse Cowgirl</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/rcg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 12: Position: Reverse Cowgirl</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/rcg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 13: Position: Reverse Cowgirl</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/lick-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 14: Position: Licking</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/lick-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 15: Position: Licking</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/lick-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 16: Position: Licking</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/sf-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 17: Position: Side Fuck</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/sf-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 18: Position: Side Fuck</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/sf-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 19: Position: Side Fuck</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/bj-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 20: Position: Blowjob</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/bj-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 21: Position: Blowjob</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/bj-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 22: Position: Blowjob</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/as-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 1: Position: Anal</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/as-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+a
+</video>
+
+<p class="notation_text">Video 2: Position: Anal</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/2/as-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 3: Position: Anal</p>
+
+<div class="intro_button"  data-passage="Start" >
+<p >Leave</p>
+</div>
+
+
+</div>
+<</nobr>>
+
+  <<script>>
+                    UIBar.show();
+                <</script>>

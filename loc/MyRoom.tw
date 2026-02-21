@@ -1,0 +1,73 @@
+          <div class="big_text">
+          <<nobr>>
+
+
+
+
+          <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/myroom.jpg'" >
+
+                <p class="notation_text">What should I do now?</p>
+                
+
+          <<if $currentTime is $fuckEvent.ct1.event_time>> 
+
+              <<set $charStats = "ct">>
+
+              
+
+              <<if $eventCount gte $fuckEvent.ct1.event_fuck && $eventCount lt $fuckEvent.ct2.event_fuck>>
+                <div class="enter_button"  data-passage="Fuck_Event" style="width:25vw" data-setter = " 
+                $sceneObject = $fuckEvent.ct1;  $charObject = $ct; $sceneImage = $fuckEvent.ct1.image;"  >
+                <p >Interact With <<print$ct.name>></p>
+                </div>
+              <<elseif $eventCount gte $fuckEvent.ct2.event_fuck>>
+                <div class="enter_button"  data-passage="Fuck_Event" style="width:25vw" data-setter = "$sceneObject = $fuckEvent.ct2;  
+                $charObject = $ct; $sceneImage = $fuckEvent.ct2.image; "  >
+                <p >Interact With <<print$ct.name>></p>
+                </div>
+              <<else>>
+              <p class="notation_text">*** New Scene With <<print$ct.name>> Complete Event <<print $fuckEvent.ct1.event_fuck>> ***</p>
+              <</if>>
+
+          <</if>>
+
+
+
+          <<if $currentTime gte 5  >>
+
+                  <div class="enter_button" data-passage="MyRoom" onclick="forwardDay()"  style="width:25vw">
+                    <p >Sleep</p>
+                  </div>
+
+          <<else>>
+
+                  <div class="enter_button" data-passage="MyRoom" onclick="forwardTime(1)"  style="width:25vw">
+                    <p >Nap (+1hr)</p>
+                  </div>
+
+          <</if>>
+         
+
+
+       
+
+          <<if $exercise is 0 and $currentTime lte 4 >> 
+
+              <div class="enter_button"  style="width:25vw" data-passage="MiniGame"   data-setter = "$exercise = 1; 
+              $mediaType = 'image'; $activityType = 'Stamina'; $activityImage = 'scenes/misc/etc/exercise.webp'; $loc = 'MyRoom';" >
+                <p >Exercise (Stamina +)</p>
+              </div>
+   
+          <</if>>
+
+                  
+
+          <div class="enter_button" data-passage="Home"  data-setter = "$message = ''" style="width:25vw">
+          <p >Leave</p>
+          </div>
+
+<</nobr>>
+</div>
+
+
+

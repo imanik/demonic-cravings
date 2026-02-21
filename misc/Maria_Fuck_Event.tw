@@ -1,0 +1,43 @@
+
+
+
+
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+    <<set $mr_starts to 1>>
+
+    <<set _i = 0>> 
+    <<set _event = "">> 
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/mr/8.png'" >
+
+    <<for _i, _event range $fuckEvent.mr.title>>
+
+
+    <<if $mr_starts gte 1>>
+    <<if $mr.stats.sex_freq gte $fuckEvent.mr.sex_freq[_i]>>
+
+    <div class="enter_button"  data-passage="_event" style="width:25vw;">
+        <p><<print $fuckEvent.mr.desc[_i]>></p>
+    </div>
+
+    <<else>>
+    <<set $mr_starts to 0>>
+    <p class="notation_text">For <<print $fuckEvent.mr.desc[_i]>> Style: You Need  <<print $fuckEvent.mr.sex_freq[_i]>> Sex Freq</p>
+
+    <</if>>
+    <</if>>
+
+ <</for>>
+
+
+<div class="enter_button" style="width:25vw;" data-passage="Maria_Event">
+<p >Leave</p>
+</div>
+
+  </div>
+
+<</nobr>>
+

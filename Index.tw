@@ -1,0 +1,26 @@
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+
+
+
+
+
+<div>
+<p style="notation_text">Created by The Twist | Game version: v1.3 "Chapter 3"</p>
+</div>
+
+<div>
+<p style="notation_text">We hope you enjoy this game! With ♥ from The Twist.</p>
+</div>
+
+<</nobr>>
+<<script>>
+    UIBar.show();
+<</script>>
+
+
+
+
+

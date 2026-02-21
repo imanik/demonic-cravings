@@ -47,14 +47,15 @@
 
 
 
-
-    <div class="enter_button" data-passage="previous();"  data-setter = "$message = ''">
-    <p >Return</p>
-    </div>
-
-    <div class="enter_button" data-passage="Home"  data-setter = "$message = ''">
-        <p >Home</p>
+    <div class="settings-actions">
+        <div class="enter-button" data-passage="previous();"  data-setter = "$message = ''">
+        <p >Return</p>
         </div>
+
+        <div class="enter-button" data-passage="Home"  data-setter = "$message = ''">
+            <p >Home</p>
+        </div>
+    </div>
 
 
 </div>

@@ -1,0 +1,32 @@
+<<nobr>>
+
+<div class="start-screen">
+
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/intro.jpg'" alt="Intro Image" >
+
+
+    <div class="intro-card">
+        <h2 class="game-title">Demonic Cravings</h2>
+        <p>This game is intended for <span class="highlight">mature audience only</span>
+        </p>
+        <p>By clicking on button below, you will be confirming you are an adult. 
+        </p>
+
+
+        <div class="intro-button"  data-passage="Settings" >
+            <p>Start</p>
+        </div>
+
+        <p class="notation-text">Created by <strong>The Twist</strong> | Game version: <em>v0.1 "Episode 1"</em></p>
+
+        <p class="notation-text">We hope you enjoy this game! With <span class="heart">♥</span> from The Twist.</p>
+
+    </div>
+
+</div>
+
+
+<</nobr>>
+<<script>>
+    UIBar.hide();
+<</script>>

@@ -1,0 +1,24 @@
+<div class="big_text">
+<<nobr>>
+
+
+<p class="notation_text">
+Location : <<print passage()>></p>
+
+<p class="notation_text">
+<<print $message>>
+</p>
+
+<<set $message to "" >>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/outdoor.webp'" >
+
+ <p class="notation_text">Available In Next Update.</p>
+
+    <div class="enter_button"  data-passage="Home" >
+    <p >Leave</p>
+    </div>
+
+<</nobr>>
+</div>
+

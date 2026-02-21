@@ -1,0 +1,55 @@
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+
+<<set $charStats = "up">>
+
+<<set _image = 'scenes/char/up/12.png'>>
+
+ <!-- <<set $allison_fck = true>> -->
+<<set $up.stats.men_freq = 100>>
+
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/up/3/49.jpg'" >
+
+    <div class="enter_button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$hug = 1; $activityType = 'Men_Freq'; $loc = 'Sisterroom';
+    $mediaType = 'video';  $activityVideo = 'scenes/char/up/3/vid/car-sed-1.mp4'; $char = 'up';
+    $taskDialogue=' I leaned forward, intent on capturing my $up.rel s gorgeous tits. I switched to her other nipple, while sliding his hands beneath hers and squeezing her breasts. They were soft, yet firm, and I was amazed at how heavy they were.'" >
+    <p >Kiss (Men Freq+)</p>
+    </div>
+
+<<if $up.stats.men_freq gte 20>>  
+
+    <div class="enter_button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$complement = 1; $activityType = 'Men_Freq'; $loc = 'Sisterroom'; 
+    $mediaType = 'video';  $activityVideo = 'scenes/char/up/3/vid/car-sed-2.mp4'; $char = 'up';
+    $taskDialogue='$up.name cried out when I lowered my head and sucked her right nipple into my mouth. I sucked and licked $up.name s tit the way I had returned her kiss, lustfully. $up.name moaned and shoved her breast deeper into my mouth.'" >
+    <p >Suck  (Men Freq+)</p>
+    </div>
+
+<</if>>
+
+<<if $up.stats.men_freq gte 40>>
+
+    <div class="enter_button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$joke = 1; $activityType = 'Men_Freq'; $loc = 'Sisterroom';
+    $mediaType = 'video';  $activityVideo = 'scenes/char/up/3/vid/car-sed-3.mp4'; $char = 'up'; 
+    $taskDialogue='
+     $up.name sitting on car bonnet and rubbing her pussy, I spread her legs and buried my face between her legs.
+     '">
+    <p >Lick (Men Freq+)</p>
+    </div>
+
+<</if>>
+
+
+
+
+<div class="enter_button"  data-passage="Sisterroom" style="width:25vw;">
+<p >Leave</p>
+</div>
+
+  </div>
+
+<</nobr>>
+
+

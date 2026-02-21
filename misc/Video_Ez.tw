@@ -1,0 +1,102 @@
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+
+
+
+<!-- <div class="intro_button"  data-passage="Intro_0" >
+<p >Start</p>
+</div>
+
+-->
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/cg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 1: Position: Cowgirl</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/cg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 2: Position: Cowgirl</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/cg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 3: Position: Cowgirl</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/mis-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 4: Position: Missionary</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/mis-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 5: Position: Missionary</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/mis-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 6: Position: Missionary</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/sed-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 7: Position: Seduction</p>
+
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/sed-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 8: Position: Seduction</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/sed-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 9: Position: Seduction</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/bj-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 10: Position: Blowjob</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/bj-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 11: Position: Blowjob</p>
+
+<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/vid/bj-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+	
+</video>
+
+<p class="notation_text">Video 12: Position: Blowjob</p>
+
+
+
+<div class="intro_button"  data-passage="Start" >
+<p >Leave</p>
+</div>
+
+
+</div>
+<</nobr>>
+
+
+                <<script>>
+                    UIBar.show();
+                <</script>>

@@ -1,0 +1,124 @@
+<<nobr>>
+
+<<set $taskDialogue = "">>
+
+
+<<set _cName = charObjReturn($eventChar[$eventCount])>>
+
+<p class="notation_text">
+<<print $message>>
+</p>
+
+
+
+    <p class="notation_text" style="color: #ff7bac; margin-left:8%;" >
+    <<print $weekDays[$currentDay]>> || 
+    <span style="color:#95fc00;"><<print $dayTimes[$currentTime]>></span> ||
+    <<if  $weekendValue[$currentDay] is 0>>
+    <<print "Weekday">>
+    <<else>>
+    <<print "Weekend">>
+    <</if>>
+    </p>
+
+
+
+<div class="button-pair" style="margin-bottom:10%">
+  <div class="loc_button"  data-passage="Cpoffice" data-setter= '$msg = ""'>
+    
+      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/cpoffice.jpg'">
+      <p><<print $cp.name>>'s Office</p>
+    
+  </div>
+  <div class="loc_button"  onclick="locEventCheck('DadOffice');" data-setter= '$msg = ""'>
+    
+      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
+      <p><<print $dad.lastname>>'s Office</p>
+   
+  </div>
+  <div class="loc_button"  onclick="locEventCheck('DadHouse');" data-setter= '$msg = ""'>
+    
+      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/4/mansion.jpg'">
+      <p><<print $dad.lastname>>'s House</p>
+   
+  </div>
+</div>
+
+<div class="button-pair" style="margin-bottom:10%">
+
+  <div class="loc_button"  data-passage="College" data-setter= '$msg = ""'>
+    
+      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
+      <p>College</p>
+   
+  </div>
+
+  <div class="loc_button"  data-passage="Shop" data-setter= '$msg = ""'>
+    
+      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/shop.jpeg'">
+      <p>Shop</p>
+   
+  </div>
+  <div class="loc_button" data-passage="Home" data-setter= '$msg = ""'>
+   
+      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/my_home.jpg'">
+      <p>Home</p>
+   
+  </div>
+</div>
+
+<hr>
+
+<p class="notation_text" style=" margin-left:8%">
+    <span style="color:#99ff7b;"><b>Quest:</b> <<print $eventQuest[$eventCount]>></span> <br>
+    <span style="color:#ff7bac;"><b>Location:</b> <<print $eventQuestLocation[$eventCount]>> ||
+    <b>Time:</b> <<print $dayTimes[$eventQuestTime[$eventCount]]>></span>
+    <br>
+    <<if  _cName.shortcode eq "mc">>
+    <b> <<print _cName.name >> Need:</b>  
+    (
+        <<if _cName.stats.love lt $eventLove[$eventCount]>>
+        <span style="color:#ff0000"><b>Love:</b> <<print _cName.stats.love>> / <<print $eventLove[$eventCount]>></span>
+        <<else>>
+        <span style="color:#95fc00"><b>Love:</b> <<print _cName.stats.love>> / <<print $eventLove[$eventCount]>></span>
+        <</if>>
+         || 
+         <<if _cName.stats.lust lt $eventLust[$eventCount]>>
+        <span style="color:#ff0000"><b>Lust:</b> <<print _cName.stats.lust>> / <<print $eventLust[$eventCount]>></span>
+        <<else>>
+        <span style="color:#95fc00"><b>Lust:</b> <<print _cName.stats.lust>> / <<print $eventLust[$eventCount]>></span>
+        <</if>>
+    )    
+    <<else>>
+    <b> <<print _cName.name >> Need:</b> (
+        <<if  _cName.stats.men_freq lt $eventMenFreq[$eventCount]>>
+        <span style="color:#ff0000"><b>Men Freq:</b> <<print _cName.stats.men_freq>> / <<print $eventMenFreq[$eventCount]>></span> 
+        <<else>>
+        <span style="color:#95fc00"><b>Men Freq:</b> <<print _cName.stats.men_freq>> / <<print $eventMenFreq[$eventCount]>></span> 
+        <</if>>
+        || 
+         <<if  _cName.stats.sex_freq lt $eventSexFreq[$eventCount]>>
+        <span style="color:#ff0000"><b>Sex Freq:</b> <<print _cName.stats.sex_freq>> / <<print $eventSexFreq[$eventCount]>></span>
+        <<else>>
+        <span style="color:#95fc00"><b>Sex Freq:</b> <<print _cName.stats.sex_freq>> / <<print $eventSexFreq[$eventCount]>></span>
+        <</if>>
+         )
+    <</if>>
+    <b>T-Meter Level:</b> 
+  <<if $mc.t_meter.software_up lt $eventLevel[$eventCount]>>
+    <span style="color:#ff0000">v4.<<print $mc.t_meter.software_up>> / v4.<<print $eventLevel[$eventCount]>></span>
+    <<else>>
+    <span style="color:#95fc00">v4.<<print $mc.t_meter.software_up>> / v4.<<print $eventLevel[$eventCount]>></span>
+    <</if>>
+
+    <br>
+    <span style="color:#ffd800;"><b>Check Quest For <<print _cName.name >>'s Location & Time</b> </span> 
+    </p>
+
+
+
+<</nobr>>
+
+<<script>>
+    UIBar.show();
+<</script>>

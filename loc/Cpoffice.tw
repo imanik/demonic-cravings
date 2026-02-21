@@ -1,0 +1,62 @@
+
+    <div class="big_text">
+    <<nobr>>
+
+
+
+
+    <p class="notation_text">
+    Location : <<print passage()>></p>
+
+    <p class="notation_text">
+    <<print $message>>
+    </p>
+
+
+
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/cpoffice.jpg'">
+
+                <p class="notation_text">What Should I Do...</p>
+
+
+
+    <<if $currentTime lte $fuckEvent.cp1.event_time >>
+
+        <<set $charStats = "cp">>
+
+        <div class="enter_button" style="width:25vw;" data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.cp1; 
+          $charObject = $cp; $sceneImage = 'scenes/char/cp/8.png';">
+            <p >Interact With <<print $cp.name>></p>
+        </div>
+    <</if>>
+
+       <<if $currentTime eq $fuckEvent.mr1.event_time >>
+
+        <<set $charStats = "mr">>
+        <div class="enter_button" style="width:25vw;" data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.mr1; 
+          $charObject = $mr; $sceneImage = 'scenes/char/mr/8.png';">
+          <p >Interact With <<print $mr.name>></p>
+        </div>
+
+    <</if>>
+
+
+<<if $currentTime lte 4 >> 
+
+ <div class="enter_button" style="width:25vw;" data-passage="MiniGame"   data-setter = " $mediaType = 'image'; $activityType = 'Money'; $activityImage = 'scenes/misc/etc/hack.gif'; $loc = 'Cpoffice';" >
+
+    <p >Work (Money +)</p>
+
+    </div>
+
+    
+<</if>>
+
+    <div class="enter_button" style="width:25vw;" data-passage="Outdoor" >
+    <p >Leave</p>
+    </div>
+
+
+    <</nobr>>
+    </div>
+

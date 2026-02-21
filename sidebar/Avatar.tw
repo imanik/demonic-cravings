@@ -1,21 +1,19 @@
 
-    <<nobr>>
+<<nobr>>
 
-    <div class="avatar" style="margin-top:5vw;">
-
-
+<div class="left_border_av" style="margin-top:5vw;">
 
     <div style="display: flex;">
+
       <div style="flex: 1; text-align: center; padding:5%">
         <!-- Replace 'your-image.jpg' with the path to your image -->
         <img class="scenes_image" @src="setup.ImagePath+'scenes/char/avatar/human.png'" >
       </div>
+
       <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
-        
         <h3 class="char_info"><span class="char_lebel"> Avatar: </span>Inactive</h3>
         <h3 class="char_info"><span class="char_lebel"> Mana: </span> <<print $mc.stats.mana>></h3>
         <h3 class="char_info"><span class="char_lebel"> Avatar Level: </span> v1.<<print $mc.stats.software_up>></h3>
-      
       </div>
 
     </div>
@@ -46,49 +44,47 @@
     </p>
     <</if>>
 
-    </div>
+</div>
 
 
 
     <!-- ********************************* MC ************************************** -->
 
 
-<<for _i, _event range $mc.avatar>>
+  <<for _i, _event range $mc.avatar>>
 
-<div class="avatar" style="margin-top:5vw;">
+  <div class="left_border_av" style="margin-top:5vw;">
 
+    <div style="display: flex;">
 
-<div style="display: flex;">
-  <div style="flex: 1; text-align: center; padding:5%">
-    <!-- Replace 'your-image.jpg' with the path to your image -->
-    <img class="scenes_image" @src="setup.ImagePath+_event.image" >
+      <div style="flex: 1; text-align: center; padding:5%">
+        <!-- Replace 'your-image.jpg' with the path to your image -->
+        <img class="scenes_image" @src="setup.ImagePath+_event.image" >
+      </div>
+
+      <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+        <h3 class="char_info"><span class="char_lebel"> Name: </span> _event.name</h3>
+        <h3 class="char_info"><span class="char_lebel"> Title: </span>_event.title</h3>
+        <h3 class="char_info"><span class="char_lebel"> Role: </span> _event.role</h3>
+        <h3 class="char_info"><span class="char_lebel"> Skill: </span> _event.skill</h3>
+        <h3 class="char_info"><span class="char_lebel"> Description: </span> _event.des</h3>
+      </div>
+
+    </div>
+
   </div>
-  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
-    <h3 class="char_info"><span class="char_lebel"> Name: </span> _event.name</h3>
-    <h3 class="char_info"><span class="char_lebel"> Title: </span>_event.title</h3>
-    <h3 class="char_info"><span class="char_lebel"> Role: </span> _event.role</h3>
-    <h3 class="char_info"><span class="char_lebel"> Skill: </span> _event.skill</h3>
-    <h3 class="char_info"><span class="char_lebel"> Description: </span> _event.des</h3>
-   
-  </div>
-
-</div>
-
-
-</div>
-
-
-
 
  <</for>>
 
- 
-    <div class="enter_button" data-passage="previous();"  data-setter = "$message = ''">
-    <p >Return</p>
-    </div>
-    <div class="enter_button" data-passage="Home"  data-setter = "$message = ''">
-    <p >Home</p>
+
+    <div class="enter-button" data-passage="previous();"  data-setter = "$message = ''">
+      <p >Return</p>
     </div>
 
-    <</nobr>>
+    <div class="enter-button" data-passage="Home"  data-setter = "$message = ''">
+      <p >Home</p>
+    </div>
+
+
+<</nobr>>
 

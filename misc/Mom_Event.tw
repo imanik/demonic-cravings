@@ -1,0 +1,189 @@
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+<<set $charStats = "mp">>
+
+
+ <!-- <<set $allison_fck = true>>
+<<set $mp.stats.men_freq = 100>> -->
+
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/mom/2/89.png'" >
+
+   
+
+     <p class="notation_text">What should I do now?</p>
+
+
+<!-- <div class="enter_button" data-passage="FuckGame" data-setter = "$mediaType = 'video'; $activityType = 'Lust';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/mb-1.mp4';
+ " >
+<p>  Lust+ (30 Red Stone)</p>
+</div> -->
+
+
+<<if $mp.stats.men_freq gte 20>> 
+
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/mb-1.mp4';
+$taskDialogue= '$mp.call was masturbating spreading her legs, starts squirming around on the bed, her hands fly up to her tits, mauling them as she throws her head back, moaning.';
+ " >
+    <p >Spy 1 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 40>> 
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/mb-2.mp4';
+$taskDialogue= '$mp.call<<print $mp.call>> mustarbating and rocking on the bed. Moaning. Suddenly, her whole body convulses, she slumps on the bed with her legs wide apart, her arms hanging to her sides and her chest heaving, as she catches her breath.';
+ " >
+    <p >Spy 2 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 60>> 
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/msg-1.mp4';
+$taskDialogue= 'I say, moving behind her and rubbing her shoulders. -- Let me help relieve some of the tension.-- As I massage her shoulders, I feel how tense her muscles are especially under her shoulder blades. ';
+ " >
+    <p >Give Her Massage 1 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 80>> 
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/msg-2.mp4';
+$taskDialogue= '$mp.call was ready for massage, my hands fly up to her ass chicks, mauling them as she throws her head down and enjoying.';
+ " >
+    <p >Give Her Massage 2 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 100>> 
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/msg-3.mp4';
+$taskDialogue= 'I start, my hands fly up to her tits, mauling them as she throws her head back, moaning and enjoying.';
+ " >
+    <p >Give Her Massage 3 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 120>> 
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/msg-4.mp4';
+$taskDialogue= '$mp.call was ready. I start massaging between her legs, she starts squirming around on the bed, my fingers rubbing her clits, rubbing it as she closed her eyes, moaning and enjoying.';
+ " >
+    <p >Give Her Massage 4 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 140>>
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/shower.mp4';
+$taskDialogue= '$mp.call was taking showers, I moving behind her and rubbing her shoulders, my hands fly up to her tits, mauling them as she throws her head back, moaning and enjoying.';
+ " >
+    <p >Take Shower (25 T-Charge)</p>
+    </div>
+<</if>>
+<<if $mp.stats.men_freq gte 160 && $eventCount gte 1>>
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/bj-1.mp4';
+$taskDialogue= 'Oh Fuck! I can t believe my own $mp.rel is such a great cocksucker! She is pumping my cock in and out of her mouth while flicking her tongue all around it and gently massaging my balls. I know I m not going to last very long and I don t even try. Her tits are slapping against my thighs and as her head bobs up I can see her nipples. I tell her to harden them and they are instantly erect, sticking out over half an inch from her beautiful tits. That puts me over the top and I shoot a huge load of cum in my $mp.call s mouth. She continues pumping, sucking and swallowing, until I am completely drained.';
+ " >
+    <p >BJ-1 (25 T-Charge)</p>
+    </div>
+<</if>>
+<<if $mp.stats.men_freq gte 180 && $eventCount gte 11>>
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/bj-4.mp4';
+$taskDialogue= 'She s pumping my hard cock in and out of her mouth, while her tongue dances all around it. Caressing my balls with her other hand, her head glides back and forth, faster and faster, creating an intoxicating rhythm that I thrust my hips in time with. Letting go with her hand, she slides her lips all the way to the base of my cock, burying the head in her tight throat. With my hands on her head, I start really fucking her mouth as I get close to my release. She feels the change in my balls and pulls her lips back along my shaft to take my cum in her mouth, rather than her throat. Jerking wildly, with my hand against the tile wall for balance, I shoot multiple loads of cum into my $mp.call s warm mouth. Sucking and swallowing, while she gently massages my balls, $mp.call milks every drop of cum from my cock before releasing it from her mouth. 
+'; " >
+    <p >BJ-2 (25 T-Charge)</p>
+    </div>
+<</if>>
+<<if $mp.stats.men_freq gte 200 && $eventCount gte 14>>
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/bj-5.mp4';
+$taskDialogue= '$mp.call tilts her head back and answers that question with her next statement. -- You re either going to have to masturbate or find a girlfriend who lives closer. I m not going to do this six times a day.-- She laughs. -- I just don t want to clean up a mess.-- She says, leaning up and pressing her tits against my side as she lowers her mouth over my cock. She sucks on the head of my cock while she continues jacking me off with her hand.';
+ " >
+    <p >BJ-3 (25 T-Charge)</p>
+    </div>
+<</if>>
+<<if $mp.stats.men_freq gte 220 && $eventCount gte 19>>
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/bj-6.mp4';
+$taskDialogue= 'I m humping against her tongue, as she teases me mercilessly with slow, gentle licks up the length of my cock. Finally, wrapping her hand around the base of my cock she feeds it into her mouth, sucking on my engorged cock head. ';
+ " >
+    <p >BJ-4 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 240 && $eventCount gte 19>>
+
+
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/bj-7.mp4';
+$taskDialogue= 'She relents and lets a little more slip inside, while flicking her tongue along the underside of my shaft. Pumping me in and out of her mouth with one hand, she starts caressing my balls with her other hand. I m bouncing my ass off the bed trying to fuck deeper inside my $mp.call s mouth, while I feel my climax building in my balls. $mp.call starts pumping faster, bobbing her head up and down and teasing my balls with her fingertips.';
+ " >
+    <p >BJ-5 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 260 && $eventCount gte 19>>
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/lick-4.mp4';
+$taskDialogue= 'I move my tongue up so I m licking the top of her slit, just below her clit and slip two fingers inside her pussy. I slide my fingers in and out of her pussy as I lightly lick her clit.';
+ " >
+    <p >Cun-1 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 280 && $eventCount gte 19>>
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/lick-5.mp4';
+$taskDialogue= 'My tongue flicks across her clit, which I ve sucked completely inside my mouth. I m pushing my fingers in and out, twisting them back and forth, sloshing her hot juices all around inside her fiery pussy. She pulls hard on the bedspread and her head and shoulders lift off the bed. Her eyes are closed, her mouth is open and she s moaning loudly as she pushes harder against my mouth and my fingers. My face and hand are completely soaked with her juices as she grinds against my mouth and clamps her legs around my fingers, jerking wildly. Her juices run down my arm and soak the bedspread beneath her ass. She collapses back on the bed, her pussy pulsating around my fingers, as I let her clit slip from my mouth.';
+ " >
+    <p >Cun-2 (25 T-Charge)</p>
+    </div>
+<</if>>
+
+<<if $mp.stats.men_freq gte 300 && $eventCount gte 19>>
+<div class="enter_button" data-passage="FuckGame" style="width:25vw" data-setter = "$mediaType = 'video'; $activityType = 'Sex_Freq';
+ $char = 'mp'; $activityVideo = 'scenes/char/mom/2/vid/lick-6.mp4';
+$taskDialogue= 'As I keep lapping her tasty nectar from inside her burning snatch. She hesitates a minute and then slowly, relaxes her legs, allowing me to push them open and suck on her pussy lips. I gently suck one and then the other of her lips into my mouth, eliciting another moan from $mp.call The taste mixed with her aroma is driving me crazy and I feel like I m getting high on my $mp.call s pussy..';
+ " >
+    <p >Cun-3 (25 T-Charge)</p>
+    </div>
+<<else>>
+    <p class="notation_text">Increase <<print $mp.name>>'s Men Freq For Next Scene</p>
+<</if>>
+
+<div class="enter_button"  data-passage="Home" style="width:25vw;">
+<p >Leave</p>
+</div>
+
+</div>
+<</nobr>>
+
+
+

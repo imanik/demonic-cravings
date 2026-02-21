@@ -1,0 +1,61 @@
+<div class="big_text">
+<<nobr>>
+
+<p class="notation_text">
+Location : <<print passage()>></p>
+
+<p class="notation_text">
+<<print $message>>
+</p>
+
+
+        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/kitchen.jpg'">
+
+        <p class="notation_text">What Should I Do...</p>
+
+
+<<if $currentTime is 0  >>
+
+<<set $charStats = "mp">>
+
+            <div id="pos">
+     
+          <div class="enter_button"  data-passage="MiniGame"   data-setter = "$mediaType = 'image'; 
+          $activityType = 'Stamina'; $activityImage = 'scenes/char/mp/3.png'; $loc = 'Kitchen';" >
+              <p >Do Breakfast (Stamina +)</p>
+          </div>
+
+<<elseif $currentTime is 4 >>
+
+<<set $charStats = "mp">>
+
+      
+        <div class="enter_button"  data-passage="MiniGame"   data-setter = "$mediaType = 'image'; 
+        $activityType = 'Stamina'; $activityImage = 'scenes/char/mp/2.png'; $loc = 'Kitchen';" >
+            <p >Dinner (Stamina +)</p>
+      </div>
+
+<<else>>
+
+        
+<</if>>
+
+
+        <<if $kitchenClean is 0  >>
+
+
+            <div class="enter_button"  data-passage="RelationGame"   data-setter = "$kitchenClean = 1; $mediaType = 'image'; 
+            $activityType = 'Money'; $activityImage = 'scenes/misc/etc/kitchenclean.gif'; $loc = 'Kitchen';" >
+            <p >Clean Kitchen! (Charm +)</p>
+            </div>
+
+        <</if>>
+
+<div class="enter_button"  data-passage="Home" >
+<p >Leave</p>
+</div>
+
+
+<</nobr>>
+</div>
+

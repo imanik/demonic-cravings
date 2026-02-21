@@ -1,0 +1,31 @@
+
+        <div class="big_text">
+        <<nobr>>
+
+
+        <p class="notation_text">
+        Location : <<print passage()>></p>
+
+        <p class="notation_text">
+        <<print $message>>
+        </p>
+
+
+        
+
+        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/etc/locked.jpg'">
+
+        <p class="notation_text">What should I do now?</p>
+        
+        <p class="notation_text">The Door Is Locked!</p>
+
+
+
+
+        <div class="enter_button"  data-passage="Home" >
+        <p >Leave</p>
+        </div>
+
+
+        <</nobr>>
+        </div>

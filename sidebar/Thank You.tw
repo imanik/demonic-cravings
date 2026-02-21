@@ -1,0 +1,40 @@
+<div class="big_text">
+<<nobr>>
+
+
+<p class="notation_text">
+Location : <<print passage()>></p>
+
+<p class="notation_text">
+<<print $message>>
+</p>
+
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/home/Mysterious.jpg'" >
+
+
+<p class="notation_text">
+Dear Patreons,
+<br>
+<br>
+I want to extend our sincerest gratitude to each and every one of you for your unwavering support. Your commitment to our project means the world to us, and I am incredibly grateful for your continued enthusiasm.
+
+As a token of my appreciation, I am excited to offer you early access to my upcoming releases. While you may not have access to the full games just yet, I hope this sneak peek will give you a taste of what's to come. Your feedback and support are invaluable to me as we work to bring you the best possible gaming experience.
+
+Thank you once again for being part of my journey. I couldn't do it without you!
+</p>
+
+
+
+<div class="enter_button" data-passage="previous();"  data-setter = "$message = ''">
+<p >Return</p>
+</div>
+
+   <div class="enter_button" data-passage="Home"  data-setter = "$message = ''">
+    <p >Home</p>
+    </div>
+
+
+<</nobr>>
+</div>
+

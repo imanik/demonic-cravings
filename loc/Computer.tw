@@ -1,0 +1,44 @@
+<div class="big_text">
+<<nobr>>
+
+<p class="notation_text">
+Location : <<print passage()>></p>
+
+<p class="notation_text">
+<<print $message>>
+</p>
+
+
+
+<div id="pos">
+
+
+  <img class="scenes_image" @src="setup.ImagePath+'scenes/mc/2/99.webp'">
+
+
+<p class="notation_text"><<print $mc.name>> should ...</p>
+
+
+</div>
+
+<div class="enter_button"  data-passage="MiniGame"   data-setter = "$activityType = 'Sex_Freq'; $mediaType = 'image';  $activityImage = 'scenes/misc/porn.gif';" >
+<p >Watch Porn!</p>
+</div>
+
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/hack.jpg'">
+
+<div class="enter_button"  data-passage="MiniGame"   data-setter = "$activityType = 'Money'; $mediaType = 'image';  
+$activityImage = 'scenes/mom/2/100.jpg';" >
+<p >Do Work!</p>
+</div>
+
+
+<div class="enter_button"  data-passage="Bedroom" >
+<p >Leave</p>
+</div>
+
+
+<</nobr>>
+</div>
+

@@ -1,0 +1,68 @@
+  <div class="big_text">
+  <<nobr>>
+
+  <!-- <<if $activityType == 'Update'>>
+
+    
+        <<if $mc.stats.knowledge lt 0 || $mc.stats.money lt 0>>  
+            <<set _person = false>>   
+        <<else>>  
+            <<set _person = true>>   
+        
+        <</if>>  
+  <</if>> -->
+
+  <!-- <<if _person == true>> -->
+                  <<if $mediaType is "video">>
+                    
+                          <video class="scenes_image" id="activityVideo" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+                      </video>
+
+                    <<else>>
+                          <img id='activityImage' class="scenes_image">
+                  <</if>>
+                  
+
+                <p class="notation_text"><<print $taskDialogue>></p>
+
+                  <div id="leave-button" onclick="forwardTime(1);" data-passage="Home" >
+                    <p >Leave</p>
+                  </div>
+    <!-- <<else>> -->
+    
+    <!-- <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/red.webp'">
+
+          <p class="notation_text">You do not have enough Money or Knowledge!</p>
+
+            <div class="enter_button" onclick="forwardTime(1);" data-passage="Home" data-setter ="$msg = '';">
+              <p >Leave</p>
+          </div>
+    <</if>> -->
+
+    
+
+  <</nobr>>
+  </div>
+  <<script>>
+    /* pure JavaScript code */
+
+  $(document).ready(function() {
+
+      startGame();
+  //   $("#stop-button").on("click", stopGame);
+  $("#leave-button").on("click", function() {
+    
+      // stopTask(variables().activityType);
+      stopGame(variables().activityType,'Stats','');
+  });
+
+  //  $("#stop-button").on("click", function() {
+  //     stopGame(variables().activityType);
+  // });
+
+        
+
+    });
+  <</script>>
+
+  

@@ -1,0 +1,288 @@
+
+<div class="big_text">
+<<nobr>>
+
+<!-- Kitchen Morning-->
+
+<<set $charStats = "ep">>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/8.png'">
+
+
+<!-- Scene 08 - <<print $mp.call>> & <<print $mc.name>> Night -->
+
+
+
+
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> I saw <<print $ep.name>> coming out of of the library. "Hi, <<print $ep.name>>, how's it going?" I asked, while <<print $ct.name>> followed me down the corridor..
+</p>
+</div>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Oh good, well since it's Friday night, would you like to do another movie night? My <<print $mp.rel>> is hosting another feminist book club at my house again, and I just need to get out of there. I can't handle another one of her rants. I swear sometimes I just wish she finds a man so she could get laid."
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Oh good, that gives me a chance to see the town," <<print $ct.name>> jumped in joy, her large tits bouncing along with her, <<print $ep.name>>'s eyes following along. "But first I need to use the restroom."
+</p>
+</div>
+
+<p class="notation_text"> Nervous, and a little awkward, I began to stack the books back onto the return cart, as <<print $ct.name>> skidded away from us. 
+</p>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "So <<print $ct.name>> seems interesting," <<print $ep.name>> said, trying to make small talk. "Oh by the way, how are you feeling? When I stopped by yesterday, you sounded sick over the door."
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/9.png'">
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Ya, I kinda got a stomach bug; I couldn't get out of bed. Luckily it passed, and I feel good as new." I explained to her. Using the same lie I used on my <<print $mp.rel>>.
+</p>
+</div>
+
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "That could be you Master. Sounds like someone needs a good dicking." a voice filled my head, startling me, and nearly dropping the stack of books I had in my hand. I looked around and saw that <<print $ep.name>> was by the cart by the stacks.
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "<<print $ct.name>> is that you," I whispered, unsure if I was just hearing things. Then before I knew it, <<print $ct.name>> popped in front of my view, except instead of being her normal 66-inch tall self, she was merely four inches tall and had an artistic styling of a Funko/ Chibi art style. I will admit though, she did look cute in Chibi form.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Yes Master, it's me. Oh, and by the way you don't need to speak out loud unless you want to look like a crazy person. Just think out loud when talking to me, and I will hear whatever you say."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Ok," I said this time in my mind. "Firstly, WHAT THE FUCK ARE YOU DOING IN MY HEAD!!!" I yelled out in my mind which caused her to wince and swirl around in mid-air.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/10.png'">
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Not so loud Master, I can hear you just fine." she groaned out as she tried to steady herself. "As for what I am doing here, I am using my Dreamwalker skill. I found the bathroom and tucked myself in one of those stalls. After that, I used my skill and astral project myself and floated it into your mind. I figure you should get a chance to see it in action."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Wait, is this what your ability could do?" I said in my mind while looking over at <<print $ep.name>>. "And she can't see or hear you?"
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "No, only you can. By the way Master, <<print $ep.name>> is cute, I'm surprised you haven't bedded her already. I know she has thought about it."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> That threw me for a loop. "What really? How could you tell? Did you read her mind?" I said, peppering her with mental questions.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "No, like I said I can enter the waking mind, but only if they are open to it. Like you were before we left your place. But it doesn't take a person who study hyroglifics to decipher the signs she's been throwing out. Always there for you, rather be at your place than hers, gets jealous when she sees you with another girl. Especially with a smoke show like me." she said, doing a little pirouette in my vision. "She shouldn't fret though, at least not with me. I am more than willing to share you."
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/11.png'">
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Wait? What? Share?" I asked in a befuddled manner.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Yes Master, share. You really didn't think that I would be the only girl you would be sleeping with. You're a half-breed incubus now, and you'll need a steady supply of lust and life energy from other women. While I can get energy from you in a large amount; making you the only man I am going to sleep with from now on. You can only get a small amount from me. We succubus hate to give out our life energy. So in layman's terms, you need to have your own personal harem. Which shouldn't be too hard, you are already surrounded by beautiful women, and one of them is right in front of you." the <<print $ct.name>> POP figure said, pointing to <<print $ep.name>> with her tail.
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Ya," I said, my lust-filled mind starting to take over. I always wanted to date <<print $ep.name>>, always wanted her to be my girlfriend, but in the end, I was a coward. I would always either make excuses like the timing wasn't just right. While wallowing at my missed chances <<print $ct.name>> decided to do a jump scare in my own mind, causing me to drop the books, and causing the cart to topple over.
+</p>
+</div>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Watch it!" <<print $ep.name>> shouted but in a joking manner.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/12.png'">
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Sorry, I thought I was about to sneeze," was my reply to my stunt. 
+</p>
+</div>
+
+<p class="notation_text">It was a terrible lie, but <<print $ep.name>> seemed to believe it. We resumed restacking the books on the cart right next to each other. As we were, I began to get a full sense of her scent. The dove deodorant was still prominent, but when I concentrated more closely. I could also smell her natural scent, a more earthy smell, but one of a meadow or a rolling hill. Which made sense to me, since she spends most of her time running outside. 
+</p>
+
+<p class="notation_text">She was never much of a runner growing up, but with a nasty divorce, moving to a new town, and meeting new people; the stress was getting to her. So one day, when we were at freshman lunch, I suggested that she should take up running just like my <<print $mp.rel>>. I told her that it helped cleared my <<print $mp.rel>>'s mind after a long day of selling houses. So <<print $ep.name>> took my suggestion and began to run every day after school, and like a fish taking to water, she was hooked. She would later join the cross country team and manage to score 5th place in state.
+</p>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Go for it, Master, project your lust at her," <<print $ct.name>> whispered in my mind. A hypnotic voice that propelled me to do what she says. Without even thinking, I said what I kept hidden for years.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/13.png'">
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "<<print $ep.name>>, why haven't we been a thing?"
+</p>
+</div>
+
+<p class="notation_text"> She blinked at me, unsure at what to make of it. Then her cheeks grew a tiny bit dark. Not so much that a normal person could notice, but I was no longer a normal person. 
+</p>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Why, because we're friends. That's why. Friends don't date other friends." she defended herself, and rather poorly I might add. I can see that there was something there. Something I might not have noticed if I were human. But I am an incubus and a new world is opened to me.
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Do you want to be friends?" I asked while stepping closer to her. In return, she took a step back.
+</p>
+</div>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Well..." she said looking around, her cheeks growing red, as she fell under my influence.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "That's it, Master, look at her. She wants you, she just can't admit it to herself. Press her, and see where it leads. Project your lust" then as if my body was following <<print $ct.name>>'s command, I felt a shift inside me, then I felt something start to leave outside my body. Paying no mind to it I pressed on.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/14.png'">
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Well, <<print $ep.name>>. You are never really this evasive. Always barreling forward since sophomore year in high school." I said, with a bit of a husky voice. Taking another step, trying to get closer to her. As I drew near I felt what was exiting outside of me was now enveloping <<print $ep.name>>. Her demeanor changed, and she began to softly pant. She was getting aroused.
+</p>
+</div>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span>  "Well I, I, I," sounding like a broken record, not sure how to proceed. Then with a bit of a thud, her back was against one of the shelves, stopping her from retreating. "I just don't know what happened," she said breathlessly as the rea<<print $up.name>>ation of being trapped skyrocketed in her beating heart.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "That's it, Master, that's your demonic aura at work. It's an ability all sex demons have. It causes the opposite sex to become aroused. It's one of the greatest tools at our disposal. No woman can defend against it. Now press on Master." <<print $ct.name>> purred in my mind.
+</p>
+</div>
+
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "You're nervous, you shouldn't be. After all, it is just me." I said not knowing where it was coming from or how smoothly it came out.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/15.png'">
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span>  "That's it though. You do make me nervous," she spouted out, as she tried to control her breathing. But in doing so, she was breathing in more of my demonic aura. A musk that was laced with pheromones increases a woman's sexual arousal.
+</p>
+</div>
+
+<p class="notation_text"> I was now standing right next to her, towing since she was only 5'7 slightly taller than <<print $ct.name>>. Her cheeks were noticeably flush, and her breathing was labored, but still, she never lost eye contact. For once, the ever-running <<print $ep.name>> Summers was now standing perfectly still. 
+</p>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Kiss her," a thought ran through my mind. It was so unusual that I was just about to back off until <<print $ct.name>> stopped me.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "No Master, don't fight it. Listen to it. It's your incubus instincts. We all have them. It allows you to know what the person wants. Follow your instincts. They will never let you down." <<print $ct.name>> whispered in my ear, being the naughty devil on my shoulders. 
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/16.png'">
+
+<p class="notation_text">Then with a little hesitation, I leaned down and captured <<print $ep.name>>'s lips. At first, she was stiff as a board, but once my instincts told me to be more assertive, she began to soften under my assault. she even began to reciprocate my advances. Then I started to sense something that I didn't notice, pussy. It was <<print $ep.name>>'s pussy, I could smell how wet she was. Knowing this I stopped questioning my instincts and just let them take over. Pushing <<print $ep.name>> more into the stack of shelves, forcing my tongue deep into her throat. Doing all the things I would never have thought of doing to her. 
+</p>
+
+<p class="notation_text">Yet with every act, it followed the steady rise of her wants and needs, and her pussy became more drenched. I was just about to paw at her firm tits, but a group of people came stumbling into the research room, breaking me and <<print $ep.name>> out of our spell. We quickly separated, as we were afraid to get caught. We looked at each other, and while <<print $ep.name>> saw my flushed face, I saw her perky nipples showing through her t-shirt. Her usual everyday attire, coupled with a sports bra. Then there was something else I saw. Her eyes were looking down at me. I followed them until I saw where the line ended. My crotch was bulging out. My jeans were bursting at the seams trying to keep my still python size cock at bay. I looked back up and saw she wasn't just looking at my crotch, but also biting her lower lip, a clear sign that she likes what she saw.
+</p>
+
+
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "We better go," I said to her, breaking her from her trance.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/17.png'">
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Ya, we should. Where's <<print $ct.name>>?" she asked.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Over here," <<print $ct.name>> called out. Apparently, when our kiss was broken up by the noisy group, <<print $ct.name>> also broke her spell and went back into her body. She looked a little flushed, showing that what I did to <<print $ep.name>>, also had affected her. "So where are we going next? The Occult shop?"
+</p>
+</div>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Oh ya, I forgot that I have a term paper due tonight. So I have to stay behind," <<print $ep.name>> replied back, totally flushed from our heated kiss.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Oh really, that's too bad. I was really looking forward to getting to know you better. Oh well, I guess more time with <<print $mc.name>> then," she said dreamily. 
+</p>
+</div>
+
+<p class="notation_text">Mostly because she wanted to be with me, but also to irk <<print $ep.name>>. I looked back at <<print $ep.name>>, and I saw a hint of jealousy in her eyes, wondering if she does have more feelings for me than I rea<<print $up.name>>e. I do know that she was affected by my demonic aura as <<print $ct.name>> put it, but how much of it was real, or how much was it just my powers.
+</p>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/18.png'">
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span>"Ya, well, maybe we can hang out later. How about tomorrow? We could all go into town tomorrow." <<print $ep.name>> suggested, trying to not be left out.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "That sounds like that could be fun. We all should go." <<print $ct.name>> said with glee, smirking at herself, knowing that's what she wanted. More time for me and <<print $ep.name>> to be together.
+</p>
+</div>
+
+<div class="dialog_text ep_dialog_text">
+<p><span class = "ep"><<print $ep.name>>: </span> "Good, I'll text <<print $mc.name>> the details later." and just like that <<print $ep.name>> turned away and headed for the stairs, redder than a ripe tomato.
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "You have really gotten to her Master. If those pesky people hadn't shown up when they did, you could have been balls deep inside her pussy." <<print $ct.name>> cooed, as she slid right up against my body. Her warm body pressed up against mine, it made my mind go at ease, as my lust tried to take over. With a bit of growth, I said, "We should head back to my place. There's nothing here about the dagger or the sword."
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Whatever you say, Master," told me in the purest sultry voice on the planet.
+</p>
+</div>
+
+
+
+<div class="enter_button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+<p >Leave</p>
+</div>
+
+<<set $college.count += 1>>
+<<set $eventCount += 1>>
+<<set $myroom.status[$myroom.count] = 1>>
+<<set $college.status[$college.count-1] = 0>> 
+
+<</nobr>>
+</div>

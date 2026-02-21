@@ -1,0 +1,74 @@
+<div class="big_text">
+<<nobr>>
+
+    
+    <<if $mc.stats.stamina gte 10 >>
+        
+        <div class="bar">
+            <div class="segment">10</div>
+            <div class="segment" id="seg1">0</div>
+            <div class="segment" id="seg2">2</div>
+            <div class="segment" id="seg3">5</div>
+            <div class="segment" id="seg4">0</div>
+            <div class="cursor"></div>
+        </div>
+    
+
+        <p id="result"></p>
+
+        <div  id="stop-button"  >
+            <p>STOP</p>
+        </div>
+
+        <<if $mediaType is "video">>
+    
+                <video class="scenes_image" id="activityVideo" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+                </video>
+        <<else>>
+                <img id='activityImage' class="scenes_image">
+        <</if>>
+   
+        <<set _random_value = random(1, 5)>>
+
+        <div id="leave-button" onclick="statsChangeRandom(); forwardTime(1); " data-passage="$loc" >
+            <p >Random Point</p>
+        </div>
+
+         <div id="leave-button" onclick="forwardTime(1); statsChange(-10, 'Stamina')" data-passage="$loc">
+            <p >Leave</p> 
+        </div>
+    
+    <<else>>
+        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/low.jpg'">
+
+        <p class="notation_text">You do not have enough Stamina!</p>
+
+
+        <div class="enter_button" onclick="forwardTime(1);" data-passage="$loc">
+                    <p >Leave</p>
+                </div>
+    <</if>>
+ 
+       
+   
+
+<</nobr>>
+</div>
+
+<<script>>
+  /* pure JavaScript code */
+
+$(document).ready(function() {
+
+    startGame();
+ //   $("#stop-button").on("click", stopGame);
+$("#stop-button").on("click", function() {
+     stopGame(variables().activityType,'Stats','');
+});
+
+       
+
+  });
+<</script>>
+
+ 

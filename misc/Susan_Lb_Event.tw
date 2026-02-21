@@ -1,0 +1,40 @@
+
+
+
+
+
+<<nobr>>
+<div style="margin-top:5vw;">
+
+
+    <<set _i = 0>> 
+    <<set _event = "">> 
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/up/3/34.png'">
+
+    <<for _i, _event range $fuckEvent.up.title>>
+
+  
+    <<if $up.stats.sex_freq gte $fuckEvent.up.sex_freq[_i]>>
+
+    <div class="enter_button"  data-passage="_event" style="width:25vw;">
+        <p><<print $fuckEvent.up.desc[_i]>></p>
+    </div>
+
+    <<else>>
+  
+    <p class="notation_text">For <<print $fuckEvent.up.desc[_i]>> Style: You Need  <<print $fuckEvent.up.sex_freq[_i]>> Sex Freq</p>
+
+    <</if>>
+
+ <</for>>
+
+
+<div class="enter_button" style="width:25vw;" data-passage="Living">
+<p >Leave</p>
+</div>
+
+  </div>
+
+<</nobr>>
+

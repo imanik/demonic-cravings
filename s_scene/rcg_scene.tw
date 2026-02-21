@@ -1,0 +1,31 @@
+<div class="big_text">
+  <<nobr>>
+
+
+<<set $charStats = $charObject.shortcode>>
+
+
+
+<img class="scenes_image" @src="setup.ImagePath+$sceneImage " >
+
+
+<div id="scene-buttons"></div>
+
+  <</nobr>>
+</div>
+
+
+<<script>>
+
+$(document).ready(function() {
+    variables().sceneType = passage();
+    console.log(passage());
+    //setupSceneButtons(variables().sceneType,variables().sceneCode ); // Call the function after the script is loaded
+   // setupSceneButtons('cun_scene','' ); // Call the function after the script is loaded
+    setupSceneButtons( variables().sceneType,variables().sceneCode ); // Call the function after the script is loaded
+
+
+});
+<</script>>
+
+

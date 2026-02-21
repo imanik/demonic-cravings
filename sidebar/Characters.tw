@@ -1,0 +1,188 @@
+
+<<nobr>>
+
+<!-- ********************************* MC ************************************** -->
+
+<div class="left_border_av" style="margin-top:5vw;">
+
+
+<div style="display: flex;">
+  <div style="flex: 1; text-align: center; padding:5%">
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc.jpg'" >
+  </div>
+  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+    <h3 class="char_info"><span class="char_lebel"> Name: </span> $mc.name</h3>
+    <h3 class="char_info"><span class="char_lebel"> Age: </span> $mc.age</h3>
+    <h3 class="char_info"><span class="char_lebel"> Knowledge: </span> $mc.stats.knowledge</h3>
+    <h3 class="char_info"><span class="char_lebel"> Stamina: </span> $mc.stats.stamina</h3>
+    <h3 class="char_info"><span class="char_lebel"> Charm: </span> $mc.stats.money</h3>
+    <h3 class="char_info"><span class="char_lebel"> Mana: </span> $mc.stats.mana</h3>
+    <h3 class="char_info"><span class="char_lebel"> Love: </span> $mc.stats.love</h3>
+    <h3 class="char_info"><span class="char_lebel"> Lust: </span> $mc.stats.lust</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $mp.name: </span><br> $mp.rel / $mp.mc</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $up.name: </span><br> $mc.up / $up.rel</h3>
+  </div>
+
+</div>
+
+
+</div>
+
+
+
+<!-- ********************************* MP ************************************** -->
+
+
+<div class="left_border_av" style="margin-top:5vw;">
+
+<div style="display: flex;">
+ 
+  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+    <h3 class="char_info"><span class="char_lebel"> Name: </span> $mp.name</h3>
+    <h3 class="char_info"><span class="char_lebel"> Age: </span> $mp.age</h3>
+    <!-- <h3 class="char_info"><span class="char_lebel"> Love: </span><br> $mp.stats.love</h3>
+    <h3 class="char_info"><span class="char_lebel"> Lust: </span><br> $mp.stats.lust</h3> -->
+    <h3 class="char_info"><span class="char_lebel"> Love Desire: </span> $mp.stats.men_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Desire: </span> $mp.stats.sex_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Type: </span><br> $mp.type</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $mc.name: </span><br> $mp.rel / $mp.mc</h3>
+
+  </div>
+
+  <div style="flex: 1; text-align: center; padding:5%">
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/mp.jpg'" >
+  </div>
+</div>
+
+</div>
+
+
+
+<!-- ********************************* UP ************************************** -->
+
+<div class="left_border_av" style="margin-top:5vw;">
+ 
+<div style="display: flex;">
+ 
+  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+    <h3 class="char_info"><span class="char_lebel"> Name: </span> $up.name</h3>
+    <h3 class="char_info"><span class="char_lebel"> Age: </span> $up.age</h3>
+    <!-- <h3 class="char_info"><span class="char_lebel"> Love: </span><br> $up.stats.love</h3>
+    <h3 class="char_info"><span class="char_lebel"> Lust: </span><br> $up.stats.lust</h3> -->
+    <h3 class="char_info"><span class="char_lebel"> Love Desire: </span> $up.stats.men_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Desire: </span> $up.stats.sex_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Type: </span><br> $up.type</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $mc.name: </span><br> $mc.up / $up.rel</h3>
+
+  </div>
+
+  <div style="flex: 1; text-align: center; padding:5%">
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/up.jpg'" >
+  </div>
+</div>
+
+</div>
+
+
+
+<!-- ********************************* EP ************************************** -->
+
+<div class="left_border_av" style="margin-top:5vw;">
+
+<div style="display: flex;">
+ 
+  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+    <h3 class="char_info"><span class="char_lebel"> Name: </span> $ep.name</h3>
+    <h3 class="char_info"><span class="char_lebel"> Age: </span> $ep.age</h3>
+    <!-- <h3 class="char_info"><span class="char_lebel"> Love: </span><br> $ep.stats.love</h3>
+    <h3 class="char_info"><span class="char_lebel"> Lust: </span><br> $ep.stats.lust</h3> -->
+    <h3 class="char_info"><span class="char_lebel"> Love Desire: </span> $ep.stats.men_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Desire: </span> $ep.stats.sex_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Type: </span><br> $ep.type</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $mc.name: </span><br> $ep.rel</h3>
+  </div>
+
+  <div style="flex: 1; text-align: center; padding:5%">
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep.jpg'" >
+  </div>
+</div>
+
+</div>
+
+
+
+
+<!-- ********************************* CP ************************************** -->
+
+
+<div class="left_border_av" style="margin-top:5vw;">
+
+<div style="display: flex;">
+ 
+  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+    <h3 class="char_info"><span class="char_lebel"> Name: </span> $cp.name</h3>
+    <h3 class="char_info"><span class="char_lebel"> Age: </span> $cp.age</h3>
+    <h3 class="char_info"><span class="char_lebel"> Love Desire: </span> $cp.stats.men_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Desire: </span> $cp.stats.sex_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Type: </span><br> $cp.type</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $mc.name: </span><br> $cp.rel</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Event:</span><br> Living (Mid Day) </h3>
+    
+  </div>
+  <div style="flex: 1; text-align: center; padding:5%">
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/cp.jpg'" >
+  </div>
+  
+</div>
+</div>
+
+
+
+<!-- ********************************* CT ************************************** -->
+
+
+<div class="left_border_av" style="margin-top:5vw;">
+
+<div style="display: flex;">
+ 
+  <div style="flex: 1; padding-left: 20px; padding-top: 5%;">
+    <h3 class="char_info"><span class="char_lebel"> Name: </span> $ct.name</h3>
+    <h3 class="char_info"><span class="char_lebel"> Age: </span> $ct.age</h3>
+    <h3 class="char_info"><span class="char_lebel"> Love Desire: </span> $ct.stats.men_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Desire: </span> $ct.stats.sex_freq</h3>
+    <h3 class="char_info"><span class="char_lebel"> Type: </span><br> $ct.type</h3>
+    <h3 class="char_info"><span class="char_lebel"> Relation With $mc.name: </span><br> $ct.rel</h3>
+    <h3 class="char_info"><span class="char_lebel"> Sex Event:</span><br> My Room (Night) </h3>
+  </div>
+<div style="flex: 1; text-align: center; padding:5%">
+    <!-- Replace 'your-image.jpg' with the path to your image -->
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct.jpg'" >
+  </div>
+</div>
+  
+</div>
+
+
+
+
+
+
+
+<div class="enter-button" data-passage="previous();"  data-setter = "$message = ''">
+  <p >Return</p>
+</div>
+
+<div class="enter-button" data-passage="Home"  data-setter = "$message = ''">
+  <p >Home</p>
+</div>
+
+
+
+
+<</nobr>>
+

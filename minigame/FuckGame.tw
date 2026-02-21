@@ -1,0 +1,87 @@
+<div class="big_text">
+<<nobr>>
+
+    
+    <<if $mc.t_meter.charge gte 20  >>
+        
+        <div class="bar">
+            <div class="segment">10</div>
+            <div class="segment" id="seg1">0</div>
+            <div class="segment" id="seg2">2</div>
+            <div class="segment" id="seg3">5</div>
+            <div class="segment" id="seg4">0</div>
+            <div class="cursor"></div>
+        </div>
+    
+
+        <p id="result"></p>
+
+        <div  id="stop-button"   onclick="statsChange(-25, 'Charge');">
+            <p>STOP </p>
+        </div>
+
+        <<if $mediaType is "video">>
+    
+                <video class="scenes_image" id="activityVideo" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+                </video>
+        <<else>>
+                <img id='activityImage' class="scenes_image">
+        <</if>>
+        
+
+        
+              <p class="notation_text"><<print $taskDialogue>></p>
+
+   
+        <<set _random_value = random(1, 5)>>
+
+        <div id="random-button" onclick="statsChange(-25, 'Charge'); charStatsChangeRandom();" data-passage="$loc" >
+            <p >Random Point</p>
+        </div>
+        
+  
+
+         <div id="leave-button" onclick="forwardTime(1);" data-passage="$loc">
+            <p >Leave</p>
+        </div>
+    
+    <<else>>
+        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/low.jpg'">
+
+        <p class="notation_text">T-Meter do not have enough Charge!</p>
+
+
+        <div class="enter_button" onclick="forwardTime(1);" data-passage="$loc">
+                    <p >Leave</p>
+                </div>
+    <</if>>
+ 
+       
+   
+
+<</nobr>>
+</div>
+
+<<script>>
+  /* pure JavaScript code */
+
+$(document).ready(function() {
+
+    startGame();
+ //   $("#stop-button").on("click", stopGame);
+$("#stop-button").on("click", function() {
+    stopGame(variables().activityType,'Char',variables().char);
+    //statsChange(-25, "Charge");
+});
+
+// $("#random-button").on("click", function() {
+//    // stopGame(variables().activityType,'Char',variables().char);
+   
+// });
+
+       
+
+  });
+<</script>>
+
+ 

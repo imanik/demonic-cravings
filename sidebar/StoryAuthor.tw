@@ -1,0 +1,52 @@
+<div class="big_text">
+<<nobr>>
+
+
+
+
+<<print $weekDays[$currentDay]>><br>
+<<print $dayTimes[$currentTime]>><br>
+<<if  $weekendValue[$currentDay] lt 1>><<print "Weekday">>
+<<else>><<print "Weekend">><</if>>
+   
+<!-- <p><span class = "ui_text">Men Freq: </span>  <<print $mc.t_meter.men_freq >><br>
+<p><span class = "ui_text">Sex Freq: </span>  <<print $mc.t_meter.sex_freq >> -->
+<p><span class = "ui_text">Knowledge: </span>  <<print $mc.stats.knowledge >><br>
+<p><span class = "ui_text">Stamina: </span> <<print $mc.stats.stamina >><br>
+<p><span class = "ui_text">Charm: </span> <<print $mc.stats.money >><br>
+<hr>
+
+<p><span class = "ui_text">Love: </span>  <<print $mc.stats.love >><br>
+<p><span class = "ui_text">Lust: </span>  <<print $mc.stats.lust >></p>
+
+
+
+<hr>
+<p><span class = "ui_text">Mana: </span><<print $mc.stats.mana >>
+<<if $tm is 1>>
+<p><span class = "ui_text">Avatar Level: </span> v1. <<print $mc.stats.software_up >><br>
+</p>
+<</if>>
+
+<hr>
+<<set _cName = charObjReturn($charStats)>>
+
+
+<p><span class = "ui_text">Character: </span>  <<print _cName.name>> <br>
+<p><span class = "ui_text">Relation: </span>  <<print _cName.rel>> <br>
+<<if _cName.shortcode == 'mc'>>
+<p><span class = "ui_text">Love: </span>  <<print _cName.stats.love>> <br>
+<p><span class = "ui_text">Lust: </span>  <<print _cName.stats.lust>></p> 
+<<else>>
+<p><span class = "ui_text">Love Desire: </span>  <<print _cName.stats.men_freq>> <br>
+<p><span class = "ui_text">Sex Desire: </span>  <<print _cName.stats.sex_freq>></p> 
+<</if>>
+
+
+
+
+<</nobr>>
+</div>
+
+
+

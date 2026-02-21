@@ -1,0 +1,98 @@
+
+<div class="settings-container">
+
+        <!-- **************************************************** MC STATS **************************************** -->
+
+        <p style="margin:0;margin-bottom:2%;">Change Name & Relation by clicking on change button below. </p>
+
+        <div class="character-card-s">
+                <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/mc.jpg'" >
+                <label for="mcName">Change Name (Default: <<print $mc.name>> <<print $mc.lastname>>):</label>
+                <input type="text" id="mcName" value="Max" placeholder="Enter only nick name Mike/Mark/etc.">
+        </div>
+
+        <!-- **************************************************** MP STATS **************************************** -->
+
+        <div class="character-card-s">
+                <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/mp.jpg'" >
+                <label for="mpName">She is <<print $mp.name>> (Default:<<print $mp.name>> )</label>
+                <input type="text" id="mpName" value="Cynthia" placeholder="Enter any Mona/Silvee/Reba">
+                <label for="mpRel">She is your (Default: <<print $mp.rel>>)</label>
+                <input type="text" id="mpRel" value="Neighbor-Mother/Woman" placeholder="Enter any Relation">
+                <label for="mcRel">You are her (Default: <<print $mc.rel>>)</label>
+                <input type="text" id="mcRel" value="Neighbor-Son/Boy" placeholder="Enter any Relation">
+                <label for="mpCall">You should call her (Default: <<print $mp.call>>)</label>
+                <input type="text" id="mpCall" value="Neighbor-Mom/Woman" placeholder="Enter any ">
+        </div>
+
+
+
+
+        <!-- **************************************************** UP STATS **************************************** -->
+
+        <div class="character-card-s">
+                <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/up.jpg'" >
+                <label for="upName">She is <<print $up.name>>  (Default: <<print $up.name>>)</label>
+                <input type="text" id="upName" value="Liz" placeholder="Enter only nick name Jenna/Silvy/etc.">
+                <label for="upRel">She is your  (Default: <<print $up.rel>>)</label>
+                <input type="text" id="upRel" value="Neighbor-Sister/Girl" placeholder="Enter any Relation">
+                <label for="mcupRel">You are her   (Default: <<print $mc.up>>)</label>
+                <input type="text" id="mcupRel" value="Neighbor-Brother/Boy" placeholder="Enter any Relation">
+                <label for="mpupRel">She is her (<<print $mp.name>>'s)   (Default: <<print $mp.up>>)</label>
+                <input type="text" id="mpupRel" value="Neighbor-Daughter/Girl" placeholder="Enter any Relation">
+        </div>
+
+        <!-- **************************************************** Ep STATS **************************************** -->
+
+        <div class="character-card-s">
+                <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/ep.jpg'" >
+                <label for="epName">She is <<print $ep.name>> <<print $ep.lastname>> (Default: <<print $ep.rel>>)</label>
+                <input type="text" id="epName" value="Ella" placeholder="Enter only nick name Jenna/Silvy/etc.">
+        </div>       
+
+        <!-- **************************************************** CT STATS **************************************** -->
+        
+        <div class="character-card-s">
+                <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/ct.jpg'" >
+                <label for="ctName">She is <<print $ct.name>> <<print $ct.lastname>> (Default: <<print $ct.rel>>)</label>
+                <input type="text" id="ctName" value="Rayne" placeholder="Enter only nick name Jenna/Silvy/etc.">        
+        </div>      
+
+        <!-- **************************************************** CP STATS **************************************** -->
+        
+        <div class="character-card-s">
+                <img class="scenes_image setting_image" @src="setup.ImagePath+'scenes/char/cp.jpg'" >
+                <label for="cpName">She is <<print $cp.name>> <<print $cp.lastname>> (Default: <<print $cp.rel>>)</label>
+                <input type="text" id="cpName" value="Selyra" placeholder="Enter only nick name Jenna/Silvy/etc.">
+        </div>  
+      
+        <!-- **************************************************** SCRIPT **************************************** -->
+
+        <!-- Action Buttons -->
+        <div class="settings-actions">
+                <<button "Change" "Intro_0" class="change-btn">>
+                <<set $mc.name = $("#mcName").val()>>
+                <<set $mc.call = $("#mcName").val()>>
+                <<set $mp.mc = $("#mcRel").val()>>
+                <<set $ep.name = $("#epName").val()>>
+                <<set $mp.name = $("#mpName").val()>>
+                <<set $mp.rel = $("#mpRel").val()>>
+                <<set $mp.call = $("#mpCall").val()>>
+                <<set $up.name = $("#upName").val()>>
+                <<set $up.rel = $("#upRel").val()>>
+                <<set $cp.name = $("#cpName").val()>>
+                <<set $mc.up = $("#mcupRel").val()>>
+                <<set $mp.up = $("#mpupRel").val()>>
+                <<set $ct.name = $("#ctName").val()>>
+
+                
+                <</button>>
+
+                <<button "Default" "Intro_0" class="default-btn">>
+                
+                <</button>>
+        </div>
+
+
+</div>
+

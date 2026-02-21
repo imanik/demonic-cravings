@@ -1,0 +1,129 @@
+
+<div class="big_text">
+<<nobr>>
+
+<!-- Kitchen Morning-->
+
+<<set $charStats = "ct">>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/11.png'">
+
+
+<!-- Character : <<print $gp.name>>  & Kevin Loc: Basement Office  -->
+
+<p class="notation_text">I was waiting for succubus. Lots of curiosity running in my mind. Suddenly she appeared from a smoke and continued her story.
+</p>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span>You see while yes most succubus loath being a slave to man, I am one of the few that actually find your kind interesting. Unforchanetly that is not the only reason I became your slave." she pulled down her shirt, exposing her soft supple chest. At first, I thought she was trying to entice me, but out of nowhere a black circle, the size of a baseball started to appear on top of her cleavage, right where her heart is supposed to be.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span>  "That nasty priest that tried to kill me, placed a really powerful binding spell on me. I am unable to travel from your mortal realm back to my homeworld, hell. Also in doing so, blocking my connection to my other <<print $up.rel>>s. He trapped and isolated me, and while he is dead the binding spell is still in effect. And that left me defenseless to outside attacks. Rogue demons, priests, angels, witches, and any number of magical beings could now track me down and either capture me or kill me. I needed a way to get off one's radar, so it only left me with one option."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Me becoming your master," I said, finishing her sentence.
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/12.png'">
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Yes, in doing so I become your property, and in turn, I can no longer be easily tracked by any outside force. I became your slave to save my life. It was the only way you see. These bind spells while powerful aren't impervious. I could dispel it, but that priest and his nasty holy swords had left me pretty weak."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "So you are using me as your personal cloaking device," I muttered to myself, not liking the fact I was her Morty.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Yes, and I'm sorry for that, but I had no choice. Even so, you saved me, while you could have just run away. For that, I would be eternally grateful."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Ok, will get back this whole master/slave thing, and how you manage to do that, but..."
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/13.png'">
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> Oh, that's easy. For a succubus to be a slave, she must perform fellatio or a blowjob in your modern term."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "What? Seriously? A blowjob?"
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Yes, one of the ultimate acts of submission for a woman. If you manage to get a succubus to suck your cock, and not have her bite your dick off, then she is yours until you release her. It's that simple."
+</p>
+</div>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "I find that hard to believe. You can't be someone's slave after giving a man a blowjob. It just sounds absurd."
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "You would think, but you forget, you are a man. A blowjob to a woman is nothing more than satisfying your partner's urges. To please them, and worship them. To be on your knees while looking up at them. It was why Lilith never could do it, and bite down on Adams dick when he tried to force himself on her. So for irony, God made the binding spell activate when a succubus successfully sucks a male cock and swallows his life essence."
+</p>
+</div>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/9.png'">
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "Ok I can see that to punish her, but why me. You still could run. You could've left me there to die."
+</p>
+</div>
+
+
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> She blushed at me, acting all shy, even though she was a sex demon. "Well you saved me, and I felt it was kinda wrong to just leave you there to die. So I figured, if I want to bind myself to someone to hide, I might as well be with someone who saved me. But I had another problem. You were dying, and I had no means to heal you. So to save you so you could be my master. I did something while not forbidden is highly frowned upon for all demon kings. I turned you into one. Half demon, half-human. A Cambion."
+</p>
+</div>
+
+<p class="notation_text"> From there she explained to me what a Cambion was, how they were made, and why they were mostly frowned upon to make. According to the lore, how Lucifer changed Lilith and all of the other creations into the primordial demons, was by giving them his blood. The mixing of blood is a powerful union, one of which would create new and powerful beings. When Lucifer mixes his blood with Lilith she became more powerful, and in turn, has the ability to birth children, and uses human life forces as an energy source in combination with lust energy. 
+</p>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/14.png'">
+
+<p class="notation_text">Since Lucifer had that ability, he passed it down to all of his children. That was why she cut my tongue and hers. She needed our blood to mix together to perform the change. The process would be painful as I found out from my night terrors, but if you survive the process, then you are officially a half-demon, half-human creature. A Cambion. At one point Cambions used to run rampant around the world causing mayhem and destruction. 
+</p>
+
+<p class="notation_text">Humanity fought back the plague by sending out men of the cloth to seek out and eliminate all half-demons in Europe during the 15th century. That event would be forever known as the Spanish Inquisition. Thousands of people died to kill half-breeds. To make sure nothing like that ever happens again, Lucifer declared the act of turning humans into half breeds was forbidden, as he wanted to hide the existence of hell from mankind. 
+</p>
+
+<div class="dialog_text mc_dialog_text">
+<p><span class = "mc"><<print $mc.name>>: </span> "So why risk it. Why risk turning me into a half-breed?" I asked as the weight of the entire world started to bear down on me.
+</p>
+</div>
+
+<div class="dialog_text ct_dialog_text">
+<p><span class = "ct"><<print $ct.name>>: </span> "Because without the fast recuperative powers of a succubus, you could have died from your wounds. Changing you was the only way to save you."
+</p>
+</div>
+
+
+
+<div class="enter_button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+<p >Leave</p>
+</div>
+
+<<set $myroom.count += 1>>
+<<set $eventCount += 1>>
+<<set $myroom.status[$myroom.count] = 1>>
+<<set $myroom.status[$myroom.count-1] = 0>> 
+
+
+<</nobr>>
+</div>

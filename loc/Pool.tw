@@ -1,0 +1,40 @@
+<div class="big_text">
+<<nobr>>
+
+<p class="notation_text">
+Location : <<print passage()>></p>
+
+<p class="notation_text">
+<<print $message>>
+</p>
+
+<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/pool.jpg'">
+
+<p class="notation_text">What should I do now?</p>
+
+<<if $poolClean is 0 and $currentTime lte 5 >>
+<div class="enter_button"  data-passage="RelationGame"   data-setter = "$poolClean = 1; $mediaType = 'image'; $activityType = 'Men_Freq'; $activityImage = 'scenes/misc/etc/pool-clean.jpg'; $loc = 'Pool'" >
+ <p >Clean Pool</p>
+</div>
+
+<</if>>
+
+
+<<if $swimming is 0 and $currentTime lte 4 >> 
+
+ <div class="enter_button"  data-passage="MiniGame"   data-setter = "$swimming = 1; $mediaType = 'image'; $activityType = 'Stamina'; $activityImage = 'scenes/misc/etc/swim.gif'; $loc = 'Pool';" >
+
+    <p >Swim (Stamina +)</p>
+
+    </div>
+
+    
+<</if>>
+
+<div class="enter_button"  data-passage="Home" >
+<p >Leave</p>
+</div>
+
+
+<</nobr>>
+</div>

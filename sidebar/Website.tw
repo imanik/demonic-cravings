@@ -1,0 +1,42 @@
+<div class="big_text">
+<<nobr>>
+
+
+
+
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/home/Mysterious.jpg'" >
+
+    <p class="notation_text">Thank you for joining me on this exciting journey! As I dive into my new game project, I'm learning and growing every step of the way. 
+    </p>
+
+    <p class="notation_text">
+    The game will always be free, but your support on Patreon means the world to me. Your contributions, no matter how big or small, fuel my passion and help bring this project to life. So, if you're excited to be a part of this adventure and want to show your support, consider pledging on my Patreon page. 
+    </p>
+
+    <p class="notation_text">
+    Together, we're creating something amazing, and I truly appreciate your generosity. Let's make this game a reality!
+    </p>
+
+    <p class="notation_text">
+    I need a team. If you are good in English(Communication)/French/Czech (Translation) language please let me know. We can work together.
+    </p>
+
+    <p class="notation_text">
+    Play My Other Games
+    </p>
+
+    <p class="notation_text">
+    <a href="https://www.twistedtwist.com" target="_blank">Visit my Web page.</a>
+    </p>
+
+    <div class="enter-button" data-passage="previous();"  data-setter = "$message = ''">
+        <p >Return</p>
+    </div>
+
+    <div class="enter-button" data-passage="Home"  data-setter = "$message = ''">
+        <p >Home</p>
+    </div>
+
+
+<</nobr>>
+</div>
