@@ -11,9 +11,9 @@
 <<set $mr.stats.men_freq = 100>>
 
     <!-- Replace 'your-image.jpg' with the path to your image -->
-    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/mr/8.png'" >
+    <img class="scene-image" @src="setup.ImagePath+'scenes/char/mr/8.png'" >
 
-    <div class="enter_button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$hug = 1; $activityType = 'Men_Freq'; $loc = 'Shop';
+    <div class="enter-button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$hug = 1; $activityType = 'Men_Freq'; $loc = 'Shop';
     $mediaType = 'video';  $activityVideo = 'scenes/char/mr/vid/mb-1.mp4'; $char = 'mr';
     $taskDialogue=' $mr.name sitting behind her desk and rubbing her pussy,'" >
     <p >Musterbate (Men Freq+)</p>
@@ -21,7 +21,7 @@
 
 <<if $mr.stats.men_freq gte 20>>  
 
-    <div class="enter_button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$complement = 1; $activityType = 'Men_Freq'; $loc = 'Shop'; 
+    <div class="enter-button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$complement = 1; $activityType = 'Men_Freq'; $loc = 'Shop'; 
     $mediaType = 'video';  $activityVideo = 'scenes/char/mr/vid/sed-2.mp4'; $char = 'mr';
     $taskDialogue='I hit her two hard slapped in rapid succession.'" >
     <p >Spank Her  (Men Freq+)</p>
@@ -31,7 +31,7 @@
 
 <<if $mr.stats.men_freq gte 40>>
 
-    <div class="enter_button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$joke = 1; $activityType = 'Men_Freq'; $loc = 'Shop';
+    <div class="enter-button"  data-passage="RelationGame" style="width:25vw;" data-setter = "$joke = 1; $activityType = 'Men_Freq'; $loc = 'Shop';
     $mediaType = 'video';  $activityVideo = 'scenes/char/mr/vid/sed-3.mp4'; $char = 'mr'; 
     $taskDialogue=' -- Fuck! -- She yelled, but then raised her ass up for another slap.'">
     <p >Punish Her (Men Freq+)</p>
@@ -43,7 +43,7 @@
 
 <<set $mr_starts to 1>>
 
-<div class="enter_button" data-passage="Maria_Fuck_Event" style="width:25vw;">
+<div class="enter-button" data-passage="Maria_Fuck_Event" style="width:25vw;">
 <p >Fuck Her</p>
 </div>
 
@@ -55,7 +55,7 @@
 
 
 
-<div class="enter_button"  data-passage="Cpoffice" style="width:25vw;">
+<div class="enter-button"  data-passage="Cpoffice" style="width:25vw;">
 <p >Leave</p>
 </div>
 

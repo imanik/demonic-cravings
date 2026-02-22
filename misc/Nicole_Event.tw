@@ -10,27 +10,27 @@
 
 
     <!-- Replace 'your-image.jpg' with the path to your image -->
-    <img class="scenes_image" @src="setup.ImagePath+'scenes/char/ep/14.png'" >
+    <img class="scene-image" @src="setup.ImagePath+'scenes/char/ep/14.png'" >
   
-<div class="enter_button"  data-passage="RelationGame"  data-setter = "$complement = 1; $activityType = 'Men_Freq'; $loc = 'MyRoom'; $char = 'ep';
+<div class="enter-button"  data-passage="RelationGame"  data-setter = "$complement = 1; $activityType = 'Men_Freq'; $loc = 'MyRoom'; $char = 'ep';
     $mediaType = 'image';  $activityImage = 'scenes/char/ep/34.png';" style="width:25vw;">
     <p >Complement (Men Freq+)</p>
     </div>
 
-<div class="enter_button"  data-passage="RelationGame"  data-setter = "$joke = 1; $activityType = 'Men_Freq'; $loc = 'MyROom'; $char = 'ep';
+<div class="enter-button"  data-passage="RelationGame"  data-setter = "$joke = 1; $activityType = 'Men_Freq'; $loc = 'MyROom'; $char = 'ep';
     $mediaType = 'image';  $activityImage = 'scenes/char/ep/35.png';" style="width:25vw;">
     <p >Tell Her a Joke (Men Freq+)</p>
     </div>
 
  
-<!-- <div class="enter_button"  data-passage="RelationGame"  data-setter = "$gift = 1; $activityType = 'Men_Freq'; $loc = 'Living'; $char = 'ep';
+<!-- <div class="enter-button"  data-passage="RelationGame"  data-setter = "$gift = 1; $activityType = 'Men_Freq'; $loc = 'Living'; $char = 'ep';
     $mediaType = 'image';  $activityImage = 'scenes/char/ep/ep_3.jpg';" style="width:25vw;">
     <p >Give Her a Gift (Men Freq+)</p>
     </div> -->
 
 <<if $ep.stats.men_freq gte 20>>
 
-<div class="enter_button"  data-passage="RelationGame"  data-setter = "$hug = 1; $activityType = 'Sex_Freq'; $loc = 'Living'; $char = 'ep';
+<div class="enter-button"  data-passage="RelationGame"  data-setter = "$hug = 1; $activityType = 'Sex_Freq'; $loc = 'Living'; $char = 'ep';
     $mediaType = 'image';  $activityImage = 'scenes/char/ep/26.png';" style="width:25vw;">
     <p >Give Her a Hug (Sex Freq+)</p>
     </div>
@@ -39,7 +39,7 @@
 
 <<if $ep.stats.men_freq gte 40>>
 
-<div class="enter_button"  data-passage="RelationGame"  data-setter = "$kiss = 1; $activityType = 'Sex_Freq'; $loc = 'Living'; $char = 'ep';
+<div class="enter-button"  data-passage="RelationGame"  data-setter = "$kiss = 1; $activityType = 'Sex_Freq'; $loc = 'Living'; $char = 'ep';
     $mediaType = 'image';  $activityImage = 'scenes/char/ep/38.png';" style="width:25vw;">
     <p >Try to Kiss Her (Sex Freq+)</p>
     </div>
@@ -50,7 +50,7 @@
 
 <<set $ep_starts to 1>>
 
-<div class="enter_button" data-passage="Nicole_Fck_Event" style="width:25vw;">
+<div class="enter-button" data-passage="Nicole_Fck_Event" style="width:25vw;">
 <p >Fuck Her</p>
 </div>
 
@@ -63,7 +63,7 @@
 
 
 
-<div class="enter_button" data-passage="Home" style="width:25vw;">
+<div class="enter-button" data-passage="Home" style="width:25vw;">
 <p >Leave</p>
 </div>
 
