@@ -26,7 +26,7 @@
             <p>STOP </p>
         </div>
     
-                <video id="sceneVideo" class="scenes_image"  muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+                <video id="sceneVideo" class="scene-image"  muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
                 </video>
         <!-- <<if $char == 'cp' or $char == 'ct'>>
             <p class="notation_text">** Related Video is only available for Patreon. **</p>
@@ -47,12 +47,12 @@
         </div>
     
     <<else>>
-        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/low.jpg'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/misc/low.jpg'">
 
         <p class="notation_text">You do not have enough Mana!</p>
 
 
-        <div class="enter_button" onclick="forwardTime(1);" data-passage="$loc">
+        <div class="enter-button" onclick="forwardTime(1);" data-passage="$loc">
                     <p >Leave</p>
                 </div>
     <</if>>

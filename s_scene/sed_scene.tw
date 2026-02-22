@@ -6,7 +6,7 @@
 
 
 
-<img class="scenes_image" @src="setup.ImagePath+$sceneImage " >
+<img class="scene-image" @src="setup.ImagePath+$sceneImage " >
 
 
 <div id="scene-buttons"></div>

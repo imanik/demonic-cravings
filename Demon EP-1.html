@@ -2074,6 +2074,14 @@ window.sceneLoad = function (code,number,type) {
             &lt;p&gt;Start&lt;/p&gt;
         &lt;/div&gt;
         
+                &lt;div class=&quot;intro-button&quot;  data-passage=&quot;Fuck_Event&quot; &gt;
+            &lt;p&gt;Fuck_Event&lt;/p&gt;
+        &lt;/div&gt;
+        
+                &lt;div class=&quot;intro-button&quot;  data-passage=&quot;bj_scene&quot; &gt;
+            &lt;p&gt;bj_scene&lt;/p&gt;
+        &lt;/div&gt;
+        
         &lt;div class=&quot;intro-button&quot;  data-passage=&quot;Event_1&quot; &gt;
             &lt;p&gt;Event_1&lt;/p&gt;
         &lt;/div&gt;
@@ -6389,7 +6397,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
             &lt;p&gt;STOP &lt;/p&gt;
         &lt;/div&gt;
     
-                &lt;video id=&quot;sceneVideo&quot; class=&quot;scenes_image&quot;  muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+                &lt;video id=&quot;sceneVideo&quot; class=&quot;scene-image&quot;  muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
                 &lt;/video&gt;
         &lt;!-- &lt;&lt;if $char == &#39;cp&#39; or $char == &#39;ct&#39;&gt;&gt;
             &lt;p class=&quot;notation_text&quot;&gt;** Related Video is only available for Patreon. **&lt;/p&gt;
@@ -6410,12 +6418,12 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
         &lt;/div&gt;
     
     &lt;&lt;else&gt;&gt;
-        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/low.jpg&#39;&quot;&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/low.jpg&#39;&quot;&gt;
 
         &lt;p class=&quot;notation_text&quot;&gt;You do not have enough Mana!&lt;/p&gt;
 
 
-        &lt;div class=&quot;enter_button&quot; onclick=&quot;forwardTime(1);&quot; data-passage=&quot;$loc&quot;&gt;
+        &lt;div class=&quot;enter-button&quot; onclick=&quot;forwardTime(1);&quot; data-passage=&quot;$loc&quot;&gt;
                     &lt;p &gt;Leave&lt;/p&gt;
                 &lt;/div&gt;
     &lt;&lt;/if&gt;&gt;
@@ -7418,10 +7426,10 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
         &lt;&lt;if $mediaType is &quot;video&quot;&gt;&gt;
     
-                &lt;video class=&quot;scenes_image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+                &lt;video class=&quot;scene-image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
                 &lt;/video&gt;
         &lt;&lt;else&gt;&gt;
-                &lt;img id=&#39;activityImage&#39; class=&quot;scenes_image&quot;&gt;
+                &lt;img id=&#39;activityImage&#39; class=&quot;scene-image&quot;&gt;
         &lt;&lt;/if&gt;&gt;
    
         &lt;&lt;set _random_value = random(1, 5)&gt;&gt;
@@ -7710,11 +7718,11 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
   &lt;!-- &lt;&lt;if _person == true&gt;&gt; --&gt;
                   &lt;&lt;if $mediaType is &quot;video&quot;&gt;&gt;
                     
-                          &lt;video class=&quot;scenes_image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+                          &lt;video class=&quot;scene-image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
                       &lt;/video&gt;
 
                     &lt;&lt;else&gt;&gt;
-                          &lt;img id=&#39;activityImage&#39; class=&quot;scenes_image&quot;&gt;
+                          &lt;img id=&#39;activityImage&#39; class=&quot;scene-image&quot;&gt;
                   &lt;&lt;/if&gt;&gt;
                   
 
@@ -7725,7 +7733,7 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
                   &lt;/div&gt;
     &lt;!-- &lt;&lt;else&gt;&gt; --&gt;
     
-    &lt;!-- &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/red.webp&#39;&quot;&gt;
+    &lt;!-- &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/red.webp&#39;&quot;&gt;
 
           &lt;p class=&quot;notation_text&quot;&gt;You do not have enough Money or Knowledge!&lt;/p&gt;
 
@@ -9167,128 +9175,128 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
 
 --&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 1: Position: Cunning&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 2: Position: Cunning&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 3: Position: Cunning&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 4: Position: Cunning&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-5.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/cun-5.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 5: Position: Cunning&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/bs-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/bs-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 6: Position: Breast Sucking&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/bs-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/bs-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 7: Position: Breast Sucking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/gd-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/gd-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 8: Position: Grinding&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/gd-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/gd-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 9: Position: Grinding&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/gd-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/gd-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 10: Position: Grinding&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/fs-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/fs-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 11: Position: Face Sitting&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/fs-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/fs-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 12: Position: Face Sitting&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/fs-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/fs-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 13: Position: Face Sitting&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 14: Position: Licking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 15: Position: Licking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 16: Position: Licking&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/lick-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 17: Position: Licking&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/sed-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/sed-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 18: Position: Seduction&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/sed-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/sed-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 19: Position: Seduction&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/sed-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/3/sed-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
@@ -9296,7 +9304,7 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
 
 
 
-&lt;div class=&quot;intro_button&quot;  data-passage=&quot;Start&quot; &gt;
+&lt;div class=&quot;intro-button&quot;  data-passage=&quot;Start&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -10444,146 +10452,146 @@ Thank you once again for being part of my journey. I couldn&#39;t do it without 
 
 --&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/cg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/cg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 1: Position: Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/cg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/cg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 2: Position: Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/cg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/cg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 3: Position: Cowgirl&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 4: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 5: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 6: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/mis-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 7: Position: Missionary&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/dg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/dg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 8: Position: Doggy&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/dg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/dg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 9: Position: Doggy&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/dg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/dg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 10: Position: Doggy&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/rcg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/rcg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 11: Position: Reverse Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/rcg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/rcg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 12: Position: Reverse Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/rcg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/rcg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 13: Position: Reverse Cowgirl&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/lick-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/lick-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 14: Position: Licking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/lick-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/lick-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 15: Position: Licking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/lick-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/lick-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 16: Position: Licking&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/sf-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/sf-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 17: Position: Side Fuck&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/sf-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/sf-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 18: Position: Side Fuck&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/sf-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/sf-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 19: Position: Side Fuck&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/bj-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/bj-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 20: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/bj-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/bj-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 21: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/bj-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/foxx/4/vid/bj-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 22: Position: Blowjob&lt;/p&gt;
 
-&lt;div class=&quot;intro_button&quot;  data-passage=&quot;Start&quot; &gt;
+&lt;div class=&quot;intro-button&quot;  data-passage=&quot;Start&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -10603,166 +10611,166 @@ Thank you once again for being part of my journey. I couldn&#39;t do it without 
 
 --&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/cg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/cg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 1: Position: Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/cg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/cg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 2: Position: Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/cg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/cg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 3: Position: Cowgirl&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 4: Position: Doggy&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 5: Position: Doggy&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 6: Position: Doggy&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/dg-4.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 7: Position: Doggy&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/mis-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/mis-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 8: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/mis-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/mis-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 9: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/mis-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/mis-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 10: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/rcg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/rcg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 11: Position: Reverse Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/rcg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/rcg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 12: Position: Reverse Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/rcg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/rcg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 13: Position: Reverse Cowgirl&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/lick-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/lick-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 14: Position: Licking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/lick-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/lick-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 15: Position: Licking&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/lick-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/lick-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 16: Position: Licking&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/sf-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/sf-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 17: Position: Side Fuck&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/sf-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/sf-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 18: Position: Side Fuck&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/sf-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/sf-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 19: Position: Side Fuck&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/bj-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/bj-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 20: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/bj-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/bj-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 21: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/bj-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/bj-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 22: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/as-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/as-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 1: Position: Anal&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/as-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/as-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 a
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 2: Position: Anal&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/as-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/2/as-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 3: Position: Anal&lt;/p&gt;
 
-&lt;div class=&quot;intro_button&quot;  data-passage=&quot;Start&quot; &gt;
+&lt;div class=&quot;intro-button&quot;  data-passage=&quot;Start&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -10785,76 +10793,76 @@ a
 
 --&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/cg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/cg-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 1: Position: Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/cg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/cg-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 2: Position: Cowgirl&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/cg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/cg-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 3: Position: Cowgirl&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/mis-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/mis-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 4: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/mis-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/mis-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 5: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/mis-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/mis-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 6: Position: Missionary&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/sed-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/sed-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 7: Position: Seduction&lt;/p&gt;
 
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/sed-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/sed-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 8: Position: Seduction&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/sed-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/sed-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 9: Position: Seduction&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/bj-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/bj-1.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 10: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/bj-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/bj-2.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;Video 11: Position: Blowjob&lt;/p&gt;
 
-&lt;video class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/bj-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+&lt;video class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ct/vid/bj-3.mp4&#39;&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
 	
 &lt;/video&gt;
 
@@ -10862,7 +10870,7 @@ a
 
 
 
-&lt;div class=&quot;intro_button&quot;  data-passage=&quot;Start&quot; &gt;
+&lt;div class=&quot;intro-button&quot;  data-passage=&quot;Start&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -12005,10 +12013,10 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
         &lt;&lt;if $mediaType is &quot;video&quot;&gt;&gt;
     
-                &lt;video class=&quot;scenes_image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+                &lt;video class=&quot;scene-image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
                 &lt;/video&gt;
         &lt;&lt;else&gt;&gt;
-                &lt;img id=&#39;activityImage&#39; class=&quot;scenes_image&quot;&gt;
+                &lt;img id=&#39;activityImage&#39; class=&quot;scene-image&quot;&gt;
         &lt;&lt;/if&gt;&gt;
    
         &lt;&lt;set _random_value = random(1, 5)&gt;&gt;
@@ -12022,12 +12030,12 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
         &lt;/div&gt;
     
     &lt;&lt;else&gt;&gt;
-        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/low.jpg&#39;&quot;&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/low.jpg&#39;&quot;&gt;
 
         &lt;p class=&quot;notation_text&quot;&gt;You do not have enough Stamina!&lt;/p&gt;
 
 
-        &lt;div class=&quot;enter_button&quot; onclick=&quot;forwardTime(1);&quot; data-passage=&quot;$loc&quot;&gt;
+        &lt;div class=&quot;enter-button&quot; onclick=&quot;forwardTime(1);&quot; data-passage=&quot;$loc&quot;&gt;
                     &lt;p &gt;Leave&lt;/p&gt;
                 &lt;/div&gt;
     &lt;&lt;/if&gt;&gt;
@@ -12478,10 +12486,10 @@ $taskDialogue= &#39;As I keep lapping her tasty nectar from inside her burning s
 
         &lt;&lt;if $mediaType is &quot;video&quot;&gt;&gt;
     
-                &lt;video class=&quot;scenes_image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
+                &lt;video class=&quot;scene-image&quot; id=&quot;activityVideo&quot; muted autoplay loop=&quot;loop&quot; type=&#39;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#39; controls&gt;
                 &lt;/video&gt;
         &lt;&lt;else&gt;&gt;
-                &lt;img id=&#39;activityImage&#39; class=&quot;scenes_image&quot;&gt;
+                &lt;img id=&#39;activityImage&#39; class=&quot;scene-image&quot;&gt;
         &lt;&lt;/if&gt;&gt;
         
 
@@ -12502,12 +12510,12 @@ $taskDialogue= &#39;As I keep lapping her tasty nectar from inside her burning s
         &lt;/div&gt;
     
     &lt;&lt;else&gt;&gt;
-        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/low.jpg&#39;&quot;&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/low.jpg&#39;&quot;&gt;
 
         &lt;p class=&quot;notation_text&quot;&gt;T-Meter do not have enough Charge!&lt;/p&gt;
 
 
-        &lt;div class=&quot;enter_button&quot; onclick=&quot;forwardTime(1);&quot; data-passage=&quot;$loc&quot;&gt;
+        &lt;div class=&quot;enter-button&quot; onclick=&quot;forwardTime(1);&quot; data-passage=&quot;$loc&quot;&gt;
                     &lt;p &gt;Leave&lt;/p&gt;
                 &lt;/div&gt;
     &lt;&lt;/if&gt;&gt;
@@ -12752,7 +12760,7 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -12783,7 +12791,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -12901,7 +12909,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
     &lt;&lt;set _i = 0&gt;&gt; 
     &lt;&lt;set _event = &quot;&quot;&gt;&gt; 
     &lt;!-- Replace &#39;your-image.jpg&#39; with the path to your image --&gt;
-    &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+    &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
     &lt;!-- &lt;p class=&quot;notation_text&quot;&gt;Ct Scene = &lt;&lt;print $charobject_scene&gt;&gt;&lt;/p&gt; --&gt;
 
@@ -12911,7 +12919,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
     &lt;&lt;if $charObject.stats.sex_freq gte $sceneObject.sex_freq[_i] &amp;&amp; $charObject.stats.men_freq gte $sceneObject.men_freq[_i]&gt;&gt;
 
     
-        &lt;div class=&quot;enter_button&quot;  data-passage=&quot;_event&quot; style=&quot;width:25vw;&quot; &gt;
+        &lt;div class=&quot;enter-button&quot;  data-passage=&quot;_event&quot; style=&quot;width:25vw;&quot; &gt;
             &lt;p&gt;&lt;&lt;print $sceneObject.desc[_i]&gt;&gt;&lt;/p&gt;
         &lt;/div&gt;
 
@@ -12925,7 +12933,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
  &lt;&lt;/for&gt;&gt;
 
 
-&lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;$loc&quot;&gt;
+&lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;$loc&quot;&gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -12943,7 +12951,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -12974,7 +12982,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -13005,7 +13013,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -13036,7 +13044,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -13067,7 +13075,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -13098,7 +13106,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;
@@ -13129,7 +13137,7 @@ $(document).ready(function() {
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+$sceneImage &quot; &gt;
 
 
 &lt;div id=&quot;scene-buttons&quot;&gt;&lt;/div&gt;

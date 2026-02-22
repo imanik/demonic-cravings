@@ -15,11 +15,11 @@
   <!-- <<if _person == true>> -->
                   <<if $mediaType is "video">>
                     
-                          <video class="scenes_image" id="activityVideo" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+                          <video class="scene-image" id="activityVideo" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
                       </video>
 
                     <<else>>
-                          <img id='activityImage' class="scenes_image">
+                          <img id='activityImage' class="scene-image">
                   <</if>>
                   
 
@@ -30,7 +30,7 @@
                   </div>
     <!-- <<else>> -->
     
-    <!-- <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/red.webp'">
+    <!-- <img class="scene-image" @src="setup.ImagePath+'scenes/misc/red.webp'">
 
           <p class="notation_text">You do not have enough Money or Knowledge!</p>
 
