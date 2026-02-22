@@ -13,29 +13,29 @@
       
 
     <div class="button-pair" style="margin-bottom:5%">
-          <div class="enter_button cheat-button" onclick="charStatsChange('mc', 500,'Love')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="charStatsChange('mc', 500,'Love')" data-passage="Cheat" data-setter="$message to ''"  >
           <p ><<print$mc.name>>  Love +</p>
           </div>
-          <div class="enter_button cheat-button" onclick="charStatsChange('mc', 500,'Lust')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="charStatsChange('mc', 500,'Lust')" data-passage="Cheat" data-setter="$message to ''"  >
           <p ><<print$mc.name>>  Lust +</p>
           </div>
-          <div class="enter_button cheat-button" onclick="statsChange(1000,'Money')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="statsChange(1000,'Money')" data-passage="Cheat" data-setter="$message to ''"  >
           <p >Charm +</p>
           </div>
     </div>
   <hr>
       <div class="button-pair" style="margin-bottom:5%">
          
-          <div class="enter_button cheat-button" onclick="statsChange(500,'Knowledge')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="statsChange(500,'Knowledge')" data-passage="Cheat" data-setter="$message to ''"  >
           <p >Knowledge +</p>
           </div>
-           <div class="enter_button cheat-button" onclick="statsChange(500,'Stamina')" data-passage="Cheat" data-setter="$message to ''"  >
+           <div class="enter-button cheat-button" onclick="statsChange(500,'Stamina')" data-passage="Cheat" data-setter="$message to ''"  >
           <p >Stamina +</p>
           </div>
-          <div class="enter_button cheat-button" onclick="statsChange(500,'Energy')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="statsChange(500,'Energy')" data-passage="Cheat" data-setter="$message to ''"  >
           <p >Mana +</p>
           </div>
-          <div class="enter_button cheat-button" onclick="statsChange(1,'Update')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="statsChange(1,'Update')" data-passage="Cheat" data-setter="$message to ''"  >
           <p >Avatar Update +</p>
           </div>
     </div>
@@ -43,19 +43,19 @@
 
         
         <div class="button-pair" style="margin-bottom:5%">
-            <div class="enter_button cheat-button" onclick="charStatsChange('cp', 500,'Men_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
+            <div class="enter-button cheat-button" onclick="charStatsChange('cp', 500,'Men_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
           <p ><<print $cp.name>>  <br> Love Desire +</p>
           </div>
 
-          <div class="enter_button cheat-button" onclick="charStatsChange('cp', 500,'Sex_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="charStatsChange('cp', 500,'Sex_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
           <p ><<print $cp.name>>  <br> Sex Desire +</p>
           </div>
           
-          <div class="enter_button cheat-button" onclick="charStatsChange('ct', 500,'Men_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="charStatsChange('ct', 500,'Men_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
           <p ><<print $ct.name>>  <br> Love Desire +</p>
           </div>
 
-          <div class="enter_button cheat-button" onclick="charStatsChange('ct', 500,'Sex_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
+          <div class="enter-button cheat-button" onclick="charStatsChange('ct', 500,'Sex_Freq')" data-passage="Cheat" data-setter="$message to ''"  >
           <p ><<print $ct.name>>  <br> Sex Desire +</p>
           </div>
        
@@ -63,7 +63,7 @@
         <hr>
 
         
-        <div class="enter_button"  data-passage="MyRoom" >
+        <div class="enter-button"  data-passage="MyRoom" >
         <p >Leave</p>
         </div>
 
