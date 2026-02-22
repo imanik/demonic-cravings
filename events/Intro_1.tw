@@ -1,147 +1,218 @@
-
-
-<div class="big_text">
+<div class="intro-scene">
 <<nobr>>
 
-<!-- Kitchen Morning-->
+    <div class="scene-container">
 
-<<set $charStats = "ct">>
+        <!-- Kitchen Morning-->
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/1.gif'">
+        <<set $charStats = "ct">>
 
-<!-- Scene 8 <<print $mp.call>> & <<print $mc.name>> - 
-Time - Night
-Location : Myroom -->
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/1.gif'">
 
-<p class="notation_text"> Call it hero complex, or just plain stupidity, but I was running towards the danger. By the time I rounded a rather large tree trunk I saw two figures. One was a small woman who wore a shirt and jeans that might be a size too small for her, plus it also looked like she had large black smudges across her body. As for the other figure, he was tall, lanky, with whispering balding white hair. Then I looked lower and I saw that he had a sword in his hand.
-</p>
+        <!-- Scene 8 <<print $mp.call>> & <<print $mc.name>> - 
+        Time - Night
+        Location : Myroom -->
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "STOP!" I yelled as I kept running towards them.
-</p>
-</div>
+        <div class="story-box">
+            <p> Call it hero complex, or just plain stupidity, but I was running towards the danger. By the time I rounded a rather large tree trunk I saw two figures. One was a small woman who wore a shirt and jeans that might be a size too small for her, plus it also looked like she had large black smudges across her body. As for the other figure, he was tall, lanky, with whispering balding white hair. Then I looked lower and I saw that he had a sword in his hand.
+            </p>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Man: </span>  The lanky man then raised the sword in the air and yelled. "DIE SPAWN OF SATAN!!!"
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "STOP!" I yelled as I kept running towards them.
+                    </p>
+                </div>
+            </div>
 
-<p class="notation_text"> He was about to take her head off, but he never got a chance to finish his swing. I rushed headfirst and tackled the guy to the ground. I didn't know why I did what I did, but something in me lurched into action. Something that refused to see some slay an innocent woman. 
-</p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Man</div>
+                    <p>  The lanky man then raised the sword in the air and yelled. "DIE SPAWN OF SATAN!!!"
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Man: </span> "Who the fuck are you, one of her enthralled!?" he yelled at me after gaining his balance. But he sounded like a complete nutcase to me.
-</p>
-</div>
+            <p> He was about to take her head off, but he never got a chance to finish his swing. I rushed headfirst and tackled the guy to the ground. I didn't know why I did what I did, but something in me lurched into action. Something that refused to see some slay an innocent woman. 
+            </p>
 
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "What the fuck are you talking about. I'm just...," but I never got a chance to finish my sentence as a whooshing sound came out of nowhere, followed by sharp pain and a large-sounding splat. 
-</p>
-</div>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/2.gif'">
-
-<p class="notation_text">I looked down and all I saw was a bloody stump where my arm used to be. It was laying on the ground twitching. I was about to scream to high heaven but a boot landed on my gut, sending me flying against the nearest tree trunk. Stunned and completely out of breath, a bloody blade was now near inches from my face. I followed the blade to the owner, and through a hazy state, I saw that he was wearing the robes of a priest.
-</p>
-
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Man: </span> "It's too late to save your soul. This foul beast has already tainted you. The only mercy I can now give you is to purge you from this mortal plane. Pray to God that he would grant you sanctuary." He spouted nonsense. Then he began to mutter under his breath, a prayer for the newly departed
-</p>
-</div>
-
-<p class="notation_text"> Shocked, stunned, bewildered, and about a hundred different things were running through my mind as the priest began to raise his sword over his head. Ready to strike me down, for some unknown reason to me. Then just before he could deliver the final blow, a long black whip came by and struck at the priest's arm. That stopped him from taking his swing at me and also caused him to drop the sword as blood started to seep from his forearm. 
-</p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Man</div>
+                    <p> "Who the fuck are you, one of her enthralled!?" he yelled at me after gaining his balance. But he sounded like a complete nutcase to me.
+                    </p>
+                </div>
+            </div>
 
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/3.gif'">
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "What the fuck are you talking about. I'm just...," but I never got a chance to finish my sentence as a whooshing sound came out of nowhere, followed by sharp pain and a large-sounding splat. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<p class="notation_text">He cursed as he tried to stem the blood flow, but then someone came by and attacked the deranged priest. The woman who was down on the floor came up fighting; saving me while fending off the man. But what I saw shocked me even further. Wings, black glossy leathery wings were protruding from her back. In my near death, due to blood loss, I just assumed that my hypoxic brain was thinking up weird things as it tried to process what was happening right in front of me. 
-</p>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/2.gif'">
 
-<p class="notation_text"> The two struggled to gain the upper hand. She was fighting back, but he was slowly gaining ground. Finally in a fit of desperation the priest reached down and pulled out a shiny dagger from his thigh holster. The woman howled as he sliced through her forearm. She fell to the ground grasping her hand as what appeared to be black vapor escaped her wound. He now stood looming over her, his eyes full of murderous intent. 
-</p>
+        <div class="story-box">
+            <p>I looked down and all I saw was a bloody stump where my arm used to be. It was laying on the ground twitching. I was about to scream to high heaven but a boot landed on my gut, sending me flying against the nearest tree trunk. Stunned and completely out of breath, a bloody blade was now near inches from my face. I followed the blade to the owner, and through a hazy state, I saw that he was wearing the robes of a priest.
+            </p>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Man: </span> "You filthy hellspawn. It's finally time to banish you; you unholy abomination. With the dagger of Raphael, I hereby smite thee by the grace of our Lord almighty." he proclaimed as he brought the dagger over his head.
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Man</div>
+                    <p> "It's too late to save your soul. This foul beast has already tainted you. The only mercy I can now give you is to purge you from this mortal plane. Pray to God that he would grant you sanctuary." He spouted nonsense. Then he began to mutter under his breath, a prayer for the newly departed
+                    </p>
+                </div>
+            </div>
 
-<p class="notation_text"> The man was crazy, and I knew once he killed the girl, he was going to kill me. I tried to think of a way out of it, but with one arm chopped off, and what I can assume is a punctured lung; I was nearly at death's door. Then like a light shining down from the heavens itself; a shiny glint could be seen at the edge of my dark vision. It was the sword the priest dropped when he was struck by her black whip. 
-</p>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/4.gif'">
-
-<p class="notation_text">It was within arms reach, so in a fit of desperation I mustered up as much strength as I leaned over and grabbed it. The blade hummed in my grasp, sending out a warm sensation throughout my entire body; giving some newfound energy and strength. Using my newfound strength I turned the blade over and gritting my teeth, I plunged the tip of the sword into the priest's back. A crack of lighting sounded through the forest, drowning out the priest's screams, then just like that he vanished in a cloud of smoke and ash. 
-</p>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Hmmm, that was interesting," I said as I dropped the sword, all strength that I had left me, but before I could pass out, two lovely hands caressed my face.
-</p>
-</div>
-
-
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct">Girl:: </span> "Hey, are you alright... Stay with me...Stay...me....with me..." I heard as my mind was drifting in and out of consciousness.
-</p>
-</div>
+            <p> Shocked, stunned, bewildered, and about a hundred different things were running through my mind as the priest began to raise his sword over his head. Ready to strike me down, for some unknown reason to me. Then just before he could deliver the final blow, a long black whip came by and struck at the priest's arm. That stopped him from taking his swing at me and also caused him to drop the sword as blood started to seep from his forearm. 
+            </p>
+        </div>
 
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct">Girl:: </span> "Just hold on. I can fix this," she took the tip of her fingernails and slid it across her tongue. A thin line of blood started to bubble up from her self-inflicted wound. She proceeded to do the same thing to me, and even though I wished I could stop her, I was too exhausted to do anything.
-</p>
-</div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/3.gif'">
+
+        <div class="story-box">
+            <p>He cursed as he tried to stem the blood flow, but then someone came by and attacked the deranged priest. The woman who was down on the floor came up fighting; saving me while fending off the man. But what I saw shocked me even further. Wings, black glossy leathery wings were protruding from her back. In my near death, due to blood loss, I just assumed that my hypoxic brain was thinking up weird things as it tried to process what was happening right in front of me. 
+            </p>
+
+            <p> The two struggled to gain the upper hand. She was fighting back, but he was slowly gaining ground. Finally in a fit of desperation the priest reached down and pulled out a shiny dagger from his thigh holster. The woman howled as he sliced through her forearm. She fell to the ground grasping her hand as what appeared to be black vapor escaped her wound. He now stood looming over her, his eyes full of murderous intent. 
+            </p>
+
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Man</div>
+                    <p> "You filthy hellspawn. It's finally time to banish you; you unholy abomination. With the dagger of Raphael, I hereby smite thee by the grace of our Lord almighty." he proclaimed as he brought the dagger over his head.
+                    </p>
+                </div>
+            </div>
+
+            <p> The man was crazy, and I knew once he killed the girl, he was going to kill me. I tried to think of a way out of it, but with one arm chopped off, and what I can assume is a punctured lung; I was nearly at death's door. Then like a light shining down from the heavens itself; a shiny glint could be seen at the edge of my dark vision. It was the sword the priest dropped when he was struck by her black whip. 
+            </p>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/4.gif'">
+
+        <div class="story-box">
+            <p>It was within arms reach, so in a fit of desperation I mustered up as much strength as I leaned over and grabbed it. The blade hummed in my grasp, sending out a warm sensation throughout my entire body; giving some newfound energy and strength. Using my newfound strength I turned the blade over and gritting my teeth, I plunged the tip of the sword into the priest's back. A crack of lighting sounded through the forest, drowning out the priest's screams, then just like that he vanished in a cloud of smoke and ash. 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Hmmm, that was interesting," I said as I dropped the sword, all strength that I had left me, but before I could pass out, two lovely hands caressed my face.
+                    </p>
+                </div>
+            </div>
 
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct">Girl:: </span>"Blood for blood. Life for life, may this union forever change you," she chanted as she brought her soft lips to mine and began to give me my first kiss. 
-</p>
-</div>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/6.gif'">
-
-<p class="notation_text"> It was not entirely true. My first kiss was with Jenny Wilkins back in seventh grade during seven minutes in heaven, but that was a peck on the lips. What I felt that day was a true soulful passionate kiss. Her tongue darted in searching for mine. She tasted spicy but also sweet, like roasted cinnamon. It was a flavor that one could get addicted to. Then I felt something shift inside me, something that could change everything. A deep warmth inside my chest started to bloom outwards, as the darkness around my eyes started to recede.
-</p>
-
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct">Girl:: </span> "It is done," she said as she broke contact with my lips. A flushed panting face greeted me. "You should feel the change coming soon. Hopefully, you could survive it, but first I need some of your strength, and more importantly. I need to be bound to you. So just relax; I promise you would definitely enjoy this." she said in a very sinfully sensual voice as she reached down and began to pull on my blood-soaked jeans.
-</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Girl</div>
+                    <p> "Hey, are you alright... Stay with me...Stay...me....with me..." I heard as my mind was drifting in and out of consciousness.
+                    </p>
+                </div>
+            </div>
 
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "What... What are you doing?" I asked, my voice hoarse and weak.
-</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Girl</div>
+                    <p> "Just hold on. I can fix this," she took the tip of her fingernails and slid it across her tongue. A thin line of blood started to bubble up from her self-inflicted wound. She proceeded to do the same thing to me, and even though I wished I could stop her, I was too exhausted to do anything.
+                    </p>
+                </div>
+            </div>
 
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct">Girl:: </span> "Shhh. Don't use your strength. You're going to need it for what's about to come." she purred as she managed to unzip my jeans and pull out my cock which was soft as a wet noodle. 
-</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Girl</div>
+                    <p>"Blood for blood. Life for life, may this union forever change you," she chanted as she brought her soft lips to mine and began to give me my first kiss. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/10.gif'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/6.gif'">
 
-<p class="notation_text"> Then just like magic my cock began to stand up straight. To think the amount of blood loss I've sustained that the mere thought of getting an erection was an impossibility, yet there it was standing at full glory. She leaned forward and began to give it a few tentative licks, making sure my cock was ready to go. Then once she was satisfied with her handy work, she warped it around her warm soft lips. <<print $ep.name>>ectricity surged through me as a sensation I didn't know was humanly possible swept through my entire body. A woman who I barely met, who was on the verge of being murdered was giving in my opinion the best blowjob in the world. Granted it was my very first blowjob, but the way it felt, made me think any that I have afterward would only be a letdown.
-</p>
+        <div class="story-box">
+            <p> It was not entirely true. My first kiss was with Jenny Wilkins back in seventh grade during seven minutes in heaven, but that was a peck on the lips. What I felt that day was a true soulful passionate kiss. Her tongue darted in searching for mine. She tasted spicy but also sweet, like roasted cinnamon. It was a flavor that one could get addicted to. Then I felt something shift inside me, something that could change everything. A deep warmth inside my chest started to bloom outwards, as the darkness around my eyes started to recede.
+            </p>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Oh god. Here I am stuck in the middle of the woods, missing an arm, probably killing a man, making his body disappear, and now having a raging hard-on. Then to top it all off a very attractive girl is giving me a blowjob instead of calling for help. God, I really am a freak. But if I die like this. It is one hell of a way to go." I moaned to myself as she began to become desperate in her fellatio skills. 
-</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Girl</div>
+                    <p> "It is done," she said as she broke contact with my lips. A flushed panting face greeted me. "You should feel the change coming soon. Hopefully, you could survive it, but first I need some of your strength, and more importantly. I need to be bound to you. So just relax; I promise you would definitely enjoy this." she said in a very sinfully sensual voice as she reached down and began to pull on my blood-soaked jeans.
+                    </p>
+                </div>
+            </div>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/11.gif'">
 
-<p class="notation_text"> A tight bubble started to form deep within my core, inside it, is what I proceed to be a raging electrical storm that just wanted to be let out. Then faster than lightning, the bubble burst, and all my strength and energy rushed through my body, down my chest, and straight through my cock. I erupted deep in her mouth, a climax that was so powerful that I started to see stars. As for my damsel in distress, she just kept on sucking. Her whole body hummed and vibrated as she took all of my load like a champ. Once she gulped down my entire load she began to lean back, a low shimmering light radiating around her neck. Something solid began to take its form, but before I could take a closer look, everything went black.
-</p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "What... What are you doing?" I asked, my voice hoarse and weak.
+                    </p>
+                </div>
+            </div>
 
-<p class="notation_text"> As I fell to unconsciousness, the only company I had was a fevered nightmare of raging storms, burning fire pits, and a sea of any monsters that would make Lovecraft's hairs stand on end. It felt like my body was being ripped apart then put back together so that someone could rip it apart again. 
-</p>
 
-<div class="enter_button" data-passage="Home" style="width:25vw;">
-<p >Leave</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Girl</div>
+                    <p> "Shhh. Don't use your strength. You're going to need it for what's about to come." she purred as she managed to unzip my jeans and pull out my cock which was soft as a wet noodle. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/10.gif'">
+
+        <div class="story-box">
+            <p>Then just like magic my cock began to stand up straight. To think the amount of blood loss I've sustained that the mere thought of getting an erection was an impossibility, yet there it was standing at full glory. She leaned forward and began to give it a few tentative licks, making sure my cock was ready to go. Then once she was satisfied with her handy work, she warped it around her warm soft lips. <<print $ep.name>>ectricity surged through me as a sensation I didn't know was humanly possible swept through my entire body. A woman who I barely met, who was on the verge of being murdered was giving in my opinion the best blowjob in the world. Granted it was my very first blowjob, but the way it felt, made me think any that I have afterward would only be a letdown.
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Oh god. Here I am stuck in the middle of the woods, missing an arm, probably killing a man, making his body disappear, and now having a raging hard-on. Then to top it all off a very attractive girl is giving me a blowjob instead of calling for help. God, I really am a freak. But if I die like this. It is one hell of a way to go." I moaned to myself as she began to become desperate in her fellatio skills. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/11.gif'">
+
+        <div class="story-box">
+            <p> A tight bubble started to form deep within my core, inside it, is what I proceed to be a raging electrical storm that just wanted to be let out. Then faster than lightning, the bubble burst, and all my strength and energy rushed through my body, down my chest, and straight through my cock. I erupted deep in her mouth, a climax that was so powerful that I started to see stars. As for my damsel in distress, she just kept on sucking. Her whole body hummed and vibrated as she took all of my load like a champ. Once she gulped down my entire load she began to lean back, a low shimmering light radiating around her neck. Something solid began to take its form, but before I could take a closer look, everything went black.
+            </p>
+
+            <p> As I fell to unconsciousness, the only company I had was a fevered nightmare of raging storms, burning fire pits, and a sea of any monsters that would make Lovecraft's hairs stand on end. It felt like my body was being ripped apart then put back together so that someone could rip it apart again. 
+            </p>
+        </div>
+
+        <div class="enter-button" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+
+    </div>
 
 
 <</nobr>>

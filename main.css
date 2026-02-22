@@ -546,3 +546,27 @@ video::-webkit-media-controls-timeline {
 }
 
 
+
+  
+
+
+/* New styles added by Sini (check if can be deleted later) */
+
+
+/* Avatars */
+/*  .avatar {
+  background: #202020;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease;
+  border-left: 15px solid #ffc36f;
+} 
+
+.avatar img {
+  object-fit: contain;
+
+} */

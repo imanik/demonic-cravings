@@ -1,259 +1,435 @@
-
-
 <div class="big_text">
 <<nobr>>
 
-<!-- Kitchen Morning-->
+    <div class="scene-container">
 
-<<set $charStats = "ct">>
+        <!-- Kitchen Morning-->
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/dad/1.png'">
+        <<set $charStats = "ct">>
 
-
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"><<print $dad.call>>: </span> "Hey, <<print $mc.name>>." <<print $dad.call>> says, just as I enter <<print $dad.call>>'s office room. "This is so great that you stopped by. Why don't I knock off early and take you home to meet <<print $ct.name>>?" He says, coming around his desk and putting his arm around me, as we walk out the door. 
-</p>
-</div>
-
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"><<print $dad.call>>: </span> "<<print $dp.name>>." <<print $dad.call>> says, as we walk out the door. "Cancel my appointments for the rest of the day. My son and I are going to spend some time together." 
-</p>
-</div>
-
-<div class="dialog_text ap_dialog_text">
-<p><span class = "ap"><<print $dp.name>>: </span> "You have several very important clients coming in this afternoon, <<print $dad.name>>." <<print $dp.name>> says, in the same snotty voice she used with me earlier. 
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Think about it, <<print $dp.name>>." I whisper, just out of earshot of my father. "You can cancel the appointments." I tell her, before catching up to my <<print $dad.call>> at the door. 
-</p>
-</div>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/dp/1.jpg'">
-
-<div class="dialog_text ap_dialog_text">
-<p><span class = "ap"><<print $dp.name>>: </span> "I can cancel your appointments, <<print $dad.name>>." <<print $dp.name>> says, picking up the phone. Damn! I can't get the image of her stunning, naked body out of my mind. I'll have to work on her temperament, though. 
-</p>
-</div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/dad/1.png'">
 
 
-<p class="notation_text"> I ask <<print $dad.call>> more about his business on the drive to his house and he fills me in on what it's like to represent super models. Of course, he doesn't mention the transmitter, but he does make reference to it being a matter of who's in control. When we get to his house, I'm surprised at its opulence. <<print $dad.call>> lives in a fucking mansion! Who knew? I suppose <<print $mp.call>> does, but has chosen not to share it with me. 
-</p>
+        <div class="story-box">
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "Hey, <<print $mc.name>>." <<print $dad.call>> says, just as I enter <<print $dad.call>>'s office room. "This is so great that you stopped by. Why don't I knock off early and take you home to meet <<print $ct.name>>?" He says, coming around his desk and putting his arm around me, as we walk out the door. 
+                    </p>
+                </div>
+            </div>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/dad/2.png'">
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "<<print $dp.name>>." <<print $dad.call>> says, as we walk out the door. "Cancel my appointments for the rest of the day. My son and I are going to spend some time together." 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"><<print $dad.call>>: </span> "Anybody home?" <<print $dad.call>> calls, as we walk through the marble entryway. "She must be in the gym. <<print $ct.name>> works out everyday." He says, rolling his eyes, as he leads me through a huge living room with a vaulted ceiling. There's a spiral staircase off to one side, with the railing extending along a balcony level hallway that runs the entire length of the living room. I assume the bedrooms are up there. It looks like something out of a movie. I've never seen a house like this. 
-</p>
-</div>
+            <div class="dialogue-row ap">
+                <img @src="setup.ImagePath+'scenes/avatar/dp.png'" alt="DP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $dp.name>>: </div>
+                    <p> "You have several very important clients coming in this afternoon, <<print $dad.name>>." <<print $dp.name>> says, in the same snotty voice she used with me earlier. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Think about it, <<print $dp.name>>." I whisper, just out of earshot of my father. "You can cancel the appointments." I tell her, before catching up to my <<print $dad.call>> at the door. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/dp/1.jpg'">
+
+        <div class="story-box">
+            <div class="dialogue-row ap">
+                <img @src="setup.ImagePath+'scenes/avatar/dp.png'" alt="DP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $dp.name>>: </div>
+                    <p> "I can cancel your appointments, <<print $dad.name>>." <<print $dp.name>> says, picking up the phone. Damn! I can't get the image of her stunning, naked body out of my mind. I'll have to work on her temperament, though. 
+                    </p>
+                </div>
+            </div>
 
 
-<p class="notation_text"> <<print $dad.call>> leads me down a hallway, past a game room with a pool table and jukebox, and opens a door at the very end. We step into an aerobics room with mirrored walls and exercise equipment. My eyes widen and my mouth drops open when I see <<print $ct.name>>. 
-</p>
+            <p> I ask <<print $dad.call>> more about his business on the drive to his house and he fills me in on what it's like to represent super models. Of course, he doesn't mention the transmitter, but he does make reference to it being a matter of who's in control. When we get to his house, I'm surprised at its opulence. <<print $dad.call>> lives in a fucking mansion! Who knew? I suppose <<print $mp.call>> does, but has chosen not to share it with me. 
+            </p>
+        </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"><<print $dad.call>>: </span> "Hi hon." <<print $dad.call>> says, greeting her with a quick kiss. "This is my son, <<print $mc.name>>. He wants to talk with you." <<print $ct.name>> is vigorously attacking the rowing machine, beads of sweat hanging off her smooth skin, and she is completely naked. 
-</p>
-</div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/dad/2.png'">
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/2.jpg'">
+        <div class="story-box">
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "Anybody home?" <<print $dad.call>> calls, as we walk through the marble entryway. "She must be in the gym. <<print $ct.name>> works out everyday." He says, rolling his eyes, as he leads me through a huge living room with a vaulted ceiling. There's a spiral staircase off to one side, with the railing extending along a balcony level hallway that runs the entire length of the living room. I assume the bedrooms are up there. It looks like something out of a movie. I've never seen a house like this. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "You're early." She says, smiling at us, without slowing down her rowing. "I haven't finished my workout." She's not at all what I expected. She's much younger than I thought she'd be; probably mid-thirties. Her face, surrounded by bleached blonde hair, is beautiful. She has high cheekbones, a luscious mouth and big, blue eyes that sparkle when she smiles. 
-</p>
-</div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"><<print $dad.call>>: </span> "<<print $mc.name>> doesn't mind." <<print $dad.call>> says. "He'll talk to you while you're working out. You don't mind, do you, <<print $mc.name>>." <<print $dad.call>> asks, without a hint of sarcasm or irony. 
-</p>
-</div>
+            <p> <<print $dad.call>> leads me down a hallway, past a game room with a pool table and jukebox, and opens a door at the very end. We step into an aerobics room with mirrored walls and exercise equipment. My eyes widen and my mouth drops open when I see <<print $ct.name>>. 
+            </p>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Uh... no. I don't mind." I stutter, as I watch <<print $ct.name>> pull back on the oar-type handles, pushing her long, shapely legs straight out towards me. Her tits, rippling on her chest as she leans back, are not what I expected either. They are firm, round and obviously enhanced, but they are not the large, oversized ones, like you see in magazines. They seem to be the perfect size for her body and her thick nipples jut straight out from her medium-sized areolas. I continue to stare, as she leans up, pushing the handles forward and bringing her knees up towards her chest. 
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "Hi hon." <<print $dad.call>> says, greeting her with a quick kiss. "This is my son, <<print $mc.name>>. He wants to talk with you." <<print $ct.name>> is vigorously attacking the rowing machine, beads of sweat hanging off her smooth skin, and she is completely naked. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"><<print $dad.call>>: </span> "Have a seat." <<print $dad.call>> says, showing a the couch in front of me. I sit down, entranced by the erotic sight of <<print $ct.name>>'s knees rising and spreading, as <<print $dad.call>> leaves the room. Her sweat-soaked legs part, displaying her protruding pussy lips and my cock jumps to attention. Her pussy lips open slightly, just before she pushes her legs forward and pulls back on the handles. Her mound is bald except for a neatly trimmed strip of brown hair about two inches long, just above her pussy. 
-</p>
-</div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ez/2.jpg'">
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/3.jpg'">
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You're early." She says, smiling at us, without slowing down her rowing. "I haven't finished my workout." She's not at all what I expected. She's much younger than I thought she'd be; probably mid-thirties. Her face, surrounded by bleached blonde hair, is beautiful. She has high cheekbones, a luscious mouth and big, blue eyes that sparkle when she smiles. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "You like what you see?" <<print $ct.name>> smiles, staring at the bulge in the front of my pants. 
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "<<print $mc.name>> doesn't mind." <<print $dad.call>> says. "He'll talk to you while you're working out. You don't mind, do you, <<print $mc.name>>." <<print $dad.call>> asks, without a hint of sarcasm or irony. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Yeah... sure." I tell her, as her body, glistening from the workout, moves back and forth on the rowing machine. 
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Uh... no. I don't mind." I stutter, as I watch <<print $ct.name>> pull back on the oar-type handles, pushing her long, shapely legs straight out towards me. Her tits, rippling on her chest as she leans back, are not what I expected either. They are firm, round and obviously enhanced, but they are not the large, oversized ones, like you see in magazines. They seem to be the perfect size for her body and her thick nipples jut straight out from her medium-sized areolas. I continue to stare, as she leans up, pushing the handles forward and bringing her knees up towards her chest. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "You want to try it?" She asks, tilting her head to one side, as she slows her rowing. I'm not sure if she means the rowing machine or her. "There's another seat over there." She nods her head towards a cabinet on the other side of the room. "Take off your clothes and join me." I stare at her for a second, but my hard cock wins any argument I may make about this being inappropriate. I take off my clothes and get the extra seat from inside the cabinet. 
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "Have a seat." <<print $dad.call>> says, showing a the couch in front of me. I sit down, entranced by the erotic sight of <<print $ct.name>>'s knees rising and spreading, as <<print $dad.call>> leaves the room. Her sweat-soaked legs part, displaying her protruding pussy lips and my cock jumps to attention. Her pussy lips open slightly, just before she pushes her legs forward and pulls back on the handles. Her mound is bald except for a neatly trimmed strip of brown hair about two inches long, just above her pussy. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Mmmm, nice." <<print $ct.name>> says, eyeing my hard cock and licking her lips, as I hand her the seat. She positions it on the metal frame of the rower, facing towards her. "Your <<print $dad.call>> and I had this modified, so it functions as more than a piece of exercise equipment." She explains, fastening the seat in place. 
-</p>
-</div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ez/3.jpg'">
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You like what you see?" <<print $ct.name>> smiles, staring at the bulge in the front of my pants. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Sit here, facing me." She instructs, moving her legs from the pedals of the rowing machine. I sit on the couch, with my feet on the ground. She swings her legs over mine and pulls her seat forward, positioning her pussy a few inches from my cock. 
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Yeah... sure." I tell her, as her body, glistening from the workout, moves back and forth on the rowing machine. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Hold it straight out towards me." She says, her breathing accelerating, as she speaks. I reach between us and push my rigid cock down, brushing the head against her hot pussy lips. She pulls forward on the handles, burying my cock inside her slick pussy. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You want to try it?" She asks, tilting her head to one side, as she slows her rowing. I'm not sure if she means the rowing machine or her. "There's another seat over there." She nods her head towards a cabinet on the other side of the room. "Take off your clothes and join me." I stare at her for a second, but my hard cock wins any argument I may make about this being inappropriate. I take off my clothes and get the extra seat from inside the cabinet. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Ahhhhhh!" I pant, as she starts rowing with short, slow strokes, gliding my cock in and out of her hot, slippery hole. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Mmmm, nice." <<print $ct.name>> says, eyeing my hard cock and licking her lips, as I hand her the seat. She positions it on the metal frame of the rower, facing towards her. "Your <<print $dad.call>> and I had this modified, so it functions as more than a piece of exercise equipment." She explains, fastening the seat in place. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "You want to know about your father and I, don't you?" She asks, her big eyes staring into mine, as her tits brush my chest. She's smiling, as she continues to row with slow, deliberate strokes. 
-</p>
-</div>
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Sit here, facing me." She instructs, moving her legs from the pedals of the rowing machine. I sit on the couch, with my feet on the ground. She swings her legs over mine and pulls her seat forward, positioning her pussy a few inches from my cock. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Yes." I answer, not trusting my mouth to say more, as I stare at her tits coming towards me again. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Hold it straight out towards me." She says, her breathing accelerating, as she speaks. I reach between us and push my rigid cock down, brushing the head against her hot pussy lips. She pulls forward on the handles, burying my cock inside her slick pussy. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "You can touch them." She says, breathily. "I'd like that." She arches her back slightly, pushing her bullet shaped nipples into my chest. My hands, which have been resting on her thighs, move up to her tits and squeeze. 
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Ahhhhhh!" I pant, as she starts rowing with short, slow strokes, gliding my cock in and out of her hot, slippery hole. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "They feel pretty natural, don't they?" She laughs, watching for my reaction. 
-</p>
-</div>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You want to know about your father and I, don't you?" She asks, her big eyes staring into mine, as her tits brush my chest. She's smiling, as she continues to row with slow, deliberate strokes. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Yeah, they really do." I answer, as she increases the rhythm slightly. I move my hands all around her tits; feeling, squeezing and pinching. Other than being a little heavier than a typical tit and unnaturally round, it really is hard to tell the difference. "How... um... how big were you before?" I ask, not knowing why I care, but curious anyway. 
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Yes." I answer, not trusting my mouth to say more, as I stare at her tits coming towards me again. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span>  "Typical teen buds, which never blossomed into full blown tits." She answers matter-of-factly. "Your <<print $dad.call>> bought me these right after we met." She says, rowing faster now, creating a sloshing sound as my cock plunges into her juicy cunt. "I was young, beautiful, probably naive and I came to the big city to be a model. I met your <<print $dad.call>> and he said I'd never make it with my small tits. He sent me to a doctor, paid for these, and launched my modeling career for me." 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You can touch them." She says, breathily. "I'd like that." She arches her back slightly, pushing her bullet shaped nipples into my chest. My hands, which have been resting on her thighs, move up to her tits and squeeze. 
+                    </p>
+                </div>
+            </div>
 
-<p class="notation_text"><<print $ct.name>> is slamming my cock into her pussy now, rowing frantically, as her orgasm builds. I'm squeezing her tits, pinching her nipples and bucking my ass off the seat. The tension is building in my balls and I'm about to explode into her, when she abruptly stops rowing and smacks her body against mine. Her pussy muscles convulse around my cock, as she wraps her arms around my waist, squeezing me against her and rocking up and down on my cock. I start spurting immediately, spewing my cum deep inside her pulsating hole. 
-</p>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "They feel pretty natural, don't they?" She laughs, watching for my reaction. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-4.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<p class="notation_text"> We sit like that on the couch, my spent cock inside her soaked pussy and her damp body pressed against mine. I'm wondering what I'm doing here, fucking my <<print $dad.call>>'s girlfriend on a couch, when she starts speaking softly. 
-</p>
+        <div class="story-box">
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Yeah, they really do." I answer, as she increases the rhythm slightly. I move my hands all around her tits; feeling, squeezing and pinching. Other than being a little heavier than a typical tit and unnaturally round, it really is hard to tell the difference. "How... um... how big were you before?" I ask, not knowing why I care, but curious anyway. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "I've been addicted to sex since I found out what it was." <<print $ct.name>> says, still holding onto me. "I've been on the pill since I was fourteen, when the neighbor boy and I fumbled our way into each other's swimsuits." She's rocking her body against mine and gripping my cock with her pussy muscles. "All through high school, I couldn't get enough. I was smart and I was pretty, a great combination for getting laid whenever you wanted. You've probably already guessed that I'm more than a little narcissistic. I mean, who else works out naked, all alone, in an exercise room filled with mirrors." She smiles and kisses my cheek as my cock starts to respond to her. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>  "Typical teen buds, which never blossomed into full blown tits." She answers matter-of-factly. "Your <<print $dad.call>> bought me these right after we met." She says, rowing faster now, creating a sloshing sound as my cock plunges into her juicy cunt. "I was young, beautiful, probably naive and I came to the big city to be a model. I met your <<print $dad.call>> and he said I'd never make it with my small tits. He sent me to a doctor, paid for these, and launched my modeling career for me." 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "When I met your <<print $dad.call>>, sex was just a means to an end for me." She says, rocking a little faster, as my cock stiffens inside her steamy pussy. "I was initially fucking him as repayment for my tits, but he was such an incredible lover that I kept coming back for more." She says, unwrapping herself from me, and reaching for the couch handles. 
-</p>
-</div>
+            <p><<print $ct.name>> is slamming my cock into her pussy now, rowing frantically, as her orgasm builds. I'm squeezing her tits, pinching her nipples and bucking my ass off the seat. The tension is building in my balls and I'm about to explode into her, when she abruptly stops rowing and smacks her body against mine. Her pussy muscles convulse around my cock, as she wraps her arms around my waist, squeezing me against her and rocking up and down on my cock. I start spurting immediately, spewing my cum deep inside her pulsating hole. 
+            </p>
+        </div>
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/rcg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/cg-4.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Then when <<print $hp.name>> gave your <<print $dad.call>> the transmitter, it made us rich and gave us the power to fuck anyone we wanted. What else could I ask for?" She asks, rowing my recovered cock in and out of her hot pussy again. "I'm still addicted to sex, but now I can fuck whoever I want." 
-</p>
-</div>
+        <div class="story-box">
+            <p> We sit like that on the couch, my spent cock inside her soaked pussy and her damp body pressed against mine. I'm wondering what I'm doing here, fucking my <<print $dad.call>>'s girlfriend on a couch, when she starts speaking softly. 
+            </p>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "You know about the transmitter?" I ask, pumping my cock forward when she pulls herself towards me. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "I've been addicted to sex since I found out what it was." <<print $ct.name>> says, still holding onto me. "I've been on the pill since I was fourteen, when the neighbor boy and I fumbled our way into each other's swimsuits." She's rocking her body against mine and gripping my cock with her pussy muscles. "All through high school, I couldn't get enough. I was smart and I was pretty, a great combination for getting laid whenever you wanted. You've probably already guessed that I'm more than a little narcissistic. I mean, who else works out naked, all alone, in an exercise room filled with mirrors." She smiles and kisses my cheek as my cock starts to respond to her. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Sure, your <<print $dad.call>> and I are partners in a very lucrative business because of it." She says, picking up the rhythm of her rowing. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "When I met your <<print $dad.call>>, sex was just a means to an end for me." She says, rocking a little faster, as my cock stiffens inside her steamy pussy. "I was initially fucking him as repayment for my tits, but he was such an incredible lover that I kept coming back for more." She says, unwrapping herself from me, and reaching for the couch handles. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Has <<print $dad.call>> ever used the transmitter on you?" I ask, thinking she may be under his influence. 
-</p>
-</div>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/rcg-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/rcg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Then when <<print $hp.name>> gave your <<print $dad.call>> the transmitter, it made us rich and gave us the power to fuck anyone we wanted. What else could I ask for?" She asks, rowing my recovered cock in and out of her hot pussy again. "I'm still addicted to sex, but now I can fuck whoever I want." 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "No." She smiles. "I was very persuasive with <<print $hp.name>>." She laughs, pulling herself more tightly against me, to emphasize her point. "I got <<print $hp.name>> to remove my frequency from the transmitter before he gave it to your <<print $dad.call>>. Not that I don't trust Daryl, I'm just being careful." She says, rowing faster and slamming her hard nipples against my chest. We stop talking as we urgently work towards another mutual climax. This time she stops rowing, pushes me back against the pulley and starts fingering her clit while she rocks up and down on my cock. 
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "You know about the transmitter?" I ask, pumping my cock forward when she pulls herself towards me. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Play with my tits!" She cries, as she fingers her clit. Her feet are on the floor and she's bouncing herself up and down on the balls of her feet, pounding my hard cock into her enflamed pussy. I reach for her tits, which are hardly bouncing at all, and cradle them in my hands. Using my thumb and index finger, I pinch and twist her hard nipples, as she jumps up and down on my cock. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Sure, your <<print $dad.call>> and I are partners in a very lucrative business because of it." She says, picking up the rhythm of her rowing. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Oh yeah!" She screams, still pounding away on my cock. The pulley is pushing into my neck and I feel like I'm going to fall, but the intensity of this gorgeous model getting herself off on my hard cock pushes that all away. I feel my body tense and my balls tighten, as she leans her hands against my chest and squeezes my nipples, digging her fingernails into them. The pain, shooting from my nipples to my groin, causes my cock to explode inside her frothing pussy. 
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Has <<print $dad.call>> ever used the transmitter on you?" I ask, thinking she may be under his influence. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/ez/vid/rcg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/rcg-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Oh Fuuuuuuck!" She cries, clenching her pussy around my cock and shaking, jerkily, through her own orgasm. I release her tits and she collapses on my chest, driving my back into the pulley and causing us to nearly lose our balance on the couch. 
-</p>
-</div>
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "No." She smiles. "I was very persuasive with <<print $hp.name>>." She laughs, pulling herself more tightly against me, to emphasize her point. "I got <<print $hp.name>> to remove my frequency from the transmitter before he gave it to your <<print $dad.call>>. Not that I don't trust Daryl, I'm just being careful." She says, rowing faster and slamming her hard nipples against my chest. We stop talking as we urgently work towards another mutual climax. This time she stops rowing, pushes me back against the pulley and starts fingering her clit while she rocks up and down on my cock. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Sorry." She laughs, lifting herself off of me and rolling onto the floor, breathing hard. I fall next to her and watch her sweat-soaked tits heave up and down as I try to catch my breath. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Play with my tits!" She cries, as she fingers her clit. Her feet are on the floor and she's bouncing herself up and down on the balls of her feet, pounding my hard cock into her enflamed pussy. I reach for her tits, which are hardly bouncing at all, and cradle them in my hands. Using my thumb and index finger, I pinch and twist her hard nipples, as she jumps up and down on my cock. 
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span>  "Wow!" I exclaim. "Who knew rowing could be so much fun." I say, brushing her matted hair from her forehead. 
-</p>
-</div>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Oh yeah!" She screams, still pounding away on my cock. The pulley is pushing into my neck and I feel like I'm going to fall, but the intensity of this gorgeous model getting herself off on my hard cock pushes that all away. I feel my body tense and my balls tighten, as she leans her hands against my chest and squeezes my nipples, digging her fingernails into them. The pain, shooting from my nipples to my groin, causes my cock to explode inside her frothing pussy. 
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<div class="dialog_text up_dialog_text">
-<p><span class = "up"><<print $ct.name>>: </span> "Yeah, I think more people would exercise if they knew." She laughs, brushing her hand over my chest.
-</p>
-</div>
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/ez/vid/rcg-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
 
-<div class="enter_button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
-<p >Leave</p>
-</div>
+        <div class="story-box">
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Oh Fuuuuuuck!" She cries, clenching her pussy around my cock and shaking, jerkily, through her own orgasm. I release her tits and she collapses on my chest, driving my back into the pulley and causing us to nearly lose our balance on the couch. 
+                    </p>
+                </div>
+            </div>
 
-<<set $dadofficeEvent += 1>>
-<<set $eventCount += 1>>
-<<set $dadhouse.status[0] = 1>> 
-<<set $dadoffice.status[2] = 0>> 
-<<set $christina_fck to 1>>
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Sorry." She laughs, lifting herself off of me and rolling onto the floor, breathing hard. I fall next to her and watch her sweat-soaked tits heave up and down as I try to catch my breath. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>  "Wow!" I exclaim. "Who knew rowing could be so much fun." I say, brushing her matted hair from her forehead. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row up">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Yeah, I think more people would exercise if they knew." She laughs, brushing her hand over my chest.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+
+        <<set $dadofficeEvent += 1>>
+        <<set $eventCount += 1>>
+        <<set $dadhouse.status[0] = 1>> 
+        <<set $dadoffice.status[2] = 0>> 
+        <<set $christina_fck to 1>>
+    
+    </div>
 
 <</nobr>>
 </div>
