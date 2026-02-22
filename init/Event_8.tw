@@ -1,296 +1,446 @@
-
 <div class="big_text">
 <<nobr>>
-<!-- <div class="enter_button">
-<p><<print passage()>></p>
-</div> -->
-<!-- Kitchen Morning-->
 
-<<set $charStats = "ct">>
-
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/mc/20.jpg'">
-
-<!-- Scene 08 - <<print $mp.call>> & <<print $mc.name>>  -->
-
-<p class="notation_text"> We made it out of my house a couple of minutes behind schedule, so <<print $ct.name>> and I had to double-time it back to the campus. Normally I would hitch a ride with <<print $ep.name>>, but she had an early morning cross country class today, so she was already on campus. Which was a good thing, since I had no idea how to explain <<print $ct.name>> to her. 
-</p>
-
-
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Oh hey <<print $ep.name>>, this is <<print $ct.name>>, my new sex slave. Oh by the way she's also a sex demon, so don't be alarmed if you see wings." I imagined saying to her, as she thought I was crazy, and sending me to the loonie bin.
-</p>
-</div>
-
-<p class="notation_text"> Just before we made our way to the college campus, I had to stop by where it all started. Where I met <<print $ct.name>> and nearly died saving her. At first, I thought we passed it, but then I saw the specks of dry blood covering the dead leaves. It was so surreal, seeing an area where you almost died. You would think I would feel dread or sadness, but to me, it was the beginning of something. Something that would change my life. For the better? it was too early to answer that kind of question. 
-</p>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/37.png'">
-
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "Master, are you ok?" <<print $ct.name>> asked as she noted that I just stood there for several minutes without talking.
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Ya, just thinking, that's all. Come on, we need to cover this stuff up. If anybody stumbles upon this area and sees the blood, that could cause some unwanted attention."
-</p>
-</div>
-
-<p class="notation_text"> So from there, we began to cover up all the blood that had dried overnight. Luckily it was all on dead leaves, so all we had to do was just move them around until the blood just disappeared. Plus with the priest's body vanishing in a puff of ash, there was no dead body to bury. Everything was going until we stumbled upon something gleaming in the leaves. It was the sword I stabbed the deranged priest with, and the dagger he was about to use to kill <<print $ct.name>>. 
-</p>
-
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/38.png'">
-
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "Leave it Master, that has holy magic, it could harm you, and anything else that it deems to be wicked and unworthy." she spouted off, but it was too late. The blade called out to me. luring me with its sensual song. I reached out for it.
-</p>
-</div>
-
-
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "NO!" <<print $ct.name>> yelled, leaping for my hand, but it was too late. My hand touched it, and instead of vaporizing me like <<print $ct.name>> had assumed it would. It hummed in my hand, sending a warm sensation down my arm and into my core.
-</p>
-</div>
-
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "That's not possible. Holy magic destroys demonic beings. Just touching the sword can cause you pain. How is this possible?"
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "I don't know <<print $ct.name>>. I am new to all of this. All I know was that it was calling out to me. Like it did yesterday when the priest tried to kill you. I don't know, but I think it wanted me to kill the priest."
-</p>
-</div>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/39.png'">
-
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "Really, I haven't heard anything like that before. It can be that the holy blade was lashing out against the priest since he became wicked. It probably chose you because you went in and saved me. A noble deed for a worthy sword."
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "I don't know, but it seems like we shouldn't leave this thing out here."
-</p>
-</div>
-
-<p class="notation_text"> Knowing that I needed to research the sword's origins. A trip to the library was in order. I checked my watch—it was too late. I’d already missed class. Sighing, Rayne and I made our way back home. But something felt... off. <<print $mp.call>> and <<print $up.name>> weren’t home.
-</p>
-
-<p class="notation_text"> I turned to Rayne, a sudden wave of black mist engulfed her. It rose quickly, swirling and twisting like a living thing, covering every inch of her body. The mist grew darker, thicker, spinning faster and faster until it obscured her completely. Then, as quickly as it had appeared, it vanished with an audible whoosh—and what stood before me wasn’t the Rayne I knew.
-</p>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/1.jpg'">
-
-<p class="notation_text"> An older, darker version of Rayne now stared back at me, exuding an almost otherworldly power. She still held her usual grace and poise, but this form was different—more commanding, more dangerous. She had grown taller—standing at 5'7" (170  cm)—but her presence was enormous. 
-</p>
-
-<p class="notation_text"> Standing before me was a vision of pure allure. Her piercing blue-blue eyes felt like whirlpools, drawing me into their depths, and her signature feature—voluminous spiral curls—flowed past her shoulders and all the way down to her rounded ass. Her figure was breathtaking, with curves that seemed sculpted to perfection.  Her measurements seemed to defy reason: B40-W27-H43 inches (B99-W66-H102 cm). 
-</p>
-
-<p class="notation_text">Her skin gleamed a flawless dark mocha, so smooth it seemed to radiate light. Her ample, teardrop-shaped breasts stretched the fabric of her shirt in a way that was impossible to ignore, radiating an air of confidence, bravery and sensuality. As I would later learn, her proportions were closer to a high G or low H cup—still extraordinary, but far more realistic than the exaggerated depictions you’d find in anime. Despite the subtle restraint compared to those fantasy portrayals, she was the epitome of dark beauty.
-</p>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/2.jpg'">
-
-<p class="notation_text"> Her curves were amplified, with wide, commanding ass that swayed slightly as she shifted her stance.  From her angelic face that seemed almost otherworldly to the sultry shape of her body, she was a walking embodiment of temptation—and she was mine. She smirked, her lips curling with mischievous delight. “Hey, kiddo,” she said, her voice low and husky, with just a hint of amusement.
-</p>
-
-<p class="notation_text"> Before I could respond, a sudden jolt rocked the room. The black mist returned—but this time, it came for me. I froze as it wrapped itself around my body like a coiled serpent. It slithered over my skin, cold and tingling, until the world disappeared into shadows. Then it happened. The mist receded, revealing a form I barely recognized as my own. My limbs felt strange, my senses sharper, and my skin... tougher? Looking down, I realized my entire body had transformed. 
-</p>
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/4.png'">
-
-<p class="notation_text"> My hands and arms were now encased in a sleek, web-like black pattern that shimmered faintly under the dim light, as if etched into my very skin. My fingers had grown longer and sharper, ending in claw-like tips that radiated a faint, dark aura. I felt a strange energy pulsing through my body, awakening an alien yet thrilling sensation of power. From my back, faint traces of movement hinted at something new—vestigial spider-like limbs, sleek and subtle, that twitched with my thoughts as if they were an extension of me.
-</p>
-
-
-<p class="notation_text"> A mask-like feature crept over the upper half of my face, framing my eyes, which now glowed faintly red in the dim light. My vision sharpened, allowing me to see every detail, even in the shadows. My human form remained mostly intact, but there was no mistaking the changes—this was no mere transformation. It was a glimpse of my true, half-demon self: part human, part arachnid predator. A wicked grin formed on my lips as I flexed my claws, realizing the full potential of the spider-like power that now coursed through my veins.
-</p>
-
-
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/3.png'">
-<p class="notation_text"> I looked at my reflection in the glass of the window—if Spider-Man had a demonic sibling, it would’ve been me.
-</p>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "What the hell is going on?!" I yelled, my voice coming out distorted through the mask.
-</p>
-</div>
-
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> “Oh, Master,” she said, placing her hands on her curvy hips. Rayne—no, the darker version of her—chuckled, her voice dripping with amusement. “What you’re seeing now is my mother’s form. Lucifer’s concubine. And you?” She gestured to me, her blue-blue eyes glowing faintly. “You’re her pet spider.” I stared at her, dumbfounded, unable to form words.
-</p>
-</div>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> “I told you about shape-shifting, didn’t I?” she continued casually. “Now you can use your mana to take whatever form you want. This is just the beginning. You’ve been given a glimpse of what’s possible.” She leaned closer, her lips curling into a devilish grin. “And trust me, Master... the possibilities are endless.”
-</p>
-</div>
-
-<p class="notation_text"> There wasn't any point in waiting. I growled somewhere in my chest and stepped forward, picking her up and kicking the door closed behind me. She giggled and laughed at my aggressiveness, and I planted her on the first couch I saw in the open area living space.
-</p>
-
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/vid/sed-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
-
-
-<p class="notation_text"> I kissed her hard, and she met me with the same passion, our tongues battling as she clawed at my shirt and I held her cheeks in my hands. The kiss ended and I stayed close, looking into her eyes for a long moment, seeing the same desire there that I was feeling. I kissed her again, mashing our lips for a moment, then knelt in front of her and pulled her hips off the edge of the couch seat and pushed the hem of the dress up her bare thighs.
-</p>
-
-<p class="notation_text"> <<print $cp.name>> wasn't wearing any panties, and her perfect little pink slit was glistening with her arousal. I didn't hesitate, quickly moving in and slurping up the excess natural lubricants before starting to work more properly at eating her out.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Oh, oh my God," <<print $cp.name>> moaned quickly. "Oh, no, oh my God! Master. Oh, you're really good at that."
-</p>
-</div>
-
-<p class="notation_text"> I pulled her ass chicks wider, the blue dress sliding up over her hips, and I looked her in the eyes as I tongued her.
-</p>
-
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Ung, do you actually get turned on doing that?" she asked me, clutching at her knees to keep her legs open for me, her pretty lips pouted open from the fast pleasure I was pushing on her.
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "You taste so fucking good," I said between licks.
-</p>
-</div>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Oh, fuck," she breathed out. "Oh, my God." And then she sighed with a girlish, sexy moan.
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Just relax and enjoy, you naughty fucking MILF," I said.
-</p>
-</div>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Hooooo-kay," she moaned, relaxing on the couch and closing her eyes.
-</p>
-</div>
-
-
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
-
-<p class="notation_text"> Teasing her ass chicks with my face as I played with her clit on my tongue.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Oh! Fuck, that's really good. Oh, Master, fuck. My clit. My clit!" She breathed deeply, letting out little moans for a bit, but her eyes snapped open when I moved up to her clit. 
-</p>
-</div>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Hmmmm, huh," she groaned and then started letting out little giggles in between the wordless moans.
-</p>
-</div>
-
-<p class="notation_text"> I slowly inserted a finger into her, feeling her hot, wet insides immediately begin to squeeze and massage my digit.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Oh. My God," she hummed and started blushing as she looked down at me between her legs. "No one's ever eaten me. I feel so shy."
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Everyone else was a complete idiot," I told her. "I want to devour this needy little MILF pussy for at least an hour."
-</p>
-</div>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Ooooh, fuck, Master," she moaned, and she put one of her legs over my shoulder, her foot resting on my back with a little jingle of the two golden anklets she was wearing.
-</p>
-</div>
-
-
-
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
-
-<p class="notation_text"> I soon added a second finger and started to finger fuck her as I raised up and made eye contact with her, both of us staring into the soul of the other as our horny minds willed each other for more.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> The first orgasm came on quickly for her. "Oh, oh wow!" she hummed, then started mewling softly as she let go of her knees and grabbed both of her breasts, clawing them a little as her stomach rolled and she pushed her mound up at me. "Fufffffuuuuck, hmmhmmhmm," she tensed and then released in a warm, rich laugh.
-</p>
-</div>
-
-<p class="notation_text"> The second and third orgasms came at a steady pace as I ate and fingerfucked her, alternating squeezing her breast and playing with her nipples or tugging on her nipple piercing. Each time she laughed at the end of it, that warm, rich sound as her body relaxed.
-</p>
-
-<p class="notation_text"> For the last one, I changed my tactic, intentionally seeking out her G-spot and starting to tap on it.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Oh, fuck! Master, what was that?" she gasped.
-</p>
-</div>
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Pleasure," I told her. "Relax your core." I pressed down with the heel of my other palm right on her mound and stomach. "Relax, relax, relax," I told her. "Just ride it out, no matter what happens."
-</p>
-</div>
-
-<video class="scenes_image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-4.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
-	
-</video>
-
-<p class="notation_text"> I pressed more firmly on her g-spot, and she grabbed her tits again as she took hard, shallow breaths.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Master, oh my God, Master," she gasped. "That feels- that feels-"
-</p>
-</div>
-
-
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "Let it go, <<print $cp.name>>. Come for me," I told her.
-</p>
-</div>
-
-<p class="notation_text"> She released, and a spray of her female ejaculate sloshed around my fingers and wrist, spattering across her abdomen and thighs, down on the couch, and all over my face. <<print $cp.name>> howled as she let loose, her pussy clamping and pulsing as I kept working my fingers in her even though I couldn't properly thrust them in and out. Her eyes rolled back, and her clit, swelling from the blood flow, got a heavy kiss from me as I let her loose a second spray down my chin and neck, covering the front of my shirt and pants.
-</p>
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "Hunh, hunh," she panted, coming down from the orgasm in a collapse of released tension. "Oh. Oh my God. What- What was that?" she asked as she tried to catch her breath.
-</p>
-</div>
-
-
-
-<div class="dialog_text gp_dialog_text">
-<p><span class = "gp"><<print $cp.name>>: </span> "You're not so fucking bad yourself, though you aren't nearly naked enough," she teased and giggled as she plucked at my shirt. "How the hell did you get so good at that?"
-</p>
-</div>
-
-<div class="enter_button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
-<p >Leave</p>
-</div>
-
-<<set $college.count += 1>>
-<<set $eventCount += 1>>
-<<set $college.status[$college.count] = 1>>
-<<set $college.status[$college.count-1] = 0>> 
+    <div class="scene-container">
+            
+        <!-- <div class="enter-button">
+        <p><<print passage()>></p>
+        </div> -->
+        <!-- Kitchen Morning-->
+
+        <<set $charStats = "ct">>
+
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/20.jpg'">
+
+        <!-- Scene 08 - <<print $mp.call>> & <<print $mc.name>>  -->
+
+        <div class="story-box">
+            <p> We made it out of my house a couple of minutes behind schedule, so <<print $ct.name>> and I had to double-time it back to the campus. Normally I would hitch a ride with <<print $ep.name>>, but she had an early morning cross country class today, so she was already on campus. Which was a good thing, since I had no idea how to explain <<print $ct.name>> to her. 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Oh hey <<print $ep.name>>, this is <<print $ct.name>>, my new sex slave. Oh by the way she's also a sex demon, so don't be alarmed if you see wings." I imagined saying to her, as she thought I was crazy, and sending me to the loonie bin.
+                    </p>
+                </div>
+            </div>
+
+            <p> Just before we made our way to the college campus, I had to stop by where it all started. Where I met <<print $ct.name>> and nearly died saving her. At first, I thought we passed it, but then I saw the specks of dry blood covering the dead leaves. It was so surreal, seeing an area where you almost died. You would think I would feel dread or sadness, but to me, it was the beginning of something. Something that would change my life. For the better? it was too early to answer that kind of question. 
+            </p>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/37.png'">
+
+        <div class="story-box">
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Master, are you ok?" <<print $ct.name>> asked as she noted that I just stood there for several minutes without talking.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Ya, just thinking, that's all. Come on, we need to cover this stuff up. If anybody stumbles upon this area and sees the blood, that could cause some unwanted attention."
+                    </p>
+                </div>
+            </div>
+
+            <p> So from there, we began to cover up all the blood that had dried overnight. Luckily it was all on dead leaves, so all we had to do was just move them around until the blood just disappeared. Plus with the priest's body vanishing in a puff of ash, there was no dead body to bury. Everything was going until we stumbled upon something gleaming in the leaves. It was the sword I stabbed the deranged priest with, and the dagger he was about to use to kill <<print $ct.name>>. 
+            </p>
+        </div>
+
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/38.png'">
+
+        <div class="story-box">
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Leave it Master, that has holy magic, it could harm you, and anything else that it deems to be wicked and unworthy." she spouted off, but it was too late. The blade called out to me. luring me with its sensual song. I reached out for it.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "NO!" <<print $ct.name>> yelled, leaping for my hand, but it was too late. My hand touched it, and instead of vaporizing me like <<print $ct.name>> had assumed it would. It hummed in my hand, sending a warm sensation down my arm and into my core.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "That's not possible. Holy magic destroys demonic beings. Just touching the sword can cause you pain. How is this possible?"
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I don't know <<print $ct.name>>. I am new to all of this. All I know was that it was calling out to me. Like it did yesterday when the priest tried to kill you. I don't know, but I think it wanted me to kill the priest."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/39.png'">
+
+        <div class="story-box">
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Really, I haven't heard anything like that before. It can be that the holy blade was lashing out against the priest since he became wicked. It probably chose you because you went in and saved me. A noble deed for a worthy sword."
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I don't know, but it seems like we shouldn't leave this thing out here."
+                    </p>
+                </div>
+            </div>
+
+            <p> Knowing that I needed to research the sword's origins. A trip to the library was in order. I checked my watch—it was too late. I’d already missed class. Sighing, Rayne and I made our way back home. But something felt... off. <<print $mp.call>> and <<print $up.name>> weren’t home.
+            </p>
+
+            <p> I turned to Rayne, a sudden wave of black mist engulfed her. It rose quickly, swirling and twisting like a living thing, covering every inch of her body. The mist grew darker, thicker, spinning faster and faster until it obscured her completely. Then, as quickly as it had appeared, it vanished with an audible whoosh—and what stood before me wasn’t the Rayne I knew.
+            </p>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/cp/1.jpg'">
+
+        <div class="story-box">
+            <p> An older, darker version of Rayne now stared back at me, exuding an almost otherworldly power. She still held her usual grace and poise, but this form was different—more commanding, more dangerous. She had grown taller—standing at 5'7" (170  cm)—but her presence was enormous. 
+            </p>
+
+            <p> Standing before me was a vision of pure allure. Her piercing blue-blue eyes felt like whirlpools, drawing me into their depths, and her signature feature—voluminous spiral curls—flowed past her shoulders and all the way down to her rounded ass. Her figure was breathtaking, with curves that seemed sculpted to perfection.  Her measurements seemed to defy reason: B40-W27-H43 inches (B99-W66-H102 cm). 
+            </p>
+
+            <p>Her skin gleamed a flawless dark mocha, so smooth it seemed to radiate light. Her ample, teardrop-shaped breasts stretched the fabric of her shirt in a way that was impossible to ignore, radiating an air of confidence, bravery and sensuality. As I would later learn, her proportions were closer to a high G or low H cup—still extraordinary, but far more realistic than the exaggerated depictions you’d find in anime. Despite the subtle restraint compared to those fantasy portrayals, she was the epitome of dark beauty.
+            </p>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/cp/2.jpg'">
+
+        <div class="story-box">
+            <p> Her curves were amplified, with wide, commanding ass that swayed slightly as she shifted her stance.  From her angelic face that seemed almost otherworldly to the sultry shape of her body, she was a walking embodiment of temptation—and she was mine. She smirked, her lips curling with mischievous delight. “Hey, kiddo,” she said, her voice low and husky, with just a hint of amusement.
+            </p>
+
+            <p> Before I could respond, a sudden jolt rocked the room. The black mist returned—but this time, it came for me. I froze as it wrapped itself around my body like a coiled serpent. It slithered over my skin, cold and tingling, until the world disappeared into shadows. Then it happened. The mist receded, revealing a form I barely recognized as my own. My limbs felt strange, my senses sharper, and my skin... tougher? Looking down, I realized my entire body had transformed. 
+            </p>
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/cp/4.png'">
+
+        <div class="story-box">
+            <p> My hands and arms were now encased in a sleek, web-like black pattern that shimmered faintly under the dim light, as if etched into my very skin. My fingers had grown longer and sharper, ending in claw-like tips that radiated a faint, dark aura. I felt a strange energy pulsing through my body, awakening an alien yet thrilling sensation of power. From my back, faint traces of movement hinted at something new—vestigial spider-like limbs, sleek and subtle, that twitched with my thoughts as if they were an extension of me.
+            </p>
+
+
+            <p> A mask-like feature crept over the upper half of my face, framing my eyes, which now glowed faintly red in the dim light. My vision sharpened, allowing me to see every detail, even in the shadows. My human form remained mostly intact, but there was no mistaking the changes—this was no mere transformation. It was a glimpse of my true, half-demon self: part human, part arachnid predator. A wicked grin formed on my lips as I flexed my claws, realizing the full potential of the spider-like power that now coursed through my veins.
+            </p>
+
+        </div>
+
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/cp/3.png'">
+
+        <div class="story-box">
+            <p> I looked at my reflection in the glass of the window—if Spider-Man had a demonic sibling, it would’ve been me.
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "What the hell is going on?!" I yelled, my voice coming out distorted through the mask.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> “Oh, Master,” she said, placing her hands on her curvy hips. Rayne—no, the darker version of her—chuckled, her voice dripping with amusement. “What you’re seeing now is my mother’s form. Lucifer’s concubine. And you?” She gestured to me, her blue-blue eyes glowing faintly. “You’re her pet spider.” I stared at her, dumbfounded, unable to form words.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> “I told you about shape-shifting, didn’t I?” she continued casually. “Now you can use your mana to take whatever form you want. This is just the beginning. You’ve been given a glimpse of what’s possible.” She leaned closer, her lips curling into a devilish grin. “And trust me, Master... the possibilities are endless.”
+                    </p>
+                </div>
+            </div>
+
+            <p> There wasn't any point in waiting. I growled somewhere in my chest and stepped forward, picking her up and kicking the door closed behind me. She giggled and laughed at my aggressiveness, and I planted her on the first couch I saw in the open area living space.
+            </p>
+        </div>
+
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/cp/vid/sed-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
+
+
+        <div class="story-box">
+            <p> I kissed her hard, and she met me with the same passion, our tongues battling as she clawed at my shirt and I held her cheeks in my hands. The kiss ended and I stayed close, looking into her eyes for a long moment, seeing the same desire there that I was feeling. I kissed her again, mashing our lips for a moment, then knelt in front of her and pulled her hips off the edge of the couch seat and pushed the hem of the dress up her bare thighs.
+            </p>
+
+            <p> <<print $cp.name>> wasn't wearing any panties, and her perfect little pink slit was glistening with her arousal. I didn't hesitate, quickly moving in and slurping up the excess natural lubricants before starting to work more properly at eating her out.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Oh, oh my God," <<print $cp.name>> moaned quickly. "Oh, no, oh my God! Master. Oh, you're really good at that."
+                    </p>
+                </div>
+            </div>
+
+            <p> I pulled her ass chicks wider, the blue dress sliding up over her hips, and I looked her in the eyes as I tongued her.
+            </p>
+        </div>
+
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-3.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
+
+        <div class="story-box">
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Ung, do you actually get turned on doing that?" she asked me, clutching at her knees to keep her legs open for me, her pretty lips pouted open from the fast pleasure I was pushing on her.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "You taste so fucking good," I said between licks.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Oh, fuck," she breathed out. "Oh, my God." And then she sighed with a girlish, sexy moan.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Just relax and enjoy, you naughty fucking MILF," I said.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Hooooo-kay," she moaned, relaxing on the couch and closing her eyes.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-2.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
+
+        <div class="story-box">
+            <p> Teasing her ass chicks with my face as I played with her clit on my tongue.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Oh! Fuck, that's really good. Oh, Master, fuck. My clit. My clit!" She breathed deeply, letting out little moans for a bit, but her eyes snapped open when I moved up to her clit. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Hmmmm, huh," she groaned and then started letting out little giggles in between the wordless moans.
+                    </p>
+                </div>
+            </div>
+
+            <p> I slowly inserted a finger into her, feeling her hot, wet insides immediately begin to squeeze and massage my digit.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Oh. My God," she hummed and started blushing as she looked down at me between her legs. "No one's ever eaten me. I feel so shy."
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Everyone else was a complete idiot," I told her. "I want to devour this needy little MILF pussy for at least an hour."
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Ooooh, fuck, Master," she moaned, and she put one of her legs over my shoulder, her foot resting on my back with a little jingle of the two golden anklets she was wearing.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-1.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
+
+        <div class="story-box">
+            <p> I soon added a second finger and started to finger fuck her as I raised up and made eye contact with her, both of us staring into the soul of the other as our horny minds willed each other for more.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> The first orgasm came on quickly for her. "Oh, oh wow!" she hummed, then started mewling softly as she let go of her knees and grabbed both of her breasts, clawing them a little as her stomach rolled and she pushed her mound up at me. "Fufffffuuuuck, hmmhmmhmm," she tensed and then released in a warm, rich laugh.
+                    </p>
+                </div>
+            </div>
+
+            <p> The second and third orgasms came at a steady pace as I ate and fingerfucked her, alternating squeezing her breast and playing with her nipples or tugging on her nipple piercing. Each time she laughed at the end of it, that warm, rich sound as her body relaxed.
+            </p>
+
+            <p> For the last one, I changed my tactic, intentionally seeking out her G-spot and starting to tap on it.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Oh, fuck! Master, what was that?" she gasped.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Pleasure," I told her. "Relax your core." I pressed down with the heel of my other palm right on her mound and stomach. "Relax, relax, relax," I told her. "Just ride it out, no matter what happens."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <video class="scene-image" @src="setup.ImagePath+'scenes/char/cp/vid/lick-4.mp4'" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+            
+        </video>
+
+        <div class="story-box">
+            <p> I pressed more firmly on her g-spot, and she grabbed her tits again as she took hard, shallow breaths.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Master, oh my God, Master," she gasped. "That feels- that feels-"
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Let it go, <<print $cp.name>>. Come for me," I told her.
+                    </p>
+                </div>
+            </div>
+
+            <p> She released, and a spray of her female ejaculate sloshed around my fingers and wrist, spattering across her abdomen and thighs, down on the couch, and all over my face. <<print $cp.name>> howled as she let loose, her pussy clamping and pulsing as I kept working my fingers in her even though I couldn't properly thrust them in and out. Her eyes rolled back, and her clit, swelling from the blood flow, got a heavy kiss from me as I let her loose a second spray down my chin and neck, covering the front of my shirt and pants.
+            </p>
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "Hunh, hunh," she panted, coming down from the orgasm in a collapse of released tension. "Oh. Oh my God. What- What was that?" she asked as she tried to catch her breath.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/cp.png'" alt="CP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $cp.name>>: </div>
+                    <p> "You're not so fucking bad yourself, though you aren't nearly naked enough," she teased and giggled as she plucked at my shirt. "How the hell did you get so good at that?"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+
+        <<set $college.count += 1>>
+        <<set $eventCount += 1>>
+        <<set $college.status[$college.count] = 1>>
+        <<set $college.status[$college.count-1] = 0>> 
+    
+    </div>
 
 <</nobr>>
 </div>

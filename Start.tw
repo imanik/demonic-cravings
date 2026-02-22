@@ -33,6 +33,54 @@
             <p>Event_5</p>
         </div>
 
+        <div class="intro-button"  data-passage="Event_6" >
+            <p>Event_6</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_7" >
+            <p>Event_7</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_8" >
+            <p>Event_8</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_9" >
+            <p>Event_9</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_10" >
+            <p>Event_10</p>
+        </div>
+
+                <div class="intro-button"  data-passage="Event_11" >
+            <p>Event_11</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_12" >
+            <p>Event_12</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_13" >
+            <p>Event_13</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_14" >
+            <p>Event_14</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_15" >
+            <p>Event_15</p>
+        </div>
+
+                <div class="intro-button"  data-passage="Event_16" >
+            <p>Event_16</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_17" >
+            <p>Event_17</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_18" >
+            <p>Event_18</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_19" >
+            <p>Event_19</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_20" >
+            <p>Event_20</p>
+        </div>
+
 
         <p class="notation-text">Created by <strong>The Twist</strong> | Game version: <em>v0.1 "Episode 1"</em></p>
 

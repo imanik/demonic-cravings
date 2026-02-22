@@ -1,96 +1,144 @@
-
 <div class="big_text">
 <<nobr>>
 
-<!-- Kitchen Morning-->
+    <div class="scene-container">
 
-<<set $charStats = "ct">>
+        <!-- Kitchen Morning-->
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
+        <<set $charStats = "ct">>
 
-
-<!-- Scene 09 - <<print $mp.call>> & <<print $mc.name>>  -->
-
-<p class="notation_text">  <<print $ct.name>> and I made our way on campus, where the class bell had been rung. Signaling the beginning of a new class. Since I was already late, and it was something I was already getting an A in. I could afford to skip it. So we made our way to the library. To say <<print $ct.name>> didn't get too many stairs was an understatement of the year. Everywhere we went, people were staring at her, either because it was her beauty or the outfit she decided to wear. 
-</p>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
 
 
-<p class="notation_text"> Her ensemble was more indicative of a punk rock girl, the perfect combination of heated beauty and sinfully sweet. For starters, she wore a sheer fishnet top that didn't reach her belly button, with sleeves that just reached her forearms. That shirt was covered by a Green Day shirt that was cut just above her belly button, showing off her smooth creamy skin. Drifting lower she had a pair of denim shorts, while cut a little above mid-thigh, which was incredibly sexy, especially paired with fishnet stockings. All coming together to a pair of low-top dirty white Chuck Taylors. Add the fact of her massive 40G chest, long flowing red hair that reached her plump ass, and the leather choker. She was the talk of the campus. 
-</p>
+        <!-- Scene 09 - <<print $mp.call>> & <<print $mc.name>>  -->
 
+        <div class="story-box">
+            <p>  <<print $ct.name>> and I made our way on campus, where the class bell had been rung. Signaling the beginning of a new class. Since I was already late, and it was something I was already getting an A in. I could afford to skip it. So we made our way to the library. To say <<print $ct.name>> didn't get too many stairs was an understatement of the year. Everywhere we went, people were staring at her, either because it was her beauty or the outfit she decided to wear. 
+            </p>
 
+            <p> Her ensemble was more indicative of a punk rock girl, the perfect combination of heated beauty and sinfully sweet. For starters, she wore a sheer fishnet top that didn't reach her belly button, with sleeves that just reached her forearms. That shirt was covered by a Green Day shirt that was cut just above her belly button, showing off her smooth creamy skin. Drifting lower she had a pair of denim shorts, while cut a little above mid-thigh, which was incredibly sexy, especially paired with fishnet stockings. All coming together to a pair of low-top dirty white Chuck Taylors. Add the fact of her massive 40G chest, long flowing red hair that reached her plump ass, and the leather choker. She was the talk of the campus. 
+            </p>
 
-<div class="dialog_text mc_dialog_text">
-<p><span class = "mc"><<print $mc.name>>: </span> "I thought we were supposed to keep a low profile?" I whispered to her as we rounded a building where several guys were gawking at her. One of them even took a picture of her. Somehow, seeing that enraged me. <<print $ct.name>> was mine, and no one should ogle her like that except for me. I was shocked by what I thought. Unsure where that came from.
-</p>
-</div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I thought we were supposed to keep a low profile?" I whispered to her as we rounded a building where several guys were gawking at her. One of them even took a picture of her. Somehow, seeing that enraged me. <<print $ct.name>> was mine, and no one should ogle her like that except for me. I was shocked by what I thought. Unsure where that came from.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/41.png'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/41.png'">
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "Well, I am a succubus. Catching the attention of man is the very reason for my existence," she chuckled as we neared the library. "Besides you are partly to blame for this. You made me this eye-catching. Expect the fall out for your lust. Not that I don't mind, I'm starting to love this body with each passing second."
-</p>
-</div>
+        <div class="story-box">
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Well, I am a succubus. Catching the attention of man is the very reason for my existence," she chuckled as we neared the library. "Besides you are partly to blame for this. You made me this eye-catching. Expect the fall out for your lust. Not that I don't mind, I'm starting to love this body with each passing second."
+                    </p>
+                </div>
+            </div>
 
-<p class="notation_text"> I groaned at that, and just focused on getting to the library, unfortunately, we were stopped before we made it into the building. 
-</p>
+            <p> I groaned at that, and just focused on getting to the library, unfortunately, we were stopped before we made it into the building. 
+            </p>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Cindy: </span> "Hello, have you heard the glory of God's word, and our savior Jesus Christ," said Cindy Wilkins, our honorary leader of the Holy Word Church group that was on campus, and the local pastor's daughter. "He accepts all his love and embraces... Even you," she said, eyeing <<print $ct.name>>'s attire, clearly not liking what she saw. Compared to Cindy's plain white Sunday dress, manicured hair, and stylish headband; <<print $ct.name>> looked like a stripper. Of course, <<print $ct.name>> couldn't help but mess with the church girl, who was running an abstinence pledge drive. Signing up students who pledge to save their virginity until marriage. Naturally, Cindy was first on the list.
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Cindy:</div>
+                    <p> "Hello, have you heard the glory of God's word, and our savior Jesus Christ," said Cindy Wilkins, our honorary leader of the Holy Word Church group that was on campus, and the local pastor's daughter. "He accepts all his love and embraces... Even you," she said, eyeing <<print $ct.name>>'s attire, clearly not liking what she saw. Compared to Cindy's plain white Sunday dress, manicured hair, and stylish headband; <<print $ct.name>> looked like a stripper. Of course, <<print $ct.name>> couldn't help but mess with the church girl, who was running an abstinence pledge drive. Signing up students who pledge to save their virginity until marriage. Naturally, Cindy was first on the list.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/42.png'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/42.png'">
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "Really. Well I have heard of God's word, but I don't think he would accept someone like me." she winked at me, knowing full well that her statement was true.
-</p>
-</div>
+        <div class="story-box">
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Really. Well I have heard of God's word, but I don't think he would accept someone like me." she winked at me, knowing full well that her statement was true.
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Cindy: </span> "Of course, he will. God will forgive you for your sins if you release them and welcome his warm embrace.
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Cindy:</div>
+                    <p> "Of course, he will. God will forgive you for your sins if you release them and welcome his warm embrace.
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> But I like being a sinner. It's so much fun, and in the right atmosphere..." she leaned closer to Cindy, so only she could hear the next part, "Pleasurable," she purred out into Cindy's ear, gaining a reaction from the bible-thumping girl.
-</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> But I like being a sinner. It's so much fun, and in the right atmosphere..." she leaned closer to Cindy, so only she could hear the next part, "Pleasurable," she purred out into Cindy's ear, gaining a reaction from the bible-thumping girl.
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Cindy: </span> "That's...That's not what the Lord had in mind. That act is sacred for your one and only true love," Cindy spatted out. Her face flushed as she caught on to what <<print $ct.name>> was implying.
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Cindy:</div>
+                    <p> "That's...That's not what the Lord had in mind. That act is sacred for your one and only true love," Cindy spatted out. Her face flushed as she caught on to what <<print $ct.name>> was implying.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/char/ct/43.png'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/43.png'">
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "Really, but I thought it was in the bible. In Generel 9:7 'And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.' Also in Generel 1:22, it states, `And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'" <<print $ct.name>> versed out in a smirk as I was surprised that she knew the bible. Later on, she would tell me that she read it for fun, to see what man had gotten right, and had gotten wrong.
-</p>
-</div>
+        <div class="story-box">
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Really, but I thought it was in the bible. In Generel 9:7 'And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.' Also in Generel 1:22, it states, `And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'" <<print $ct.name>> versed out in a smirk as I was surprised that she knew the bible. Later on, she would tell me that she read it for fun, to see what man had gotten right, and had gotten wrong.
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text character_dialog_text">
-<p><span class = "character"> Cindy: </span> "Well, well, that was then." Cindy spat back, having no backing in her argument. Cheeks still flushed she quickly shoved the leaflets into <<print $ct.name>>, and my hands, and stormed off. <<print $ct.name>> only chucked at the girl's embarrassment.
-</p>
-</div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Cindy:</div>
+                    <p> "Well, well, that was then." Cindy spat back, having no backing in her argument. Cheeks still flushed she quickly shoved the leaflets into <<print $ct.name>>, and my hands, and stormed off. <<print $ct.name>> only chucked at the girl's embarrassment.
+                    </p>
+                </div>
+            </div>
 
-<div class="dialog_text ct_dialog_text">
-<p><span class = "ct"><<print $ct.name>>: </span> "You know, church girls can be the sluttiest girls on the planet. Maybe you should claim her for yourself. Show her the true meaning of rapturous delight."
-</p>
-</div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You know, church girls can be the sluttiest girls on the planet. Maybe you should claim her for yourself. Show her the true meaning of rapturous delight."
+                    </p>
+                </div>
+            </div>
 
-<p class="notation_text"> I only blushed at that. Trying to not further myself into the discussion, and move away from prying eyes. 
-</p>
+            <p> I only blushed at that. Trying to not further myself into the discussion, and move away from prying eyes. 
+            </p>
 
+        </div>
 
-<div class="enter_button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
-<p >Leave</p>
-</div>
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
 
-<<set $college.count += 1>>
-<<set $eventCount += 1>>
-<<set $college.status[$college.count] = 1>>
-<<set $college.status[$college.count-1] = 0>> 
+        <<set $college.count += 1>>
+        <<set $eventCount += 1>>
+        <<set $college.status[$college.count] = 1>>
+        <<set $college.status[$college.count-1] = 0>> 
+    
+    </div>
 
 <</nobr>>
 </div>
