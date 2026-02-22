@@ -16,6 +16,23 @@
         <div class="intro-button"  data-passage="Settings" >
             <p>Start</p>
         </div>
+        
+        <div class="intro-button"  data-passage="Event_1" >
+            <p>Event_1</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_2" >
+            <p>Event_2</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_3" >
+            <p>Event_3</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_4" >
+            <p>Event_4</p>
+        </div>
+        <div class="intro-button"  data-passage="Event_5" >
+            <p>Event_5</p>
+        </div>
+
 
         <p class="notation-text">Created by <strong>The Twist</strong> | Game version: <em>v0.1 "Episode 1"</em></p>
 
