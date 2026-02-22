@@ -1454,7 +1454,7 @@ background: linear-gradient(to right, #6a5acd, #8a2be2);
 
 
 /* Avatars */
- .avatar {
+/*  .avatar {
   background: #202020;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -1469,7 +1469,7 @@ background: linear-gradient(to right, #6a5acd, #8a2be2);
 .avatar img {
   object-fit: contain;
 
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+} */</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
 
@@ -2605,147 +2605,206 @@ window.sceneLoad = function (code,number,type) {
     }
     &gt;&gt;
     
-&lt;&lt;include &quot;SceneInit&quot; &gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Intro_0" tags="" position="425,200" size="100,100">&lt;div class=&quot;big_text&quot;&gt;
+&lt;&lt;include &quot;SceneInit&quot; &gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Intro_0" tags="" position="425,200" size="100,100">&lt;div class=&quot;intro-scene&quot;&gt;
 &lt;&lt;nobr&gt;&gt;
 
+    &lt;div class=&quot;scene-container&quot;&gt;
+        &lt;!-- Living middaY --&gt;
 
-&lt;!-- Living middaY --&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/mc/1.jpg&#39;&quot;&gt;
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/mc/1.jpg&#39;&quot;&gt;
+        &lt;!-- Scene 03 - &lt;&lt;print $mp.call&gt;&gt; &amp; &lt;&lt;print $mc.name&gt;&gt; 
 
-&lt;!-- Scene 03 - &lt;&lt;print $mp.call&gt;&gt; &amp; &lt;&lt;print $mc.name&gt;&gt; 
+        Plot: (&lt;&lt;print $mp.call&gt;&gt; &amp; &lt;&lt;print $dad.call&gt;&gt; Family Issue)
 
-Plot: (&lt;&lt;print $mp.call&gt;&gt; &amp; &lt;&lt;print $dad.call&gt;&gt; Family Issue)
-
- --&gt;
-
-
-
-&lt;p class=&quot;notation_text&quot;&gt; My name is &lt;&lt;print $mc.lastname&gt;&gt;, a 21-year-old virgin, and the lowest man in the social order. For the most part, my life has been pretty much uneventful. Just a regular guy, trying to get his accounting degree, so I can work on people&#39;s taxes. It&#39;s not a glamorous life, but it would be a safe and stable profession. After all, there are only two certainties in life; death, and taxes. So everyone needs a tax advisor. Until all that changed when I met her. 
-&lt;/p&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt; The bell rang, signaling the end of a class period, and the starting time for students to get to their next class. It was another boring day in my incredibly boring life at Morrison University, home of the fighting Lymers. A stupid mascot, but it didn&#39;t matter if your football team was undefeated in the school conference that year. I just made it out of advanced accounting; heading towards the library, hoping to get a jump start on next week&#39;s homework before the weekend started. Unfortunately, all my plans came to a stop when someone pushed me down to the floor. 
-&lt;/p&gt;
-
-&lt;div class=&quot;dialog_text character_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;character&quot;&gt; Brock : &lt;/span&gt; &quot;Watch where you&#39;re going, freak. You know the rules, make way for royalty.&quot; Brock shouted out in his Neanderthal-like voice. &quot;Come on babe let&#39;s not bother with this lowly pest,&quot; he shouted, wrapping his arm around his girlfriend, the head cheerleader. 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ml/1.jpg&#39;&quot;&gt;
-
-&lt;div class=&quot;dialog_text mr_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;mr&quot;&gt;Miley: &lt;/span&gt; &quot;Oh yes, babe. Let&#39;s get going before his stink washes all over me,&quot; Miley shouted out. Her snootiness was evident in the way she held herself. 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt;&lt;&lt;print $mr.name&gt;&gt; was the classic head cheerleader. Big blonde hair, the immaculate way she dresses, perfectly applied make-up and thinks people would fall for her because she is beautiful. She was a beauty, I can&#39;t deny that. I could remember the few times I rubbed one out while thinking of her. But my fantasy entails me treating her like a two-dollar whore, which is not all that far-fetched if the rumors I heard about her are true. 
-&lt;/p&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt;Apparently, before every game, she and a select group of cheerleaders would go into the boy&#39;s locker room and proceed to give them all a pre-game blowjob. After that, Molly and her select group of cheerleaders promised the team if they win, then they will get to have them all night long. It seemed like an outlandish plan, but it seemed to work since they&#39;ve been undefeated for two years in a row. The promise of pussy can get a man to do impossible things. 
-&lt;/p&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt;  As I got up after Brock and his horde left, someone stepped close to me. 
-&lt;/p&gt;
-
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ep/1.png&#39;&quot;&gt;
-
-&lt;div class=&quot;dialog_text ep_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;ep&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/span&gt; &quot;Jerks.... My God &lt;&lt;print $mc.name&gt;&gt;, are you ok,&quot; said the concerned voice of a friend. 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;dialog_text mc_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;mc&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/span&gt; &quot;Ya &lt;&lt;print $ep.name&gt;&gt;, I&#39;m fine, only my ego has been bruised.&quot; 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;dialog_text ep_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;ep&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/span&gt;&quot;Well I&#39;m glad that is the only thing that was bruised,&quot; she said with a friendly smile. 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt; &lt;&lt;print $ep.name&gt;&gt; Summers, was your typical girl next door, which was ironic since she was the girl next door. She moved in with her mother, after divorcing her dad. It was promoted after her mother got a call from the police that her husband was in jail for the possession of cocaine, and soliciting prostitutes. Apparently what &lt;&lt;print $ep.name&gt;&gt; told me was that her father and several of his colleagues went out after work, after finishing a big deal on the trading floor. 
-&lt;/p&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt;They partied, got drugs, hookers, and partied at one pricey hotel. Unfortunately, an elderly couple complained about the noise and called the hotel concierge, who later called the police. Of course, after bailing her husband out of jail, Blair, &lt;&lt;print $ep.name&gt;&gt;le&#39;s mother, filed for divorce and took nearly everything from him. Thanks to police evidence of his infidelity, it was a slam dunk, and they walked away with millions, plus alimony. They moved into town afterward, where they bought a house that was right next door. That was about the time of my freshman year in high school. We became good friends over the years; although sometimes I wished I took the plunge and asked her out. 
-&lt;/p&gt;
-
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ep/3.png&#39;&quot;&gt;
-
-&lt;p class=&quot;notation_text&quot;&gt; While &lt;&lt;print $ep.name&gt;&gt; was not America&#39;s next top model hot, she was cute. She had her natural curly brown hair which she got from her mother, lovely dimples, an athletic build since she ran cross country and a modest set of B cup tits. Although she has complained to me that she wished she had her moms&#39; boobs who was sporting a rather impressive DD. 
-&lt;/p&gt;
-
-&lt;div class=&quot;dialog_text ep_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;ep&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/span&gt; &quot;So where are you heading? You&#39;re done with classes right?&quot; she asked me as she helped me up. 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;dialog_text mc_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;mc&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/span&gt; &quot;Ya. I was heading to the library to get a jumpstart on homework, but I think I&#39;m going to head home.&quot; 
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;dialog_text ep_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;ep&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/span&gt; &quot;Really... If you wait, we can go back together. I only have one class left.&quot; she aid hoping for me to wait for her.
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;dialog_text mc_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;mc&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/span&gt; &quot;No, I think I&#39;ll head home. Brock-cock had kinda ruined school for me this week.&quot; she snickered at that, as it was our nickname for the football captain who always bragged about the size of his cock. &quot;I&#39;ll just cut through the forest. I&#39;ll be fine,&quot; I said as I packed up my stuff and headed for home.
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ep/4.png&#39;&quot;&gt;
-
-&lt;div class=&quot;dialog_text ep_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;ep&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/span&gt; &quot;Ok. Movie night tonight,&quot; she shouted out.
-&lt;/p&gt;
-&lt;/div&gt;
+        --&gt;
 
 
+        &lt;div class=&quot;story-box&quot;&gt;
+            &lt;p&gt; My name is &lt;&lt;print $mc.lastname&gt;&gt;, a 21-year-old virgin, and the lowest man in the social order. For the most part, my life has been pretty much uneventful. Just a regular guy, trying to get his accounting degree, so I can work on people&#39;s taxes. It&#39;s not a glamorous life, but it would be a safe and stable profession. After all, there are only two certainties in life; death, and taxes. So everyone needs a tax advisor. Until all that changed when I met her. 
+            &lt;/p&gt;
 
-&lt;div class=&quot;dialog_text mc_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;mc&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/span&gt; &quot;Well see. I have a lot of work to do.&quot; I responded not even bothering to look back at her.
-&lt;/p&gt;
-&lt;/div&gt;
+            &lt;p&gt; The bell rang, signaling the end of a class period, and the starting time for students to get to their next class. It was another boring day in my incredibly boring life at Morrison University, home of the fighting Lymers. A stupid mascot, but it didn&#39;t matter if your football team was undefeated in the school conference that year. I just made it out of advanced accounting; heading towards the library, hoping to get a jump start on next week&#39;s homework before the weekend started. Unfortunately, all my plans came to a stop when someone pushed me down to the floor. 
+            &lt;/p&gt;
 
-&lt;p class=&quot;notation_text&quot;&gt; In truth, I wanted to be with &lt;&lt;print $ep.name&gt;&gt;, but I was still reeling from the humiliation of Brock and his lackeys calling me a freak. A nickname I picked up my first year here in college. It was initiation week where new and old students came together and partied. It was the last night of the initiation week and it ended with a big lawn party bash. Loud music, chicken in booze, and people pairing off to hook up in the forest. 
-&lt;/p&gt;
+            &lt;div class=&quot;dialogue-row character&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/character.png&#39;&quot; alt=&quot;Character&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;Brock&lt;/div&gt;
+                    &lt;p&gt;&quot;Watch where you&#39;re going, freak. You know the rules, make way for royalty.&quot; Brock shouted out in his Neanderthal-like voice. &quot;Come on babe let&#39;s not bother with this lowly pest,&quot; he shouted, wrapping his arm around his girlfriend, the head cheerleader. 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
 
-&lt;p class=&quot;notation_text&quot;&gt;I was having a good time with me and my friends, but what I didn&#39;t know was that someone spiked the punch bowl with viagra. It would be fine if I was wearing jeans, but it was cold so I wore some sweatpants instead. Then just like that, I was walking around with a really stiff boner for the whole student body to see. I was called perv, pervert, weirdo, but the one that seemed to stick the most was Freak. The freak kid who seems to not keep it in his pants. 
-&lt;/p&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ml/1.jpg&#39;&quot;&gt;
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/mc/2.jpg&#39;&quot;&gt;
+        &lt;div class=&quot;story-box&quot;&gt;
+            &lt;div class=&quot;dialogue-row mr&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/mr.png&#39;&quot; alt=&quot;MR&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;Miley&lt;/div&gt;
+                    &lt;p&gt;&quot;Oh yes, babe. Let&#39;s get going before his stink washes all over me,&quot; Miley shouted out. Her snootiness was evident in the way she held herself. 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
 
-&lt;p class=&quot;notation_text&quot;&gt;Ever since then my high college reputation was pretty much tanked. All the friends that I went to school with, distance themselves; afraid to be caught up in the Freak campaign. The only one who seemed to stick around was &lt;&lt;print $ep.name&gt;&gt;. For the last four years I spent hiding out in the corner trying my best to not be noticed, and it seemed to work. People had been not calling me Freak, but hearing Brock calling me that, just brought it all back. 
-&lt;/p&gt;
+            &lt;p&gt;&lt;&lt;print $mr.name&gt;&gt; was the classic head cheerleader. Big blonde hair, the immaculate way she dresses, perfectly applied make-up and thinks people would fall for her because she is beautiful. She was a beauty, I can&#39;t deny that. I could remember the few times I rubbed one out while thinking of her. But my fantasy entails me treating her like a two-dollar whore, which is not all that far-fetched if the rumors I heard about her are true. 
+            &lt;/p&gt;
 
-&lt;p class=&quot;notation_text&quot;&gt; Stuck wallowing in my own head, I hadn&#39;t realized that I was deep into the forest, that was until I heard a scream in the distance. I stopped in my tracks wondering as if it was just the wind. The forest by the university had its host of rumors and lore. Some say that it was haunted, others say they saw strange sightings, some say that people disappeared, but all of that could be accounted for by drunk people, accidents, and just plain bad luck. I never paid too much mind to those rumors, that was until I heard a scream in the distance. 
-&lt;/p&gt;
+            &lt;p&gt;Apparently, before every game, she and a select group of cheerleaders would go into the boy&#39;s locker room and proceed to give them all a pre-game blowjob. After that, Molly and her select group of cheerleaders promised the team if they win, then they will get to have them all night long. It seemed like an outlandish plan, but it seemed to work since they&#39;ve been undefeated for two years in a row. The promise of pussy can get a man to do impossible things. 
+            &lt;/p&gt;
 
-&lt;p class=&quot;notation_text&quot;&gt; &quot;HELP!&quot; a loud shrieking voice called off at a distance. Confirming that it was not the wind. 
-&lt;/p&gt;
+            &lt;p&gt;  As I got up after Brock and his horde left, someone stepped close to me. 
+            &lt;/p&gt;
+        &lt;/div&gt;
 
-&lt;div class=&quot;dialog_text mc_dialog_text&quot;&gt;
-&lt;p&gt;&lt;span class = &quot;mc&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/span&gt; &quot;Oh shit,&quot; then on instinct, I started to run towards the person in distress. 
-&lt;/p&gt;
-&lt;/div&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ep/1.png&#39;&quot;&gt;
+        
+        &lt;div class=&quot;story-box&quot;&gt;
+            &lt;div class=&quot;dialogue-row ep&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/ep.png&#39;&quot; alt=&quot;EP&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt;&quot;Jerks.... My God &lt;&lt;print $mc.name&gt;&gt;, are you ok,&quot; said the concerned voice of a friend. 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;dialogue-row mc&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/mc.png&#39;&quot; alt=&quot;MC&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt;&quot;Ya &lt;&lt;print $ep.name&gt;&gt;, I&#39;m fine, only my ego has been bruised.&quot; 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;dialogue-row ep&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/ep.png&#39;&quot; alt=&quot;EP&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt;&quot;Well I&#39;m glad that is the only thing that was bruised,&quot; she said with a friendly smile. 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;p&gt; &lt;&lt;print $ep.name&gt;&gt; Summers, was your typical girl next door, which was ironic since she was the girl next door. She moved in with her mother, after divorcing her dad. It was promoted after her mother got a call from the police that her husband was in jail for the possession of cocaine, and soliciting prostitutes. Apparently what &lt;&lt;print $ep.name&gt;&gt; told me was that her father and several of his colleagues went out after work, after finishing a big deal on the trading floor. 
+            &lt;/p&gt;
+
+            &lt;p&gt;They partied, got drugs, hookers, and partied at one pricey hotel. Unfortunately, an elderly couple complained about the noise and called the hotel concierge, who later called the police. Of course, after bailing her husband out of jail, Blair, &lt;&lt;print $ep.name&gt;&gt;le&#39;s mother, filed for divorce and took nearly everything from him. Thanks to police evidence of his infidelity, it was a slam dunk, and they walked away with millions, plus alimony. They moved into town afterward, where they bought a house that was right next door. That was about the time of my freshman year in high school. We became good friends over the years; although sometimes I wished I took the plunge and asked her out. 
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ep/3.png&#39;&quot;&gt;
+
+        &lt;div class=&quot;story-box&quot;&gt;
+            &lt;p&gt; While &lt;&lt;print $ep.name&gt;&gt; was not America&#39;s next top model hot, she was cute. She had her natural curly brown hair which she got from her mother, lovely dimples, an athletic build since she ran cross country and a modest set of B cup tits. Although she has complained to me that she wished she had her moms&#39; boobs who was sporting a rather impressive DD. 
+            &lt;/p&gt;
+
+            &lt;div class=&quot;dialogue-row ep&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/ep.png&#39;&quot; alt=&quot;EP&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;So where are you heading? You&#39;re done with classes right?&quot; she asked me as she helped me up. 
+                &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;dialogue-row mc&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/mc.png&#39;&quot; alt=&quot;MC&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;Ya. I was heading to the library to get a jumpstart on homework, but I think I&#39;m going to head home.&quot; 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;dialogue-row ep&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/ep.png&#39;&quot; alt=&quot;EP&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;Really... If you wait, we can go back together. I only have one class left.&quot; she aid hoping for me to wait for her.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;dialogue-row mc&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/mc.png&#39;&quot; alt=&quot;MC&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;No, I think I&#39;ll head home. Brock-cock had kinda ruined school for me this week.&quot; she snickered at that, as it was our nickname for the football captain who always bragged about the size of his cock. &quot;I&#39;ll just cut through the forest. I&#39;ll be fine,&quot; I said as I packed up my stuff and headed for home.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/ep/4.png&#39;&quot;&gt;
+
+        &lt;div class=&quot;story-box&quot;&gt;
+            &lt;div class=&quot;dialogue-row ep&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/ep.png&#39;&quot; alt=&quot;EP&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $ep.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;Ok. Movie night tonight,&quot; she shouted out.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
 
 
 
-&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Intro_1&quot;&gt;
-&lt;p &gt;Continue&lt;/p&gt;
-&lt;/div&gt;
+            &lt;div class=&quot;dialogue-row mc&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/mc.png&#39;&quot; alt=&quot;MC&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;Well see. I have a lot of work to do.&quot; I responded not even bothering to look back at her.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
 
-&lt;P class=&quot;notation_text&quot;&gt; &quot;Note: If you are playing this game for the first time, it is recommended to click on the &#39;Continue&#39; button.&quot;
-&lt;/p&gt;
+            &lt;p&gt; In truth, I wanted to be with &lt;&lt;print $ep.name&gt;&gt;, but I was still reeling from the humiliation of Brock and his lackeys calling me a freak. A nickname I picked up my first year here in college. It was initiation week where new and old students came together and partied. It was the last night of the initiation week and it ended with a big lawn party bash. Loud music, chicken in booze, and people pairing off to hook up in the forest. 
+            &lt;/p&gt;
 
-&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot;&gt;
-&lt;p &gt;Skip To Main Game&lt;/p&gt;
-&lt;/div&gt;
+            &lt;p&gt;I was having a good time with me and my friends, but what I didn&#39;t know was that someone spiked the punch bowl with viagra. It would be fine if I was wearing jeans, but it was cold so I wore some sweatpants instead. Then just like that, I was walking around with a really stiff boner for the whole student body to see. I was called perv, pervert, weirdo, but the one that seemed to stick the most was Freak. The freak kid who seems to not keep it in his pants. 
+            &lt;/p&gt;
+        &lt;/div&gt;
 
-&lt;&lt;set $myroom.status[$myroom.count] = 1&gt;&gt; 
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/char/mc/2.jpg&#39;&quot;&gt;
+
+        &lt;div class=&quot;story-box&quot;&gt;
+            &lt;p&gt;Ever since then my high college reputation was pretty much tanked. All the friends that I went to school with, distance themselves; afraid to be caught up in the Freak campaign. The only one who seemed to stick around was &lt;&lt;print $ep.name&gt;&gt;. For the last four years I spent hiding out in the corner trying my best to not be noticed, and it seemed to work. People had been not calling me Freak, but hearing Brock calling me that, just brought it all back. 
+            &lt;/p&gt;
+
+            &lt;p&gt; Stuck wallowing in my own head, I hadn&#39;t realized that I was deep into the forest, that was until I heard a scream in the distance. I stopped in my tracks wondering as if it was just the wind. The forest by the university had its host of rumors and lore. Some say that it was haunted, others say they saw strange sightings, some say that people disappeared, but all of that could be accounted for by drunk people, accidents, and just plain bad luck. I never paid too much mind to those rumors, that was until I heard a scream in the distance. 
+            &lt;/p&gt;
+
+            &lt;p&gt; &quot;HELP!&quot; a loud shrieking voice called off at a distance. Confirming that it was not the wind. 
+            &lt;/p&gt;
+
+            &lt;div class=&quot;dialogue-row mc&quot;&gt;
+                &lt;img @src=&quot;setup.ImagePath+&#39;scenes/avatar/mc.png&#39;&quot; alt=&quot;MC&quot; class=&quot;avatar&quot;&gt;
+                &lt;div class=&quot;dialogue-box&quot;&gt;
+                    &lt;div class=&quot;name&quot;&gt;&lt;&lt;print $mc.name&gt;&gt;: &lt;/div&gt;
+                    &lt;p&gt; &quot;Oh shit,&quot; then on instinct, I started to run towards the person in distress. 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Intro_1&quot;&gt;
+        &lt;p &gt;Continue&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt; &quot;Note: If you are playing this game for the first time, it is recommended to click on the &#39;Continue&#39; button.&quot;
+    &lt;/p&gt;
+
+    &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot;&gt;
+        &lt;p &gt;Skip To Main Game&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;&lt;set $myroom.status[$myroom.count] = 1&gt;&gt; 
 
 
 &lt;&lt;/nobr&gt;&gt;
