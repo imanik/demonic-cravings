@@ -11,7 +11,7 @@ Location : <<print passage()>></p>
 
 
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/shop.jpeg'">
+<img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/shop.jpeg'">
 
 <p class="notation_text">What should I purchase?</p>
 
@@ -19,7 +19,7 @@ Location : <<print passage()>></p>
 
 <<set $charStats = "ap">>
 
-    <div class="enter_button" style="width:25vw;" data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.ap1; 
+    <div class="enter-button" style="width:25vw;" data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.ap1; 
           $charObject = $ap; $sceneImage = 'scenes/char/ap/6.png';">
 
     <p >Interact With <<print $ap.name>></p>
@@ -31,7 +31,7 @@ Location : <<print passage()>></p>
 
 <<if $currentTime lte 4 >> 
 
- <div class="enter_button" style="width:25vw;" data-passage="MiniGame"   data-setter = " $mediaType = 'image'; $activityType = 'Money'; $activityImage = 'scenes/misc/etc/shop.gif'; $loc = 'Shop';" >
+ <div class="enter-button" style="width:25vw;" data-passage="MiniGame"   data-setter = " $mediaType = 'image'; $activityType = 'Money'; $activityImage = 'scenes/misc/etc/shop.gif'; $loc = 'Shop';" >
 
     <p >Work (Money +)</p>
 
@@ -42,7 +42,7 @@ Location : <<print passage()>></p>
 
 
 
-<div class="enter_button" data-passage="Outdoor" data-setter = "$message = ''" style="width:25vw;">
+<div class="enter-button" data-passage="Outdoor" data-setter = "$message = ''" style="width:25vw;">
 <p >Leave</p>
 </div>
 

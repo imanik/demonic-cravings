@@ -11,7 +11,7 @@
     <<print $message>>
     </p>
 
-    <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/gatitaHome.webp'">
+    <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/gatitaHome.webp'">
 
                 <p class="notation_text">What Should I Do...</p>
 
@@ -19,7 +19,7 @@
     <div id="loc-buttons"></div>
 
         
-    <div class="enter_button" style="width:25vw;" data-passage="Outdoor" >
+    <div class="enter-button" style="width:25vw;" data-passage="Outdoor" >
     <p >Leave</p>
     </div>
 

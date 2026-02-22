@@ -14,7 +14,7 @@
                 <div id="pos">
 
 
-                <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/living.jpg'">
+                <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/living.jpg'">
 
                   <p class="notation_text">What Should I Do...</p>
 
@@ -29,12 +29,12 @@
               
 
             <<if $eventCount gte $fuckEvent.cp1.event_fuck && $eventCount lt $fuckEvent.cp2.event_fuck>>
-                <div class="enter_button"  data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.cp1;  
+                <div class="enter-button"  data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.cp1;  
                 $charObject =  $cp; $sceneImage = $fuckEvent.cp1.image; ;"  >
                 <p >Interact With <<print $cp.name>></p>
                 </div>
             <<elseif $eventCount gte $fuckEvent.cp2.event_fuck>>
-                <div class="enter_button"  data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.cp2;  
+                <div class="enter-button"  data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.cp2;  
                 $charObject =  $cp; $sceneImage = $fuckEvent.cp2.image; ;"  >
                 <p >Interact With <<print $cp.name>></p>
                 </div>
@@ -46,7 +46,7 @@
        
 
 
-          <div class="enter_button"  data-passage="MiniGame"   data-setter = " $mediaType = 'image'; 
+          <div class="enter-button"  data-passage="MiniGame"   data-setter = " $mediaType = 'image'; 
           $activityType = 'Knowledge'; $activityImage = 'scenes/misc/etc/porn.gif'; $loc = 'Living';" >
               <p >Watch TV</p>
           </div>
@@ -58,14 +58,14 @@
 
 
 
-          <div class="enter_button"  data-passage="RelationGame"   data-setter = "$livingClean = 1; 
+          <div class="enter-button"  data-passage="RelationGame"   data-setter = "$livingClean = 1; 
           $mediaType = 'image'; $activityType = 'Money'; $loc = 'Living'; $activityImage = 'scenes/misc/etc/clean.gif'; " >
                 <p >Clean (Charm +)</p>
                 </div>
 
     <</if>>
 
-    <div class="enter_button"  data-passage="Home" >
+    <div class="enter-button"  data-passage="Home" >
     <p >Leave</p>
     </div>
 

@@ -26,19 +26,19 @@
 <div class="button-pair" style="margin-bottom:10%">
   <div class="loc_button"  data-passage="Cpoffice" data-setter= '$msg = ""'>
     
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/cpoffice.jpg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/cpoffice.jpg'">
       <p><<print $cp.name>>'s Office</p>
     
   </div>
   <div class="loc_button"  onclick="locEventCheck('DadOffice');" data-setter= '$msg = ""'>
     
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
       <p><<print $dad.lastname>>'s Office</p>
    
   </div>
   <div class="loc_button"  onclick="locEventCheck('DadHouse');" data-setter= '$msg = ""'>
     
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/4/mansion.jpg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/4/mansion.jpg'">
       <p><<print $dad.lastname>>'s House</p>
    
   </div>
@@ -48,20 +48,20 @@
 
   <div class="loc_button"  data-passage="College" data-setter= '$msg = ""'>
     
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
       <p>College</p>
    
   </div>
 
   <div class="loc_button"  data-passage="Shop" data-setter= '$msg = ""'>
     
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/shop.jpeg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/shop.jpeg'">
       <p>Shop</p>
    
   </div>
   <div class="loc_button" data-passage="Home" data-setter= '$msg = ""'>
    
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/my_home.jpg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/my_home.jpg'">
       <p>Home</p>
    
   </div>

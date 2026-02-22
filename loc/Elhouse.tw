@@ -14,7 +14,7 @@
 
 
 
-    <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/EllaHome.jpg'">
+    <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/EllaHome.jpg'">
 
                 <p class="notation_text">What Should I Do...</p>
 
@@ -25,7 +25,7 @@
             
 
 
-    <div class="enter_button" style="width:25vw;" data-passage="Outdoor" >
+    <div class="enter-button" style="width:25vw;" data-passage="Outdoor" >
     <p >Leave</p>
     </div>
 

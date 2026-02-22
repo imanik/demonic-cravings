@@ -9,13 +9,13 @@
     </p>
 
 
-    <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
+    <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/college.jpg'">
 
     <p class="notation_text">What should I do now?</p>
 
 
     <<if $currentTime gte 0 && $currentTime lte 2>>
-    <div class="enter_button" style="width:25vw;" data-passage="RelationGame"   
+    <div class="enter-button" style="width:25vw;" data-passage="RelationGame"   
     data-setter = " $mediaType = 'image'; $activityType = 'Knowledge'; $activityImage = 'scenes/char/ep/19.png'; $loc = 'College';" >
 
         <p >Start Class (Knowledge +)</p>
@@ -23,7 +23,7 @@
     </div>
     <</if>>
 
-    <div class="enter_button"  data-passage="Home" style="width:25vw;">
+    <div class="enter-button"  data-passage="Home" style="width:25vw;">
     <p >Leave</p>
     </div>
 

@@ -5891,7 +5891,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;div id=&quot;pos&quot;&gt;
 
 
-  &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/mc/2/99.webp&#39;&quot;&gt;
+  &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/mc/2/99.webp&#39;&quot;&gt;
 
 
 &lt;p class=&quot;notation_text&quot;&gt;&lt;&lt;print $mc.name&gt;&gt; should ...&lt;/p&gt;
@@ -5899,20 +5899,20 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$activityType = &#39;Sex_Freq&#39;; $mediaType = &#39;image&#39;;  $activityImage = &#39;scenes/misc/porn.gif&#39;;&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$activityType = &#39;Sex_Freq&#39;; $mediaType = &#39;image&#39;;  $activityImage = &#39;scenes/misc/porn.gif&#39;;&quot; &gt;
 &lt;p &gt;Watch Porn!&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/hack.jpg&#39;&quot;&gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/hack.jpg&#39;&quot;&gt;
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$activityType = &#39;Money&#39;; $mediaType = &#39;image&#39;;  
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$activityType = &#39;Money&#39;; $mediaType = &#39;image&#39;;  
 $activityImage = &#39;scenes/mom/2/100.jpg&#39;;&quot; &gt;
 &lt;p &gt;Do Work!&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;Bedroom&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Bedroom&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -5930,13 +5930,13 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;&lt;print $message&gt;&gt;
 &lt;/p&gt;
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/bathroom.jpg&#39;&quot;&gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/bathroom.jpg&#39;&quot;&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
 
 
 &lt;&lt;if $shower is 0 and $currentTime lte 5 &gt;&gt;
-      &lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$shower = 1; $mediaType = &#39;image&#39;; 
+      &lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$shower = 1; $mediaType = &#39;image&#39;; 
       $activityType = &#39;Stamina&#39;; $activityImage = &#39;scenes/misc/etc/shower.webp&#39;; $loc = &#39;Bathroom&#39;;&quot; &gt;
 
         &lt;p &gt;Shower (Stamina +)&lt;/p&gt;
@@ -5948,7 +5948,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
   
 &lt;&lt;if $laundry is 0 and $currentTime lte 5 &gt;&gt;
 
-      &lt;div class=&quot;enter_button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$shower = 1; $mediaType = &#39;image&#39;; 
+      &lt;div class=&quot;enter-button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$shower = 1; $mediaType = &#39;image&#39;; 
       $activityType = &#39;Money&#39;; $activityImage = &#39;scenes/misc/etc/laundry.jpg&#39;; $loc = &#39;Bathroom&#39;;&quot; &gt;
 
         &lt;p &gt;Laundry (Charm +)&lt;/p&gt;
@@ -5959,11 +5959,11 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-&lt;!-- &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+&lt;!-- &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
 &lt;p &gt;Peeping&lt;/p&gt;
 &lt;/div&gt; --&gt;
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -5985,7 +5985,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
         
 
-        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/etc/locked.jpg&#39;&quot;&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/etc/locked.jpg&#39;&quot;&gt;
 
         &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
         
@@ -5994,7 +5994,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-        &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+        &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
         &lt;p &gt;Leave&lt;/p&gt;
         &lt;/div&gt;
 
@@ -6012,7 +6012,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;/p&gt;
 
 
-        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/kitchen.jpg&#39;&quot;&gt;
+        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/kitchen.jpg&#39;&quot;&gt;
 
         &lt;p class=&quot;notation_text&quot;&gt;What Should I Do...&lt;/p&gt;
 
@@ -6023,7 +6023,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
             &lt;div id=&quot;pos&quot;&gt;
      
-          &lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$mediaType = &#39;image&#39;; 
+          &lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$mediaType = &#39;image&#39;; 
           $activityType = &#39;Stamina&#39;; $activityImage = &#39;scenes/char/mp/3.png&#39;; $loc = &#39;Kitchen&#39;;&quot; &gt;
               &lt;p &gt;Do Breakfast (Stamina +)&lt;/p&gt;
           &lt;/div&gt;
@@ -6033,7 +6033,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;&lt;set $charStats = &quot;mp&quot;&gt;&gt;
 
       
-        &lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$mediaType = &#39;image&#39;; 
+        &lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$mediaType = &#39;image&#39;; 
         $activityType = &#39;Stamina&#39;; $activityImage = &#39;scenes/char/mp/2.png&#39;; $loc = &#39;Kitchen&#39;;&quot; &gt;
             &lt;p &gt;Dinner (Stamina +)&lt;/p&gt;
       &lt;/div&gt;
@@ -6047,14 +6047,14 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
         &lt;&lt;if $kitchenClean is 0  &gt;&gt;
 
 
-            &lt;div class=&quot;enter_button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$kitchenClean = 1; $mediaType = &#39;image&#39;; 
+            &lt;div class=&quot;enter-button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$kitchenClean = 1; $mediaType = &#39;image&#39;; 
             $activityType = &#39;Money&#39;; $activityImage = &#39;scenes/misc/etc/kitchenclean.gif&#39;; $loc = &#39;Kitchen&#39;;&quot; &gt;
             &lt;p &gt;Clean Kitchen! (Charm +)&lt;/p&gt;
             &lt;/div&gt;
 
         &lt;&lt;/if&gt;&gt;
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -6092,19 +6092,19 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
                 &lt;div class=&quot;button-pair&quot;&gt;
                     &lt;div class=&quot;loc_button&quot;   data-passage=&quot;Bedroom&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                         
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/m_bedroom.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/m_bedroom.jpg&#39;&quot;&gt;
                         &lt;p&gt;Bedroom&lt;/p&gt;
                         
                     &lt;/div&gt;
                     &lt;div class=&quot;loc_button&quot;  onclick=&quot;locEventCheck(&#39;Kitchen&#39;);&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                         
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/kitchen.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/kitchen.jpg&#39;&quot;&gt;
                         &lt;p&gt;Kitchen&lt;/p&gt;
                     
                     &lt;/div&gt;
                     &lt;div class=&quot;loc_button&quot;  data-passage=&quot;Living&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                     
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/living.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/living.jpg&#39;&quot;&gt;
                         &lt;p&gt;Living&lt;/p&gt;
                     
                     &lt;/div&gt;
@@ -6114,19 +6114,19 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
                 &lt;div class=&quot;button-pair&quot;&gt;
                     &lt;div class=&quot;loc_button&quot; data-passage=&quot;Sisterroom&quot; data-setter= &#39;$msg = &quot;&quot;&#39; &gt;
                         
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/s_bedroom.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/s_bedroom.jpg&#39;&quot;&gt;
                         &lt;p&gt;&lt;&lt;print $up.name&gt;&gt;&#39;s Room&lt;/p&gt;
                     &lt;/div&gt;
                     
                     &lt;div class=&quot;loc_button&quot; onclick=&quot;locEventCheck(&#39;MyRoom&#39;);&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                     
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/myroom.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/myroom.jpg&#39;&quot;&gt;
                         &lt;p&gt;My Room&lt;/p&gt;
                         
                     &lt;/div&gt;
                     &lt;div class=&quot;loc_button&quot;  data-passage=&quot;Bathroom&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                     
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/bathroom.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/bathroom.jpg&#39;&quot;&gt;
                         &lt;p&gt;Bathroom&lt;/p&gt;
                         
                     &lt;/div&gt;
@@ -6135,18 +6135,18 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
                 &lt;div class=&quot;button-pair&quot;&gt;
                     &lt;div class=&quot;loc_button&quot; data-passage=&quot;Pool&quot; data-setter= &#39;$msg = &quot;&quot;&#39; &gt;
                         
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/pool.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/pool.jpg&#39;&quot;&gt;
                         &lt;p&gt;Pool&lt;/p&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;loc_button&quot;  data-passage=&quot;Elhouse&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                         
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/outdoor.webp&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/outdoor.webp&#39;&quot;&gt;
                         &lt;p&gt;&lt;&lt;print $ep.name&gt;&gt;&#39;s House&lt;/p&gt;
                     
                     &lt;/div&gt;
                     &lt;div class=&quot;loc_button&quot; onclick=&quot;locEventCheck(&#39;College&#39;);&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
                         
-                        &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/college.jpg&#39;&quot;&gt;
+                        &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/college.jpg&#39;&quot;&gt;
                         &lt;p&gt;College&lt;/p&gt;
                     
                     &lt;/div&gt;
@@ -6226,7 +6226,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
                 &lt;div id=&quot;pos&quot;&gt;
 
 
-                &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/living.jpg&#39;&quot;&gt;
+                &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/living.jpg&#39;&quot;&gt;
 
                   &lt;p class=&quot;notation_text&quot;&gt;What Should I Do...&lt;/p&gt;
 
@@ -6241,12 +6241,12 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
               
 
             &lt;&lt;if $eventCount gte $fuckEvent.cp1.event_fuck &amp;&amp; $eventCount lt $fuckEvent.cp2.event_fuck&gt;&gt;
-                &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.cp1;  
+                &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.cp1;  
                 $charObject =  $cp; $sceneImage = $fuckEvent.cp1.image; ;&quot;  &gt;
                 &lt;p &gt;Interact With &lt;&lt;print $cp.name&gt;&gt;&lt;/p&gt;
                 &lt;/div&gt;
             &lt;&lt;elseif $eventCount gte $fuckEvent.cp2.event_fuck&gt;&gt;
-                &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.cp2;  
+                &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.cp2;  
                 $charObject =  $cp; $sceneImage = $fuckEvent.cp2.image; ;&quot;  &gt;
                 &lt;p &gt;Interact With &lt;&lt;print $cp.name&gt;&gt;&lt;/p&gt;
                 &lt;/div&gt;
@@ -6258,7 +6258,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
        
 
 
-          &lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot; $mediaType = &#39;image&#39;; 
+          &lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot; $mediaType = &#39;image&#39;; 
           $activityType = &#39;Knowledge&#39;; $activityImage = &#39;scenes/misc/etc/porn.gif&#39;; $loc = &#39;Living&#39;;&quot; &gt;
               &lt;p &gt;Watch TV&lt;/p&gt;
           &lt;/div&gt;
@@ -6270,14 +6270,14 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-          &lt;div class=&quot;enter_button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$livingClean = 1; 
+          &lt;div class=&quot;enter-button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$livingClean = 1; 
           $mediaType = &#39;image&#39;; $activityType = &#39;Money&#39;; $loc = &#39;Living&#39;; $activityImage = &#39;scenes/misc/etc/clean.gif&#39;; &quot; &gt;
                 &lt;p &gt;Clean (Charm +)&lt;/p&gt;
                 &lt;/div&gt;
 
     &lt;&lt;/if&gt;&gt;
 
-    &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+    &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
     &lt;p &gt;Leave&lt;/p&gt;
     &lt;/div&gt;
 
@@ -6296,13 +6296,13 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
     &lt;/p&gt;
 
 
-    &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/college.jpg&#39;&quot;&gt;
+    &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/college.jpg&#39;&quot;&gt;
 
     &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
 
 
     &lt;&lt;if $currentTime gte 0 &amp;&amp; $currentTime lte 2&gt;&gt;
-    &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;RelationGame&quot;   
+    &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;RelationGame&quot;   
     data-setter = &quot; $mediaType = &#39;image&#39;; $activityType = &#39;Knowledge&#39;; $activityImage = &#39;scenes/char/ep/19.png&#39;; $loc = &#39;College&#39;;&quot; &gt;
 
         &lt;p &gt;Start Class (Knowledge +)&lt;/p&gt;
@@ -6310,7 +6310,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
     &lt;/div&gt;
     &lt;&lt;/if&gt;&gt;
 
-    &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; style=&quot;width:25vw;&quot;&gt;
+    &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; style=&quot;width:25vw;&quot;&gt;
     &lt;p &gt;Leave&lt;/p&gt;
     &lt;/div&gt;
 
@@ -6464,7 +6464,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/shop.jpeg&#39;&quot;&gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/shop.jpeg&#39;&quot;&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;What should I purchase?&lt;/p&gt;
 
@@ -6472,7 +6472,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 &lt;&lt;set $charStats = &quot;ap&quot;&gt;&gt;
 
-    &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.ap1; 
+    &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.ap1; 
           $charObject = $ap; $sceneImage = &#39;scenes/char/ap/6.png&#39;;&quot;&gt;
 
     &lt;p &gt;Interact With &lt;&lt;print $ap.name&gt;&gt;&lt;/p&gt;
@@ -6484,7 +6484,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 &lt;&lt;if $currentTime lte 4 &gt;&gt; 
 
- &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;MiniGame&quot;   data-setter = &quot; $mediaType = &#39;image&#39;; $activityType = &#39;Money&#39;; $activityImage = &#39;scenes/misc/etc/shop.gif&#39;; $loc = &#39;Shop&#39;;&quot; &gt;
+ &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;MiniGame&quot;   data-setter = &quot; $mediaType = &#39;image&#39;; $activityType = &#39;Money&#39;; $activityImage = &#39;scenes/misc/etc/shop.gif&#39;; $loc = &#39;Shop&#39;;&quot; &gt;
 
     &lt;p &gt;Work (Money +)&lt;/p&gt;
 
@@ -6495,7 +6495,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-&lt;div class=&quot;enter_button&quot; data-passage=&quot;Outdoor&quot; data-setter = &quot;$message = &#39;&#39;&quot; style=&quot;width:25vw;&quot;&gt;
+&lt;div class=&quot;enter-button&quot; data-passage=&quot;Outdoor&quot; data-setter = &quot;$message = &#39;&#39;&quot; style=&quot;width:25vw;&quot;&gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -7175,12 +7175,12 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;&lt;print $message&gt;&gt;
 &lt;/p&gt;
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/pool.jpg&#39;&quot;&gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/pool.jpg&#39;&quot;&gt;
 
 &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
 
 &lt;&lt;if $poolClean is 0 and $currentTime lte 5 &gt;&gt;
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$poolClean = 1; $mediaType = &#39;image&#39;; $activityType = &#39;Men_Freq&#39;; $activityImage = &#39;scenes/misc/etc/pool-clean.jpg&#39;; $loc = &#39;Pool&#39;&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;RelationGame&quot;   data-setter = &quot;$poolClean = 1; $mediaType = &#39;image&#39;; $activityType = &#39;Men_Freq&#39;; $activityImage = &#39;scenes/misc/etc/pool-clean.jpg&#39;; $loc = &#39;Pool&#39;&quot; &gt;
  &lt;p &gt;Clean Pool&lt;/p&gt;
 &lt;/div&gt;
 
@@ -7189,7 +7189,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 &lt;&lt;if $swimming is 0 and $currentTime lte 4 &gt;&gt; 
 
- &lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$swimming = 1; $mediaType = &#39;image&#39;; $activityType = &#39;Stamina&#39;; $activityImage = &#39;scenes/misc/etc/swim.gif&#39;; $loc = &#39;Pool&#39;;&quot; &gt;
+ &lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$swimming = 1; $mediaType = &#39;image&#39;; $activityType = &#39;Stamina&#39;; $activityImage = &#39;scenes/misc/etc/swim.gif&#39;; $loc = &#39;Pool&#39;;&quot; &gt;
 
     &lt;p &gt;Swim (Stamina +)&lt;/p&gt;
 
@@ -7198,7 +7198,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
     
 &lt;&lt;/if&gt;&gt;
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -7211,7 +7211,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
 
 
-          &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/myroom.jpg&#39;&quot; &gt;
+          &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/myroom.jpg&#39;&quot; &gt;
 
                 &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
                 
@@ -7223,12 +7223,12 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
               
 
               &lt;&lt;if $eventCount gte $fuckEvent.ct1.event_fuck &amp;&amp; $eventCount lt $fuckEvent.ct2.event_fuck&gt;&gt;
-                &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Fuck_Event&quot; style=&quot;width:25vw&quot; data-setter = &quot; 
+                &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Fuck_Event&quot; style=&quot;width:25vw&quot; data-setter = &quot; 
                 $sceneObject = $fuckEvent.ct1;  $charObject = $ct; $sceneImage = $fuckEvent.ct1.image;&quot;  &gt;
                 &lt;p &gt;Interact With &lt;&lt;print$ct.name&gt;&gt;&lt;/p&gt;
                 &lt;/div&gt;
               &lt;&lt;elseif $eventCount gte $fuckEvent.ct2.event_fuck&gt;&gt;
-                &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Fuck_Event&quot; style=&quot;width:25vw&quot; data-setter = &quot;$sceneObject = $fuckEvent.ct2;  
+                &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Fuck_Event&quot; style=&quot;width:25vw&quot; data-setter = &quot;$sceneObject = $fuckEvent.ct2;  
                 $charObject = $ct; $sceneImage = $fuckEvent.ct2.image; &quot;  &gt;
                 &lt;p &gt;Interact With &lt;&lt;print$ct.name&gt;&gt;&lt;/p&gt;
                 &lt;/div&gt;
@@ -7242,13 +7242,13 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
           &lt;&lt;if $currentTime gte 5  &gt;&gt;
 
-                  &lt;div class=&quot;enter_button&quot; data-passage=&quot;MyRoom&quot; onclick=&quot;forwardDay()&quot;  style=&quot;width:25vw&quot;&gt;
+                  &lt;div class=&quot;enter-button&quot; data-passage=&quot;MyRoom&quot; onclick=&quot;forwardDay()&quot;  style=&quot;width:25vw&quot;&gt;
                     &lt;p &gt;Sleep&lt;/p&gt;
                   &lt;/div&gt;
 
           &lt;&lt;else&gt;&gt;
 
-                  &lt;div class=&quot;enter_button&quot; data-passage=&quot;MyRoom&quot; onclick=&quot;forwardTime(1)&quot;  style=&quot;width:25vw&quot;&gt;
+                  &lt;div class=&quot;enter-button&quot; data-passage=&quot;MyRoom&quot; onclick=&quot;forwardTime(1)&quot;  style=&quot;width:25vw&quot;&gt;
                     &lt;p &gt;Nap (+1hr)&lt;/p&gt;
                   &lt;/div&gt;
 
@@ -7260,7 +7260,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
           &lt;&lt;if $exercise is 0 and $currentTime lte 4 &gt;&gt; 
 
-              &lt;div class=&quot;enter_button&quot;  style=&quot;width:25vw&quot; data-passage=&quot;MiniGame&quot;   data-setter = &quot;$exercise = 1; 
+              &lt;div class=&quot;enter-button&quot;  style=&quot;width:25vw&quot; data-passage=&quot;MiniGame&quot;   data-setter = &quot;$exercise = 1; 
               $mediaType = &#39;image&#39;; $activityType = &#39;Stamina&#39;; $activityImage = &#39;scenes/misc/etc/exercise.webp&#39;; $loc = &#39;MyRoom&#39;;&quot; &gt;
                 &lt;p &gt;Exercise (Stamina +)&lt;/p&gt;
               &lt;/div&gt;
@@ -7269,7 +7269,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
                   
 
-          &lt;div class=&quot;enter_button&quot; data-passage=&quot;Home&quot;  data-setter = &quot;$message = &#39;&#39;&quot; style=&quot;width:25vw&quot;&gt;
+          &lt;div class=&quot;enter-button&quot; data-passage=&quot;Home&quot;  data-setter = &quot;$message = &#39;&#39;&quot; style=&quot;width:25vw&quot;&gt;
           &lt;p &gt;Leave&lt;/p&gt;
           &lt;/div&gt;
 
@@ -11811,7 +11811,7 @@ a
 
 
 
-    &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/cpoffice.jpg&#39;&quot;&gt;
+    &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/cpoffice.jpg&#39;&quot;&gt;
 
                 &lt;p class=&quot;notation_text&quot;&gt;What Should I Do...&lt;/p&gt;
 
@@ -11821,7 +11821,7 @@ a
 
         &lt;&lt;set $charStats = &quot;cp&quot;&gt;&gt;
 
-        &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.cp1; 
+        &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.cp1; 
           $charObject = $cp; $sceneImage = &#39;scenes/char/cp/8.png&#39;;&quot;&gt;
             &lt;p &gt;Interact With &lt;&lt;print $cp.name&gt;&gt;&lt;/p&gt;
         &lt;/div&gt;
@@ -11830,7 +11830,7 @@ a
        &lt;&lt;if $currentTime eq $fuckEvent.mr1.event_time &gt;&gt;
 
         &lt;&lt;set $charStats = &quot;mr&quot;&gt;&gt;
-        &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.mr1; 
+        &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.mr1; 
           $charObject = $mr; $sceneImage = &#39;scenes/char/mr/8.png&#39;;&quot;&gt;
           &lt;p &gt;Interact With &lt;&lt;print $mr.name&gt;&gt;&lt;/p&gt;
         &lt;/div&gt;
@@ -11840,7 +11840,7 @@ a
 
 &lt;&lt;if $currentTime lte 4 &gt;&gt; 
 
- &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;MiniGame&quot;   data-setter = &quot; $mediaType = &#39;image&#39;; $activityType = &#39;Money&#39;; $activityImage = &#39;scenes/misc/etc/hack.gif&#39;; $loc = &#39;Cpoffice&#39;;&quot; &gt;
+ &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;MiniGame&quot;   data-setter = &quot; $mediaType = &#39;image&#39;; $activityType = &#39;Money&#39;; $activityImage = &#39;scenes/misc/etc/hack.gif&#39;; $loc = &#39;Cpoffice&#39;;&quot; &gt;
 
     &lt;p &gt;Work (Money +)&lt;/p&gt;
 
@@ -11849,7 +11849,7 @@ a
     
 &lt;&lt;/if&gt;&gt;
 
-    &lt;div class=&quot;enter_button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Outdoor&quot; &gt;
+    &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Outdoor&quot; &gt;
     &lt;p &gt;Leave&lt;/p&gt;
     &lt;/div&gt;
 
@@ -11941,7 +11941,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;/p&gt;
 
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/baseoffice.jpg&#39;&quot;&gt;
+&lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/baseoffice.jpg&#39;&quot;&gt;
 
 
 &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
@@ -11951,7 +11951,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
     &lt;&lt;set $charStats = &quot;ep&quot;&gt;&gt;
 
-    &lt;div class=&quot;enter_button&quot;   data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.ep1; 
+    &lt;div class=&quot;enter-button&quot;   data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.ep1; 
           $charObject = $ep; $sceneImage = &#39;scenes/char/ep/63.png&#39;;&quot; &gt;
     &lt;p &gt;Interact With &lt;&lt;print $ep.name&gt;&gt;&lt;/p&gt;
     &lt;/div&gt;
@@ -11965,7 +11965,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
     &lt;&lt;set $charStats = &quot;gp&quot;&gt;&gt;
 
         &lt;&lt;if $eventCount gte $fuckEvent.gp1.event_fuck&gt;&gt;
-          &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.gp1; 
+          &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.gp1; 
           $charObject = $gp; $sceneImage = &#39;scenes/char/foxx/4/24.png&#39;;&quot;  &gt;
           &lt;p &gt;Fuck &lt;&lt;print$gp.name&gt;&gt;&lt;/p&gt;
           &lt;/div&gt;
@@ -11976,13 +11976,13 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 &lt;&lt;/if&gt;&gt;
   
 
- &lt;div class=&quot;enter_button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$baseofficeEvent = 1; $mediaType = &#39;image&#39;; $activityType = &#39;Knowledge&#39;; $activityImage = &#39;scenes/misc/etc/hack.gif&#39;; $loc = &#39;Baseoffice&#39;;&quot; &gt;
+ &lt;div class=&quot;enter-button&quot;  data-passage=&quot;MiniGame&quot;   data-setter = &quot;$baseofficeEvent = 1; $mediaType = &#39;image&#39;; $activityType = &#39;Knowledge&#39;; $activityImage = &#39;scenes/misc/etc/hack.gif&#39;; $loc = &#39;Baseoffice&#39;;&quot; &gt;
             &lt;p &gt;Research&lt;/p&gt;
 &lt;/div&gt;
 
     
 
-&lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+&lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
 &lt;p &gt;Leave&lt;/p&gt;
 &lt;/div&gt;
 
@@ -12090,19 +12090,19 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
 &lt;div class=&quot;button-pair&quot; style=&quot;margin-bottom:10%&quot;&gt;
   &lt;div class=&quot;loc_button&quot;  data-passage=&quot;Cpoffice&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
     
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/cpoffice.jpg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/cpoffice.jpg&#39;&quot;&gt;
       &lt;p&gt;&lt;&lt;print $cp.name&gt;&gt;&#39;s Office&lt;/p&gt;
     
   &lt;/div&gt;
   &lt;div class=&quot;loc_button&quot;  onclick=&quot;locEventCheck(&#39;DadOffice&#39;);&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
     
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/dad-office.jpeg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/dad-office.jpeg&#39;&quot;&gt;
       &lt;p&gt;&lt;&lt;print $dad.lastname&gt;&gt;&#39;s Office&lt;/p&gt;
    
   &lt;/div&gt;
   &lt;div class=&quot;loc_button&quot;  onclick=&quot;locEventCheck(&#39;DadHouse&#39;);&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
     
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/mansion.jpg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/mansion.jpg&#39;&quot;&gt;
       &lt;p&gt;&lt;&lt;print $dad.lastname&gt;&gt;&#39;s House&lt;/p&gt;
    
   &lt;/div&gt;
@@ -12112,20 +12112,20 @@ $(&quot;#stop-button&quot;).on(&quot;click&quot;, function() {
 
   &lt;div class=&quot;loc_button&quot;  data-passage=&quot;College&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
     
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/college.jpg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/college.jpg&#39;&quot;&gt;
       &lt;p&gt;College&lt;/p&gt;
    
   &lt;/div&gt;
 
   &lt;div class=&quot;loc_button&quot;  data-passage=&quot;Shop&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
     
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/shop.jpeg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/shop.jpeg&#39;&quot;&gt;
       &lt;p&gt;Shop&lt;/p&gt;
    
   &lt;/div&gt;
   &lt;div class=&quot;loc_button&quot; data-passage=&quot;Home&quot; data-setter= &#39;$msg = &quot;&quot;&#39;&gt;
    
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/my_home.jpg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/my_home.jpg&#39;&quot;&gt;
       &lt;p&gt;Home&lt;/p&gt;
    
   &lt;/div&gt;
@@ -12450,12 +12450,12 @@ $taskDialogue= &#39;As I keep lapping her tasty nectar from inside her burning s
 
    
 
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/s_bedroom.jpg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/s_bedroom.jpg&#39;&quot;&gt;
 
       &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
 
 
-      &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+      &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Home&quot; &gt;
       &lt;p &gt;Leave&lt;/p&gt;
       &lt;/div&gt;
 
@@ -12814,30 +12814,54 @@ $(document).ready(function() {
 &lt;&lt;/script&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="72" name="Elhouse" tags="" position="275,1325" size="100,100">&lt;div class=&quot;big_text&quot;&gt;
-&lt;&lt;nobr&gt;&gt;
+</tw-passagedata><tw-passagedata pid="72" name="Elhouse" tags="" position="275,1325" size="100,100">
+    &lt;div class=&quot;big_text&quot;&gt;
+    &lt;&lt;nobr&gt;&gt;
 
 
-&lt;p class=&quot;notation_text&quot;&gt;
-Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
-&lt;p class=&quot;notation_text&quot;&gt;
-&lt;&lt;print $message&gt;&gt;
-&lt;/p&gt;
 
-&lt;&lt;set $message to &quot;&quot; &gt;&gt;
+    &lt;p class=&quot;notation_text&quot;&gt;
+    Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
-&lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/outdoor.webp&#39;&quot; &gt;
+    &lt;p class=&quot;notation_text&quot;&gt;
+    &lt;&lt;print $message&gt;&gt;
+    &lt;/p&gt;
 
- &lt;p class=&quot;notation_text&quot;&gt;Available In Next Update.&lt;/p&gt;
 
-    &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Home&quot; &gt;
+
+    &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/home/EllaHome.jpg&#39;&quot;&gt;
+
+                &lt;p class=&quot;notation_text&quot;&gt;What Should I Do...&lt;/p&gt;
+
+    
+    &lt;div id=&quot;loc-buttons&quot;&gt;&lt;/div&gt;
+
+
+            
+
+
+    &lt;div class=&quot;enter-button&quot; style=&quot;width:25vw;&quot; data-passage=&quot;Outdoor&quot; &gt;
     &lt;p &gt;Leave&lt;/p&gt;
     &lt;/div&gt;
 
-&lt;&lt;/nobr&gt;&gt;
-&lt;/div&gt;
 
+    &lt;&lt;/nobr&gt;&gt;
+    &lt;/div&gt;
+
+
+&lt;&lt;script&gt;&gt;
+
+$(document).ready(function() {
+    variables().sceneType = passage();
+    console.log(passage());
+    //setupSceneButtons(variables().sceneType,variables().sceneCode ); // Call the function after the script is loaded
+   // setupSceneButtons(&#39;cun_scene&#39;,&#39;&#39; ); // Call the function after the script is loaded
+    setupLocationSexButtons( variables().sceneType); // Call the function after the script is loaded
+
+
+});
+&lt;&lt;/script&gt;&gt;
 </tw-passagedata><tw-passagedata pid="73" name="DadOffice" tags="" position="150,1325" size="100,100">      &lt;div class=&quot;big_text&quot;&gt;
       &lt;&lt;nobr&gt;&gt;
 
@@ -12854,13 +12878,13 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
       &lt;&lt;if $currentTime is 1 &gt;&gt; 
 
-      &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/dad-office.jpeg&#39;&quot;&gt;
+      &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/dad-office.jpeg&#39;&quot;&gt;
 
       &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
 
       &lt;&lt;set $charStats = &quot;dp&quot;&gt;&gt;
         &lt;&lt;if $eventCount gte 12 and $danae_fck gte 1&gt;&gt;
-          &lt;div class=&quot;enter_button&quot;   data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.dp1; 
+          &lt;div class=&quot;enter-button&quot;   data-passage=&quot;Fuck_Event&quot; data-setter = &quot;$sceneObject = $fuckEvent.dp1; 
           $charObject = $dp; $sceneImage = &#39;scenes/char/dp/16.png&#39;;&quot; &gt;
           &lt;p &gt;Fuck &lt;&lt;print$dp.name&gt;&gt;&lt;/p&gt;
           &lt;/div&gt;
@@ -12870,7 +12894,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
             
       &lt;&lt;else&gt;&gt;
 
-          &lt;img class=&quot;scenes_image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/dad-office.jpeg&#39;&quot;&gt;
+          &lt;img class=&quot;scene-image&quot; @src=&quot;setup.ImagePath+&#39;scenes/misc/4/dad-office.jpeg&#39;&quot;&gt;
 
           &lt;p class=&quot;notation_text&quot;&gt;What should I do now?&lt;/p&gt;
           
@@ -12882,7 +12906,7 @@ Location : &lt;&lt;print passage()&gt;&gt;&lt;/p&gt;
 
         
 
-      &lt;div class=&quot;enter_button&quot;  data-passage=&quot;Outdoor&quot; &gt;
+      &lt;div class=&quot;enter-button&quot;  data-passage=&quot;Outdoor&quot; &gt;
       &lt;p &gt;Leave&lt;/p&gt;
       &lt;/div&gt;
 

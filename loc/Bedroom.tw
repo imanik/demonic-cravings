@@ -13,7 +13,7 @@
 
         
 
-        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/etc/locked.jpg'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/misc/etc/locked.jpg'">
 
         <p class="notation_text">What should I do now?</p>
         
@@ -22,7 +22,7 @@
 
 
 
-        <div class="enter_button"  data-passage="Home" >
+        <div class="enter-button"  data-passage="Home" >
         <p >Leave</p>
         </div>
 

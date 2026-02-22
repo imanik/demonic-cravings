@@ -8,13 +8,13 @@ Location : <<print passage()>></p>
 <<print $message>>
 </p>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/bathroom.jpg'">
+<img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/bathroom.jpg'">
 
 <p class="notation_text">What should I do now?</p>
 
 
 <<if $shower is 0 and $currentTime lte 5 >>
-      <div class="enter_button"  data-passage="MiniGame"   data-setter = "$shower = 1; $mediaType = 'image'; 
+      <div class="enter-button"  data-passage="MiniGame"   data-setter = "$shower = 1; $mediaType = 'image'; 
       $activityType = 'Stamina'; $activityImage = 'scenes/misc/etc/shower.webp'; $loc = 'Bathroom';" >
 
         <p >Shower (Stamina +)</p>
@@ -26,7 +26,7 @@ Location : <<print passage()>></p>
   
 <<if $laundry is 0 and $currentTime lte 5 >>
 
-      <div class="enter_button"  data-passage="RelationGame"   data-setter = "$shower = 1; $mediaType = 'image'; 
+      <div class="enter-button"  data-passage="RelationGame"   data-setter = "$shower = 1; $mediaType = 'image'; 
       $activityType = 'Money'; $activityImage = 'scenes/misc/etc/laundry.jpg'; $loc = 'Bathroom';" >
 
         <p >Laundry (Charm +)</p>
@@ -37,11 +37,11 @@ Location : <<print passage()>></p>
 
 
 
-<!-- <div class="enter_button"  data-passage="Home" >
+<!-- <div class="enter-button"  data-passage="Home" >
 <p >Peeping</p>
 </div> -->
 
-<div class="enter_button"  data-passage="Home" >
+<div class="enter-button"  data-passage="Home" >
 <p >Leave</p>
 </div>
 

@@ -14,13 +14,13 @@
 
       <<if $currentTime is 1 >> 
 
-      <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
+      <img class="scene-image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
 
       <p class="notation_text">What should I do now?</p>
 
       <<set $charStats = "dp">>
         <<if $eventCount gte 12 and $danae_fck gte 1>>
-          <div class="enter_button"   data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.dp1; 
+          <div class="enter-button"   data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.dp1; 
           $charObject = $dp; $sceneImage = 'scenes/char/dp/16.png';" >
           <p >Fuck <<print$dp.name>></p>
           </div>
@@ -30,7 +30,7 @@
             
       <<else>>
 
-          <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
+          <img class="scene-image" @src="setup.ImagePath+'scenes/misc/4/dad-office.jpeg'">
 
           <p class="notation_text">What should I do now?</p>
           
@@ -42,7 +42,7 @@
 
         
 
-      <div class="enter_button"  data-passage="Outdoor" >
+      <div class="enter-button"  data-passage="Outdoor" >
       <p >Leave</p>
       </div>
 

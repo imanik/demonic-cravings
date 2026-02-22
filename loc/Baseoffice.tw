@@ -11,7 +11,7 @@ Location : <<print passage()>></p>
 </p>
 
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/baseoffice.jpg'">
+<img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/baseoffice.jpg'">
 
 
 <p class="notation_text">What should I do now?</p>
@@ -21,7 +21,7 @@ Location : <<print passage()>></p>
 
     <<set $charStats = "ep">>
 
-    <div class="enter_button"   data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.ep1; 
+    <div class="enter-button"   data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.ep1; 
           $charObject = $ep; $sceneImage = 'scenes/char/ep/63.png';" >
     <p >Interact With <<print $ep.name>></p>
     </div>
@@ -35,7 +35,7 @@ Location : <<print passage()>></p>
     <<set $charStats = "gp">>
 
         <<if $eventCount gte $fuckEvent.gp1.event_fuck>>
-          <div class="enter_button"  data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.gp1; 
+          <div class="enter-button"  data-passage="Fuck_Event" data-setter = "$sceneObject = $fuckEvent.gp1; 
           $charObject = $gp; $sceneImage = 'scenes/char/foxx/4/24.png';"  >
           <p >Fuck <<print$gp.name>></p>
           </div>
@@ -46,13 +46,13 @@ Location : <<print passage()>></p>
 <</if>>
   
 
- <div class="enter_button"  data-passage="MiniGame"   data-setter = "$baseofficeEvent = 1; $mediaType = 'image'; $activityType = 'Knowledge'; $activityImage = 'scenes/misc/etc/hack.gif'; $loc = 'Baseoffice';" >
+ <div class="enter-button"  data-passage="MiniGame"   data-setter = "$baseofficeEvent = 1; $mediaType = 'image'; $activityType = 'Knowledge'; $activityImage = 'scenes/misc/etc/hack.gif'; $loc = 'Baseoffice';" >
             <p >Research</p>
 </div>
 
     
 
-<div class="enter_button"  data-passage="Home" >
+<div class="enter-button"  data-passage="Home" >
 <p >Leave</p>
 </div>
 

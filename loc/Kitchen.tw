@@ -9,7 +9,7 @@ Location : <<print passage()>></p>
 </p>
 
 
-        <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/kitchen.jpg'">
+        <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/kitchen.jpg'">
 
         <p class="notation_text">What Should I Do...</p>
 
@@ -20,7 +20,7 @@ Location : <<print passage()>></p>
 
             <div id="pos">
      
-          <div class="enter_button"  data-passage="MiniGame"   data-setter = "$mediaType = 'image'; 
+          <div class="enter-button"  data-passage="MiniGame"   data-setter = "$mediaType = 'image'; 
           $activityType = 'Stamina'; $activityImage = 'scenes/char/mp/3.png'; $loc = 'Kitchen';" >
               <p >Do Breakfast (Stamina +)</p>
           </div>
@@ -30,7 +30,7 @@ Location : <<print passage()>></p>
 <<set $charStats = "mp">>
 
       
-        <div class="enter_button"  data-passage="MiniGame"   data-setter = "$mediaType = 'image'; 
+        <div class="enter-button"  data-passage="MiniGame"   data-setter = "$mediaType = 'image'; 
         $activityType = 'Stamina'; $activityImage = 'scenes/char/mp/2.png'; $loc = 'Kitchen';" >
             <p >Dinner (Stamina +)</p>
       </div>
@@ -44,14 +44,14 @@ Location : <<print passage()>></p>
         <<if $kitchenClean is 0  >>
 
 
-            <div class="enter_button"  data-passage="RelationGame"   data-setter = "$kitchenClean = 1; $mediaType = 'image'; 
+            <div class="enter-button"  data-passage="RelationGame"   data-setter = "$kitchenClean = 1; $mediaType = 'image'; 
             $activityType = 'Money'; $activityImage = 'scenes/misc/etc/kitchenclean.gif'; $loc = 'Kitchen';" >
             <p >Clean Kitchen! (Charm +)</p>
             </div>
 
         <</if>>
 
-<div class="enter_button"  data-passage="Home" >
+<div class="enter-button"  data-passage="Home" >
 <p >Leave</p>
 </div>
 
