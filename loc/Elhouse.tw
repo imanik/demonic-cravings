@@ -1,24 +1,48 @@
-<div class="big_text">
-<<nobr>>
+
+    <div class="big_text">
+    <<nobr>>
 
 
-<p class="notation_text">
-Location : <<print passage()>></p>
 
-<p class="notation_text">
-<<print $message>>
-</p>
 
-<<set $message to "" >>
+    <p class="notation_text">
+    Location : <<print passage()>></p>
 
-<img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/outdoor.webp'" >
+    <p class="notation_text">
+    <<print $message>>
+    </p>
 
- <p class="notation_text">Available In Next Update.</p>
 
-    <div class="enter_button"  data-passage="Home" >
+
+    <img class="scenes_image" @src="setup.ImagePath+'scenes/misc/home/EllaHome.jpg'">
+
+                <p class="notation_text">What Should I Do...</p>
+
+    
+    <div id="loc-buttons"></div>
+
+
+            
+
+
+    <div class="enter_button" style="width:25vw;" data-passage="Outdoor" >
     <p >Leave</p>
     </div>
 
-<</nobr>>
-</div>
 
+    <</nobr>>
+    </div>
+
+
+<<script>>
+
+$(document).ready(function() {
+    variables().sceneType = passage();
+    console.log(passage());
+    //setupSceneButtons(variables().sceneType,variables().sceneCode ); // Call the function after the script is loaded
+   // setupSceneButtons('cun_scene','' ); // Call the function after the script is loaded
+    setupLocationSexButtons( variables().sceneType); // Call the function after the script is loaded
+
+
+});
+<</script>>

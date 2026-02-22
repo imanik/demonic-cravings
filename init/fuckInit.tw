@@ -1,0 +1,352 @@
+<<set $fuckEvent = {
+                
+
+/* Rayna-1 (Full) EF 0 - T 5 */                
+                'ct1' : {
+                    'title'            : 'ct1_scene',
+                    'shortcode'        : 'ct',
+                    'location'         :  'MyRoom',
+                    'btn'              : 'First Fuck with',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/ct/50.png',
+                    'passage'          : ["sed_scene","bj_scene","cg_scene","mis_scene",],
+                    'desc'             : ["Seduction","Blowjob","Cow Girl","Missionary",],
+                    'status'           : [1,0,0,0,],
+                    'men_freq'         : [0,10,20,30,],
+                    'sex_freq'         : [0,10,20,30,],
+                    'corruption'       : [0,10,20,30,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 1,
+                    },
+
+
+/* Rayne-2 EF 6 - T 5 */
+                'ct2' : {
+                    'title'            : 'ct2_scene',
+                    'shortcode'        : 'ct',
+                    'location'         :  'MyRoom',
+                    'btn'              : 'Practice With Asmodius',
+                    'avatar'           : 'scenes/char/avatar/asmodius.png',
+                    'image'            : 'scenes/char/ct/35.png',
+                    'passage'          : ["bj_scene","mis_scene","cg_scene","rcg_scene","dg_scene","sf_scene","as_scene",],
+                    'desc'             : ["Blowjob","Missionary","Cow Girl","Reverse Cow Girl","Doggy","Side Fuck","Anal"],
+                    'status'           : [1,0,0,0,0,0,0,],
+                    'men_freq'         : [40,50,60,70,80,90,100],
+                    'sex_freq'         : [40,50,60,70,80,90,100],
+                    'corruption'       : [40,50,60,70,80,90,100],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 2,
+                
+                    },
+
+/* Rayne-3 EF 6 - T 5 */
+                'ct3' : {
+                    'title'            : 'ct3_scene',
+                    'shortcode'        : 'ct',
+                    'location'         :  'MyRoom',
+                    'btn'              : 'Practice With',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/ct/3/1.png',
+                    'passage'          : ["bj_scene","rcg_scene","dg_scene","mis_scene"],
+                    'desc'             : ["Blowjob","Reverse Cow Girl","Doggy","Missionary"],
+                    'status'           : [1,0,0,0,],
+                    'men_freq'         : [110,120,130,140,],
+                    'sex_freq'         : [110,120,130,140,],
+                    'corruption'       : [110,120,130,140,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 3,
+                
+                    },
+
+/* Rayne-4 EF 6 - T 5 */
+                'ct4' : {
+                    'title'            : 'ct4_scene',
+                    'shortcode'        : 'ct',
+                    'location'         : 'Club',
+                    'btn'              : 'Go to Club With',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/mc/3/2.png',
+                    'passage'          : ["bj_scene","mis_scene","cg_scene","dg_scene"],
+                    'desc'             : ["Blowjob","Missionary","Cow Girl","Doggy"],
+                    'status'           : [1,0,0,0,],
+                    'men_freq'         : [150,160,170,180,],
+                    'sex_freq'         : [150,160,170,180,],
+                    'corruption'       : [150,160,170,180,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                
+                    },
+
+/* Rayne-5 EF 4 - T 3 */
+                'ct5' : {
+                    'title'            : 'ct5_scene',
+                    'shortcode'        : 'ct',
+                    'location'         : 'Sisterroom',
+                    'btn'              : 'Sex With ',
+                    'avatar'           : 'scenes/char/avatar/vorthas.png',
+                    'image'            : 'scenes/char/ct/4/5.png',
+                    'passage'          : ["bj_scene","mis_scene","cg_scene","rcg_scene","dg_scene","sf_scene","as_scene",],
+                    'desc'             : ["Blowjob","Missionary","Cow Girl","Reverse Cow Girl","Doggy","Side Fuck","Anal"],
+                    'status'           : [1,0,0,0,0,0,0,],
+                    'men_freq'         : [190,200,210,220,230,240,250,],
+                    'sex_freq'         : [190,200,210,220,230,240,250,],
+                    'corruption'       : [190,200,210,220,230,240,250,],
+                    'event_fuck'       : 4,
+                    'event_time'       : 3,
+                    'level'            : 0,
+                
+                    },
+                
+                    
+
+
+/* Ella-1 EF 7 - T 5 */
+                'ep1' : {
+                    'title'            : 'ep1_scene',
+                    'shortcode'        : 'ep',
+                    'location'         : 'EllaHome',
+                    'btn'              : 'Dream Craft With ',
+                    'avatar'           : 'scenes/char/avatar/asmodius.png',
+                    'image'            : 'scenes/char/ep/2/20.png',
+                    'passage'          : ["bj_scene","mis_scene","cg_scene","rcg_scene","dg_scene","sf_scene","as_scene"],
+                    'desc'             : ["Blowjob","Missionary","Cow Girl","Reverse Cow Girl","Doggy","Side Fuck","Anal"],
+                    'status'           : [1,0,0,0,0,0,0,],
+                    'men_freq'         : [0,10,20,30,40,50,60,],
+                    'sex_freq'         : [0,10,20,30,40,50,60,],
+                    'corruption'       : [0,10,20,30,40,50,60,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                
+                    },
+
+
+/* Ella-2 EF 8 - T 3 */
+                'ep2' : {
+                    'title'            : 'ep2_scene',
+                    'shortcode'        : 'ep',
+                    'location'         : 'CountrySide',
+                    'btn'              : 'Go to Beach With ',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/ep/2/19.png',
+                    'passage'          : ["sed_scene","bj_scene","mis_scene","cg_scene","dg_scene","as_scene"],
+                    'desc'             : ["Seduction","Blowjob","Missionary","Cow Girl","Doggy","Anal"],
+                    'status'           : [1,0,0,0,0,0,],
+                    'men_freq'         : [70,80,90,100,110,120,],
+                    'sex_freq'         : [70,80,90,100,110,120,],
+                    'corruption'       : [70,80,90,100,110,120,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 3,
+                    'level'            : 0,
+                
+                    },
+
+
+/* Ella-3 EF 2 - T 1 */
+                'ep3' : {
+                    'title'            : 'ep3_scene',
+                    'shortcode'        : 'ep',
+                    'location'         : 'EllaHome',
+                    'btn'              : 'Make Love With ',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/ep/3/3.png',
+                    'passage'          : ["bj_scene","as_scene","cg_scene","sf_scene", "rcg_scene","dg_scene"],
+                    'desc'             : ["Blowjob","Anal","Cow Girl","Side Fuck","Reverse Cow Girl","Doggy"],
+                    'status'           : [1,0,0,0,0,0,],
+                    'men_freq'         : [130,140,150,160,170,180,],
+                    'sex_freq'         : [130,140,150,160,170,180,],
+                    'corruption'       : [130,140,150,160,170,180,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 1,
+                    'level'            : 0,
+                
+                    },
+
+
+/* Velkara-1 EF 10 - T 5 */
+                'vl1' : {
+                    'title'            : 'vl1_scene',
+                    'shortcode'        : 'vl',
+                    'location'         : 'CountrySide',
+                    'btn'              : 'Impress ',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/vl/7.png',
+                    'passage'          : ["sed_scene","bj_scene","cun_scene","mis_scene","dg_scene","cg_scene","rcg_scene","sf_scene",],
+                    'desc'             : ["Seduction","Blowjob","Cunnilingnus","Missionary","Doggy","Cow Girl","Reverse Cow Girl","Side Fuck",],
+                    'status'           : [1,0,0,0,0,0,0,0,0],
+                    'men_freq'         : [0,10,20,30,40,50,60,70,],
+                    'sex_freq'         : [0,10,20,30,40,50,60,70,],
+                    'corruption'       : [0,10,20,30,40,50,60,70,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                
+                    },
+
+/* Gatita-1 EF 10 - T 2 */
+                'gp1' : {
+                    'title'            : 'gp1_scene',
+                    'shortcode'        : 'gp',
+                    'location'         : 'GatitaHome',
+                    'btn'              : 'Sex With',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/gp/22.png',
+                    'passage'          : ["bj_scene","sf_scene","cg_scene", "rcg_scene","dg_scene","as_scene"],
+                    'desc'             : ["Blowjob","Side Fuck","Cow Girl","Reverse Cow Girl","Doggy","Anal"],
+                    'status'           : [1,0,0,0,0,0,],
+                    'men_freq'         : [0,10,20,30,40,50,],
+                    'sex_freq'         : [0,10,20,30,40,50,],
+                    'corruption'       : [0,10,20,30,40,50,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 2,
+                    'level'            : 0,
+                
+                    },
+                'gp2' : {
+                    'title'            : 'gp2_scene',
+                    'shortcode'        : 'gp',
+                    'location'         : 'GatitaHome',
+                    'btn'              : 'Dream Craft With',
+                    'avatar'           : 'scenes/char/avatar/asmodius.png',
+                    'image'            : 'scenes/char/gp/4/25.png',
+                    'passage'          : ["bj_scene","cun_scene","mis_scene","dg_scene","cg_scene","rcg_scene","sf_scene","sed_scene","as_scene"],
+                    'desc'             : ["Blowjob","Cunnilingnus","Missionary","Doggy","Cow Girl","Reverse Cow Girl","Side Fuck","Domination","Anal"],
+                    'status'           : [1,0,0,0,0,0,0,0,0],
+                    'men_freq'         : [60,70,80,90,100,110,120,130,140],
+                    'sex_freq'         : [60,70,80,90,100,110,120,130,140],
+                    'corruption'       : [60,70,80,90,100,110,120,130,140],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                
+                    },
+                'gp3' : {
+                    'title'            : 'gp3_scene',
+                    'shortcode'        : 'gp',
+                    'location'         : 'Club',
+                    'btn'              : 'Sex With',
+                    'avatar'           : 'scenes/char/avatar/vorthas.png',
+                    'image'            : 'scenes/char/gp/4/34.png',
+                    'passage'          : ["bj_scene","mis_scene","dg_scene","cg_scene","rcg_scene","sf_scene",],
+                    'desc'             : ["Blowjob","Missionary","Doggy","Cow Girl","Reverse Cow Girl","Side Fuck",],
+                    'status'           : [1,0,0,0,0,0],
+                    'men_freq'         : [150,160,170,180,190,200,],
+                    'sex_freq'         : [150,160,170,180,190,200,],
+                    'corruption'       : [150,160,170,180,190,200,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                },
+
+                'gp4' : {
+                    'title'            : 'gp4_scene',
+                    'shortcode'        : 'gp',
+                    'location'         : 'GatitaHome',
+                    'btn'              : 'Sex With',
+                    'avatar'           : 'scenes/char/avatar/asmodius.png',
+                    'image'            : 'scenes/char/gp/5/3.png',
+                    'passage'          : ["cun_scene","bj_scene","mis_scene","dg_scene","cg_scene","rcg_scene",],
+                    'desc'             : ["Cunnilingnus","Blowjob","Missionary","Doggy","Cow Girl","Reverse Cow Girl",],
+                    'status'           : [1,0,0,0,0,0],
+                    'men_freq'         : [210,220,230,240,250,260,],
+                    'sex_freq'         : [210,220,230,240,250,260,],
+                    'corruption'       : [210,220,230,240,250,260,],
+                    'event_fuck'       : 3,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                },
+
+                'gp5' : {
+                    'title'            : 'gp5_scene',
+                    'shortcode'        : 'gp',
+                    'location'         : 'Club',
+                    'btn'              : 'Sex With',
+                    'avatar'           : 'scenes/char/avatar/vorthas.png',
+                    'image'            : 'scenes/char/gp/4/34.png',
+                    'passage'         : ["cun_scene","bj_scene","mis_scene","dg_scene","cg_scene","rcg_scene","sf_scene","as_scene",],
+                    'desc'             : ["Cunnilingnus","Blowjob","Missionary","Doggy","Cow Girl","Reverse Cow Girl","Side Fuck","Anal",],
+                    'status'           : [1,0,0,0,0,0],
+                    'men_freq'         : [270,280,290,300,310,320,330,340],
+                    'sex_freq'         : [270,280,290,300,310,320,330,340],
+                    'corruption'       : [270,280,290,300,310,320,330,340],
+                    'event_fuck'       : 7,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                },
+
+                
+/* Zythara-1 EF 2 - T 4 */
+                'zp1' : {
+                    'title'            : 'zp1_scene',
+                    'shortcode'        : 'zp',
+                    'location'         : 'CountrySide',
+                    'btn'              : 'Impress',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/zp/19.png',
+                    'passage'          : ["cun_scene","bj_scene","dg_scene","cg_scene","rcg_scene","sf_scene",],
+                    'desc'             : ["Cunnilingnus","Blowjob","Doggy","Cow Girl","Reverse Cow Girl","Side Fuck",],
+                    'status'           : [1,0,0,0,0,0,0,0,],
+                    'men_freq'         : [0,10,20,30,40,50,60,70,],
+                    'sex_freq'         : [0,10,20,30,40,50,60,70,],
+                    'corruption'       : [0,10,20,30,40,50,60,70,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                
+                    },
+
+
+/* Zythara-2 EF 3 - T 3 */
+                'zp2' : {
+                    'title'            : 'zp2_scene',
+                    'shortcode'        : 'zp',
+                    'location'         : 'CountrySide',
+                    'btn'              : 'Try Vorthas With',
+                    'avatar'           : 'scenes/char/avatar/vorthas.png',
+                    'image'            : 'scenes/char/zp/13.png',
+                    'passage'          : ["bj_scene","mis_scene","dg_scene","cg_scene","sf_scene","as_scene",],
+                    'desc'             : ["Blowjob","Missionary","Doggy","Cow Girl","Side Fuck","Anal",],
+                    'status'           : [1,0,0,0,0,0],
+                    'men_freq'         : [0,90,100,110,120,130,],
+                    'sex_freq'         : [80,90,100,110,120,130,],
+                    'corruption'       : [80,90,100,110,120,130,],
+                    'event_fuck'       : 0,
+                    'event_time'       : 4,
+                    'level'            : 0,
+                
+                    },
+
+/* Malena-1 EF 3 - T 3 */
+                'dl1' : {
+                    'title'            : 'dl1_scene',
+                    'shortcode'        : 'dl',
+                    'location'         : 'CountrySide',
+                    'btn'              : 'Sex With',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/dl/9.png',
+                    'passage'          : ["mis_scene","dg_scene","sf_scene","as_scene",],
+                    'desc'             : ["Missionary","Doggy","Side Fuck","Anal",],
+                    'status'           : [1,0,0,0,],
+                    'men_freq'         : [0,10,20,30,],
+                    'sex_freq'         : [0,10,20,30,],
+                    'corruption'       : [0,10,20,30,],
+                    'event_fuck'       : 11,
+                    'event_time'       : 3,
+                    'level'            : 0,
+                
+                    },
+
+
+
+                    
+
+    
+
+    }
+
+    
+    >>

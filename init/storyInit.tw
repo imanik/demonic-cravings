@@ -1,0 +1,134 @@
+
+
+<<set $currentDay to 0  >>
+<<set $currentTime to 0 >>
+
+<<set $mc_stats_arr = []  >>
+<<set $character_stats_arr = [] >>
+
+<!-- <<set $eventMoney = [] >>
+<<set $eventMorality = [] >>
+<<set $eventStamina = [] >>
+<<set $eventMomLove = [] >>
+<<set $eventMomLust = [] >> -->
+
+<<set $message to "" >>
+
+<<set $eventCount = 0>>
+
+<<set $kitchenEvent to 0>>
+  
+<<set $kitchenClean to 0 >>
+
+<<set $poolClean to 0 >>
+
+<<set $livingClean to 0 >>
+
+<<set $roomClean to 0 >>
+  
+<<set $exercise = 0>>
+
+<<set $swimming = 0>>
+
+<<set $laundry = 0>>
+
+<<set $shower = 0>>
+
+<<set $stealing = 0>>
+
+<<set $watchTV = 0>>
+
+<<set $tm = 0>>
+
+<<set $previous = 1>>
+
+
+<<set $gameType to "">>
+
+<<set $activityType to "">>
+
+<<set $activityImage to "">>
+
+<<set $activityVideo to "">>
+
+<<set $mediaType to "">>
+
+<<set $taskDialogue to "">>
+
+<<set $ap_starts to 1>>
+<<set $ep_starts to 1>>
+<<set $cp_starts to 1>>
+
+<<set $mp_starts to 1>>
+<<set $mr_starts to 1>>
+<<set $ed_starts to 1>>
+<<set $up_starts to 1>>
+
+<<set $ep_appearing_event to 1>>
+<<set $ed_appearing_event to 1>>
+<<set $myroomTalk to 0>>
+
+<<set $shopEvent to 0>>
+<<set $bedroomEvent to 0>>
+<<set $outdoorEvent to 0>>
+<<set $livingEvent to 0>>
+<<set $myroomEvent to 0>>
+<<set $kitchenEvent to 0>>
+<<set $baseofficeEvent to 0>>
+<<set $cpofficeEvent to 0>>
+<<set $collegeEvent to 0>>
+<<set $bathroomEvent to 0>>
+<<set $sisterroomEvent to 0>>
+<<set $dadhouseEvent to 0>>
+<<set $dadofficeEvent to 0>>
+
+
+<<set $alilison_fck to 1>>
+<<set $carolyn_fck to 1>>
+<<set $nicole_fck to 1>>
+
+<<set $eline_fck to 1>>
+<<set $susan_fck to 1>>
+<<set $edward_fck to 1>>
+<<set $maria_fck to 1>>
+
+<<set $christina_fck to 0>>
+<<set $danae_fck to 0>>
+<<set $maggie_fck to 0>>
+
+
+<<set $mp_scene to 0>>
+<<set $gp_scene to 0>>
+<<set $up_scene to 0>>
+<<set $dp_scene to 0>>
+<<set $ez_scene to 0>>
+<<set $ed_scene to 0>>
+<<set $cp_scene to 0>>
+<<set $mr_scene to 0>>
+<<set $ap_scene to 0>>
+
+
+<<set $sceneType = ''>>
+<<set $sceneCode = ''>>
+
+<<set $sceneDialogue = ''>>
+
+<<set $sceneVideo = ''>>
+
+<<set $avatarImage = 'scenes/char/avatar/human.png'>>
+
+
+<<set $charObj = {}>>
+<<set $sceneObj = {}>>
+
+
+
+
+<<set $charStats to "mp">>
+
+
+
+<<include "CharacterInit" >>
+<<include "TimeInit" >>
+
+
