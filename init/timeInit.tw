@@ -1,0 +1,22 @@
+/* Days of the week */
+<<set $weekDays = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]>>
+
+<<set $weekendValue = [0, 0, 0, 0, 0, 1, 1]>>
+
+
+/* Current day in total */
+<<set $dayValue to 0>>
+
+
+<<set $dayTimes = [ "Morning", "Mid Day", "Noon", "Afternoon", "Evening", "Night", "Midnight" ]>>
+
+<!-- <<set $dayTimes = [ "Early Morning", "Morning", "Mid Day","Afternoon", "Evening", "Night", "Midnight" ]>> -->
+
+<<set $dayTimeValue = 0 >>
+
+/* Current time of the day */
+<<set $timeInDay to 1>>
+
+/* Wether to advance to the next time of the day when using the "leave" button */
+<<set $timeForwardOnLeave = false>>
+

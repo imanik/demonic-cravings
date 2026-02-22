@@ -1,0 +1,529 @@
+    Character Init:
+
+    <<set $mc = {
+        "name" : "Max",
+        "rel" : "Neighbor-Son",
+        "call" : "Incubus",
+        "lastname" : "Carter",
+        "age" : 21,
+        "up" :  "Neighbor-Brother",
+        "hp":   "Neighbor-Nephew",
+        "dad":   "Neighbor-Son",
+        "image":   "scenes/char/avatar/human.png",
+        "shortcode" : "mc",
+        "pstar": " ",
+        "link": "",
+        "type" : "Human",
+        "avatar": "hm",
+        "stats": 
+            {
+                "knowledge":        0,
+                "stamina":          0,
+                "money" :           0,
+                "mana":             0,      
+                "software_up":      0,    
+                "update":           0,      
+                "love" :            0,    
+                "lust":             0,       
+                "soul":             0,       
+                "alpha":            0,       
+                "loyal":            0,       
+                "flame":            0,       
+                "allure":           0,       
+                "hellfire":         0,       
+                "intimidate":       0,       
+                "dreamweaver":      0,       
+                "energy_drain" :    0,
+            },
+        
+    
+    }
+        
+    >>
+
+    <<set $avatar = {
+
+
+            "kz" : 
+                {
+                        "name":          'Kaelzar',
+                        "title":         'The Whispering Shadow',
+                        "role":          'Demon of Secrets',
+                        "image" :        'scenes/char/avatar/kaelzar.png',
+                        "skill" :        'Enters minds to plant seeds of doubt or reveal hidden truths.',
+                        "des" :          'A shadowy figure who thrives on the secrets of mortals and immortals alike. His whispers have been the cause of countless betrayals.',
+                        "shortcode":     'kz',
+                        "level":          0,
+                        "status":         0,
+                        "required":        {
+
+                                'allure': 20,
+                                'energy_drain': 20,
+                                'mana': 20,
+                                
+                            } 
+
+                        
+                },
+
+            "ad" : 
+                {
+                        "name":          'Asmodius',
+                        "title":         'The Collector of Desires',
+                        "role":          'Demon of Lust and Power',
+                        "image" :        'scenes/char/avatar/asmodius.png',
+                        "skill" :        'Absorbs the energy of desires to strengthen himself.',
+                        "des" :          'Charming and manipulative, preys on mortal and immortal desires, binding them to his will.',
+                        "shortcode":     'ad',
+                        "level":         0,
+                        "status":        1,
+                         "required":        {
+
+                                'dreamweaver': 50,
+                                'energy_drain': 50,
+                                'mana': 20,
+                                
+                            } 
+
+                },
+
+
+            "vt" : 
+                {
+                        "name":          'Vorthas',
+                        "title":         'The Flesh Shaper',
+                        "role":          'Demon of Twisted Creation',
+                        "image" :        'scenes/char/avatar/vorthas.png',
+                        "skill" :        'A Molds bodies like clay, twisting and mutating his victims into monstrous, obedient creations.',
+                        "des" :          'A grotesque sculptor of living flesh, Vorthas delights in reshaping both mortals and demons alike, turning them into abominations of his own design. He sees flesh as a malleable canvas for his nightmarish artistry.',
+                        "shortcode":     'vt',
+                        "level":         0,
+                        "status":        1,
+                         "required":        {
+
+                                'flame': 20,
+                                'alpha': 20,
+                                'mana': 20,
+                                
+                            } 
+
+                },
+
+            "dk" : 
+                {
+                        "name":          'Drakar',
+                        "title":         'The Abyss Knight',
+                        "role":          'General of Hell Armies',
+                        "image" :        'scenes/char/avatar/drakar.png',
+                        "skill" :        'Summons an army of lesser demons and wields a flaming greatsword.',
+                        "des" :          'A fierce warrior clad in burning obsidian armor, commands legions of demons and enforces the will of Hell higher powers.',
+                        "shortcode":     'dk',
+                        "level":          0,
+                        "status":         0,
+                        "required":        {
+
+                                'allure': 20,
+                                'energy_drain': 20,
+                                'mana': 20,
+                                
+                            } 
+
+                        
+                },
+
+            "mk" : 
+                {
+                        "name":          'Malrik',
+                        "title":         'The Soul Weaver',
+                        "role":          'Hell Scribe',
+                        "image" :        'scenes/char/avatar/malrik.webp',
+                        "skill" :        'Manipulates soul energy to weaken or dominate enemies.',
+                        "des" :          'Keeper of the Soul Threads that bind damned souls to their eternal torment. Calculating and cold, he controls the destiny of mortals with his silver pen.',
+                        "shortcode":     'mk',
+                        "level":         0,
+                        "status":        0,
+                        "required":        {
+
+                                'allure': 20,
+                                'energy_drain': 20,
+                                'mana': 20,
+                                
+                            } 
+
+                },
+
+
+
+    }>>
+
+
+
+        <<set $ep = {
+            "name" : "Ella",
+            "lastname" : "Summers",
+            "age" : 21,
+            "rel" : "Friend",
+            "call": "Nicole",
+            "shortcode" : "ep",
+            "pstar": "Esmeralda Duarte ",
+            "link": "",
+            "type" : "Human",
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,   
+                        
+                },
+
+            
+        }
+            
+        >>
+
+        <<set $ap = {
+            "name" : "Angie",
+            "lastname" : "Miller",
+            "age" : 26,
+            "rel" : "$up.name's Friend",
+            "call": "Angie",
+            "shortcode" : "ap",
+            "pstar": "Angie Miller ",
+            "link": "",
+            "type" : "Human",
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,   
+                        
+                },
+
+            
+        }
+            
+        >>
+
+        <<set $gp = {
+            "name" : "Gatita",
+            "lastname" : "Miller",
+            "age" : 21,
+            "rel" : "Friend",
+            "call": "Gatita",
+            "shortcode" : "gp",
+            "pstar": "Gatita Veve ",
+            "link": "",
+            "type" : "Human",
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,   
+                        
+                },
+
+            
+        }
+            
+        >>
+
+        <<set $dl = {
+            "name" : "Malena",
+            "lastname" : "Doll",
+            "age" : 25,
+            "rel" : "Friend",
+            "call": "Malena",
+            "shortcode" : "dl",
+            "pstar": "Malena Doll ",
+            "link": "",
+            "type" : "Human",
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,   
+                        
+                },
+
+            
+        }
+            
+        >>
+
+       <<set $vl = {
+            "name" : "Velkara",
+            "lastname" : "The Blood Siren",
+            "age" : 21,
+            "rel" : "Neutral",
+            "role": " Demon of Carnage",
+            "desc": "Known for her beauty and cruelty, Velkara lures victims into slaughter with her haunting, otherworldly songs.",
+            "skill": "Uses blood magic to drain enemies and heal herself.",
+            "shortcode" : "vl",
+            "pstar": "Emily Thorne ",
+            "link": "",
+            "type" : "Hell-Hound",
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,                 
+                },
+        }
+            
+        >> 
+
+
+        <<set $ct = {
+            "name" : "Rayne",
+            "lastname" : "The Queen of Seduction",
+            "age" : 1021,
+            "rel" : "Slave",
+            "role": "Queen of Temptation",
+            "desc": "Manipulates mortals and demons alike with her unearthly beauty and hypnotic charm.",
+            "skill": "Entrances targets, leaving them defenseless to her will.",
+            "shortcode" : "ct",
+            "pstar": "Karol Jaramillo",
+            "link": "",
+            "type" : "Succubus",
+
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,                 
+                
+                },
+        }
+            
+        >> 
+
+
+
+
+        <<set $cp = {
+            "name" : "Selyra",
+            "lastname" : "The Mistress of Flames",
+            "age" : 1075,
+            "rel" : "Slave",
+            "role": "Female Keeper of Hellfire",
+            "desc": "Guardian of Hell's eternal flames, ensures the fires of torment burn for all eternity. Her fiery personality matches her destructive powers.",
+            "skill": "Controls flames to incinerate enemies or create infernos.",
+            "shortcode" : "cp",
+            "pstar": "Carla Morelli",
+            "link": "",
+            "type" : "Hell-Hound",
+
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,     
+                        
+                },
+        }
+        >>
+
+        <<set $zp = {
+            "name" : "Zythara",
+            "lastname" : "the Abyssal Huntress",
+            "age" : 1590,
+            "rel" : "Slave",
+            "role": "Female Demon of Predatione",
+            "desc": "A relentless tracker of lost souls, Zythara thrives on the chase. Her body is sculpted for the hunt—toned muscles, crimson eyes that glow with primal hunger, and skin marked by the scars of past conquests. She takes what she desires and dominates those who dare to resist.",
+            "skill": "Mark of the Alpha.",
+            "shortcode" : "zp",
+            "pstar": "Sandra Paola",
+            "link": "",
+            "type" : "Hell-Hound",
+
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,     
+                        
+                },
+        }
+        >>
+
+        <<set $mp = {
+            "name" : "Cynthia",
+            "lastname" : "Jones",
+            "age" : 45,
+            "rel" : "Neighbor-Mother",
+            "type" : "Human",
+            "call": "Neighbor-Mom",
+            "up": "Neighbor-Daughter",
+            "mc": "Neighbor-Son",
+            "hp":   "Neighbor-Brother",
+            "shortcode" : "mp",
+            "pstar": "Gali Diva",
+            "link": "http://join.sexmex.xxx/gallery/NTIxLjEuMS4xLjAuNDguMC4wLjA",
+
+            "stats": 
+                {
+                    
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,     
+                        
+                },
+        }
+    >>
+
+        <<set $up = {
+            "name" : "Liz",
+            "lastname" : "Jones",
+            "age" : 21,
+            "rel" : "Neighbor-Sister",
+            "call": "Liz",
+            "hp": "Neighbor-Niece",
+            "type" : "Human",
+            "shortcode" : "up",
+            "stats" : 
+                {
+                    "men_freq":          0,
+                    "sex_freq":          0,
+                    "corruption":        0,      
+                        
+                },
+        }
+            
+        >>
+
+            
+        
+ 
+
+
+
+
+
+
+        <<set $countrySide = {
+                    
+                        "title" :             ["Event_Dl_9","Event_Dl_10","Event_Dl_11",],
+                        "status":             [0,0,0,],
+                        "char":               ["dl","dl","dl",],
+                        "time" :              [3,3,3],
+                        "mana":               [90,100,110,],
+                        
+                        "allure":             [70,0,0],       
+                        "dreamweaver":        [0,50,0,],       
+                        "energy_drain" :      [0,0,100,],
+                        
+                        "alpha":              [0,80,0],        
+                        "hellfire":           [0,0,100,],       
+                        "intimidate":         [70,0,0,],        
+                        
+                        "soul":               [70,0,0,],       
+                        "flame":              [0,0,100,],       
+                        "loyal":              [0,80,0,],       
+                        
+                        "avatar":             ["hm","hm","hm",],
+                        "level":              [0,0,0,], 
+                        "count":                0,
+        }
+        >>
+
+        <<set $myroom = {
+                    
+                        "title" :             ["Event_Gp_3"],
+                        "status":             [0,],
+                        "char":               ["gp",],
+                        "time" :              [5,],
+                        "mana":               [30,],
+                        
+                        
+                        "allure":             [0,],       
+                        "dreamweaver":        [20,],       
+                        "energy_drain" :      [0,],
+                        
+                        "intimidate":         [0,],       
+                        "alpha":              [0,],       
+                        "hellfire":           [20,],       
+                        
+                        "soul":               [0,],       
+                        "flame":              [0,],       
+                        "loyal":              [20,],       
+                        
+                        "avatar":             ["ad",],           
+                        "level":              [0,],
+                        "count":                0,   
+        }
+        >>
+
+
+        <<set $gatitaHome = {
+                    
+                        "title" :             ["Event_Gp_8",],
+                        "status":             [0,],
+                        "char":               ["ct",],
+                        "time" :              [3,],
+                        "mana":               [80,],
+                        
+                        
+                        "allure":             [60,],       
+                        "dreamweaver":        [0,],       
+                        "energy_drain" :      [0,],
+                        
+                        "intimidate":         [0,],       
+                        "alpha":              [60,],       
+                        "hellfire":           [0,],       
+                        
+                        "soul":               [60,],       
+                        "flame":              [0,],       
+                        "loyal":              [0,],       
+                        
+                        "avatar":             ["hm",],           
+                        "level":              [0,],
+                        "count":                0,   
+        }
+        >>
+
+
+
+        <<set $club = {
+                
+                        "title" :             ["Event_Ct_1","Event_Gp_2","Event_Gp_4","Event_Gp_5","Event_Gp_6","Event_Gp_7",],
+                        "status":             [0,0,0,0,0],
+                        "char":               ["ct","gp","gp","gp","gp"],
+                        "time" :              [5,5,5,5,5,5],
+                        "mana":               [10,20,40,50,60,70],
+                        
+                        
+                        "allure":             [0,10,20,0,0,50],       
+                        "dreamweaver":        [0,0,0,0,0,0],       
+                        "energy_drain" :      [0,0,0,20,40,0],
+                        
+                        "alpha":              [0,10,20,0,0,0],        
+                        "hellfire":           [0,0,0,30,0,50],       
+                        "intimidate":         [0,10,0,0,30,0],        
+                        
+                        "soul":               [10,0,30,0,0,0],       
+                        "flame":              [10,0,20,0,40,0],       
+                        "loyal":              [10,0,0,40,0,50],       
+                        
+                        
+                        "avatar":             ["vt","vt","vt","vt","vt","vt",],           
+                        "level":              [0,0,0,0,0,0],
+                        "count":                0,          
+        }
+        >>
+
+
+
+
+
+
+<<include "FuckInit" >>
+<<include "SceneInit" >>
+<<include "QuestInit" >>
