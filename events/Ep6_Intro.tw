@@ -1,0 +1,155 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+            <p> I closed the door behind me and leaned against it, letting out a slow breath. The room felt quieter than usual, but my mind wasn’t. Images of Malena kept replaying—her confidence, the way she looked at me, the tension that followed every word and movement. It wasn’t just attraction. There was something else beneath it. Something familiar. Dangerous. </p>
+            <p> I moved toward the bed and sat down, rubbing my temples. The encounter had left a mark on me, not physical, but deeper. Energy lingered in my chest, warm and restless, like something had been exchanged without me fully understanding how. </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"You’re thinking too loudly, Master." </p>
+                </div>
+            </div>
+            <p> The air beside me shifted. Shadows folded inward, and Rayne appeared, arms crossed, her expression sharp with interest. Her eyes flicked over me, studying me like she already knew the answer. </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"You felt it too?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"I felt everything." </p>
+                </div>
+            </div>
+            <p> I looked up at her and didn’t bother hiding it. </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"I met Malena again. Things escalated. Not just desire—something more. When I touched her, it felt… familiar. Like you." </p>
+                </div>
+            </div>
+            <p> Rayne’s lips curved into a slow, knowing smile. She stepped closer, her voice lowering. </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "That’s because she is like me." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"What do you mean?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"I found the pattern while you were with her. Malena isn’t just a half-demon with ambition. She’s a succubus. Awakened, but not fully aware of what she is yet." </p>
+                </div>
+            </div>
+            <p> The words settled heavily. Pieces clicked into place—the pull, the energy, the way control shifted so easily between us. </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"So that’s why it felt different." </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"Exactly." </p>
+                </div>
+            </div>
+            <p> Rayne circled me slowly, her fingers brushing my shoulder as she spoke. </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"When you engage with her, you don’t just satisfy desire. You gain perks. Influence. Insight. Energy. The same way you do with me." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"And she doesn’t realize it?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"Not consciously. Which makes her even more dangerous—and more useful." </p>
+                </div>
+            </div>
+            <p> I leaned back, staring at the ceiling, letting the implication sink in. </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"You want me to get closer." </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"I want you to get inside her world." </p>
+                </div>
+            </div>
+            <p> Rayne stopped in front of me, meeting my eyes directly. </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"Gain her trust. Push the connection. Every encounter will reveal more—about her, about yourself, and most importantly…" </p>
+                </div>
+            </div>
+            <p> Her voice dropped to a whisper. </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"…about Zong." </p>
+                </div>
+            </div>
+            <p> A slow smile formed on my lips. The game wasn’t just continuing. It was evolving. </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p>"Then I’ll play it carefully." </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p>"I wouldn’t expect anything less, Master." </p>
+                </div>
+            </div>
+            <p> She faded back into shadow, leaving me alone with a clear objective—and a growing hunger for what came next. </p>
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

@@ -1,0 +1,32 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE -->
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'">
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            <p> Then in a fit of fright, I opened my eyes and saw the familiar poster of top anime waifus on my ceiling wall. I was back in my room, in my bed with the hoax of the room light bearing down on me. At first, I thought everything was just a very vivid dream, or a nightmare, especially when I turned to my left side and saw that my arm was still there. 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "What the fuck," I said to myself as I looked at the mirror, and looked back at myself.  
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>
