@@ -1,0 +1,238 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            <p>The room was still drenched in the lingering heat of last night. My body was sore, but my mind was restless. I laid on my bed, replaying every moment with Gatita—the way she moved, the way she begged, the way her half-demon nature surrendered completely to Vorthas. Vorthas was a beast, an unrelenting force of desire. His energy never faded, and women fell for him like prey caught in his grip. 
+            </p>
+
+            <p>But Asmodius… he was different. Where Vorthas dominated, Asmodius seduced. He knew exactly where to touch, how to tease, how to make a woman surrender without ever demanding it. He could read their favorite positions, their hidden desires, their deepest cravings. His innocent face was a weapon, a trap that lured women in before they realized they were already lost in his game. I grinned to myself. If only I could use him in the real world… 
+            </p>
+
+            <p>A whisper of cool air brushed against my neck before a familiar voice cut through the silence. 
+            </p>
+
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Master, still thinking about last night?" </p>
+                </div>
+            </div>
+            
+            <p>My pulse jumped. I turned my head to see Rayne standing at the foot of my bed, arms crossed, a playful smirk curling at her lips. She was always watching, always reading me. 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "It was… unforgettable." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Mmm, I’m sure it was. And Vorthas?" </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "A beast. He doesn’t stop, doesn’t hesitate. He takes." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "And Asmodius?" She tilted her head, running a teasing finger down my chest. "His tongue work alone could turn the coldest heart into a moaning mess." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "He’s dangerous. He can read a woman’s body like a book. It’s like he knows exactly what they want before they do." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Exactly. And that’s why they’re your greatest weapons." </p>
+                </div>
+            </div>
+            
+            <p>She leaned in closer, pressing a hand against my chest, her crimson eyes gleaming. 
+            </p>
+
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "If you ever need to uncover a girl’s secrets—her fears, her desires, her weaknesses—use Vorthas." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "And Asmodius?" </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "If you fail to seduce a girl in the real world… he can break her resistance. No woman can refuse him for long." </p>
+                </div>
+            </div>
+            
+            <p>My mind spun with the possibilities. 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "So I have a key to every locked door." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "That’s right, Master. And now… I have something for you." </p>
+                </div>
+            </div>
+            
+            <p>Her playful smirk turned into something more serious, her gaze flickering with excitement. 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Go on." </p>
+                </div>
+            </div>
+            
+            <p>She crawled onto the bed, straddling me without hesitation. Her fingers traced slow circles on my chest. 
+            </p>
+
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You have a competitor." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "A what?" </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "A half-demon. Not just any half-demon. A male half-demon." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "And why should I care?" </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Because he’s stronger than you." </p>
+                </div>
+            </div>
+            
+            <p>My body tensed. I wasn’t expecting that. Stronger than me? More powerful? That was impossible. I had been growing, evolving. I could bend Hellhounds to my will, make half-demons scream my name in pleasure and submission. Who the hell was this guy? 
+            </p>
+
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Who is he?" </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "A half-demon. A strong one. One that all the female half-demons want." </p>
+                </div>
+            </div>
+            
+            <p>A slow chill crept down my spine. I clenched my fists. Another half-demon? A competitor? Someone standing in my way? 
+            </p>
+
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "He’s famous among female half-demons. They crave him. He controls the strongest Hellhounds, the most ferocious, untamed beasts. And the worst part?" She leaned in, her lips almost grazing my ear. "He’s been doing this longer than you. He already knows the game, and he’s winning." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Bullshit." </p>
+                </div>
+            </div>
+            
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "If you want to see for yourself, Master, he’ll be at the club in the evening." </p>
+                </div>
+            </div>
+            
+            <p>I exhaled sharply. A rival. A threat. Someone standing in my way. But if he thought he could outmatch me, he had no idea who he was dealing with. 
+            </p>
+
+        
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>
