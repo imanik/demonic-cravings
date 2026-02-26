@@ -28,6 +28,7 @@
                     <p>"I felt everything." </p>
                 </div>
             </div>
+            
             <p> I looked up at her and didn’t bother hiding it. </p>
             <div class="dialogue-row mc">
                 <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">

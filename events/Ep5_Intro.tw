@@ -225,14 +225,34 @@
             <p>I exhaled sharply. A rival. A threat. Someone standing in my way. But if he thought he could outmatch me, he had no idea who he was dealing with. 
             </p>
 
-        
-        
-        <!-- EXAMPLE BUTTON -->
-        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
-            <p >Leave</p>
-        </div>
-    
     </div>
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How Should I React?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Cocky & Competitive</strong> – "Good. I was getting bored. Let’s see who the real king is."</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Strategic & Cunning</strong> – "If he’s stronger, I need to know his weaknesses before making a move."</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Doubt & Temptation</strong> – "And what if he’s better than me, Rayne? Would you crave him too?"</p>
+    </div>
+
+
+
+        
+    <!-- EXAMPLE BUTTON
+    <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+        <p >Leave</p>
+    </div>
+    -->
+
 
 <</nobr>>
 </div>

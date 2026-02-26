@@ -357,6 +357,7 @@ video::-webkit-media-controls-timeline {
   transition: background 0.3s ease;
   box-shadow: 0 6px 20px rgba(106, 90, 205, 0.4);
   width: 220px;
+  margin: auto;
   margin-bottom: 0.75rem;
 }
 
@@ -914,53 +915,34 @@ background: linear-gradient(to right, #6a5acd, #8a2be2);
 
 
 
+/* Story Options */
 
-
-
-
-
-
-
-/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
-/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
-/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
-/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
-/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
-/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
-
-
-
-/* body{
-	background-attachment: fixed !important;
+.option-button {
+  background: linear-gradient(to right, #0077ff, #0049b0);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  color:#f7ecec;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 6px 20px rgba(106, 90, 205, 0.4);
+  width: 100%;
+  margin-bottom: 0.75rem;
 }
- */
-
-/*   
-  .intro {
-        font-size:20px; 
-     width:80%;
-    text-align: center;
-    animation: apear 800ms;
-    animation-fill-mode:forwards;
-    text-shadow: 0 0 5px #090a0f;
-    font-family: Roboto;
-  } */
-  
 
 
-/*   
-   .enter_button {
-    background: linear-gradient(to right, #6a5acd, #8a2be2);
-    padding: 1rem 2rem;
-    border-radius: 12px;
-    text-align: center;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    box-shadow: 0 6px 20px rgba(106, 90, 205, 0.4);
-    width: 220px;
-    margin-bottom: 0.75rem;
-  }
- */
+
+
+/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
+/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
+/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
+/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
+/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
+/* BELOW THIS IS UNCHECKED CODE FROM ORIGINAL AND MY ADDITIONS. BELOW THE LINE IS GOING TO GET DELETED! */
+
+
+
+
   
   .location_button {
     margin-left:0%;
@@ -1448,28 +1430,7 @@ background: linear-gradient(to right, #6a5acd, #8a2be2);
       display: block; /* Ensure buttons are block-level elements (for spacing) */
   }
   
-
-
-/* New styles added by Sini (check if can be deleted later) */
-
-
-/* Avatars */
-/*  .avatar {
-  background: #202020;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  padding: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.2s ease;
-  border-left: 15px solid #ffc36f;
-} 
-
-.avatar img {
-  object-fit: contain;
-
-} */</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
 
@@ -13436,14 +13397,34 @@ $(document).ready(function() {
             &lt;p&gt;I exhaled sharply. A rival. A threat. Someone standing in my way. But if he thought he could outmatch me, he had no idea who he was dealing with. 
             &lt;/p&gt;
 
-        
-        
-        &lt;!-- EXAMPLE BUTTON --&gt;
-        &lt;div class=&quot;enter-button&quot; onclick=&quot;forwardTime(1)&quot; data-passage=&quot;Home&quot; style=&quot;width:25vw;&quot;&gt;
-            &lt;p &gt;Leave&lt;/p&gt;
-        &lt;/div&gt;
-    
     &lt;/div&gt;
+
+    &lt;!-- Options --&gt;
+    &lt;hr&gt;
+
+    &lt;h3&gt;How Should I React?&lt;/h3&gt;
+
+    &lt;div class=&quot;option-button&quot; onclick=&quot;handleOptionSelection(&#39;ct&#39;,&#39;EB&#39;)&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;Cocky &amp; Competitive&lt;/strong&gt; – &quot;Good. I was getting bored. Let’s see who the real king is.&quot;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;option-button&quot; onclick=&quot;handleOptionSelection(&#39;ct&#39;,&#39;MC&#39;)&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;Strategic &amp; Cunning&lt;/strong&gt; – &quot;If he’s stronger, I need to know his weaknesses before making a move.&quot;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;option-button&quot; onclick=&quot;handleOptionSelection(&#39;ct&#39;,&#39;CR&#39;)&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;Doubt &amp; Temptation&lt;/strong&gt; – &quot;And what if he’s better than me, Rayne? Would you crave him too?&quot;&lt;/p&gt;
+    &lt;/div&gt;
+
+
+
+        
+    &lt;!-- EXAMPLE BUTTON
+    &lt;div class=&quot;enter-button&quot; onclick=&quot;forwardTime(1)&quot; data-passage=&quot;Home&quot; style=&quot;width:25vw;&quot;&gt;
+        &lt;p &gt;Leave&lt;/p&gt;
+    &lt;/div&gt;
+    --&gt;
+
 
 &lt;&lt;/nobr&gt;&gt;
 &lt;/div&gt;</tw-passagedata></tw-storydata>
