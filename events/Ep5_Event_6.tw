@@ -1,0 +1,116 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            
+            <p>The club pulsed with energy, the air thick with the scent of liquor and the low hum of conversation mixed with the beat of the music. Shadows stretched across the dimly lit space as I moved toward a familiar booth. Gatita sat there, her fingers idly tracing the rim of her glass, lost in thought. The moment she spotted me, a slow, knowing smile curled on her lips. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Well, look who decided to show up. Thought you’d be too busy thinking about last night." </p>
+                </div>
+            </div>
+            <p>I slid into the seat across from her, watching the way she leaned forward slightly, her expression unreadable. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Last night was... eye-opening. But I saw something even more interesting this evening." </p>
+                </div>
+            </div>
+            <p>She raised an eyebrow, swirling her drink before taking a sip. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Oh? Do tell." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Zong and Malena. Their performance at the club. He’s... good. Too good." </p>
+                </div>
+            </div>
+            <p>A flash of amusement crossed her face, followed by something else—something sharper, more cautious. She set her glass down, tilting her head. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Zong’s not just good. He’s the best. And trust me, Malena matches his energy. You’re impressed, aren’t you?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "He’s skilled. I’ll give him that. But Malena—she’s different. There’s something about her." </p>
+                </div>
+            </div>
+            <p>Gatita leaned in slightly, lowering her voice. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Don’t let that curiosity get you into trouble, Vorthas. If Zong even suspects you have an interest in Malena, you won’t be walking out of here in one piece." </p>
+                </div>
+            </div>
+            <p>A challenge. A warning. Maybe even a test. I smirked, resting my arm on the table. 
+            </p>
+ 
+        </div>
+        
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How Do I Respond?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Brush It Off</strong> – "I’m not interested in Malena." (Reassuring Gatita and playing it safe.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Push for More</strong> – "What’s the real story with her?" (Digging deeper into Malena’s connection with Zong.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Challenge the Threat</strong> – "Zong doesn’t scare me." (A bold move, testing Gatita’s reaction.)</p>
+    </div>
+
+        <div class="story-box">
+            <p>I leaned back, letting my choice settle between us. Gatita studied me for a long moment before exhaling and standing up. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Alright. Keep that in mind, Vorthas. I need to go now—see you soon." </p>
+                </div>
+            </div>
+            <p>She flashed me one last playful smirk before turning on her heels, her movements fluid and deliberate. I watched her disappear into the crowd, my mind still spinning from her warning. One thing was clear—Zong wasn’t just some rival. He was a threat. 
+            </p>
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div> 
+    
+    </div>
+
+<</nobr>>
+</div>

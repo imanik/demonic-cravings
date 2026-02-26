@@ -1,0 +1,215 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            
+            <p>The club pulsed with energy, a mix of dark desire and hidden power humming beneath the surface. The dim lights bathed everything in crimson, shadows flickering across the dance floor. My eyes scanned the crowd, but I didn’t need to look far. Gatita sat in her usual booth, legs crossed, swirling a dark red drink in her glass. She looked up the moment I approached, and a slow, pleased smile curved her lips. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Well, if it isn’t my dream weaver himself." She leaned forward, resting her chin on her palm, her gaze flickering with amusement. "That was… something else, Vorthas." </p>
+                </div>
+            </div>
+            <p>I smirked as I slid into the seat across from her. There was something different about her tonight. A glow? A lingering excitement? Whatever it was, she was clearly satisfied with what I had given her. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I take it you liked the dream?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Liked it? Vorthas, that was my favorite one yet." Her voice dipped into something softer, more sultry. "It felt so real… I can still feel him. The way he touched me… the way he took control…" She exhaled, her fingers trailing along the rim of her glass. </p>
+                </div>
+            </div>
+            <p>A spark of satisfaction ran through me. She was addicted to Asmodius. Exactly as I wanted. But then, her eyes narrowed slightly—playful, but questioning. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "But you enjoyed it too, didn’t you?" She tilted her head, watching me carefully. "Don’t lie, I know you felt something while crafting it. Maybe even… wanted it for yourself?" </p>
+                </div>
+            </div>
+
+            
+        </div>
+        
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How do I respond?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Admit it confidently</strong> – "I won’t lie. Watching you in that dream was more tempting than I expected." (Flirty & Bold)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Play it off</strong> – "It was just a dream, nothing more. I only gave you what you wanted." (Detached & Mysterious)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Turn it back on her</strong> – "Should I be jealous of myself?" (Teasing & Witty)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Push deeper</strong> – "Tell me, what was your favorite part?" (Seductive & Curious)</p>
+    </div>
+
+        <div class="story-box">
+            <p>She smirked at my response, taking another sip of her drink before setting it down. Her eyes gleamed with mischief. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "You’re an interesting one, Vorthas." She exhaled slowly, tracing patterns on the table with a single finger. "Our little secret will continue… but only if I keep getting what I want." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "And what exactly do you want next?" </p>
+                </div>
+            </div>
+            <p>She leaned in, her lips almost brushing my ear. Her breath was warm, carrying the faint scent of liquor and something darker, something unspoken. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "A new dream. A perfect one." She pulled back slightly, her gaze locked onto mine. "This time… take me somewhere different. Somewhere only Asmodius and I exist. A place untouched by time. A heaven made for sin." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I think I can work with that." I chuckled. "Do you have a preference?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Mmhmm." She ran a hand through her dark hair, smirking. "Something… wild. Open. Maybe a place with no walls, no ceilings—just us under the stars." She tilted her head. "Think you can handle that, dream weaver?" </p>
+                </div>
+            </div>
+        
+        </div>
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How do I tease her?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Challenge her</strong> – "Careful what you ask for. I might make it too intense for you." (Confident & Dominant)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Keep it cool</strong> – "That’s easy. The real question is… will you handle it?" (Playful & Mysterious)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Push boundaries</strong> – "What if I told you Asmodius isn’t the only one who could give you that?" (Seductive & Suggestive)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Stay strategic</strong> – "I’ll craft it. But first, tell me more about you." (Building Connection)</p>
+    </div>
+
+        <div class="story-box">
+            <p>She hummed in amusement, finishing the last sip of her drink before sliding the glass aside. Then, her expression shifted—still playful, but something else lingered beneath. A test. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "You know, Vorthas… we talk a lot about me. But what about you?" She leaned in again, studying me. "You play the dream-maker so well, but what do you dream about?" </p>
+                </div>
+            </div>
+            <p>A flicker of curiosity ran through me. A half-demon like her? Asking something like that? It wasn’t just a casual question. She wanted to see if I would reveal something. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Why do you ask?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> She smirked. "Because the more I know… the better I can make your dreams come true." </p>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How do I answer?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Stay in control</strong> – "I don’t dream. I make them." (Mysterious & Powerful)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Give her a glimpse</strong> – "Let’s just say, when I do, they’re never ordinary." (Teasing & Intriguing)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Turn it on her</strong> – "Maybe I’ll let you be in one sometime." (Flirty & Suggestive)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Go deep</strong> – "What if I told you my dreams are about power?" (Dark & Ambitious)</p>
+    </div>
+
+        <div class="story-box">
+            <p>She watched me closely, waiting, searching for something in my words. Then, after a pause, she laughed softly. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Interesting… very interesting." She stood up, stretching slightly before brushing past me, her fingers trailing along my shoulder. "Let me know when my next dream is ready." She winked before disappearing into the crowd. </p>
+                </div>
+            </div>
+            <p>I sat there for a moment, watching her go. Gatita was more than just a seductive half-demon—she was testing me. Pushing limits, searching for weakness. I had to be careful. But one thing was certain… she was hooked. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Time to make sure she stays that way." </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

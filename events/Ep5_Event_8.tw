@@ -1,0 +1,205 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            
+            <p>The afternoon sun cast a golden hue across the street as I approached Gatita’s house in my human form. The air was still, thick with summer warmth, but there was something else—an underlying excitement thrumming beneath my skin. I pressed the doorbell, my heartbeat steady but my mind already racing with possibilities. 
+            </p>
+            <p>The door swung open, and there she was—Gatita. Barefoot, in a fitted crop top and shorts that barely covered her thighs. Her long hair cascaded over her shoulders, her lips curling into a surprised but pleased smile. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Max? What are you doing here?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I was passing by. Thought I’d drop in and see you." </p>
+                </div>
+            </div>
+            <p>Her eyes flicked over me for a moment, something unreadable flashing behind them before she stepped aside. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Well, don’t just stand there. Come in." </p>
+                </div>
+            </div>
+            <p>I stepped inside, taking in the cozy but modern living room. The scent of vanilla and something sweet lingered in the air. Then, my gaze landed on Malena. She was lounging on the couch, dressed in a simple red skirt and a fitted top that accentuated her curves. Her dark eyes studied me with curiosity as she crossed one leg over the other. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Max, meet Malena. Malena, this is Max—my childhood friend." </p>
+                </div>
+            </div>
+            <p>Malena tilted her head slightly, her lips curling into an intrigued smile. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "So you’re the photographer Gatita keeps talking about?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "That depends. Has she been saying good things or bad?" </p>
+                </div>
+            </div>
+            <p>Malena chuckled, her gaze flicking between me and Gatita. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Only good things. Apparently, you’re her ‘personal photographer.’" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "I told you about my modeling, right? Max is the one who took all those pictures." </p>
+                </div>
+            </div>
+            <p>Malena’s smile deepened. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Impressive. You must have an eye for beauty." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Only when the subject is worth capturing." </p>
+                </div>
+            </div>
+            <p>Malena raised an eyebrow at my response, but before she could say anything, Gatita rolled her eyes. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Ugh, stop flirting, you two. Malena is all about sports, not fancy pictures." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Really? What kind of sports?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "I love anything competitive, but lately, I’ve been learning table tennis. I go to the countryside sports zone for practice." </p>
+                </div>
+            </div>
+            <p>An opportunity. A way to get closer. I leaned forward slightly. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Table tennis? That’s one of my favorites. If you don’t mind, I could help you out." </p>
+                </div>
+            </div>
+            <p>Malena’s eyes lit up at the suggestion. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "That would be great! I usually go around noon. We can practice together if you’re free." </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Ugh, no way. I have zero interest in table tennis." </p>
+                </div>
+            </div>
+            <p>I smirked at Gatita’s dramatic response, but my focus remained on Malena. This was my in. 
+            </p>
+            
+        </div>
+        
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How Should I Respond?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>"Looking forward to it. Maybe we can make a game out of it?"</strong> (Flirt – Draws Malena in with playful tension.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>"I’ll help you improve, but only if you’re serious."</strong> (Challenging – Establishes control and authority.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>"I bet I could beat you already."</strong> (Cocky – Tests her competitiveness, making her want to prove herself.)</p>
+    </div>
+
+        <div class="story-box">
+            <p>After a few more minutes of conversation, Malena checked her phone and stood up. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Alright, I need to go soon. But Max, I’ll see you at the sports zone tomorrow?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Wouldn’t miss it." </p>
+                </div>
+            </div>
+            <p>As Malena walked toward the door, I felt Gatita’s gaze on me—watching, calculating. She leaned in slightly, her lips close to my ear. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Be careful with her, Max. She plays to win in everything." </p>
+                </div>
+            </div>
+            <p>A challenge. One I was more than willing to take. As I stepped out of the house, my mind was already spinning with the next move. 
+            </p>
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

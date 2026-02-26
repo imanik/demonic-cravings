@@ -1,0 +1,154 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            
+            <p>The afternoon heat simmered in the air as I entered SportsZone, the hum of athletes training and the rhythmic bounce of balls filling the space. I walked toward the table tennis zone, scanning the area until I found an open table in the far corner. The perfect spot—away from distractions, yet close enough to observe everything. 
+            </p>
+            <p>I leaned against the table, twirling the paddle between my fingers as I waited. Malena was late. Maybe she was testing me, seeing how long I’d wait. Or maybe she liked making an entrance. Either way, I was intrigued. 
+            </p>
+            <p>A few minutes later, my patience was rewarded. Malena appeared, walking toward me with an easy confidence. Her long, toned legs carried her forward with grace, and her fitted sports top and shorts showed just enough to draw attention. She tossed her bag onto a nearby bench and stretched, her arms lifting over her head in a way that made it impossible not to notice her curves. She knew I was watching. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Max, you’re early. I like that." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I don’t like keeping a lady waiting. Besides, I needed time to warm up." </p>
+                </div>
+            </div>
+            <p>She raised an eyebrow, smirking as she pulled a paddle from her bag. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Oh? So you think you’re good at this?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Why don’t you find out?" </p>
+                </div>
+            </div>
+            <p>She tossed a ball into the air, catching it effortlessly before taking position on the other side of the table. Her eyes gleamed with challenge. 
+            </p>
+ 
+        </div>
+        
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How Should I React?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Flirtatious Approach – “I’ll guide you… but I might have to get a little hands-on.”</strong> (Teasing her, making it more playful.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Serious & Professional – “Let’s focus on the basics first.”</strong> (Keeping things professional, showing her skill matters.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Psychological Tactics – “You’re good, but I can already see your weak points.”</strong> (Testing her, seeing how she reacts to pressure.)</p>
+    </div>
+
+        <div class="story-box">
+            <p>I stepped closer, standing behind her as she held the paddle, guiding her stance. Her body was warm, her scent a mix of sweat and something sweet. She glanced over her shoulder at me, her lips slightly parted. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Are you always this close when you teach?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Only when my student needs extra attention." </p>
+                </div>
+            </div>
+            <p>She rolled her eyes, but I caught the smirk that played at the edge of her lips. She liked the attention. 
+            </p>
+            <p>I adjusted her grip, letting my fingers brush against hers. She exhaled slowly, focusing on the ball as I guided her movements. Her first serve was weak—hesitant. I stepped behind her, placing a hand on her hip. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Relax. Let your body move with it." </p>
+                </div>
+            </div>
+            <p>Her second attempt was better, the ball bouncing sharply across the table. She turned to me, triumphant. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "See? Fast learner." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Impressive. But let’s see how you handle a real match." </p>
+                </div>
+            </div>
+            <p>We played, the intensity growing between us with every point scored. She was faster than I expected, her reflexes sharp, her confidence growing with each exchange. But I wasn’t just watching her play. I was studying her. 
+            </p>
+            <p>The game continued, tension thickening, until finally, after a sharp back-and-forth, she scored the winning point. She let out a breath, laughing as she tossed her paddle onto the table. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Victory." </p>
+                </div>
+            </div>
+            <p>She rested her hands on her hips, watching me with a knowing expression, like she’d just learned something important about me. I smirked, shaking my head. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Alright, I’ll admit it. You’re better than I thought." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "That’s because I always play to win." </p>
+                </div>
+            </div>
+            <p>Her words lingered between us, a subtle challenge hidden beneath them. This wasn’t just about a game anymore. This was a test. And I had the feeling that I had just entered something much bigger than I realized. 
+            </p>
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

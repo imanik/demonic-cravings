@@ -1,0 +1,142 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            
+            <p>The club was alive with its usual sinful energy, neon lights casting deep red and violet glows over the twisting bodies on the dance floor. The scent of sweat, lust, and something darker clung to the air. I walked through the crowd, my eyes scanning for one particular face. 
+            </p>
+            <p>Then I saw her. Gatita. She was sitting in a dimly lit booth, one leg crossed over the other, swirling a dark red drink in her glass. Her lips curled into a slow smile when our eyes met, her gaze flicking down my body before she gestured for me to join her. 
+            </p>
+            <p>I slid into the seat across from her, leaning back as she tilted her head, studying me like a predator amused by its prey. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Mmm, you were good last time. Really good." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Oh? You liked it?" </p>
+                </div>
+            </div>
+            <p>She took a slow sip of her drink before licking a drop off her lip, her expression teasing. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Cute and strong. A rare combination. Maybe you don’t need Asmodius anymore." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Oh? So I’ve finally surpassed him?" </p>
+                </div>
+            </div>
+            <p>She let out a soft laugh, shaking her head. 
+            </p>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Oh no, no. He’s something else. But… I wouldn’t mind testing you more. Let’s see if you can keep up." </p>
+                </div>
+            </div>
+            <p>I smirked, resting my arm against the back of the booth. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "You’re not the type to be easily satisfied, are you?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "I know what I like. And I like Asmodius. But…" She leaned in, her voice dropping into something more intimate. "If I get mine, you get yours." </p>
+                </div>
+            </div>
+            <p>I arched a brow. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "And what does that mean?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Give me another dream with Asmodius, and I’ll give you a reward." </p>
+                </div>
+            </div>
+            <p>The way she said it sent a pulse of heat through me. There was something in her voice—an unspoken promise, a challenge. I leaned in, letting my fingers graze the rim of her glass. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "What kind of dream are we talking about?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row gp">
+                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $gp.name>>: </div>
+                    <p> "Somewhere open. Somewhere we’re completely alone. No walls, no interruptions. Just me and Asmodius… in a perfect, heavenly place." </p>
+                </div>
+            </div>
+            <p>I considered her request, my mind already spinning with possibilities. She wanted Asmodius again. She craved him. But what did that mean for me? Was I just a gateway to what she truly desired, or was there something deeper at play? 
+            </p>
+
+
+
+
+
+
+            
+        </div>
+        
+
+    <!-- Options -->
+    <hr>
+
+    <h3>How Should I Respond?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Confident & Teasing</strong> – "Careful, Gatita. Keep asking for Asmodius, and I might start getting jealous."</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Cunning & Strategic</strong> – "Fine, but a reward isn’t enough. I want something more from you in return."</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Playful & Seductive</strong> – "Oh, I’ll craft you a dream so real, you’ll wake up begging for more."</p>
+    </div>
+
+        <!-- EXAMPLE BUTTON 
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div> -->
+    
+    </div>
+
+<</nobr>>
+</div>

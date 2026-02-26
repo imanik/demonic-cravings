@@ -1,0 +1,132 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <!-- EXAMPLE IMAGE
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/5.png'"> -->
+
+        <!-- EXAMPLE STORY BOX -->
+        <div class="story-box">
+            
+            <p>The game had ended, but the tension between us hadn’t. Malena stood across from me, hands on her hips, her eyes flickering with something unreadable—interest, amusement, maybe even curiosity. The way she was watching me, I knew something had shifted. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Not bad, Max. But I expected a little more of a challenge." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I was just going easy on you." </p>
+                </div>
+            </div>
+            <p>She laughed, stepping closer, close enough that I caught the scent of her sweat mixed with something light and sweet, like vanilla and citrus. Her toned arms glistened under the sports hall lights, and there was a light sheen on her chest that made her look even more tempting. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Oh? You sure about that? Because from where I was standing, you looked pretty desperate to win." </p>
+                </div>
+            </div>
+            <p>She smirked, tilting her head slightly, her gaze scanning me like she was considering something. Then, without warning, she grabbed my wrist and pulled me toward the benches. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Come on, let’s cool down. We both need it." </p>
+                </div>
+            </div>
+            <p>We sat down side by side, the heat between us not just from the game anymore. She leaned back against the wall, exhaling slowly, her tank top sticking lightly to her skin. Her long legs stretched out in front of her, toned from years of training, but relaxed now. I took the chance to really look at her. Strong. Confident. Beautiful. And there was something else—a flicker of mischief in her expression. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "So, Max… what else do you do besides lurking around table tennis courts and pretending to be a gentleman?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I could ask you the same thing. You keep surprising me." </p>
+                </div>
+            </div>
+            <p>She smirked but didn’t look away. The moment between us was charged, thick with something neither of us spoke aloud. Then, as if testing me, she leaned in slightly, her lips parting just a little, eyes searching mine. 
+            </p>
+            
+        </div>
+        
+
+    <!-- Options -->
+    <hr>
+
+    <h3>Should I Take the Next Step?</h3>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','EB')">
+        <p><strong>Make a Move – “I think I like this side of you.”</strong> (Closing the distance, deepening the connection.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','MC')">
+        <p><strong>Play It Cool – “Guess I’ll have to find out myself.”</strong> (Keeping things casual but intriguing.)</p>
+    </div>
+
+    <div class="option-button" onclick="handleOptionSelection('ct','CR')">
+        <p><strong>Test Her – “You’re holding back, Malena.”</strong> (Seeing how far she’s willing to go.)</p>
+    </div>
+
+        <div class="story-box">
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I think I like this side of you." </p>
+                </div>
+            </div>
+            <p>The words lingered between us for a beat. Then, slowly, she smiled—not her usual confident smirk, but something softer, more real. Her fingers brushed against mine on the bench, a touch so light it could have been accidental, but we both knew it wasn’t. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "That so?" </p>
+                </div>
+            </div>
+            <p>She didn’t pull away, didn’t break eye contact. Her lips hovered close to mine, teasing, waiting. I had a feeling she liked this—the anticipation, the control. But I wasn’t about to let her be the only one playing this game. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Yeah. And I think you like this side of me too." </p>
+                </div>
+            </div>
+            <p>For a second, she didn’t answer. Then, she leaned in, just a fraction closer, the heat between us undeniable. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p> "Maybe. But you’ll have to earn it." </p>
+                </div>
+            </div>
+            <p>With that, she pulled back just enough to leave me wanting more. The spark was there, and now it was only a matter of who would strike first. 
+            </p>
+        </div>
+
+
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>
