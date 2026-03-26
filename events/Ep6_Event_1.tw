@@ -1,0 +1,51 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+np: Morning light poured into the kitchen, bouncing off the tiled floor and the polished dining table. I walked in rubbing my eyes, still half asleep. Liz was already there, sitting casually with her phone in one hand and a cup of coffee in the other. The moment she saw me, a sharp smile formed on her lips. /np
+MC: "Good morning." /en
+np: She looked up slowly, scanning me from head to toe like she was judging a failed experiment. /np
+Liz: "Morning? For you maybe. Normal people have been awake for hours, you know." /en
+np: I pulled out a chair and sat down. Before I could reply, she leaned back, clearly enjoying herself. /np
+Liz: "Honestly, you’re so lazy. Always late, always lost in your own little nerd world. I don’t even know how you survive without Mom." /en
+np: I clenched my jaw. Before I could fire back, Mom stepped in from the counter, placing plates on the table. /np
+Mom: "Liz, that’s enough. Everyone has their own pace." /en
+np: Liz rolled her eyes but didn’t stop. /np
+Liz: "I’m just saying the truth. He’s not exactly smart either. All books, no real-world sense." /en
+np: Mom sighed, giving her a warning look, but Liz clearly wasn’t done. The tension sat heavy in the air, thick and uncomfortable. This wasn’t just teasing anymore—it felt like a test. /np
+
+Choice – How Do I Respond?
+1️⃣ Fire Back – “Funny coming from someone who never stops talking.”
+ (Stand your ground and challenge Liz directly.) 
+2️⃣ Stay Calm – “You done? Because I’ve got things to do.”
+ (Keep control, refuse to give her the reaction she wants.)
+3️⃣ Let Mom Handle It – Stay silent and look at Mom.
+ (Avoid escalation and let Mom shut her down.)
+
+np: Liz watched me closely, waiting to see which way I’d go. Whatever I chose next would shape how this morning—and the rest of the day—would unfold. /np
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

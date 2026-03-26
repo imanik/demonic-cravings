@@ -1,0 +1,64 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+
+np: I sat on the edge of my bed. My body felt steady. My mind was clear. I knew I was ready for the next step. I called Rayne. /np
+np: The air shifted. Rayne appeared in front of me, calm and focused. /np
+Rayne: "Yes, Master. You are ready now." /en
+np: She reached for my hand. The room dissolved around us. The pressure of space folded inward, and within seconds, the world changed. /np
+np: We stood before Velkara’s domain. The structure looked alive—dark stone walls pulsing faintly, heat radiating from within like slow breathing. /np
+Rayne: "From here, you go alone." /en
+MC: "That’s it?" /en
+Rayne: "You know the rule. Please her. Earn the avatar." /en
+np: She released my hand and vanished without another word. /np
+np: I stepped forward and entered Velkara’s den. The inside was dim, lit by red flames burning without sound. The air was thick and heavy. /np
+Velkara: "Well… you finally came back." /en
+np: She emerged from the shadows, tall and confident, her presence pressing against me without touching. /np
+Velkara: "Tell me, young man. Are you here for power… or pleasure?" /en
+MC: "I need the Kaelzer avatar." /en
+np: Velkara smiled slowly. /np
+Velkara: "Straight to the point. I like that." /en
+Velkara: "But it won’t be easy." /en
+MC: "I already have Soul Essence, Infernal Flames, and a Loyal Guardian." /en
+np: Her eyes narrowed slightly. Then she laughed softly. /np
+Velkara: "Impressive. Then yes… I can help you." /en
+np: She circled me as she spoke, her voice steady and deliberate. /np
+Velkara: "Kaelzer." /en
+ Velkara: "Role: Demon of Secrets." /en
+ Velkara: "He enters minds, plants doubt, and exposes hidden truths." /en
+ Velkara: "His whispers have destroyed alliances and rewritten destinies." /en
+np: The weight of the avatar settled into my thoughts. /np
+Velkara: "But remember this." /en
+np: She stopped in front of me. /np
+Velkara: "You must come to me three times to fully claim him." /en
+MC: "I understand." /en
+np: Her smile deepened. She stepped closer, her hand lifting my chin just enough to force eye contact. /np
+Velkara: "Then we begin… the first binding." /en
+np: Her presence wrapped around me—slow, deliberate, overwhelming. Power stirred beneath my skin as the ritual began, not through force, but through closeness and control. /np
+np: This was only the first step toward becoming Kaelzer. /np
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

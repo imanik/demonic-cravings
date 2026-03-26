@@ -1,0 +1,77 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+np: I arrived in front of Malena’s house in the afternoon. The place was quiet, the street nearly empty. I pressed the doorbell and waited. Before I could even step back, the door opened. /np
+np: Malena stood there already dressed as if she had been waiting for me. Her eyes immediately locked onto mine, sharp and impatient. /np
+Malena: "You came fast. Good." /en
+np: She didn’t wait for greetings. She grabbed my hand and pulled me inside quickly, closing the door behind us. Her grip was firm, almost urgent. /np
+np: She led me straight toward her bedroom. The curtains were half closed, soft light filling the room. Papers and books were scattered across her desk, showing she had been working or searching for something before I arrived. /np
+Malena: "The notebook. Do you have it?" /en
+np: No small talk. No smiles. Just focus. Whatever was inside that notebook clearly mattered to her. /np
+MC: "Yeah. I brought it." /en
+np: I opened my bag and handed it to her. She took it immediately and sat on the edge of the bed, flipping it open. Her eyes moved quickly across the pages. /np
+np: At first she looked focused. Then her expression slowly changed. Her face became pale. Her brows tightened. /np
+np: She turned pages faster. One after another. The sound of paper flipping filled the room. /np
+Malena: "…No." /en
+np: She turned another page aggressively, then looked up at me. /np
+Malena: "Is there another notebook?" /en
+MC: "No. That’s the only one I found." /en
+np: She exhaled sharply, clearly frustrated. /np
+Malena: "This isn’t the one I wanted." /en
+MC: "I couldn’t understand anything written there anyway. What does it say?" /en
+np: She hesitated for a moment, then looked back at the pages. /np
+Malena: "She writes about you." /en
+np: I blinked, surprised. /np
+MC: "About me? What exactly?" /en
+np: Malena’s eyes moved across the text again before answering. /np
+Malena: "She wrote about your… encounters with her. She enjoyed them." /en
+np: My chest tightened slightly at her words. /np
+Malena: "And she mentioned another name." /en
+np: She paused. /np
+Malena: "Vorthas." /en
+np: The name instantly caught my attention. /np
+Malena: "She described him as… intense. Someone who gave her real pleasure." /en
+np: Malena’s voice lowered as she spoke the name again, almost to herself. /np
+Malena: "Vorthas… sounds like a half-demon name." /en
+MC: "What did you say?" /en
+Malena: "Nothing." /en
+np: She quickly closed the notebook and looked at me again, her expression changing. The frustration faded, replaced by something more calculating… and seductive. /np
+np: She stood up and slowly stepped closer to me, reducing the distance between us. /np
+Malena: "If you can give me more information about this notebook… and about Asmodius…" /en
+np: Her voice softened, slower now. /np
+Malena: "I can do much more for you." /en
+np: Her gaze stayed fixed on mine, testing my reaction. /np
+Malena: "So, young man… if you want more fun, bring me real information." /en
+np: I nodded slowly. /np
+MC: "Alright. I’ll find out." /en
+np: She smiled faintly, satisfied with my answer. /np
+np: A few minutes later, I left her house and walked back toward the street. My mind was already racing. /np
+np: Vorthas. The notebook. Malena’s reaction. None of this was simple anymore. /np
+np: I needed answers. And for that, I needed Rayne. /np
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

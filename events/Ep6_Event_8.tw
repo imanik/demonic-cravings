@@ -1,0 +1,61 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+np: I sat on the edge of my bed and opened my phone gallery. I scrolled through the pictures I had taken from Gatita’s notebook. The symbols filled the screen. Lines, marks, and patterns repeated again and again. None of it made sense. /np
+np: I zoomed in on one page, then another. I tried to connect the symbols, looking for words or structure. Nothing clicked. The writing was completely unfamiliar. /np
+MC: "Damn… this isn’t any language I know." /en
+np: I didn’t waste more time guessing. I closed my eyes and called Rayne. /np
+np: A soft pressure filled the room. Rayne appeared in front of me, her expression alert. /np
+Rayne: "You called, Master. Something went wrong?" /en
+np: I stood up and told her everything. Angie. Gatita’s room. The notebook. I handed her my phone. /np
+MC: "These are the notes I took. Can you read this?" /en
+np: Rayne studied the screen carefully. Her brows slowly tightened. She swiped through the images again, slower this time. /np
+Rayne: "No." /en
+ Rayne: "This isn’t infernal script. It’s not human either." /en
+np: She paused, thinking. /np
+Rayne: "This looks personal. Encoded. Only someone close to Gatita would understand it." /en
+MC: "So… what now?" /en
+Rayne: "Only two people can help you." /en
+ Rayne: "Gatita herself." /en
+ Rayne: "Or Malena." /en
+np: I clenched my jaw. /np
+MC: "Gatita is risky." /en
+Rayne: "Then Malena is your best option." /en
+ Rayne: "Use her curiosity. Reveal just enough." /en
+np: Rayne faded slightly, signaling the end of her guidance. /np
+Rayne: "Be careful. Whatever this is, it matters." /en
+np: She disappeared. The room fell silent again. /np
+np: I picked up my phone and opened the message app. I typed carefully. /np
+MC (text): "I got what you needed." /en
+np: A few seconds passed. Then a reply came. /np
+Malena (text): "Good." /en
+ Malena (text): "Meet me at my house tomorrow afternoon. When you’re free." /en
+np: I locked my phone and leaned back on the bed. /np
+np: Whatever Gatita was hiding, Malena was the key. And tomorrow, I’d be one step closer to the truth. /np
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

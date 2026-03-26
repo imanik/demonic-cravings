@@ -1,0 +1,71 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+np: Night had settled in. I was alone in my room, the lights dim, the city quiet outside my window. My thoughts kept circling back to Malena and her request. Something about it felt planned. Too clean. I decided not to guess. I called Rayne. /np
+np: The air in front of me shifted. A familiar pressure filled the room as Rayne stepped out of the shadows, her eyes sharp and alert. /np
+Rayne: "You called late, Master. Something happened." /en
+MC: "Yes. Malena contacted me." /en
+np: Rayne straightened slightly. /np
+Rayne: "Malena?" /en
+MC: "She wants a diary. Gatita’s diary. She promised me anything in return." /en
+np: Rayne went silent for a moment. Her expression changed—not fear, but curiosity mixed with surprise. /np
+Rayne: "Interesting." /en
+MC: "That was my thought. It doesn’t feel random." /en
+Rayne: "It’s not." /en
+np: She walked slowly around the room, thinking. /np
+Rayne: "You should execute her plan." /en
+MC: "Just like that?" /en
+Rayne: "Yes. If she’s moving, there’s a reason. We may get information we can’t access directly." /en
+MC: "About Zong?" /en
+Rayne: "Possibly. Or something even deeper." /en
+np: I crossed my arms. /np
+MC: "Then how do I do this without exposing myself?" /en
+Rayne: "You’ll need a new avatar." /en
+MC: "Another one?" /en
+Rayne: "His name will be Kaelzar." /en
+np: The name carried weight. I felt it immediately. /np
+MC: "Who creates it?" /en
+Rayne: "Velkara." /en
+MC: "You said she doesn’t help without conditions." /en
+Rayne: "Correct." /en
+np: Rayne stopped in front of me. /np
+Rayne: "Kaelzar requires strong human or half-demon perks." /en
+MC: "And I don’t have enough." /en
+Rayne: "Not yet." /en
+np: She met my eyes directly. /np
+Rayne: "You need to increase them through sexual encounters with humans or half-demons." /en
+MC: "So this aligns with Malena anyway." /en
+Rayne: "Exactly." /en
+np: I exhaled slowly. /np
+MC: "And when I’m ready?" /en
+Rayne: "I’ll take you to Velkara myself." /en
+np: She stepped back, her form beginning to fade. /np
+Rayne: "Prepare yourself, Master. Things are starting to move." /en
+np: The room returned to silence. I sat on the edge of the bed, fully aware that Malena’s request was no longer just a temptation—it was a doorway. /np
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

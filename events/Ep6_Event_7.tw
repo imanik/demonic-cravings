@@ -1,0 +1,64 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+
+np: I knocked on the door. After a moment, Angie opened it. She smiled when she saw me. /np
+Angie: "Hey, MC. How are you?" /en
+MC: "I’m good. How about you? Is Gatita at home?" /en
+np: Angie shook her head lightly. /np
+Angie: "No, honey. She’s not home yet. But she should be back soon. Come inside." /en
+np: I stepped in and followed her to the living room. The house was quiet. I sat on the couch, and Angie sat across from me. /np
+Angie: "So… how’s everything going with you? Family, work, life?" /en
+np: We talked casually for a few minutes. She asked simple questions. I answered calmly, keeping my tone natural. Then her phone rang. /np
+Angie: "Oh, wait here. I need to take this." /en
+np: She stood up and walked out of the living room. The moment the sound of her footsteps faded, my focus sharpened. /np
+np: I stood up quickly and moved down the hallway. I reached Gatita’s room and stepped inside. My eyes scanned the shelves, the desk, the corners. I didn’t waste time. /np
+np: On a shelf near the wall, I noticed a notebook that didn’t match the rest. It looked worn. Important. I pulled it out and flipped through it fast. Symbols, notes, patterns. /np
+np: I took several clear pictures with my phone. Every second felt heavy. Then I heard voices. /np
+Gatita (off-screen): "I’m back." /en
+Angie (off-screen): "MC is here." /en
+np: My heart jumped. I put the notebook back exactly where it was and left the room quickly. I stepped into the hallway just as Gatita appeared. /np
+Gatita: "Hey… when did you come?" /en
+ Gatita: "And what were you doing in my room?" /en
+np: I froze for half a second, then forced a calm smile. /np
+MC: "Oh, I was waiting in the living room. I just walked around and ended up here." /en
+np: She looked at me for a moment. Then she smiled. I felt the tension drop. /np
+Gatita: "You should have waited." /en
+np: She stepped closer, lowering her voice. /np
+Gatita: "So… did you come because you wanted another encounter with me?" /en
+MC: "Yes." /en
+np: She glanced toward the hallway, then back at me. /np
+Gatita: "Not now." /en
+ Gatita: "Zong could arrive anytime. It’s risky." /en
+ Gatita: "I’ll let you know when I have time." /en
+MC: "Alright. I understand." /en
+np: She didn’t seem suspicious. Not even a little. /np
+MC: "Thanks. I’ll head out then." /en
+Gatita: "See you soon." /en
+np: I left the house calmly. Outside, I finally exhaled. The pictures were safe. The risk paid off. /np
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>
