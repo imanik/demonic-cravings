@@ -6,33 +6,135 @@
         <div class="story-box">
 
 
-np: I was in the living room, sitting back on the couch with the TV on. I wasn’t really watching. My thoughts were drifting when my phone suddenly vibrated in my hand. A new message popped up. /np
-Unknown: "Hey handsome. Where are you? Can you come to my home?" /en
-np: I stared at the screen for a second, then typed back. /np
-MC: "Yeah. I can come." /en
-np: A moment later, an address appeared. It wasn’t far. I grabbed my jacket and left. /np
-np: Twenty minutes later, I stood in front of a quiet house. The lights inside were on. I knocked. The door opened almost immediately. /np
-np: She stood there, leaning slightly against the doorframe. Her eyes scanned me slowly, and a faint smile curved her lips. /np
-Woman: "You came fast." /en
-MC: "You said you needed help." /en
-np: She stepped aside, letting me in. The door closed behind me with a soft click. The room was dim, warm, and quiet. /np
-np: She turned to face me fully, her expression shifting into something more deliberate. /np
-Woman: "I do need help." /en
-MC: "With what?" /en
-np: She moved closer, reducing the distance between us. /np
-Woman: "I heard you’re close to Gatita. And Angie." /en
-MC: "I know them." /en
-Woman: "Then you’re perfect." /en
-np: She paused, watching my reaction. /np
-Woman: "I need a diary. Gatita keeps it with her." /en
-MC: "A diary?" /en
-Woman: "Yes." /en
-np: Her tone was calm but loaded with intention. /np
-Woman: "If you bring it to me… I’ll return the favor." /en
-MC: "Return it how?" /en
-np: She smiled again and stepped even closer, her hand brushing lightly against my leg as she leaned in. /np
-Woman: "However you want." /en
-np: Her fingers lingered just long enough to make her meaning clear. She looked up at me, waiting for my answer. /np
+            <p>I was in the living room, sitting back on the couch with the TV on. I wasn’t really watching. My thoughts were drifting when my phone suddenly vibrated in my hand. A new message popped up. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Unknown: </div>
+                    <p> "Hey handsome. Where are you? Can you come to my home?" </p>
+                </div>
+            </div>
+            <p>I stared at the screen for a second, then typed back. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Yeah. I can come." </p>
+                </div>
+            </div>
+            <p>A moment later, an address appeared. It wasn’t far. I grabbed my jacket and left. 
+            </p>
+            <p>Twenty minutes later, I stood in front of a quiet house. The lights inside were on. I knocked. The door opened almost immediately. 
+            </p>
+            <p>She stood there, leaning slightly against the doorframe. Her eyes scanned me slowly, and a faint smile curved her lips. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "You came fast." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "You said you needed help." </p>
+                </div>
+            </div>
+            <p>She stepped aside, letting me in. The door closed behind me with a soft click. The room was dim, warm, and quiet. 
+            </p>
+            <p>She turned to face me fully, her expression shifting into something more deliberate. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "I do need help." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "With what?" </p>
+                </div>
+            </div>
+            <p>She moved closer, reducing the distance between us. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "I heard you’re close to Gatita. And Angie." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I know them." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "Then you’re perfect." </p>
+                </div>
+            </div>
+            <p>She paused, watching my reaction. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "I need a diary. Gatita keeps it with her." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "A diary?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "Yes." </p>
+                </div>
+            </div>
+            <p>Her tone was calm but loaded with intention. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "If you bring it to me… I’ll return the favor." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Return it how?" </p>
+                </div>
+            </div>
+            <p>She smiled again and stepped even closer, her hand brushing lightly against my leg as she leaned in. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/character.png'" alt="Character" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name">Woman: </div>
+                    <p> "However you want." </p>
+                </div>
+            </div>
+            <p>Her fingers lingered just long enough to make her meaning clear. She looked up at me, waiting for my answer. 
+            </p>
 
 
 

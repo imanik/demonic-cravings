@@ -1,0 +1,110 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+            <p>I was in my room scrolling through my phone when a notification appeared. A new message. I opened it immediately. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Hey handsome… ready for round two? Meet me at my home this evening." </p>
+                </div>
+            </div>
+            <p>I stared at the message for a moment. A small smile formed on my face. She clearly wanted to continue where we left off. I replied with a short confirmation and started getting ready. 
+            </p>
+            <p>Evening arrived quickly. I left my house and reached her apartment building after a short ride. The hallway felt quiet as I walked toward her door. I knocked once. 
+            </p>
+            <p>The door opened almost instantly. Malena stood there as if she had been waiting behind it. She was dressed elegantly but casually, her expression confident and inviting. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Right on time." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "You sounded impatient." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Maybe I was." </p>
+                </div>
+            </div>
+            <p>She stepped aside and let me enter. Soft music was playing inside, and the lights were dimmer than usual, creating a relaxed atmosphere. The living room looked prepared for a comfortable evening rather than a simple visit. 
+            </p>
+            <p>She closed the door behind me and walked closer, stopping just within arm’s reach. Her eyes studied my reaction carefully. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "I was thinking about last time." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "So was I." </p>
+                </div>
+            </div>
+            <p>She smiled slightly and guided me toward the sofa. Drinks were already prepared on the table. She handed one to me and sat beside me, closer than before. Our shoulders touched lightly as we talked. 
+            </p>
+            <p>The conversation started casually, but the tone quickly became personal. She asked about my day, my thoughts, and whether I missed her after the last meeting. Each question felt intentional, like she was testing my reactions. 
+            </p>
+            <p>As time passed, the distance between us slowly disappeared. Her voice softened, and her movements became more relaxed and intimate. She leaned closer while speaking, maintaining steady eye contact. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "You seem more confident tonight." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Maybe I learned something last time." </p>
+                </div>
+            </div>
+            <p>She laughed quietly and placed her hand lightly on my arm, not pulling away. The tension between us grew naturally without rush. 
+            </p>
+            <p>After finishing our drinks, she stood and gently took my hand, guiding me toward her bedroom. There was no hesitation this time. Both of us already understood what the evening meant. 
+            </p>
+            <p>The second round of seduction began slowly, built on familiarity and growing attraction. The atmosphere felt more intense than before, as trust and curiosity mixed together, pushing our connection deeper than the first meeting. 
+            </p>
+            <p>Tonight was no longer about introductions. It was about control, understanding each other’s intentions, and moving one step further into the game we were both playing. 
+            </p>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

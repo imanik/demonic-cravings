@@ -5,26 +5,96 @@
 
         <div class="story-box">
 
-np: When I arrived for the third time, the atmosphere felt different. The flames burned brighter. The air was heavier, pressing against my chest like a warning. This was not practice anymore. /np
-np: Velkara stood waiting at the center of a large ritual circle, already prepared. /np
-Velkara: "You survived the first awakening. You mastered control. Now comes acceptance." /en
-MC: "Acceptance of what?" /en
-Velkara: "Of becoming Kaelzer." /en
-np: She motioned for me to step into the circle. The moment I did, symbols lit beneath my feet, spreading outward like living fire. /np
-Velkara: "Kaelzer feeds on secrets. To gain his power, you must face your own hidden truth." /en
-np: The environment shifted instantly. Illusions surrounded me—memories, fears, moments where I doubted myself, every weakness exposed. My heartbeat accelerated. /np
-Velkara’s Voice (echoing): "Do not fight them. Accept them." /en
-np: I clenched my fists but forced myself to stand still. Instead of resisting, I allowed the memories to pass through me. The pressure slowly changed into strength. The whispers stopped attacking and began obeying. /np
-np: Dark energy gathered around my body, forming shadow-like armor that flickered with red light. My senses expanded. I could feel intentions, hidden emotions, unspoken thoughts. /np
-Velkara: "Yes… that is Kaelzer." /en
-np: She approached and placed her hand over my chest. A surge of power rushed through me, steady and controlled this time. /np
-Velkara: "From now on, you may enter minds, plant doubt, or reveal truths buried deep." /en
-MC: "So the avatar is complete?" /en
-Velkara: "Not complete. Awakened." /en
-np: She stepped back, satisfied. /np
-Velkara: "Remember. Power without patience destroys its owner. Use Kaelzer wisely." /en
-np: The circle faded. The flames dimmed. My body felt heavier as reality pulled me back. /np
-np: When my vision cleared, I knew something had changed permanently. Kaelzer was no longer just an avatar. It was now part of me. /np
+            <p>When I arrived for the third time, the atmosphere felt different. The flames burned brighter. The air was heavier, pressing against my chest like a warning. This was not practice anymore. 
+            </p>
+            <p>Velkara stood waiting at the center of a large ritual circle, already prepared. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "You survived the first awakening. You mastered control. Now comes acceptance." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Acceptance of what?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Of becoming Kaelzer." </p>
+                </div>
+            </div>
+            <p>She motioned for me to step into the circle. The moment I did, symbols lit beneath my feet, spreading outward like living fire. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Kaelzer feeds on secrets. To gain his power, you must face your own hidden truth." </p>
+                </div>
+            </div>
+            <p>The environment shifted instantly. Illusions surrounded me—memories, fears, moments where I doubted myself, every weakness exposed. My heartbeat accelerated. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>'s Voice (echoing): </div>
+                    <p> "Do not fight them. Accept them." </p>
+                </div>
+            </div>
+            <p>I clenched my fists but forced myself to stand still. Instead of resisting, I allowed the memories to pass through me. The pressure slowly changed into strength. The whispers stopped attacking and began obeying. 
+            </p>
+            <p>Dark energy gathered around my body, forming shadow-like armor that flickered with red light. My senses expanded. I could feel intentions, hidden emotions, unspoken thoughts. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Yes… that is Kaelzer." </p>
+                </div>
+            </div>
+            <p>She approached and placed her hand over my chest. A surge of power rushed through me, steady and controlled this time. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "From now on, you may enter minds, plant doubt, or reveal truths buried deep." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "So the avatar is complete?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Not complete. Awakened." </p>
+                </div>
+            </div>
+            <p>She stepped back, satisfied. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Remember. Power without patience destroys its owner. Use Kaelzer wisely." </p>
+                </div>
+            </div>
+            <p>The circle faded. The flames dimmed. My body felt heavier as reality pulled me back. 
+            </p>
+            <p>When my vision cleared, I knew something had changed permanently. Kaelzer was no longer just an avatar. It was now part of me. 
+            </p>
 
 
 

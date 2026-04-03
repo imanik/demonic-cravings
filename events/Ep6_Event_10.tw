@@ -5,49 +5,207 @@
 
         <div class="story-box">
 
-np: I returned to my room after leaving Malena’s house, but my mind refused to calm down. I sat on the edge of my bed, staring at my phone, replaying every word she said. The way she reacted to the notebook. The way she whispered the name Asmodius. Something was wrong. /np
-np: A heavy thought settled in my chest. If Malena started connecting Vorthas with me, everything could collapse. She wasn’t naive. She observed too much. She asked the right questions. And if she learned how Vorthas truly worked, she could try to use that power for her own purpose. /np
-MC: "Damn… this is getting dangerous." /en
-np: I rubbed my forehead, feeling tension building inside me. I needed guidance. Before I could even call her, a familiar energy filled the room. The air shimmered slightly. /np
-np: Rayne appeared in front of me, calm as always, her eyes immediately studying my expression. /np
-Rayne: "Master… you look worried." /en
-np: I exhaled slowly and leaned back against the chair. /np
-MC: "Malena knows more than she should. She mentioned Vorthas. If she connects Vorthas to me… I don’t know what she’ll do." /en
-np: Rayne listened carefully, her expression turning serious but not alarmed. /np
-Rayne: "That was expected." /en
-MC: "Expected?" /en
-Rayne: "Malena is not ordinary. She is clever and ambitious. Meeting her as Vorthas now would be risky." /en
-np: She stepped closer, her presence steady and reassuring. /np
-Rayne: "If you face her now, she might control Vorthas instead of the other way around." /en
-MC: "So what do I do?" /en
-np: Rayne crossed her arms slightly, then gave a confident smile. /np
-Rayne: "You grow stronger." /en
-np: She moved closer until she stood directly in front of me. /np
-Rayne: "You will meet Malena again using your Vorthas avatar. But first, you must level it up." /en
-MC: "Level up… how?" /en
-Rayne: "I will teach you a new skill. One that strengthens your stamina and control." /en
-MC: "Stamina?" /en
-Rayne: "Yes. Double stamina. Stronger mental dominance. You will need both for what’s coming." /en
-np: Her tone became firm, almost commanding. /np
-Rayne: "Malena is not easy prey, Master. If you are careless, she will turn your power against you." /en
-np: She extended her hand toward me. /np
-Rayne: "Tonight, you focus on growth." /en
-np: I hesitated only for a second before taking her hand. Her grip was warm and steady. /np
-MC: "So… we start now?" /en
-Rayne: "Now." /en
-np: The room dissolved instantly. The walls faded, replaced by darkness and shifting red light. My body felt lighter, stronger—the transformation into Vorthas activating automatically. /np
-np: When my vision cleared, we stood inside a large chamber filled with dim crimson glow. The air was dense with energy. /np
-np: Zythara stood a few steps away, already watching us with sharp interest, as if she had sensed our arrival long before we appeared. /np
-Zythara: "You finally came." /en
-np: Her gaze moved slowly over me before shifting to Rayne. /np
-Rayne: "We’re here to train him. His stamina and control must evolve." /en
-np: Zythara’s lips curved into a satisfied smile. Excitement flashed in her eyes. /np
-Zythara: "I’ve been waiting for this day." /en
-np: She began circling me slowly, studying me like a hunter evaluating strength. /np
-Zythara: "No hesitation. No wasted time." /en
-np: She stopped directly in front of me, her expression intense. /np
-Zythara: "Let’s begin." /en
-np: The doors behind us shut on their own with a deep echo. The training had started, and this time there was no turning back. /np
+            <p>I returned to my room after leaving Malena’s house, but my mind refused to calm down. I sat on the edge of my bed, staring at my phone, replaying every word she said. The way she reacted to the notebook. The way she whispered the name Asmodius. Something was wrong. 
+            </p>
+            <p>A heavy thought settled in my chest. If Malena started connecting Vorthas with me, everything could collapse. She wasn’t naive. She observed too much. She asked the right questions. And if she learned how Vorthas truly worked, she could try to use that power for her own purpose. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Damn… this is getting dangerous." </p>
+                </div>
+            </div>
+            <p>I rubbed my forehead, feeling tension building inside me. I needed guidance. Before I could even call her, a familiar energy filled the room. The air shimmered slightly. 
+            </p>
+            <p>Rayne appeared in front of me, calm as always, her eyes immediately studying my expression. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Master… you look worried." </p>
+                </div>
+            </div>
+            <p>I exhaled slowly and leaned back against the chair. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Malena knows more than she should. She mentioned Vorthas. If she connects Vorthas to me… I don’t know what she’ll do." </p>
+                </div>
+            </div>
+            <p>Rayne listened carefully, her expression turning serious but not alarmed. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "That was expected." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Expected?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Malena is not ordinary. She is clever and ambitious. Meeting her as Vorthas now would be risky." </p>
+                </div>
+            </div>
+            <p>She stepped closer, her presence steady and reassuring. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "If you face her now, she might control Vorthas instead of the other way around." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "So what do I do?" </p>
+                </div>
+            </div>
+            <p>Rayne crossed her arms slightly, then gave a confident smile. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You grow stronger." </p>
+                </div>
+            </div>
+            <p>She moved closer until she stood directly in front of me. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You will meet Malena again using your Vorthas avatar. But first, you must level it up." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Level up… how?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "I will teach you a new skill. One that strengthens your stamina and control." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Stamina?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Yes. Double stamina. Stronger mental dominance. You will need both for what’s coming." </p>
+                </div>
+            </div>
+            <p>Her tone became firm, almost commanding. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Malena is not easy prey, Master. If you are careless, she will turn your power against you." </p>
+                </div>
+            </div>
+            <p>She extended her hand toward me. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Tonight, you focus on growth." </p>
+                </div>
+            </div>
+            <p>I hesitated only for a second before taking her hand. Her grip was warm and steady. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "So… we start now?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Now." </p>
+                </div>
+            </div>
+            <p>The room dissolved instantly. The walls faded, replaced by darkness and shifting red light. My body felt lighter, stronger—the transformation into Vorthas activating automatically. 
+            </p>
+            <p>When my vision cleared, we stood inside a large chamber filled with dim crimson glow. The air was dense with energy. 
+            </p>
+            <p>Zythara stood a few steps away, already watching us with sharp interest, as if she had sensed our arrival long before we appeared. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "You finally came." </p>
+                </div>
+            </div>
+            <p>Her gaze moved slowly over me before shifting to Rayne. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "We’re here to train him. His stamina and control must evolve." </p>
+                </div>
+            </div>
+            <p>Zythara’s lips curved into a satisfied smile. Excitement flashed in her eyes. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "I’ve been waiting for this day." </p>
+                </div>
+            </div>
+            <p>She began circling me slowly, studying me like a hunter evaluating strength. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "No hesitation. No wasted time." </p>
+                </div>
+            </div>
+            <p>She stopped directly in front of me, her expression intense. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "Let’s begin." </p>
+                </div>
+            </div>
+            <p>The doors behind us shut on their own with a deep echo. The training had started, and this time there was no turning back. 
+            </p>
 
 
 

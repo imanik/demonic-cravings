@@ -6,40 +6,169 @@
         <div class="story-box">
 
 
-np: I sat on the edge of my bed. My body felt steady. My mind was clear. I knew I was ready for the next step. I called Rayne. /np
-np: The air shifted. Rayne appeared in front of me, calm and focused. /np
-Rayne: "Yes, Master. You are ready now." /en
-np: She reached for my hand. The room dissolved around us. The pressure of space folded inward, and within seconds, the world changed. /np
-np: We stood before Velkara’s domain. The structure looked alive—dark stone walls pulsing faintly, heat radiating from within like slow breathing. /np
-Rayne: "From here, you go alone." /en
-MC: "That’s it?" /en
-Rayne: "You know the rule. Please her. Earn the avatar." /en
-np: She released my hand and vanished without another word. /np
-np: I stepped forward and entered Velkara’s den. The inside was dim, lit by red flames burning without sound. The air was thick and heavy. /np
-Velkara: "Well… you finally came back." /en
-np: She emerged from the shadows, tall and confident, her presence pressing against me without touching. /np
-Velkara: "Tell me, young man. Are you here for power… or pleasure?" /en
-MC: "I need the Kaelzer avatar." /en
-np: Velkara smiled slowly. /np
-Velkara: "Straight to the point. I like that." /en
-Velkara: "But it won’t be easy." /en
-MC: "I already have Soul Essence, Infernal Flames, and a Loyal Guardian." /en
-np: Her eyes narrowed slightly. Then she laughed softly. /np
-Velkara: "Impressive. Then yes… I can help you." /en
-np: She circled me as she spoke, her voice steady and deliberate. /np
-Velkara: "Kaelzer." /en
- Velkara: "Role: Demon of Secrets." /en
- Velkara: "He enters minds, plants doubt, and exposes hidden truths." /en
- Velkara: "His whispers have destroyed alliances and rewritten destinies." /en
-np: The weight of the avatar settled into my thoughts. /np
-Velkara: "But remember this." /en
-np: She stopped in front of me. /np
-Velkara: "You must come to me three times to fully claim him." /en
-MC: "I understand." /en
-np: Her smile deepened. She stepped closer, her hand lifting my chin just enough to force eye contact. /np
-Velkara: "Then we begin… the first binding." /en
-np: Her presence wrapped around me—slow, deliberate, overwhelming. Power stirred beneath my skin as the ritual began, not through force, but through closeness and control. /np
-np: This was only the first step toward becoming Kaelzer. /np
+            <p>I sat on the edge of my bed. My body felt steady. My mind was clear. I knew I was ready for the next step. I called Rayne. 
+            </p>
+            <p>The air shifted. Rayne appeared in front of me, calm and focused. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Yes, Master. You are ready now." </p>
+                </div>
+            </div>
+            <p>She reached for my hand. The room dissolved around us. The pressure of space folded inward, and within seconds, the world changed. 
+            </p>
+            <p>We stood before Velkara’s domain. The structure looked alive—dark stone walls pulsing faintly, heat radiating from within like slow breathing. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "From here, you go alone." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "That’s it?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You know the rule. Please her. Earn the avatar." </p>
+                </div>
+            </div>
+            <p>She released my hand and vanished without another word. 
+            </p>
+            <p>I stepped forward and entered Velkara’s den. The inside was dim, lit by red flames burning without sound. The air was thick and heavy. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Well… you finally came back." </p>
+                </div>
+            </div>
+            <p>She emerged from the shadows, tall and confident, her presence pressing against me without touching. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Tell me, young man. Are you here for power… or pleasure?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I need the Kaelzer avatar." </p>
+                </div>
+            </div>
+            <p>Velkara smiled slowly. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Straight to the point. I like that." </p>
+                </div>
+            </div>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "But it won’t be easy." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I already have Soul Essence, Infernal Flames, and a Loyal Guardian." </p>
+                </div>
+            </div>
+            <p>Her eyes narrowed slightly. Then she laughed softly. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Impressive. Then yes… I can help you." </p>
+                </div>
+            </div>
+            <p>She circled me as she spoke, her voice steady and deliberate. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Kaelzer." </p>
+                </div>
+            </div>
+             <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Role: Demon of Secrets." </p>
+                </div>
+            </div>
+             <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "He enters minds, plants doubt, and exposes hidden truths." </p>
+                </div>
+            </div>
+             <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "His whispers have destroyed alliances and rewritten destinies." </p>
+                </div>
+            </div>
+            <p>The weight of the avatar settled into my thoughts. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "But remember this." </p>
+                </div>
+            </div>
+            <p>She stopped in front of me. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "You must come to me three times to fully claim him." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "I understand." </p>
+                </div>
+            </div>
+            <p>Her smile deepened. She stepped closer, her hand lifting my chin just enough to force eye contact. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Then we begin… the first binding." </p>
+                </div>
+            </div>
+            <p>Her presence wrapped around me—slow, deliberate, overwhelming. Power stirred beneath my skin as the ritual began, not through force, but through closeness and control. 
+            </p>
+            <p>This was only the first step toward becoming Kaelzer. 
+            </p>
 
 
 

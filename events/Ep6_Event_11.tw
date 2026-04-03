@@ -1,0 +1,160 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+            <p>Night had settled quietly around the house. My room was dim, lit only by the soft glow of the desk lamp and the faint light coming from the window. I sat on the edge of my bed, trying to organize my thoughts after everything that had happened recently. Training, avatars, Malena, Gatita, secrets—nothing felt simple anymore. 
+            </p>
+            <p>A familiar warmth filled the air behind me. I didn’t need to turn around to know who had arrived. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Master, we need to continue our lesson." </p>
+                </div>
+            </div>
+            <p>I looked back. Rayne stood near the door, her expression calm but confident, as if she had already planned everything. Her presence always carried a strange mix of comfort and danger. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Already? You don’t waste time, do you?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Growth cannot wait. Your power is increasing, but your stamina and control must match it." </p>
+                </div>
+            </div>
+            <p>She walked closer and stopped in front of me. Her eyes studied my face carefully, checking my energy. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Tonight we continue your training with Zythara." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Handling both of you at the same time sounds… dangerously tempting." </p>
+                </div>
+            </div>
+            <p>Rayne smiled slightly, clearly amused by my reaction. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Temptation is part of the lesson, Master. If you lose control, your avatars lose control too." </p>
+                </div>
+            </div>
+            <p>She leaned closer, her voice lowering just enough to make the moment feel more intense. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You must learn to enjoy the energy without being consumed by it." </p>
+                </div>
+            </div>
+            <p>I stood up, feeling a mix of anticipation and curiosity. Every training session pushed my limits further. The last lesson had already changed how I felt power moving inside me. Tonight would go deeper. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Alright. I’m ready." </p>
+                </div>
+            </div>
+            <p>Rayne nodded and reached for my hand. The moment her fingers closed around mine, a familiar surge of energy spread through my body. The room began to distort. Walls blurred, light twisted, and the ground beneath my feet disappeared. 
+            </p>
+            <p>Within seconds, my bedroom vanished completely. 
+            </p>
+            <p>When my vision cleared, we were standing inside Zythara’s home again. The atmosphere was warm but heavy, filled with a faint red glow coming from floating lamps along the walls. The space felt private, controlled, almost prepared for our arrival. 
+            </p>
+            <p>Zythara was already there, leaning casually against a pillar as if she had been waiting. Her eyes immediately locked onto me. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "You came back sooner than I expected." </p>
+                </div>
+            </div>
+            <p>She pushed herself upright and walked toward us with confident steps. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "His progress is good. Tonight we continue strengthening his stamina and synchronization." </p>
+                </div>
+            </div>
+            <p>Zythara’s smile widened slightly, excitement visible in her expression. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "Good. The last session was only the beginning." </p>
+                </div>
+            </div>
+            <p>She stopped directly in front of me, observing me closely as if sensing the changes inside my energy. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "I can already feel improvement. But he still has limits." </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "That is why we are here." </p>
+                </div>
+            </div>
+            <p>The doors behind us slowly closed on their own, sealing the room. The air grew warmer, charged with focused energy rather than chaos. This was training, but it felt far more personal than combat practice. 
+            </p>
+            <p>I took a slow breath, realizing tonight’s lesson would push my endurance and control further than before. Whatever they planned, it was meant to prepare me for something bigger waiting ahead. 
+            </p>
+            <div class="dialogue-row zp">
+                <img @src="setup.ImagePath+'scenes/avatar/zp.png'" alt="ZP" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $zp.name>>: </div>
+                    <p> "Then let’s not waste the night." </p>
+                </div>
+            </div>
+            <p>The lesson was about to begin again. 
+            </p>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

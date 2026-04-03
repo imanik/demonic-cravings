@@ -1,0 +1,296 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+            <p>Night had fallen, and I was sitting alone in my room, thinking about everything Rayne had trained me for. The lessons, the control, the stamina, and the mastery over my Vorthas avatar. I could feel the difference inside me. My energy felt stable and sharper than before. 
+            </p>
+            <p>A familiar presence filled the room. Rayne appeared beside my desk, calm and confident as always. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "You are ready now, Master." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Ready for what?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "For Malena. Tonight you will meet her as Vorthas. Observe her carefully. She is dangerous, but she is also a key to understanding Zong." </p>
+                </div>
+            </div>
+            <p>I stood up immediately. This was the moment we had been preparing for. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "So it begins." </p>
+                </div>
+            </div>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Yes. Go to the club. Let her curiosity guide the conversation. Do not reveal too much." </p>
+                </div>
+            </div>
+            <p>She slowly faded away, leaving me alone with a clear objective. I changed into darker clothes that matched the club atmosphere and focused my mind. Activating the Vorthas avatar felt natural now. My posture changed slightly, my confidence rising automatically. 
+            </p>
+            <p>After a short ride, I arrived at the club. Loud music vibrated through the entrance, and colorful lights flashed across the crowded dance floor. The place was packed with people dancing, drinking, and laughing. I scanned the room carefully, hoping Zong or Gatita wouldn’t appear tonight. This meeting needed to stay controlled. 
+            </p>
+            <p>My eyes finally found Malena. She was standing near the bar serving table, holding a drink, observing the crowd calmly like she owned the place. 
+            </p>
+            <p>I walked toward the bar and ordered a drink. She glanced at me once, then took a slow sip from her glass without saying anything. The bartender handed me my drink. I took a breath, deciding to make the first move. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Hi." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Hello." </p>
+                </div>
+            </div>
+            <p>She looked at me carefully, studying my face as if trying to recognize something. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Are you new here?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Yeah. First time." </p>
+                </div>
+            </div>
+            <p>She nodded slightly and extended her hand toward me. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "I’m Malena." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Vorthas." </p>
+                </div>
+            </div>
+            <p>I shook her hand. The moment she heard my name, her expression changed. Her eyes widened slightly before she quickly controlled herself. I noticed the reaction but pretended not to. Still, I could feel the sudden tension between us. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Vorthas… interesting name." </p>
+                </div>
+            </div>
+            <p>She leaned closer, lowering her voice slightly. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Are you… a half demon?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Yes." </p>
+                </div>
+            </div>
+            <p>Her curiosity immediately increased. She turned her body fully toward me, clearly interested now. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "I’ve heard stories about half demons. Enhanced stamina, emotional influence, stronger instincts. Is that true?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Partly. Half demons adapt faster than humans. We read intentions better. Emotions feel stronger, but control matters more than power." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "And energy transfer? Is it real?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Only when trust or desire exists. Otherwise it doesn’t work." </p>
+                </div>
+            </div>
+            <p>She listened carefully, absorbing every word. Her questions became more detailed. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Do half demons age differently?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Slower. Experience shapes power more than time." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "And relationships? Do they even work with humans?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "They can. But humans usually don’t understand what they’re dealing with." </p>
+                </div>
+            </div>
+            <p>She smiled slightly, clearly fascinated. The conversation felt less like casual talk and more like an investigation. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Do you have a girlfriend?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "No. Not really. Though last week I met a girl here. Her name was Gatita." </p>
+                </div>
+            </div>
+            <p>Malena’s eyes sharpened instantly. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Gatita? She’s a good friend of mine." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Yeah, she seemed nice." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "What do you know about her?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Honestly, not much. Just a casual meeting." </p>
+                </div>
+            </div>
+            <p>She watched my face carefully, trying to read if I was hiding something. I kept my expression relaxed. After a moment, she leaned back, satisfied enough with the answer. 
+            </p>
+            <p>We continued talking about random topics—the club, traveling, training, and strange experiences people have at night. The conversation lasted longer than I expected. She seemed comfortable around me but still cautious. 
+            </p>
+            <p>After finishing her drink, she checked the time and stood up. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Alright, I need to go." </p>
+                </div>
+            </div>
+            <p>She looked at me directly before speaking again. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "If you want to meet me again, I’m usually here on Saturday and Tuesday nights." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Good to know. It was really nice meeting you." </p>
+                </div>
+            </div>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Likewise, Vorthas." </p>
+                </div>
+            </div>
+            <p>She gave me one last curious look before walking away into the crowd. 
+            </p>
+            <p>I finished my drink slowly, thinking about her reaction to my name and the way she questioned me. Something told me this meeting had only made her more interested—and more suspicious. 
+            </p>
+            <p>A few minutes later, I left the club as well, knowing the real game with Malena had officially begun. 
+            </p>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

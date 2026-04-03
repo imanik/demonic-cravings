@@ -1,0 +1,112 @@
+<div class="big_text">
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="story-box">
+
+
+            <p>I was in my room relaxing when my phone suddenly vibrated. A message notification appeared on the screen. I opened it immediately. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "Hey handsome… ready for a surprise? Come meet me at my home this evening." </p>
+                </div>
+            </div>
+            <p>I read the message twice. Her tone felt excited and impatient. I understood she wanted to see me urgently. I got ready and left for her apartment as evening turned into night. 
+            </p>
+            <p>When I arrived, she opened the door quickly, almost as if she had been waiting behind it. Her face was bright with happiness. The moment she saw me, she stepped forward and hugged me tightly. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "I missed you." </p>
+                </div>
+            </div>
+            <p>Her behavior felt different tonight. She looked relaxed, satisfied, and deeply attached. Her eyes stayed on me constantly, and her smile did not fade. It was clear she had grown emotionally dependent on our meetings. 
+            </p>
+            <p>We sat together on the couch. She moved close to me, resting her head on my shoulder while talking about how much she enjoyed our time together. Her words and actions showed trust and growing affection. 
+            </p>
+            <p>I realized this was the right moment to learn more about Zong. I gently shifted the conversation. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Malena… tell me something. What do you know about Zong?" </p>
+                </div>
+            </div>
+            <p>The moment she heard the name, her expression changed. Her body stiffened, and the warmth in her face disappeared. She looked nervous and avoided eye contact. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "I… I don’t know anyone by that name." </p>
+                </div>
+            </div>
+            <p>Her voice sounded forced. She was clearly hiding something. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Malena, I already know about you and Zong. I just want the truth." </p>
+                </div>
+            </div>
+            <p>She looked shocked, almost scared. Her hands trembled slightly. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "If you keep hiding things from me, maybe it’s better we stop meeting." </p>
+                </div>
+            </div>
+            <p>My words hit her hard. Tears quickly formed in her eyes. She grabbed my arm desperately. 
+            </p>
+            <div class="dialogue-row character">
+                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $malena.name>>: </div>
+                    <p>  "No… please. Don’t say that. I can do anything for you." </p>
+                </div>
+            </div>
+            <p>She began crying softly, unable to control her emotions. I could see fear mixed with attachment. She did not want to lose me. 
+            </p>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Then trust me. What we have stays secret. No one needs to know. I will give you what you want, and you help me with what I need." </p>
+                </div>
+            </div>
+            <p>She nodded slowly, wiping her tears. Her breathing calmed as she leaned closer again, seeking comfort. The tension between us shifted from confrontation to intimacy. 
+            </p>
+            <p>I gently held her, reassuring her while she relaxed in my arms. The emotional distance disappeared, replaced by closeness and mutual desire. Our connection deepened once again as the night continued, and we allowed ourselves to get lost in the moment together. 
+            </p>
+            <p>Tonight, our relationship changed. It was no longer just attraction. Now it was built on secrets, trust, and shared intentions. 
+            </p>
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        <!-- EXAMPLE BUTTON -->
+        <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
+            <p >Leave</p>
+        </div>
+    
+    </div>
+
+<</nobr>>
+</div>

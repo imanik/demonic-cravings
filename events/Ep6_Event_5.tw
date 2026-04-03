@@ -6,29 +6,112 @@
         <div class="story-box">
 
 
-np: The moment Rayne opened the portal, the familiar burning air of Velkara’s domain surrounded me again. Dark flames floated in the distance, casting moving shadows across the stone floor. This place felt alive, watching every step I took. /np
-np: Rayne released my hand and looked at me seriously. /np
-Rayne: "Second training begins now, Master. Velkara will test your control this time." /en
-np: Before I could reply, Rayne disappeared, leaving me alone inside the vast chamber. A low laugh echoed from behind the pillars. /np
-Velkara: "You returned sooner than I expected." /en
-np: Velkara stepped forward slowly, her eyes scanning me carefully as if measuring my progress. /np
-Velkara: "I can feel the change. Your essence is stronger… but still unstable." /en
-MC: "You said I need to come three times. I’m here to continue." /en
-np: She circled around me, her fingers lightly tracing the air near my chest without touching. My body reacted instantly to her presence, energy inside me becoming restless. /np
-Velkara: "Last time you awakened the foundation of Kaelzer. Today, you learn control." /en
-MC: "Control over what?" /en
-Velkara: "Secrets. Desire. Thoughts. Kaelzer does not fight with strength. He wins inside the mind." /en
-np: She placed her palm against my forehead. A sudden wave of visions flooded my mind—voices whispering, memories not mine, hidden fears of unknown people. I staggered slightly. /np
-Velkara: "Feel that? Those are thoughts. Kaelzer walks through them like doors." /en
-np: She guided me to sit in the center of a glowing circle carved into the floor. Infernal symbols ignited around us. /np
-Velkara: "Focus. Listen without speaking. Observe without reacting." /en
-np: The training began. Voices echoed around me—temptation, anger, doubt—trying to break my concentration. Every distraction felt real. Sweat formed on my forehead as I struggled to remain steady. /np
-Velkara: "Good… resist the urge to control immediately. First understand." /en
-np: Hours passed—or maybe minutes. Time moved strangely here. Slowly, the chaos inside my mind became clearer. I could separate emotions from thoughts. I could sense hidden intentions behind imaginary voices. /np
-Velkara: "Now you begin to think like Kaelzer." /en
-np: She smiled slightly, satisfied. /np
-Velkara: "Return once more. The final training will awaken his true power." /en
-np: Darkness swallowed the chamber as the session ended. /np
+            <p>The moment Rayne opened the portal, the familiar burning air of Velkara’s domain surrounded me again. Dark flames floated in the distance, casting moving shadows across the stone floor. This place felt alive, watching every step I took. 
+            </p>
+            <p>Rayne released my hand and looked at me seriously. 
+            </p>
+            <div class="dialogue-row ct">
+                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $ct.name>>: </div>
+                    <p> "Second training begins now, Master. Velkara will test your control this time." </p>
+                </div>
+            </div>
+            <p>Before I could reply, Rayne disappeared, leaving me alone inside the vast chamber. A low laugh echoed from behind the pillars. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "You returned sooner than I expected." </p>
+                </div>
+            </div>
+            <p>Velkara stepped forward slowly, her eyes scanning me carefully as if measuring my progress. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "I can feel the change. Your essence is stronger… but still unstable." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "You said I need to come three times. I’m here to continue." </p>
+                </div>
+            </div>
+            <p>She circled around me, her fingers lightly tracing the air near my chest without touching. My body reacted instantly to her presence, energy inside me becoming restless. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Last time you awakened the foundation of Kaelzer. Today, you learn control." </p>
+                </div>
+            </div>
+            <div class="dialogue-row mc">
+                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $mc.name>>: </div>
+                    <p> "Control over what?" </p>
+                </div>
+            </div>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Secrets. Desire. Thoughts. Kaelzer does not fight with strength. He wins inside the mind." </p>
+                </div>
+            </div>
+            <p>She placed her palm against my forehead. A sudden wave of visions flooded my mind—voices whispering, memories not mine, hidden fears of unknown people. I staggered slightly. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Feel that? Those are thoughts. Kaelzer walks through them like doors." </p>
+                </div>
+            </div>
+            <p>She guided me to sit in the center of a glowing circle carved into the floor. Infernal symbols ignited around us. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Focus. Listen without speaking. Observe without reacting." </p>
+                </div>
+            </div>
+            <p>The training began. Voices echoed around me—temptation, anger, doubt—trying to break my concentration. Every distraction felt real. Sweat formed on my forehead as I struggled to remain steady. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Good… resist the urge to control immediately. First understand." </p>
+                </div>
+            </div>
+            <p>Hours passed—or maybe minutes. Time moved strangely here. Slowly, the chaos inside my mind became clearer. I could separate emotions from thoughts. I could sense hidden intentions behind imaginary voices. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Now you begin to think like Kaelzer." </p>
+                </div>
+            </div>
+            <p>She smiled slightly, satisfied. 
+            </p>
+            <div class="dialogue-row vl">
+                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <div class="dialogue-box">
+                    <div class="name"><<print $vl.name>>: </div>
+                    <p> "Return once more. The final training will awaken his true power." </p>
+                </div>
+            </div>
+            <p>Darkness swallowed the chamber as the session ended. 
+            </p>
 
 
 
