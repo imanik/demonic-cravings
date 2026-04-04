@@ -1983,12 +1983,88 @@
                                         
                                 },
 },                    
-                }
-                >>      
+                   
 
 
+/* Episode 6 */ 
 
+/* Velkara 2 Scene */ 
+'vl2_scene'      : {
+
+
+                                'sf_scene': {
+                                        'scene_code':  	    'vl2_scene',
+                                        'scene_type':   	'sf_scene',
+                                        'scene_passage':	'CountrySide',
+                                        'scene_activity':       ['Men_Freq','Sex_Freq','Dominant'],
+                                        'scene_character':      'vl',
+                                        'default_video':        'scenes/char/dl/vid/1/bj-1.mp4',
+                                        'scene_title':  	['Passionate and Intense','Playful and Seductive','Dark and Dominant',],
+                                        'scene_video':  	['scenes/char/dl/vid/1/sf-1.mp4','scenes/char/dl/vid/1/sf-2.mp4','scenes/char/dl/vid/1/sf-3.mp4',],
+                                        'scene_dialogue' :  [
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "Spread wider. Let me see everything." </p></div> <p class="notation_text"> She obeyed, her leg draped over my waist, her breath soft and shuddering as I pressed inside, stretching her completely. </p>',
+'<div class="dialog_text  up_dialog_text"><p><span class = "up"><<print $dl.name>>: </span> "mmm-…" </p></div> <p class="notation_text"> My hand gripped her thigh, lifting it higher as I pushed deeper, her fingers clutching my arm, her body arching with every slow thrust. </p>',
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "You’re not leaving this CountrySide until I’ve had my fill." </p></div> <p class="notation_text"> She shuddered violently, her body breaking beneath my control, completely at my mercy. </p>',
+                                        ]
+                                        
+                                },          
+
+                               'dg_scene': {
+                                        'scene_code':  	        'vl2_scene',
+                                        'scene_type':   	'dg_scene',
+                                        'scene_passage':	'CountrySide',
+                                        'scene_activity':       ['Men_Freq','Sex_Freq','Dominant'],
+                                        'scene_character':      'dl',
+                                        'default_video':        'scenes/char/dl/vid/1/bj-1.mp4',
+                                        'scene_title':  	['Passionate and Intense','Playful and Seductive','Dark and Dominant',],
+                                        'scene_video':  	['scenes/char/dl/vid/1/dg-1.mp4','scenes/char/dl/vid/1/dg-2.mp4','scenes/char/dl/vid/1/dg-3.mp4',],
+                                        'scene_dialogue' :  [
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "Hands and knees, baby. I want to feel all of you." </p></div> <p class="notation_text"> She arched her back, positioning herself perfectly, her breath uneven as I moved behind her. My hands traced down her spine, savoring the way her body shuddered in anticipation. </p>',
+'<div class="dialog_text  up_dialog_text"><p><span class = "up"><<print $dl.name>>: </span> "F-fuck… don’t stop…" </p></div> <p class="notation_text"> My grip tightened on her hips, pulling her back into me with every movement. Her body trembled, her nails scratching at the couch, gasping as I drove deeper, feeding off her pleasure. </p>',
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "Say my name. Let the whole place hear who owns you." </p></div> <p class="notation_text"> She cried out, her fingers gripping the leather, her body fully submitting as I took control, watching her lose herself under my dominance. </p>',
+                                                ]
+                                        
+                                },
+
+
+                                'mis_scene': {
+                                        'scene_code':  	        'vl2_scene',
+                                        'scene_type':   	'mis_scene',
+                                        'scene_passage':	'CountrySide',
+                                        'scene_activity':       ['Men_Freq','Sex_Freq','Dominant'],
+                                        'scene_character':      'dl',
+                                        'default_video':        'scenes/char/dl/vid/1/sed-1.mp4',
+                                        'scene_title':  	['Passionate and Intense','Playful and Seductive','Dark and Dominant',],
+                                        'scene_video':  	['scenes/char/dl/vid/1/mis-1.mp4','scenes/char/dl/vid/1/mis-2.mp4','scenes/char/dl/vid/1/mis-3.mp4',],
+                                        'scene_dialogue' :  [
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "Look at me, $dl.name. I want to see everything." </p></div> <p class="notation_text"> She spread her legs, her gaze locking onto mine, a challenge hidden behind the pleasure. My fingers trailed along her inner thighs, teasing before I pushed inside, claiming her completely. </p>',
+'<div class="dialog_text  up_dialog_text"><p><span class = "up"><<print $dl.name>>: </span> "You feel… incredible." </p></div> <p class="notation_text"> My lips traced along her neck, my hands pinning her wrists down, keeping her exactly where I wanted her, deepening the rhythm as her body arched into me. </p>',
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "You’re mine tonight. Say it." </p></div> <p class="notation_text"> She shuddered beneath me, her breath ragged, her body completely surrendering, her voice breaking as she whispered my name. </p>',
+                               ]
+                                        
+                                },
+
+                                 'as_scene': {
+                                        'scene_code':  	        'vl2_scene',
+                                        'scene_type':   	'as_scene',
+                                        'scene_passage':	'CountrySide',
+                                        'scene_activity':       ['Men_Freq','Sex_Freq','Dominant'],
+                                        'scene_character':      'dl',
+                                        'default_video':        'scenes/char/dl/vid/1/bj-1.mp4',
+                                        'scene_title':  	['Passionate and Intense','Playful and Seductive','Dark and Dominant',],
+                                        'scene_video':  	['scenes/char/dl/vid/1/as-1.mp4','scenes/char/dl/vid/1/as-2.mp4','scenes/char/dl/vid/1/as-3.mp4',],
+                                        'scene_dialogue' :  [
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "You can take it, $dl.name. I know you can." </p></div> <p class="notation_text"> She exhaled sharply, her body tensing, but she didn’t resist. Slowly, I pressed inside, feeling her shudder beneath me. </p>',
+'<div class="dialog_text  up_dialog_text"><p><span class = "up"><<print $dl.name>>: </span> "Oh… more." </p></div> <p class="notation_text"> I obeyed, moving faster, gripping her hips, her moans growing louder as she lost herself completely. </p>',
+'<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "You’ll never forget this." </p></div> <p class="notation_text"> She shuddered, gripping the sheets, her body convulsing as I pushed her past all limits. </p>',
+]
+                                        
+                                },
+},     
+
+ }
+                >>  
         
 
 
-
+<!-- <<include "SceneInit6" >> -->

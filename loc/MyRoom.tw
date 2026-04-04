@@ -1,7 +1,7 @@
           <div class="big_text">
           <<nobr>>
 
-
+  <<set $eventCount = 5>>
 
 
           <img class="scene-image" @src="setup.ImagePath+'scenes/misc/home/myroom.jpg'" >
