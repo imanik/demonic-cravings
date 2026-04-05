@@ -1,0 +1,108 @@
+<!-- /* Days of the week */ -->
+
+<<set $weekDays = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]>>
+<<set $eventQuest = [
+        "1.  The Rival Revealed",
+        "2. $gp.name’s Temptation", 
+        "3. Dreamcrafting $gp.name’s Fantasy", 
+        "4. Secrets & Temptations",
+        "5. The Sex Master’s Game", 
+        "6. A Warning in the Dark",
+        "7. The Invitation", 
+        "8. An Unexpected Invitation",
+        "9. The First Move",
+        "10. A Step Closer",
+        "11. The Game Begins",
+        "Completed"]>>
+
+
+<<set $eventTime = ["Morning","Midday","Noon", "Afternoon", "Evening", "Night", "Midnight"]>>
+
+ <<set $eventQuestLocation = ["Club","Club","My Room","Club",
+ "Club","Club","Club","$gp.name's Home","Country Side","Country Side","Country Side", "Completed"]>>
+
+
+   <<set $eventQuestChar = ["mp / 100", "mc / 100", "mc /200", "mc /300", "mp / 200", "mc / 400", "ep / 100", 
+   "mp / 300", "gp / 100", "gp / 200", "mr / 100", "mc /500", "dp / 100", "mc / 600", "ct / 100", "gp / 300", 
+   "mp / 400", "Completed"]>>
+
+
+
+
+    <<set $eventQuestTitle = [$club.title[0],$club.title[1],$myroom.title[0],$club.title[2],
+    $club.title[3],$club.title[4],$club.title[5],$gatitaHome.title[0],$countrySide.title[0],
+    $countrySide.title[1],$countrySide.title[2],"Completed"]>>
+
+    <<set $eventQuestTime =   [$club.time[0],$club.time[1],$myroom.time[0],$club.time[2],
+      $club.time[3],$club.time[4],$club.time[5],$gatitaHome.time[0],$countrySide.time[0],
+      $countrySide.time[1],$countrySide.time[2],"Completed"]>>
+
+      <<set $eventQuestTime =   [$club.time[0],$club.time[1],$myroom.time[0],$club.time[2],
+        $club.time[3],$club.time[4],$club.time[5],$gatitaHome.time[0],$countrySide.time[0],
+        $countrySide.time[1],$countrySide.time[2],"Completed"]>>
+
+      <<set $eventChar =  [$club.char[0],$club.char[1],$myroom.char[0],$club.char[2],
+        $club.char[3],$club.char[4],$club.char[5],$gatitaHome.char[0],$countrySide.char[0],
+        $countrySide.char[1],$countrySide.char[2],"Completed"]>>
+
+      <<set $eventAvatar =  [$club.avatar[0],$club.avatar[1],$myroom.avatar[0],$club.avatar[2],
+        $club.avatar[3],$club.avatar[4],$club.avatar[5],$gatitaHome.avatar[0],$countrySide.avatar[0],
+        $countrySide.avatar[1],$countrySide.avatar[2],"Completed"]>>
+
+      <<set $eventAllure =  [$club.allure[0],$club.allure[1],$myroom.allure[0],$club.allure[2],
+        $club.allure[3],$club.allure[4],$club.allure[5],$gatitaHome.allure[0],$countrySide.allure[0],
+        $countrySide.allure[1],$countrySide.allure[2],"Completed"]>>
+
+      <<set $eventFlame =    [$club.flame[0],$club.flame[1],$myroom.flame[0],$club.flame[2],
+        $club.flame[3],$club.flame[4],$club.flame[5],$gatitaHome.flame[0],$countrySide.flame[0],
+        $countrySide.flame[1],$countrySide.flame[2],"Completed"]>>
+
+      <<set $eventDreamweaver =    [$club.dreamweaver[0],$club.dreamweaver[1],$myroom.dreamweaver[0],$club.dreamweaver[2],
+        $club.dreamweaver[3],$club.dreamweaver[4],$club.dreamweaver[5],$gatitaHome.dreamweaver[0],$countrySide.dreamweaver[0],
+        $countrySide.dreamweaver[1],$countrySide.dreamweaver[2],"Completed"]>>
+
+      <<set $eventIntimidate =   [$club.intimidate[0],$club.intimidate[1],$myroom.intimidate[0],$club.intimidate[2],
+        $club.intimidate[3],$club.intimidate[4],$club.intimidate[5],$gatitaHome.intimidate[0],$countrySide.intimidate[0],
+        $countrySide.intimidate[1],$countrySide.intimidate[2],"Completed"]>>
+
+      <<set $eventSoul =   [$club.soul[0],$club.soul[1],$myroom.soul[0],$club.soul[2],
+        $club.soul[3],$club.soul[4],$club.soul[5],$gatitaHome.soul[0],$countrySide.soul[0],
+        $countrySide.soul[1],$countrySide.soul[2],"Completed"]>>
+
+      <<set $eventEnergyDrain =   [$club.energy_drain[0],$club.energy_drain[1],$myroom.energy_drain[0],$club.energy_drain[2],
+        $club.energy_drain[3],$club.energy_drain[4],$club.energy_drain[5],$gatitaHome.energy_drain[0],$countrySide.energy_drain[0],
+        $countrySide.energy_drain[1],$countrySide.energy_drain[2],"Completed"]>>
+
+      <<set $eventHellfire =   [$club.hellfire[0],$club.hellfire[1],$myroom.hellfire[0],$club.hellfire[2],
+        $club.hellfire[3],$club.hellfire[4],$club.hellfire[5],$gatitaHome.hellfire[0],$countrySide.hellfire[0],
+        $countrySide.hellfire[1],$countrySide.hellfire[2],"Completed"]>>
+
+      <<set $eventLoyal =   [$club.loyal[0],$club.loyal[1],$myroom.loyal[0],$club.loyal[2],
+        $club.loyal[3],$club.loyal[4],$club.loyal[5],$gatitaHome.loyal[0],$countrySide.loyal[0],
+        $countrySide.loyal[1],$countrySide.loyal[2],"Completed"]>>
+
+      <<set $eventAlpha =    [$club.alpha[0],$club.alpha[1],$myroom.alpha[0],$club.alpha[2],
+        $club.alpha[3],$club.alpha[4],$club.alpha[5],$gatitaHome.alpha[0],$countrySide.alpha[0],
+        $countrySide.alpha[1],$countrySide.alpha[2],"Completed"]>>
+
+      <<set $eventLevel =   [$club.level[0],$club.level[1],$myroom.level[0],$club.level[2],
+        $club.level[3],$club.level[4],$club.level[5],$gatitaHome.level[0],$countrySide.level[0],
+        $countrySide.level[1],$countrySide.level[2],"Completed"]>>
+
+      <<set $eventMana =   [$club.mana[0],$club.mana[1],$myroom.mana[0],$club.mana[2],
+        $club.mana[3],$club.mana[4],$club.mana[5],$gatitaHome.mana[0],$countrySide.mana[0],
+        $countrySide.mana[1],$countrySide.mana[2],"Completed"]>>
+
+    
+
+
+<<set $eventDay = ["Weekday","Weekend","Weekday","Weekday","Weekday","Saturday","Weekday","Weekday","Sunday",
+"Weekday","Weekday","Weekday","Weekday","Weekday","Weekday","Completed"]>>
+
+<<set $charterLocation = [,"Weekend","Weekday","Weekday","Weekday","Saturday","Weekday","Weekday","Sunday",
+"Weekday","Weekday","Weekday","Weekday","Weekday","Weekday","Completed"]>>
+
+    
+
+>>
+

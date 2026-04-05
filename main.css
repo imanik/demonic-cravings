@@ -575,6 +575,23 @@ video::-webkit-media-controls-timeline {
   border-left: 5px solid dodgerblue;
 }
 
+.dialogue-row.purple .dialogue-box {
+  background-color: #fbb1f4;
+  border-left: 5px solid rgb(134, 0, 81);
+}
+
+.dialogue-row.yellow .dialogue-box {
+  background-color: #fbe8bb;
+  border-left: 5px solid rgb(164, 144, 34);
+}
+
+.dialogue-row.orange .dialogue-box {
+  background-color: #fcc7af;
+  border-left: 5px solid rgb(183, 79, 0);
+}
+
+  
+
 /* Choices Section */
 .choice-section {
   margin-top: 2rem;
@@ -851,230 +868,12 @@ background: linear-gradient(to right, #6a5acd, #8a2be2);
   }
   
 
- /*  
-  .scenes_image {
-
-    border-radius: 10px 10px 10px 10px;
-    border: 4px solid #08090b;
-    box-shadow: 0 0 20px 2px #000000bf;
-     margin-top:3%;
-    margin-left:5%;
-    width:100%;
-    height:auto;
-    content: var(--default_image)
-  }
-  
-  @media(max-width:600px){
-      .scenes_image {
-          width:100%;
-          height:100%;
-      }
-  }
-  */
+ 
 
   
   
-/*   .notation_text{
-    font-size:20px;
-    width:85%;
-    text-align: center;
-    margin-bottom:3%;
-    animation: apear 800ms;
-    animation-fill-mode:forwards;
-    text-shadow: 0 0 5px #090a0f;
-    font-family: Roboto;
-  }
-  
-  .notation_text > span {
-    color:#FF7BAC;
-  } */
 
-
-  /* 
-  .dialog_text{  
-    font-size:1.1rem;
-    width:85%;  
-    margin-top:1em;
-    padding-top:0.25em;
-    display:flex;
-    background-color:#2F2D34;
-    border:2px solid #08090B;
-    border-radius:10px 10px 10px 10px;
-    box-shadow: 0 0 20px 2px #000000bf;
-  }
   
-  .mc_dialog_text{  
-  
-    background-color:#0049a3;
-  
-  }
-  
-  .mp_dialog_text{  
-  
-    background-color:#800360;
-  
-  }
-
-  .ap_dialog_text{  
-  
-    background-color:#5e0033;
-  
-  }
-  
-  .ep_dialog_text{  
-  
-    background-color:#8d008d;
-  
-  }
-
-  .hp_dialog_text{  
-  
-    background-color:#5099f4;
-  
-  }
-  
-  .up_dialog_text{  
-  
-    background-color:#4e0027;
-  
-  }
-  
-  .cp_dialog_text{  
-  
-    background-color:#76008d;
-  
-  }
-
-  .gp_dialog_text{  
-  
-    background-color:#530048;
-  
-  }
-
-  .ed_dialog_text{  
-  
-    background-color:#6f0034;
-  
-  }
-
-  .mr_dialog_text{  
-  
-    background-color:#a7004e;
-  
-  }
-
-  .ct_dialog_text{  
-  
-    background-color:#a7004e;
-  
-  }
-
-
-
-  .character_dialog_text{  
-  
-    background-color:#380066;
-  
-  }
-
-  .dialog_text > p {
-    margin-left:3%;
-    margin-top:2%;
-  }
-  
-  .dialog_text .mc {
-    font-size:25px;
-  }
-
- .dialog_text .mp {
-    font-size:25px;
-  }
-
-  .dialog_text .ap {
-    font-size:25px;
-  }
-
-  .dialog_text .ep {
-    font-size:25px;
-  }
-
-  .dialog_text .up {
-    font-size:25px;
-  }
-
- .dialog_text .hp {
-    font-size:25px;
-  }
-
-  .dialog_text .cp {
-    font-size:25px;
-  }
-
-  .dialog_text .gp {
-    font-size:25px;
-  }
-
-  .dialog_text .ed {
-    font-size:25px;
-  }
-
-  .dialog_text .mr {
-    font-size:25px;
-  }
-  
-  .dialog_text .ct {
-    font-size:25px;
-  }
-  
-  
-  .dialog_text .character {
-    font-size:25px;
-  } */
-
-
-
-  .left_border{
-    font-size:1.1rem;
-    width:85%;  
-    margin-left:3%;
-    margin-top:2%;
-    border-left: 10px solid #ffc36f;
-    border-top:2px solid #08090B;
-    border-bottom:2px solid #08090B;
-    border-right:2px solid #08090B;
-    border-radius:10px 10px 10px 10px;
-    padding:1em;
-    display:flex;
-    background-color:#2F2D34;
-    box-shadow: 0 0 20px 2px #000000bf;
-  }
-
-  .left_border_av{
-    font-size:1.1rem;
-    width:85%;  
-    margin-left:3%;
-    margin-top:2%;
-    border-left: 10px solid #ffc36f;
-    border-top:2px solid #08090B;
-    border-bottom:2px solid #08090B;
-    border-right:2px solid #08090B;
-    border-radius:10px 10px 10px 10px;
-    padding:1em;
-    background-color:#202020;
-    box-shadow: 0 0 20px 2px #000000bf;
-  }
-
-  .theme-color1{
-    background-color:#800360;
-  }  
-
-  .theme-color2{
-    background-color:#5e0033;
-  } 
-
-  .theme-color3{
-    background-color:#0049a3;
-  } 
 
   .heading {
     font-size:25px;
