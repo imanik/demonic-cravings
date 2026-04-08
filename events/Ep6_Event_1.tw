@@ -7,7 +7,7 @@
 
         <img class="scene-image" @src="setup.ImagePath+'scenes/char/mp/9.png'">
 
-            <p>I entered the kitchen rubbing my eyes, still half asleep. Liz was already there, sitting casually with her phone in one hand and a cup of coffee in the other. The moment she saw me, a sharp smile formed on her lips. 
+            <p>I entered the kitchen rubbing my eyes, still half asleep. <<print $up.name>> was already there, sitting casually with her phone in one hand and a cup of coffee in the other. The moment she saw me, a sharp smile formed on her lips. 
             </p>
             <div class="dialogue-row mc">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
@@ -31,20 +31,20 @@
                 <img @src="setup.ImagePath+'scenes/char/female-sm/up.png'" alt="UP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $up.name>>: </div>
-                    <p> "Honestly, you’re so lazy. Always late, always lost in your own little nerd world. I don’t even know how you survive without Mom." </p>
+                    <p> "Honestly, you’re so lazy. Always late, always lost in your own little nerd world. I don’t even know how you survive without <<print $mp.call>>." </p>
                 </div>
             </div>
         <img class="scene-image" @src="setup.ImagePath+'scenes/char/mp/2.png'">
-            <p>I clenched my jaw. Before I could fire back, Mom stepped in from the counter, placing plates on the table. 
+            <p>I clenched my jaw. Before I could fire back, <<print $mp.call>> stepped in from the counter, placing plates on the table. 
             </p>
             <div class="dialogue-row purple">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/mp.png'" alt="Character" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name">Mom: </div>
-                    <p> "Liz, that’s enough. Everyone has their own pace." </p>
+                    <div class="name"><<print $mp.call>>: </div>
+                    <p> "<<print $up.name>>, that’s enough. Everyone has their own pace." </p>
                 </div>
             </div>
-            <p>Liz rolled her eyes but didn’t stop. 
+            <p><<print $up.name>> rolled her eyes but didn’t stop. 
             </p>
             <div class="dialogue-row yellow">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/up.png'" alt="UP" class="avatar">
@@ -53,7 +53,7 @@
                     <p> "I’m just saying the truth. He’s not exactly smart either. All books, no real-world sense." </p>
                 </div>
             </div>
-            <p>Mom sighed, giving her a warning look, but Liz clearly wasn’t done. The tension sat heavy in the air, thick and uncomfortable. This wasn’t just teasing anymore—it felt like she insulting me continously. 
+            <p><<print $mp.call>> sighed, giving her a warning look, but <<print $up.name>> clearly wasn’t done. The tension sat heavy in the air, thick and uncomfortable. This wasn’t just teasing anymore—it felt like she insulting me continously. 
             </p>
 
 

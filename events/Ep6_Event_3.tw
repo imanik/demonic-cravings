@@ -5,58 +5,61 @@
 
         <div class="story-box">
 
-            <p>Night had settled in. I was alone in my room, the lights dim, the city quiet outside my window. My thoughts kept circling back to Malena and her request. Something about it felt planned. Too clean. I decided not to guess. I called Rayne. 
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/8.png'">
+
+            <p>I was alone in my room, the lights dim. My thoughts kept circling back to <<print $dl.name>> and her request. Something about it felt planned. I decided not to guess. I called <<print $ct.name>>. 
             </p>
-            <p>The air in front of me shifted. A familiar pressure filled the room as Rayne stepped out of the shadows, her eyes sharp and alert. 
+            <p>The air in front of me shifted. A familiar pressure filled the room as <<print $ct.name>> stepped out of the shadows, her eyes sharp and alert. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "You called late, Master. Something happened." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
-                    <p> "Yes. Malena contacted me." </p>
+                    <p> "Yes. <<print $dl.name>> contacted me." </p>
                 </div>
             </div>
-            <p>Rayne straightened slightly. 
+            <p><<print $ct.name>> straightened slightly. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
-                    <p> "Malena?" </p>
+                    <p> "<<print $dl.name>>?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "She wants a diary. Gatita’s diary. She promised me anything in return." </p>
                 </div>
             </div>
-            <p>Rayne went silent for a moment. Her expression changed—not fear, but curiosity mixed with surprise. 
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/10.png'">
+            <p><<print $ct.name>> went silent for a moment. Her expression changed with curiosity mixed with surprise. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Interesting." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "That was my thought. It doesn’t feel random." </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "It’s not." </p>
@@ -65,35 +68,36 @@
             <p>She walked slowly around the room, thinking. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "You should execute her plan." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Just like that?" </p>
                 </div>
             </div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/13.png'">
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Yes. If she’s moving, there’s a reason. We may get information we can’t access directly." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "About Zong?" </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Possibly. Or something even deeper." </p>
@@ -102,104 +106,106 @@
             <p>I crossed my arms. 
             </p>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Then how do I do this without exposing myself?" </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "You’ll need a new avatar." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Another one?" </p>
                 </div>
             </div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/6/1.png'">
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
-                    <p> "His name will be Kaelzar." </p>
+                    <p> "Yes and his name will be Kaelzar." </p>
                 </div>
             </div>
             <p>The name carried weight. I felt it immediately. 
             </p>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Who creates it?" </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Velkara." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "You said she doesn’t help without conditions." </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Correct." </p>
                 </div>
             </div>
-            <p>Rayne stopped in front of me. 
+            <p><<print $ct.name>> stopped in front of me. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Kaelzar requires strong human or half-demon perks." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "And I don’t have enough." </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Not yet." </p>
                 </div>
             </div>
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/6/2.png'">
             <p>She met my eyes directly. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "You need to increase them through sexual encounters with humans or half-demons." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
-                    <p> "So this aligns with Malena anyway." </p>
+                    <p> "So this aligns with <<print $dl.name>> anyway." </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Exactly." </p>
@@ -208,14 +214,14 @@
             <p>I exhaled slowly. 
             </p>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "And when I’m ready?" </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "I’ll take you to Velkara myself." </p>
@@ -224,25 +230,14 @@
             <p>She stepped back, her form beginning to fade. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Prepare yourself, Master. Things are starting to move." </p>
                 </div>
             </div>
-            <p>The room returned to silence. I sat on the edge of the bed, fully aware that Malena’s request was no longer just a temptation—it was a doorway. 
+            <p>The room returned to silence. I sat on the edge of the bed, fully aware that <<print $dl.name>>’s request was no longer just a temptation—it was a doorway. 
             </p>
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
         

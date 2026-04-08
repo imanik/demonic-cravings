@@ -1,8 +1,14 @@
 <div class="big_text">
 <<nobr>>
 
+
     
-    <<if $mc.t_meter.charge gte 20  >>
+
+    <<if $mc.stats.mana gte 30  >>
+
+    <div class="scene-container">
+
+        <div class="story-box">
         
         <div class="bar">
             <div class="segment">10</div>
@@ -16,39 +22,37 @@
 
         <p id="result"></p>
 
-        <div  id="stop-button"   onclick="statsChange(-25, 'Charge');">
+        <div  id="stop-button" onclick="statsChange(-10, 'Mana')" class="intro-button">
             <p>STOP </p>
         </div>
-
-        <<if $mediaType is "video">>
     
-                <video class="scene-image" id="activityVideo" muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
+                <video id="sceneVideo" class="scene-image"  muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
                 </video>
-        <<else>>
-                <img id='activityImage' class="scene-image">
-        <</if>>
-        
 
-        
-              <p class="notation_text"><<print $taskDialogue>></p>
+            <p class="notation_text"><<print $fuckScene[$sceneCode][$sceneType].scene_dialogue[$sceneNumber]>></p>
 
    
+        </div>
+        
+
         <<set _random_value = random(1, 5)>>
 
-        <div id="random-button" onclick="statsChange(-25, 'Charge'); charStatsChangeRandom();" data-passage="$loc" >
+        <div id="random-button" onclick="statsChange(-10, 'Mana'); charStatsChangeRandom(); forwardTime(1);" data-passage="$loc" class="enter-button" >
             <p >Random Point</p>
         </div>
         
   
 
-         <div id="leave-button" onclick="forwardTime(1);" data-passage="$loc">
+         <div id="leave-button" onclick="forwardTime(1);" data-passage="$loc" class="enter-button">
             <p >Leave</p>
+        </div>
+
         </div>
     
     <<else>>
         <img class="scene-image" @src="setup.ImagePath+'scenes/misc/low.jpg'">
 
-        <p class="notation_text">T-Meter do not have enough Charge!</p>
+        <p class="notation_text">You do not have enough Mana!</p>
 
 
         <div class="enter-button" onclick="forwardTime(1);" data-passage="$loc">
@@ -67,19 +71,14 @@
 
 $(document).ready(function() {
 
-    startGame();
- //   $("#stop-button").on("click", stopGame);
+    sceneLoad(variables().sceneCode,variables().sceneNumber,variables().sceneType);
+
 $("#stop-button").on("click", function() {
     stopGame(variables().activityType,'Char',variables().char);
-    //statsChange(-25, "Charge");
+    
 });
 
-// $("#random-button").on("click", function() {
-//    // stopGame(variables().activityType,'Char',variables().char);
-   
-// });
-
-       
+    
 
   });
 <</script>>

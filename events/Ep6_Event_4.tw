@@ -5,13 +5,13 @@
 
         <div class="story-box">
 
-
-            <p>I sat on the edge of my bed. My body felt steady. My mind was clear. I knew I was ready for the next step. I called Rayne. 
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/50.png'">
+            <p>I sat on the edge of my bed. My body felt steady. My mind was clear. I knew I was ready for the next step. I called <<print $ct.name>>. 
             </p>
-            <p>The air shifted. Rayne appeared in front of me, calm and focused. 
+            <p>The air shifted. <<print $ct.name>> appeared in front of me, calm and focused. 
             </p>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "Yes, Master. You are ready now." </p>
@@ -21,22 +21,23 @@
             </p>
             <p>We stood before Velkara’s domain. The structure looked alive—dark stone walls pulsing faintly, heat radiating from within like slow breathing. 
             </p>
+
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "From here, you go alone." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "That’s it?" </p>
                 </div>
             </div>
             <div class="dialogue-row ct">
-                <img @src="setup.ImagePath+'scenes/avatar/ct.png'" alt="CT" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ct.name>>: </div>
                     <p> "You know the rule. Please her. Earn the avatar." </p>
@@ -44,10 +45,13 @@
             </div>
             <p>She released my hand and vanished without another word. 
             </p>
+
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/6/5.png'">
+
             <p>I stepped forward and entered Velkara’s den. The inside was dim, lit by red flames burning without sound. The air was thick and heavy. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Well… you finally came back." </p>
@@ -56,14 +60,14 @@
             <p>She emerged from the shadows, tall and confident, her presence pressing against me without touching. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Tell me, young man. Are you here for power… or pleasure?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "I need the Kaelzer avatar." </p>
@@ -72,21 +76,23 @@
             <p>Velkara smiled slowly. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Straight to the point. I like that." </p>
                 </div>
             </div>
+
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/vl/6/1.png'">
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "But it won’t be easy." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "I already have Soul Essence, Infernal Flames, and a Loyal Guardian." </p>
@@ -95,7 +101,7 @@
             <p>Her eyes narrowed slightly. Then she laughed softly. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Impressive. Then yes… I can help you." </p>
@@ -104,28 +110,29 @@
             <p>She circled me as she spoke, her voice steady and deliberate. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Kaelzer." </p>
                 </div>
             </div>
+             <img class="scene-image" @src="setup.ImagePath+'scenes/char/vl/6/2.png'">
              <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Role: Demon of Secrets." </p>
                 </div>
             </div>
              <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "He enters minds, plants doubt, and exposes hidden truths." </p>
                 </div>
             </div>
              <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "His whispers have destroyed alliances and rewritten destinies." </p>
@@ -134,23 +141,24 @@
             <p>The weight of the avatar settled into my thoughts. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "But remember this." </p>
                 </div>
             </div>
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/vl/6/3.png'">
             <p>She stopped in front of me. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "You must come to me three times to fully claim him." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "I understand." </p>
@@ -159,7 +167,7 @@
             <p>Her smile deepened. She stepped closer, her hand lifting my chin just enough to force eye contact. 
             </p>
             <div class="dialogue-row vl">
-                <img @src="setup.ImagePath+'scenes/avatar/vl.png'" alt="VL" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vl.png'" alt="VL" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $vl.name>>: </div>
                     <p> "Then we begin… the first binding." </p>
@@ -170,18 +178,13 @@
             <p>This was only the first step toward becoming Kaelzer. 
             </p>
 
-
-
-
-
-
-
-
-
-
-
         </div>
         
+        <div class="enter-button"  data-passage="Fuck_Event" style="width:25vw;" data-setter = "$sceneObject = $fuckEvent.vl2;  
+                        $charObject =  $vl; $sceneImage = $fuckEvent.vl2.image;  $loc = $fuckEvent.vl2.location;" style="width:25vw;" >
+                        <p >Start First practice</p>
+                        </div>
+
         <!-- EXAMPLE BUTTON -->
         <div class="enter-button" onclick="forwardTime(1)" data-passage="Home" style="width:25vw;">
             <p >Leave</p>

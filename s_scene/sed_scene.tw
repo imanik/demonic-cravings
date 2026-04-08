@@ -1,15 +1,23 @@
 <div class="big_text">
-  <<nobr>>
+<<nobr>>
+
+    <div class="scene-container">
+
+        <div class="intro-card">
 
 
 <<set $charStats = $charObject.shortcode>>
+<<set $mc.stats.mana = 100>>
 
 
 
 <img class="scene-image" @src="setup.ImagePath+$sceneImage " >
 
 
-<div id="scene-buttons"></div>
+<div id="scene-buttons">
+</div>
+</div>
+</div>
 
   <</nobr>>
 </div>

@@ -399,15 +399,6 @@
             
         >>
 
-            
-        
- 
-
-
-
-
-
-
         <<set $countrySide = {
                     
                         "title" :             ["Event_Dl_9","Event_Dl_10","Event_Dl_11",],

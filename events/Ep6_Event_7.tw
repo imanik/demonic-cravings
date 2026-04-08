@@ -6,35 +6,36 @@
         <div class="story-box">
 
 
-            <p>I knocked on the door. After a moment, Angie opened it. She smiled when she saw me. 
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/6/7.png'">
+            <p>I knocked on the door. After a moment, <<print $ap.name>> opened it. She smiled when she saw me. 
             </p>
             <div class="dialogue-row ap">
-                <img @src="setup.ImagePath+'scenes/avatar/ap.png'" alt="AP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ap.png'" alt="AP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ap.name>>: </div>
-                    <p> "Hey, MC. How are you?" </p>
+                    <p> "Hey, <<print $mc.name>>. How are you?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
-                    <p> "I’m good. How about you? Is Gatita at home?" </p>
+                    <p> "I’m good. How about you? Is <<print $gp.name>> at home?" </p>
                 </div>
             </div>
-            <p>Angie shook her head lightly. 
+            <p><<print $ap.name>> shook her head lightly. 
             </p>
             <div class="dialogue-row ap">
-                <img @src="setup.ImagePath+'scenes/avatar/ap.png'" alt="AP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ap.png'" alt="AP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ap.name>>: </div>
                     <p> "No, honey. She’s not home yet. But she should be back soon. Come inside." </p>
                 </div>
             </div>
-            <p>I stepped in and followed her to the living room. The house was quiet. I sat on the couch, and Angie sat across from me. 
+            <p>I stepped in and followed her to the living room. The house was quiet. I sat on the couch, and <<print $ap.name>> sat across from me. 
             </p>
             <div class="dialogue-row ap">
-                <img @src="setup.ImagePath+'scenes/avatar/ap.png'" alt="AP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ap.png'" alt="AP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ap.name>>: </div>
                     <p> "So… how’s everything going with you? Family, work, life?" </p>
@@ -42,64 +43,126 @@
             </div>
             <p>We talked casually for a few minutes. She asked simple questions. I answered calmly, keeping my tone natural. Then her phone rang. 
             </p>
+
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/ap/6/1.png'">
+
             <div class="dialogue-row ap">
-                <img @src="setup.ImagePath+'scenes/avatar/ap.png'" alt="AP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/ap.png'" alt="AP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $ap.name>>: </div>
                     <p> "Oh, wait here. I need to take this." </p>
                 </div>
             </div>
-            <p>She stood up and walked out of the living room. The moment the sound of her footsteps faded, my focus sharpened. 
-            </p>
-            <p>I stood up quickly and moved down the hallway. I reached Gatita’s room and stepped inside. My eyes scanned the shelves, the desk, the corners. I didn’t waste time. 
-            </p>
-            <p>On a shelf near the wall, I noticed a notebook that didn’t match the rest. It looked worn. Important. I pulled it out and flipped through it fast. Symbols, notes, patterns. 
-            </p>
-            <p>I took several clear pictures with my phone. Every second felt heavy. Then I heard voices. 
-            </p>
+           <p>She stood up and walked out of the living room. The moment the sound of her footsteps faded, my focus sharpened. The calm atmosphere vanished instantly.</p>
+
+<p>I stood up quickly and moved down the hallway, my steps silent but fast. Time was limited. I couldn’t waste even a second.</p>
+
+<p>With a controlled breath, I activated my avatar — <b>Kaelzer</b>. A faint pressure spread behind my eyes as my senses expanded. The world shifted. Every vibration in the house became clear. Floor creaks. Air movement. Distant echoes.</p>
+
+<p>Now I could hear everything.</p>
+
+<p>Kaelzer’s ability allowed me to detect approaching footsteps long before anyone reached the room. <<print $gp.name>>… <<print $ap.name>>… anyone moving inside or outside the house would not surprise me anymore. It was the only way to search safely.</p>
+
+<p>I stepped into <<print $gp.name>>’s room and closed the door halfway behind me. My gaze swept across the space while Kaelzer’s perception mapped the room instantly — shelves, corners, hidden gaps, objects slightly out of place.</p>
+
+<p>I didn’t search like a normal person. I scanned.</p>
+
+<p>Every surface, every shadow, every detail passed through my awareness. Clothes neatly arranged. Perfume bottles aligned carefully. Nothing random. Everything intentional.</p>
+
+<p>Then something caught my attention.</p>
+
+<p>Inside her dressing table, partially hidden beneath cosmetic items, was a notebook that didn’t belong with the rest. Older. Worn. Frequently used.</p>
+
+<img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/6/8.png'">
+
+<p>I moved toward it immediately and pulled it out.</p>
+
+<p>The moment I opened it, confusion hit me. The writing wasn’t normal. Strange characters filled the pages — symbols, curved markings, layered patterns that looked almost alive. It wasn’t any language I recognized.</p>
+
+<p>This wasn’t casual writing.</p>
+
+<p>This was coded.</p>
+
+<p>I frowned slightly.</p>
+
+<p><i><<print $ct.name>> might be able to decode this…</i></p>
+
+<p>Kaelzer’s senses pulsed again, reminding me how little time I had. I quickly pulled out my phone and took several clear pictures, page after page, making sure every symbol was visible.</p>
+
+<p>Every second felt heavy. Too loud. Too risky.</p>
+
+<p>Then Kaelzer reacted.</p>
+
+<p>Footsteps.</p>
+
+<p>Two sets.</p>
+
+<p>Close.</p>
+
+<div class="dialogue-row gp">
+    <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
+    <div class="dialogue-box">
+        <div class="name"><<print $gp.name>>: </div>
+        <p>"I’m back."</p>
+    </div>
+</div>
+
+<div class="dialogue-row ap">
+    <img @src="setup.ImagePath+'scenes/char/female-sm/ap.png'" alt="AP" class="avatar">
+    <div class="dialogue-box">
+        <div class="name"><<print $ap.name>>: </div>
+        <p>"<<print $mc.name>> is here."</p>
+    </div>
+</div>
+
+<img class="scene-image" @src="setup.ImagePath+'scenes/char/mc/6/9.png'">
+
+<p>My heart jumped.</p>
+
+<p>I immediately closed the notebook and placed it back exactly where it had been — same angle, same position beneath the items. No mistakes. No traces.</p>
+
+<p>I deactivated Kaelzer and left the room quickly, forcing my breathing to slow as I stepped into the hallway.</p>
+
+<p>Just in time.</p>
+
+<p><<print $gp.name>> appeared in front of me.</p>
+
+<div class="dialogue-row gp">
+    <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
+    <div class="dialogue-box">
+        <div class="name"><<print $gp.name>>: </div>
+        <p>"Hey… when did you come?"</p>
+    </div>
+</div>
+
+<div class="dialogue-row gp">
+    <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
+    <div class="dialogue-box">
+        <div class="name"><<print $gp.name>>: </div>
+        <p>"And what were you doing in my room?"</p>
+    </div>
+</div>
+
+<p>I froze for half a second, my mind calculating possibilities, then forced a calm, relaxed smile.</p>
+
+<div class="dialogue-row mc">
+    <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
+    <div class="dialogue-box">
+        <div class="name"><<print $mc.name>>: </div>
+        <p>"Oh, I was waiting in the living room. I just walked around and ended up here."</p>
+    </div>
+</div>
+
+<p>She stared at me for a moment, her eyes searching my face.</p>
+
+<p>Then she smiled.</p>
+
+<p>The tension slowly drained from my body.</p>
+
+<img class="scene-image" @src="setup.ImagePath+'scenes/char/gp/9.png'">
+
             <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
-                <div class="dialogue-box">
-                    <div class="name"><<print $gp.name>> (off-screen): </div>
-                    <p> "I’m back." </p>
-                </div>
-            </div>
-            <div class="dialogue-row ap">
-                <img @src="setup.ImagePath+'scenes/avatar/ap.png'" alt="AP" class="avatar">
-                <div class="dialogue-box">
-                    <div class="name"><<print $ap.name>> (off-screen): </div>
-                    <p> "MC is here." </p>
-                </div>
-            </div>
-            <p>My heart jumped. I put the notebook back exactly where it was and left the room quickly. I stepped into the hallway just as Gatita appeared. 
-            </p>
-            <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
-                <div class="dialogue-box">
-                    <div class="name"><<print $gp.name>>: </div>
-                    <p> "Hey… when did you come?" </p>
-                </div>
-            </div>
-             <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
-                <div class="dialogue-box">
-                    <div class="name"><<print $gp.name>>: </div>
-                    <p> "And what were you doing in my room?" </p>
-                </div>
-            </div>
-            <p>I froze for half a second, then forced a calm smile. 
-            </p>
-            <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
-                <div class="dialogue-box">
-                    <div class="name"><<print $mc.name>>: </div>
-                    <p> "Oh, I was waiting in the living room. I just walked around and ended up here." </p>
-                </div>
-            </div>
-            <p>She looked at me for a moment. Then she smiled. I felt the tension drop. 
-            </p>
-            <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $gp.name>>: </div>
                     <p> "You should have waited." </p>
@@ -108,14 +171,14 @@
             <p>She stepped closer, lowering her voice. 
             </p>
             <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $gp.name>>: </div>
                     <p> "So… did you come because you wanted another encounter with me?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Yes." </p>
@@ -124,28 +187,30 @@
             <p>She glanced toward the hallway, then back at me. 
             </p>
             <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $gp.name>>: </div>
                     <p> "Not now." </p>
                 </div>
             </div>
              <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $gp.name>>: </div>
                     <p> "Zong could arrive anytime. It’s risky." </p>
                 </div>
             </div>
+
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/gp/4.png'">
              <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $gp.name>>: </div>
                     <p> "I’ll let you know when I have time." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Alright. I understand." </p>
@@ -154,14 +219,14 @@
             <p>She didn’t seem suspicious. Not even a little. 
             </p>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Thanks. I’ll head out then." </p>
                 </div>
             </div>
             <div class="dialogue-row gp">
-                <img @src="setup.ImagePath+'scenes/avatar/gp.png'" alt="GP" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/gp.png'" alt="GP" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $gp.name>>: </div>
                     <p> "See you soon." </p>
@@ -169,16 +234,6 @@
             </div>
             <p>I left the house calmly. Outside, I finally exhaled. The pictures were safe. The risk paid off. 
             </p>
-
-
-
-
-
-
-
-
-
-
 
         </div>
         

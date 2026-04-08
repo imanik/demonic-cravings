@@ -18,7 +18,7 @@
                     <p>"You’re thinking too loudly, Master." </p>
                 </div>
             </div>
-            <p> The air beside me shifted. Shadows folded inward, and Rayne appeared, arms crossed, her expression sharp with interest. Her eyes flicked over me, studying me like she already knew the answer. </p>
+            <p> The air beside me shifted. Shadows folded inward, and <<print $ct.name>> appeared, arms crossed, her expression sharp with interest. Her eyes flicked over me, studying me like she already knew the answer. </p>
             <div class="dialogue-row mc">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/mc.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
@@ -46,7 +46,7 @@
            
         <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/6.png'">
 
-            <p> Rayne’s lips curved into a slow, knowing smile. She stepped closer, her voice lowering. </p>
+            <p> <<print $ct.name>>’s lips curved into a slow, knowing smile. She stepped closer, her voice lowering. </p>
            
             <div class="dialogue-row purple">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
@@ -85,7 +85,7 @@
                 </div>
             </div>
         <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/21.png'">
-            <p> Rayne circled me slowly, her fingers brushing my face as she spoke. </p>
+            <p> <<print $ct.name>> circled me slowly, her fingers brushing my face as she spoke. </p>
             <div class="dialogue-row purple">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">
@@ -123,7 +123,7 @@
                 </div>
             </div>
         <img class="scene-image" @src="setup.ImagePath+'scenes/char/ct/22.png'">
-            <p> Rayne stopped in front of me, meeting my eyes directly. </p>
+            <p> <<print $ct.name>> stopped in front of me, meeting my eyes directly. </p>
             <div class="dialogue-row purple">
                 <img @src="setup.ImagePath+'scenes/char/female-sm/ct.png'" alt="CT" class="avatar">
                 <div class="dialogue-box">

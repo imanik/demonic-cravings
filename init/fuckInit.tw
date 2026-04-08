@@ -187,6 +187,26 @@
                 
                     },
 
+/* Velkara-2 Ep-6 EF 10 - T 5 */
+                'vl2' : {
+                    'title'            : 'vl2_scene',
+                    'shortcode'        : 'vl',
+                    'location'         : 'CountrySide',
+                    'btn'              : 'Satisfy her ',
+                    'avatar'           : 'scenes/char/avatar/human.png',
+                    'image'            : 'scenes/char/vl/6/9.png',
+                    'passage'          : ["sed_scene","bj_scene","cun_scene","mis_scene","dg_scene","cg_scene","rcg_scene","sf_scene","as_scene",],
+                    'desc'             : ["Seduction","Blowjob","Cunnilingnus","Missionary","Doggy","Cow Girl","Reverse Cow Girl","Side Fuck","Anal"],
+                    'status'           : [1,0,0,0,0,0,0,0,0,0],
+                    'men_freq'         : [0,10,20,30,40,50,60,70,80],
+                    'sex_freq'         : [0,10,20,30,40,50,60,70,80],
+                    'corruption'       : [0,10,20,30,40,50,60,70,80],
+                    'event_fuck'       : 0,
+                    'event_time'       : 5,
+                    'level'            : 0,
+                
+                    },
+
 /* Gatita-1 EF 10 - T 2 */
                 'gp1' : {
                     'title'            : 'gp1_scene',

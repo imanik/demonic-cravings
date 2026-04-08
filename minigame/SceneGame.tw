@@ -2,14 +2,14 @@
 <<nobr>>
 
 
-    <!-- <p class="notation_text">Scene Number: <<print $sceneNumber>></p>
-    <p class="notation_text">Char: <<print $char>></p>
-    <p class="notation_text">ActivityType: <<print $activityType>></p>
-    <p class="notation_text">SceneType: <<print $sceneType>></p>
-    <p class="notation_text">SceneCode: <<print $sceneCode>></p> -->
+    
 
     <<if $mc.stats.mana gte 30  >>
-        
+
+    <div class="scene-container">
+
+        <div class="story-box">
+        <div class="bar-wrapper">
         <div class="bar">
             <div class="segment">10</div>
             <div class="segment" id="seg1">0</div>
@@ -22,28 +22,32 @@
 
         <p id="result"></p>
 
-        <div  id="stop-button" onclick="statsChange(-10, 'Mana');">
+        <div  id="stop-button" onclick="statsChange(-10, 'Mana')" >
             <p>STOP </p>
+        </div>
         </div>
     
                 <video id="sceneVideo" class="scene-image"  muted autoplay loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' controls>
                 </video>
-        <!-- <<if $char == 'cp' or $char == 'ct'>>
-            <p class="notation_text">** Related Video is only available for Patreon. **</p>
-        <</if>> -->
+
             <p class="notation_text"><<print $fuckScene[$sceneCode][$sceneType].scene_dialogue[$sceneNumber]>></p>
 
    
+        </div>
+        
+
         <<set _random_value = random(1, 5)>>
 
-        <div id="random-button" onclick="statsChange(-10, 'Mana'); charStatsChangeRandom(); forwardTime(1);" data-passage="$loc" >
+        <div id="random-button" onclick="statsChange(-10, 'Mana'); charStatsChangeRandom(); forwardTime(1);" data-passage="$loc" class="enter-button" >
             <p >Random Point</p>
         </div>
         
   
 
-         <div id="leave-button" onclick="forwardTime(1);" data-passage="$loc">
+         <div id="leave-button" onclick="forwardTime(1);" data-passage="$loc" class="enter-button">
             <p >Leave</p>
+        </div>
+
         </div>
     
     <<else>>

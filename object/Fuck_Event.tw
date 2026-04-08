@@ -3,8 +3,12 @@
 
 
 
+<div class="big_text">
 <<nobr>>
-<div style="margin-top:5vw;">
+
+    <div class="scene-container">
+
+        <div class="intro-card">
 
 
     <!-- Used in Scene -->
@@ -28,7 +32,7 @@
     <<if $charObject.stats.sex_freq gte $sceneObject.sex_freq[_i] && $charObject.stats.men_freq gte $sceneObject.men_freq[_i]>>
 
     
-        <div class="enter-button"  data-passage="_event" style="width:25vw;" >
+        <div class="intro-button"  data-passage="_event"  >
             <p><<print $sceneObject.desc[_i]>></p>
         </div>
 
@@ -41,14 +45,16 @@
 
  <</for>>
 
+</div>
+</div>
 
 <div class="enter-button" style="width:25vw;" data-passage="$loc">
 <p >Leave</p>
 </div>
 
+<</nobr>>
   </div>
 
-<</nobr>>
 
 <<script>>
     UIBar.show();

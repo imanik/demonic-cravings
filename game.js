@@ -776,6 +776,7 @@ window.startGame = function () {
 
 window.stopGame = function (activityType, gameType, char) {
 
+  console.log("Stop Game")
     
 
      if(gameType == "Char")

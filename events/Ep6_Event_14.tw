@@ -5,19 +5,26 @@
 
         <div class="story-box">
 
-            <p>A few days later, I returned to the club on the night Malena had mentioned. The music was loud, and the atmosphere felt familiar now. As soon as I entered, my eyes searched for her automatically. 
+        <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/9.png'">
+
+            <p>I returned to the club. The music was loud, and the atmosphere felt familiar now. As soon as I entered, my eyes searched for her automatically. 
             </p>
-            <p>She was standing at the same spot near the bar, exactly like before. It almost looked like she had been waiting. When she noticed me, a warm smile appeared on her face. 
+            <p>She was standing at the same spot near the bar, exactly like before. It almost looked like she had been waiting. 
+            </p>
+            
+            
+            <p>
+            When she noticed me, a warm smile appeared on her face. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "You came." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Looks like I did." </p>
@@ -25,42 +32,47 @@
             </div>
             <p>I walked closer and sat beside her. She immediately signaled the bartender and ordered drinks for both of us without asking. 
             </p>
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/8.png'">
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Tonight, drinks are on me." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Then I should thank you." </p>
                 </div>
             </div>
-            <p>She handed me the glass. Our fingers briefly touched before we both took a sip. The conversation started naturally again. We talked about random things at first—music, the crowd, and strange people at the club. One drink turned into another. Then another. Time passed quickly. 
+            
+            <p>She handed me the glass. Our fingers briefly touched before we both took a sip. The conversation started naturally again. We talked about random things at first—music, the crowd, and strange people at the club.
+            </p>
+            <p>One drink turned into another. Then another. Time passed quickly. 
             </p>
             <p>Her laughter became softer and slower as the alcohol affected her. She leaned slightly closer while speaking, her voice lowering. 
             </p>
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/7.png'">
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "I think I drank too much tonight." </p>
                 </div>
             </div>
             <p>She rubbed her forehead lightly and looked at me. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Can you help me get home?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Of course." </p>
@@ -70,24 +82,26 @@
             </p>
             <p>When we reached her apartment building, she unlocked the door and guided me inside. The place was silent. No lights except the hallway lamp. It looked like we were alone. 
             </p>
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/6.png'">
             <p>She led me directly to her bedroom before sitting on the edge of the bed. After a moment, she looked up at me with a slow, seductive expression. 
             </p>
+            
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Hey handsome… I’m feeling drunk and a little uneasy tonight." </p>
                 </div>
             </div>
              <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Can you stay with me?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Alright. I’ll stay." </p>
@@ -96,27 +110,28 @@
             <p>She smiled softly and walked toward the bathroom. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Give me a minute. I’ll freshen up." </p>
                 </div>
             </div>
             <p>While she was inside, I looked around the room and decided to rest on the sofa nearby, keeping some distance. I tried to stay calm and focused. This meeting clearly had a purpose beyond simple drinking. 
             </p>
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/5.png'">
             <p>The bathroom door opened a few minutes later. She stepped out wearing a red lingerie set. The outfit highlighted her figure confidently. She walked slowly toward me, completely aware of the effect she was creating. 
             </p>
             <p>She sat close again, crossing her legs casually as if nothing unusual was happening. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "You’re very quiet tonight." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Just observing." </p>
@@ -125,48 +140,50 @@
             <p>I tried steering the conversation carefully. 
             </p>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "So… your boyfriend. How did you two meet?" </p>
                 </div>
             </div>
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/4.png'">
             <p>She smiled immediately, almost expecting the question. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Long story. Not interesting." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "What happened between you two?" </p>
                 </div>
             </div>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Another boring topic." </p>
                 </div>
             </div>
-            <p>Every attempt I made was redirected smoothly. She avoided answering without making it obvious. I could almost hear Rayne’s voice in my mind confirming she wouldn’t be easy to read. 
+            <p>Every attempt I made was redirected smoothly. She avoided answering without making it obvious. I could almost hear <<print $ct.name>>’s voice in my mind confirming she wouldn’t be easy to read. 
             </p>
-            <p>Instead, Malena shifted the conversation herself. 
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/3.png'">
+            <p>Instead, <<print $dl.name>> shifted the conversation herself. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
-                    <p>  "Tell me about Gatita. You two seemed close." </p>
+                    <div class="name"><<print $dl.name>>: </div>
+                    <p>  "Tell me about <<print $gp.name>> . You two seemed close." </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Just friends." </p>
@@ -175,34 +192,39 @@
             <p>She leaned closer, studying my reaction carefully. 
             </p>
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "And what kind of girl do you actually like?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Depends. Confidence matters. Mystery too." </p>
                 </div>
             </div>
+
+            <img class="scene-image" @src="setup.ImagePath+'scenes/char/dl/6/2.png'">
             <div class="dialogue-row character">
-                <img @src="setup.ImagePath+'scenes/avatar/malena.png'" alt="Malena" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/dl.png'" alt="dl" class="avatar">
                 <div class="dialogue-box">
-                    <div class="name"><<print $malena.name>>: </div>
+                    <div class="name"><<print $dl.name>>: </div>
                     <p>  "Mystery?" </p>
                 </div>
             </div>
             <div class="dialogue-row mc">
-                <img @src="setup.ImagePath+'scenes/avatar/mc.png'" alt="MC" class="avatar">
+                <img @src="setup.ImagePath+'scenes/char/female-sm/vorthas.png'" alt="MC" class="avatar">
                 <div class="dialogue-box">
                     <div class="name"><<print $mc.name>>: </div>
                     <p> "Someone who hides more than she shows." </p>
                 </div>
             </div>
-            <p>She smiled slowly, clearly enjoying the answer. The atmosphere grew heavier as the distance between us disappeared. Her tone became softer, more personal. She asked more questions about attraction, relationships, and desire, each one slightly more intimate than the last. 
+            <p>She smiled slowly, clearly enjoying the answer. The atmosphere grew heavier as the distance between us disappeared. 
+            </p>
+            <p>
+            Her tone became softer, more personal. She asked more questions about attraction, relationships, and desire, each one slightly more intimate than the last. 
             </p>
             <p>The conversation gradually turned into silent eye contact instead of words. 
             </p>
@@ -210,15 +232,6 @@
             </p>
             <p>The tension between us finally broke as our seduction began, both of us fully aware that this night was no longer just a conversation but the start of a deeper game between us. 
             </p>
-
-
-
-
-
-
-
-
-
 
         </div>
         

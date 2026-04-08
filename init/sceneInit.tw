@@ -2007,7 +2007,25 @@
 '<div class="dialog_text  mc_dialog_text"> <p><span class = "mc"><<print $mc.name>>: </span> "You’re not leaving this CountrySide until I’ve had my fill." </p></div> <p class="notation_text"> She shuddered violently, her body breaking beneath my control, completely at my mercy. </p>',
                                         ]
                                         
-                                },          
+                                },      
+
+                                 'sed_scene': {
+                                        'scene_code':  	        'vl2_scene',
+                                        'scene_type':   	'sed_scene',
+                                        'scene_passage':	'CountrySide',
+                                        'scene_activity':       ['Men_Freq','Sex_Freq','Dominant'],
+                                        'scene_character':      'vl',
+                                        'default_video':        'scenes/char/vl/6/vid/sed-1.mp4',
+                                        'scene_title':  	['Dark and Mysterious','Aggressive and Feral','Dominant and Commanding',],
+                                        'scene_video':  	['scenes/char/vl/6/vid/sed-1.mp4','scenes/char/vl/6/vid/sed-2.mp4','scenes/char/vl/6/vid/sed-3.mp4',],
+                                        'scene_dialogue' :  [
+                                                        'I kissed her hard, and she met me with the same passion, our tongues battling as she clawed at my shirt and I held her cheeks in my hands.',
+                                                        'I kissed all the way to her neck and shoulders. I grabbed both of her breasts and playing with her nipples.',
+                                                        'She pulled out her breasts, and her perfect pairs were glistening with her arousal. I knelt and kissed her breasts.',
+                                                        ]
+                                        
+                                },
+    
 
                                'dg_scene': {
                                         'scene_code':  	        'vl2_scene',
